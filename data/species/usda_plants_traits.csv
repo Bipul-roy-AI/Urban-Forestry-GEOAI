@@ -1,0 +1,693 @@
+taxon,symbol,trait,value,cultivar
+Ginkgo biloba,GIBI2,Foliage Porosity Summer,Porous,Pendula
+Ginkgo biloba,GIBI2,Growth Form,Single Stem,Pendula
+Ginkgo biloba,GIBI2,Growth Rate,Slow,Pendula
+Ginkgo biloba,GIBI2,"Height, Mature (feet)",80.0,Pendula
+Ginkgo biloba,GIBI2,Lifespan,Long,Pendula
+Ginkgo biloba,GIBI2,Shape and Orientation,Erect,Pendula
+Ginkgo biloba,GIBI2,Toxicity,None,Pendula
+Ginkgo biloba,GIBI2,Adapted to Coarse Textured Soils,Yes,Pendula
+Ginkgo biloba,GIBI2,Adapted to Fine Textured Soils,No,Pendula
+Ginkgo biloba,GIBI2,Adapted to Medium Textured Soils,Yes,Pendula
+Ginkgo biloba,GIBI2,Anaerobic Tolerance,None,Pendula
+Ginkgo biloba,GIBI2,CaCO3 Tolerance,Low,Pendula
+Ginkgo biloba,GIBI2,Drought Tolerance,Low,Pendula
+Ginkgo biloba,GIBI2,Fire Tolerance,Low,Pendula
+Ginkgo biloba,GIBI2,Hedge Tolerance,Low,Pendula
+Ginkgo biloba,GIBI2,Moisture Use,Medium,Pendula
+Ginkgo biloba,GIBI2,"pH, Maximum",7.5,Pendula
+Ginkgo biloba,GIBI2,"pH, Minimum",5.2,Pendula
+Ginkgo biloba,GIBI2,"Root Depth, Minimum (inches)",35,Pendula
+Ginkgo biloba,GIBI2,Salinity Tolerance,Low,Pendula
+Ginkgo biloba,GIBI2,Shade Tolerance,High,Pendula
+Ginkgo biloba,GIBI2,"Temperature, Minimum (°F)",-23,Pendula
+Liquidambar styraciflua,LIST2,Foliage Porosity Summer,Dense,
+Liquidambar styraciflua,LIST2,Growth Form,Single Stem,
+Liquidambar styraciflua,LIST2,Growth Rate,Rapid,
+Liquidambar styraciflua,LIST2,"Height, Mature (feet)",100.0,
+Liquidambar styraciflua,LIST2,Lifespan,Long,
+Liquidambar styraciflua,LIST2,Shape and Orientation,Erect,
+Liquidambar styraciflua,LIST2,Toxicity,None,
+Liquidambar styraciflua,LIST2,Adapted to Coarse Textured Soils,Yes,
+Liquidambar styraciflua,LIST2,Adapted to Fine Textured Soils,Yes,
+Liquidambar styraciflua,LIST2,Adapted to Medium Textured Soils,Yes,
+Liquidambar styraciflua,LIST2,Anaerobic Tolerance,Low,
+Liquidambar styraciflua,LIST2,CaCO3 Tolerance,Low,
+Liquidambar styraciflua,LIST2,Drought Tolerance,Low,
+Liquidambar styraciflua,LIST2,Fire Tolerance,Low,
+Liquidambar styraciflua,LIST2,Hedge Tolerance,Low,
+Liquidambar styraciflua,LIST2,Moisture Use,High,
+Liquidambar styraciflua,LIST2,"pH, Maximum",7.0,
+Liquidambar styraciflua,LIST2,"pH, Minimum",4.5,
+Liquidambar styraciflua,LIST2,"Root Depth, Minimum (inches)",36,
+Liquidambar styraciflua,LIST2,Salinity Tolerance,None,
+Liquidambar styraciflua,LIST2,Shade Tolerance,High,
+Liquidambar styraciflua,LIST2,"Temperature, Minimum (°F)",-21,
+Liquidambar styraciflua,LIST2,Bloom Period,Mid Spring,
+Liquidambar styraciflua,LIST2,Fruit/Seed Abundance,Medium,
+Metasequoia glyptostroboides,MEGL8,Foliage Porosity Summer,Dense,
+Metasequoia glyptostroboides,MEGL8,Growth Form,Single Stem,
+Metasequoia glyptostroboides,MEGL8,Growth Rate,Rapid,
+Metasequoia glyptostroboides,MEGL8,"Height, Mature (feet)",100.0,
+Metasequoia glyptostroboides,MEGL8,Lifespan,Long,
+Metasequoia glyptostroboides,MEGL8,Shape and Orientation,Erect,
+Metasequoia glyptostroboides,MEGL8,Toxicity,None,
+Metasequoia glyptostroboides,MEGL8,Adapted to Coarse Textured Soils,No,
+Metasequoia glyptostroboides,MEGL8,Adapted to Fine Textured Soils,No,
+Metasequoia glyptostroboides,MEGL8,Adapted to Medium Textured Soils,Yes,
+Metasequoia glyptostroboides,MEGL8,Anaerobic Tolerance,Low,
+Metasequoia glyptostroboides,MEGL8,CaCO3 Tolerance,Medium,
+Metasequoia glyptostroboides,MEGL8,Drought Tolerance,Low,
+Metasequoia glyptostroboides,MEGL8,Fire Tolerance,Low,
+Metasequoia glyptostroboides,MEGL8,Hedge Tolerance,Low,
+Metasequoia glyptostroboides,MEGL8,Moisture Use,High,
+Metasequoia glyptostroboides,MEGL8,"pH, Maximum",8.4,
+Metasequoia glyptostroboides,MEGL8,"pH, Minimum",6.2,
+Metasequoia glyptostroboides,MEGL8,"Root Depth, Minimum (inches)",48,
+Metasequoia glyptostroboides,MEGL8,Salinity Tolerance,None,
+Metasequoia glyptostroboides,MEGL8,Shade Tolerance,High,
+Metasequoia glyptostroboides,MEGL8,"Temperature, Minimum (°F)",-13,
+Metasequoia glyptostroboides,MEGL8,Bloom Period,Spring,
+Metasequoia glyptostroboides,MEGL8,Fruit/Seed Abundance,Low,
+Taxodium distichum,TADI2,Foliage Porosity Summer,Dense,
+Taxodium distichum,TADI2,Growth Form,Single Stem,
+Taxodium distichum,TADI2,Growth Rate,Rapid,
+Taxodium distichum,TADI2,"Height, Mature (feet)",130.0,
+Taxodium distichum,TADI2,Lifespan,Long,
+Taxodium distichum,TADI2,Shape and Orientation,Conical,
+Taxodium distichum,TADI2,Toxicity,None,
+Taxodium distichum,TADI2,Adapted to Coarse Textured Soils,Yes,
+Taxodium distichum,TADI2,Adapted to Fine Textured Soils,Yes,
+Taxodium distichum,TADI2,Adapted to Medium Textured Soils,Yes,
+Taxodium distichum,TADI2,Anaerobic Tolerance,High,
+Taxodium distichum,TADI2,CaCO3 Tolerance,None,
+Taxodium distichum,TADI2,Drought Tolerance,Low,
+Taxodium distichum,TADI2,Fire Tolerance,Low,
+Taxodium distichum,TADI2,Hedge Tolerance,None,
+Taxodium distichum,TADI2,Moisture Use,High,
+Taxodium distichum,TADI2,"pH, Maximum",6.0,
+Taxodium distichum,TADI2,"pH, Minimum",4.5,
+Taxodium distichum,TADI2,"Root Depth, Minimum (inches)",40,
+Taxodium distichum,TADI2,Salinity Tolerance,High,
+Taxodium distichum,TADI2,Shade Tolerance,Medium,
+Taxodium distichum,TADI2,"Temperature, Minimum (°F)",-18,
+Taxodium distichum,TADI2,Bloom Period,Mid Spring,
+Taxodium distichum,TADI2,Fruit/Seed Abundance,Low,
+Tilia cordata,TICO2,Foliage Porosity Summer,Dense,
+Tilia cordata,TICO2,Growth Form,Single Stem,
+Tilia cordata,TICO2,Growth Rate,Moderate,
+Tilia cordata,TICO2,"Height, Mature (feet)",100.0,
+Tilia cordata,TICO2,Lifespan,Moderate,
+Tilia cordata,TICO2,Shape and Orientation,Erect,
+Tilia cordata,TICO2,Toxicity,None,
+Tilia cordata,TICO2,Adapted to Coarse Textured Soils,Yes,
+Tilia cordata,TICO2,Adapted to Fine Textured Soils,No,
+Tilia cordata,TICO2,Adapted to Medium Textured Soils,Yes,
+Tilia cordata,TICO2,Anaerobic Tolerance,None,
+Tilia cordata,TICO2,CaCO3 Tolerance,Low,
+Tilia cordata,TICO2,Drought Tolerance,Medium,
+Tilia cordata,TICO2,Fire Tolerance,High,
+Tilia cordata,TICO2,Hedge Tolerance,Medium,
+Tilia cordata,TICO2,Moisture Use,Medium,
+Tilia cordata,TICO2,"pH, Maximum",7.2,
+Tilia cordata,TICO2,"pH, Minimum",4.8,
+Tilia cordata,TICO2,"Root Depth, Minimum (inches)",26,
+Tilia cordata,TICO2,Salinity Tolerance,None,
+Tilia cordata,TICO2,Shade Tolerance,Medium,
+Tilia cordata,TICO2,"Temperature, Minimum (°F)",-33,
+Tilia cordata,TICO2,Bloom Period,Early Summer,
+Tilia cordata,TICO2,Fruit/Seed Abundance,High,
+Gymnocladus dioicus,GYDI,Foliage Porosity Summer,Moderate,
+Gymnocladus dioicus,GYDI,Growth Rate,Slow,
+Gymnocladus dioicus,GYDI,"Height, Mature (feet)",100.0,
+Gymnocladus dioicus,GYDI,Lifespan,Long,
+Gymnocladus dioicus,GYDI,Shape and Orientation,Rounded,
+Gymnocladus dioicus,GYDI,Toxicity,Severe,
+Gymnocladus dioicus,GYDI,Adapted to Coarse Textured Soils,Yes,
+Gymnocladus dioicus,GYDI,Adapted to Fine Textured Soils,Yes,
+Gymnocladus dioicus,GYDI,Adapted to Medium Textured Soils,Yes,
+Gymnocladus dioicus,GYDI,Anaerobic Tolerance,None,
+Gymnocladus dioicus,GYDI,Drought Tolerance,Medium,
+Gymnocladus dioicus,GYDI,Fire Tolerance,Low,
+Gymnocladus dioicus,GYDI,Hedge Tolerance,None,
+Gymnocladus dioicus,GYDI,Moisture Use,Medium,
+Gymnocladus dioicus,GYDI,"pH, Maximum",8.0,
+Gymnocladus dioicus,GYDI,"pH, Minimum",6.0,
+Gymnocladus dioicus,GYDI,"Root Depth, Minimum (inches)",36,
+Gymnocladus dioicus,GYDI,Salinity Tolerance,Medium,
+Gymnocladus dioicus,GYDI,Shade Tolerance,High,
+Gymnocladus dioicus,GYDI,"Temperature, Minimum (°F)",-32,
+Gymnocladus dioicus,GYDI,Bloom Period,Early Summer,
+Gymnocladus dioicus,GYDI,Fruit/Seed Abundance,Medium,
+Gleditsia triacanthos var. inermis,GLTR,Foliage Porosity Summer,Dense,
+Gleditsia triacanthos var. inermis,GLTR,Foliage Porosity Summer,Moderate,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Growth Form,Single Crown,
+Gleditsia triacanthos var. inermis,GLTR,Growth Form,Single Stem,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Growth Rate,Moderate,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Growth Rate,Rapid,
+Gleditsia triacanthos var. inermis,GLTR,"Height, Mature (feet)",70.0,
+Gleditsia triacanthos var. inermis,GLTR,"Height, Mature (feet)",70.0,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Lifespan,Moderate,
+Gleditsia triacanthos var. inermis,GLTR,Lifespan,Moderate,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Shape and Orientation,Erect,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Shape and Orientation,Rounded,
+Gleditsia triacanthos var. inermis,GLTR,Toxicity,None,
+Gleditsia triacanthos var. inermis,GLTR,Toxicity,None,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Adapted to Coarse Textured Soils,No,
+Gleditsia triacanthos var. inermis,GLTR,Adapted to Coarse Textured Soils,No,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Adapted to Fine Textured Soils,Yes,
+Gleditsia triacanthos var. inermis,GLTR,Adapted to Fine Textured Soils,Yes,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Adapted to Medium Textured Soils,Yes,
+Gleditsia triacanthos var. inermis,GLTR,Adapted to Medium Textured Soils,Yes,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Anaerobic Tolerance,Low,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Anaerobic Tolerance,None,
+Gleditsia triacanthos var. inermis,GLTR,CaCO3 Tolerance,Low,Thornless
+Gleditsia triacanthos var. inermis,GLTR,CaCO3 Tolerance,Medium,
+Gleditsia triacanthos var. inermis,GLTR,Drought Tolerance,High,
+Gleditsia triacanthos var. inermis,GLTR,Drought Tolerance,High,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Fire Tolerance,Medium,
+Gleditsia triacanthos var. inermis,GLTR,Fire Tolerance,Medium,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Hedge Tolerance,Low,
+Gleditsia triacanthos var. inermis,GLTR,Hedge Tolerance,None,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Moisture Use,Low,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Moisture Use,Medium,
+Gleditsia triacanthos var. inermis,GLTR,"pH, Maximum",8.0,
+Gleditsia triacanthos var. inermis,GLTR,"pH, Maximum",8.0,Thornless
+Gleditsia triacanthos var. inermis,GLTR,"pH, Minimum",4.8,
+Gleditsia triacanthos var. inermis,GLTR,"pH, Minimum",5.0,Thornless
+Gleditsia triacanthos var. inermis,GLTR,"Root Depth, Minimum (inches)",20,Thornless
+Gleditsia triacanthos var. inermis,GLTR,"Root Depth, Minimum (inches)",48,
+Gleditsia triacanthos var. inermis,GLTR,Salinity Tolerance,Medium,
+Gleditsia triacanthos var. inermis,GLTR,Salinity Tolerance,Medium,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Shade Tolerance,High,
+Gleditsia triacanthos var. inermis,GLTR,Shade Tolerance,High,Thornless
+Gleditsia triacanthos var. inermis,GLTR,"Temperature, Minimum (°F)",-30,Thornless
+Gleditsia triacanthos var. inermis,GLTR,"Temperature, Minimum (°F)",-36,
+Gleditsia triacanthos var. inermis,GLTR,Bloom Period,Late Spring,
+Gleditsia triacanthos var. inermis,GLTR,Bloom Period,Late Spring,Thornless
+Gleditsia triacanthos var. inermis,GLTR,Fruit/Seed Abundance,High,
+Gleditsia triacanthos var. inermis,GLTR,Fruit/Seed Abundance,Medium,Thornless
+Quercus rubra,QURU,Foliage Porosity Summer,Dense,
+Quercus rubra,QURU,Growth Form,Single Stem,
+Quercus rubra,QURU,Growth Rate,Moderate,
+Quercus rubra,QURU,"Height, Mature (feet)",81.0,
+Quercus rubra,QURU,Lifespan,Long,
+Quercus rubra,QURU,Shape and Orientation,Erect,
+Quercus rubra,QURU,Toxicity,None,
+Quercus rubra,QURU,Adapted to Coarse Textured Soils,Yes,
+Quercus rubra,QURU,Adapted to Fine Textured Soils,Yes,
+Quercus rubra,QURU,Adapted to Medium Textured Soils,Yes,
+Quercus rubra,QURU,Anaerobic Tolerance,None,
+Quercus rubra,QURU,CaCO3 Tolerance,Low,
+Quercus rubra,QURU,Drought Tolerance,Low,
+Quercus rubra,QURU,Fire Tolerance,High,
+Quercus rubra,QURU,Hedge Tolerance,None,
+Quercus rubra,QURU,Moisture Use,Medium,
+Quercus rubra,QURU,"pH, Maximum",7.3,
+Quercus rubra,QURU,"pH, Minimum",4.3,
+Quercus rubra,QURU,"Root Depth, Minimum (inches)",36,
+Quercus rubra,QURU,Salinity Tolerance,Medium,
+Quercus rubra,QURU,Shade Tolerance,Medium,
+Quercus rubra,QURU,"Temperature, Minimum (°F)",-35,
+Quercus rubra,QURU,Bloom Period,Mid Spring,
+Quercus rubra,QURU,Fruit/Seed Abundance,Medium,
+Quercus bicolor,QUBI,Foliage Porosity Summer,Dense,
+Quercus bicolor,QUBI,Growth Form,Single Stem,
+Quercus bicolor,QUBI,Growth Rate,Rapid,
+Quercus bicolor,QUBI,"Height, Mature (feet)",100.0,
+Quercus bicolor,QUBI,Lifespan,Long,
+Quercus bicolor,QUBI,Shape and Orientation,Erect,
+Quercus bicolor,QUBI,Toxicity,None,
+Quercus bicolor,QUBI,Adapted to Coarse Textured Soils,Yes,
+Quercus bicolor,QUBI,Adapted to Fine Textured Soils,Yes,
+Quercus bicolor,QUBI,Adapted to Medium Textured Soils,Yes,
+Quercus bicolor,QUBI,Anaerobic Tolerance,Medium,
+Quercus bicolor,QUBI,CaCO3 Tolerance,Low,
+Quercus bicolor,QUBI,Drought Tolerance,Low,
+Quercus bicolor,QUBI,Fire Tolerance,Medium,
+Quercus bicolor,QUBI,Hedge Tolerance,None,
+Quercus bicolor,QUBI,Moisture Use,High,
+Quercus bicolor,QUBI,"pH, Maximum",6.5,
+Quercus bicolor,QUBI,"pH, Minimum",4.3,
+Quercus bicolor,QUBI,"Root Depth, Minimum (inches)",40,
+Quercus bicolor,QUBI,Salinity Tolerance,None,
+Quercus bicolor,QUBI,Shade Tolerance,Medium,
+Quercus bicolor,QUBI,"Temperature, Minimum (°F)",-28,
+Quercus bicolor,QUBI,Bloom Period,Early Spring,
+Quercus bicolor,QUBI,Fruit/Seed Abundance,Medium,
+Quercus imbricaria,QUIM,Foliage Porosity Summer,Moderate,
+Quercus imbricaria,QUIM,Growth Form,Single Stem,
+Quercus imbricaria,QUIM,Growth Rate,Moderate,
+Quercus imbricaria,QUIM,"Height, Mature (feet)",45.0,
+Quercus imbricaria,QUIM,Lifespan,Moderate,
+Quercus imbricaria,QUIM,Shape and Orientation,Erect,
+Quercus imbricaria,QUIM,Toxicity,None,
+Quercus imbricaria,QUIM,Adapted to Coarse Textured Soils,Yes,
+Quercus imbricaria,QUIM,Adapted to Fine Textured Soils,No,
+Quercus imbricaria,QUIM,Adapted to Medium Textured Soils,Yes,
+Quercus imbricaria,QUIM,Anaerobic Tolerance,Low,
+Quercus imbricaria,QUIM,CaCO3 Tolerance,Medium,
+Quercus imbricaria,QUIM,Drought Tolerance,Medium,
+Quercus imbricaria,QUIM,Fire Tolerance,Low,
+Quercus imbricaria,QUIM,Hedge Tolerance,None,
+Quercus imbricaria,QUIM,Moisture Use,Medium,
+Quercus imbricaria,QUIM,"pH, Maximum",6.0,
+Quercus imbricaria,QUIM,"pH, Minimum",4.5,
+Quercus imbricaria,QUIM,"Root Depth, Minimum (inches)",24,
+Quercus imbricaria,QUIM,Salinity Tolerance,Low,
+Quercus imbricaria,QUIM,Shade Tolerance,High,
+Quercus imbricaria,QUIM,"Temperature, Minimum (°F)",-18,
+Quercus imbricaria,QUIM,Bloom Period,Late Spring,
+Quercus imbricaria,QUIM,Fruit/Seed Abundance,Medium,
+Quercus palustris,QUPA2,Foliage Porosity Summer,Dense,
+Quercus palustris,QUPA2,Growth Form,Colonizing,
+Quercus palustris,QUPA2,Growth Rate,Rapid,
+Quercus palustris,QUPA2,"Height, Mature (feet)",100.0,
+Quercus palustris,QUPA2,Lifespan,Moderate,
+Quercus palustris,QUPA2,Shape and Orientation,Erect,
+Quercus palustris,QUPA2,Toxicity,None,
+Quercus palustris,QUPA2,Adapted to Coarse Textured Soils,No,
+Quercus palustris,QUPA2,Adapted to Fine Textured Soils,Yes,
+Quercus palustris,QUPA2,Adapted to Medium Textured Soils,Yes,
+Quercus palustris,QUPA2,Anaerobic Tolerance,Medium,
+Quercus palustris,QUPA2,CaCO3 Tolerance,Low,
+Quercus palustris,QUPA2,Drought Tolerance,Low,
+Quercus palustris,QUPA2,Fire Tolerance,Medium,
+Quercus palustris,QUPA2,Hedge Tolerance,Medium,
+Quercus palustris,QUPA2,Moisture Use,High,
+Quercus palustris,QUPA2,"pH, Maximum",6.5,
+Quercus palustris,QUPA2,"pH, Minimum",4.5,
+Quercus palustris,QUPA2,"Root Depth, Minimum (inches)",30,
+Quercus palustris,QUPA2,Salinity Tolerance,Low,
+Quercus palustris,QUPA2,Shade Tolerance,High,
+Quercus palustris,QUPA2,"Temperature, Minimum (°F)",-33,
+Quercus palustris,QUPA2,Bloom Period,Spring,
+Quercus palustris,QUPA2,Fruit/Seed Abundance,Medium,
+Quercus phellos,QUPH,Foliage Porosity Summer,Dense,
+Quercus phellos,QUPH,Growth Form,Single Stem,
+Quercus phellos,QUPH,Growth Rate,Rapid,
+Quercus phellos,QUPH,"Height, Mature (feet)",100.0,
+Quercus phellos,QUPH,Lifespan,Long,
+Quercus phellos,QUPH,Shape and Orientation,Erect,
+Quercus phellos,QUPH,Toxicity,None,
+Quercus phellos,QUPH,Adapted to Coarse Textured Soils,No,
+Quercus phellos,QUPH,Adapted to Fine Textured Soils,Yes,
+Quercus phellos,QUPH,Adapted to Medium Textured Soils,Yes,
+Quercus phellos,QUPH,Anaerobic Tolerance,Low,
+Quercus phellos,QUPH,CaCO3 Tolerance,None,
+Quercus phellos,QUPH,Drought Tolerance,None,
+Quercus phellos,QUPH,Fire Tolerance,Low,
+Quercus phellos,QUPH,Hedge Tolerance,None,
+Quercus phellos,QUPH,Moisture Use,High,
+Quercus phellos,QUPH,"pH, Maximum",6.5,
+Quercus phellos,QUPH,"pH, Minimum",4.5,
+Quercus phellos,QUPH,"Root Depth, Minimum (inches)",12,
+Quercus phellos,QUPH,Salinity Tolerance,None,
+Quercus phellos,QUPH,Shade Tolerance,High,
+Quercus phellos,QUPH,"Temperature, Minimum (°F)",-23,
+Quercus phellos,QUPH,Bloom Period,Mid Spring,
+Quercus phellos,QUPH,Fruit/Seed Abundance,High,
+Tilia americana,TIAM,Foliage Porosity Summer,Dense,
+Tilia americana,TIAM,Growth Form,Single Stem,
+Tilia americana,TIAM,Growth Rate,Moderate,
+Tilia americana,TIAM,"Height, Mature (feet)",100.0,
+Tilia americana,TIAM,Lifespan,Moderate,
+Tilia americana,TIAM,Shape and Orientation,Erect,
+Tilia americana,TIAM,Toxicity,None,
+Tilia americana,TIAM,Adapted to Coarse Textured Soils,Yes,
+Tilia americana,TIAM,Adapted to Fine Textured Soils,No,
+Tilia americana,TIAM,Adapted to Medium Textured Soils,Yes,
+Tilia americana,TIAM,Anaerobic Tolerance,None,
+Tilia americana,TIAM,CaCO3 Tolerance,Low,
+Tilia americana,TIAM,Drought Tolerance,Low,
+Tilia americana,TIAM,Fire Tolerance,Medium,
+Tilia americana,TIAM,Hedge Tolerance,None,
+Tilia americana,TIAM,Moisture Use,Medium,
+Tilia americana,TIAM,"pH, Maximum",7.5,
+Tilia americana,TIAM,"pH, Minimum",4.5,
+Tilia americana,TIAM,"Root Depth, Minimum (inches)",30,
+Tilia americana,TIAM,Salinity Tolerance,None,
+Tilia americana,TIAM,Shade Tolerance,Low,
+Tilia americana,TIAM,"Temperature, Minimum (°F)",-46,
+Tilia americana,TIAM,Bloom Period,Late Spring,
+Tilia americana,TIAM,Fruit/Seed Abundance,High,
+Nyssa sylvatica,NYSY,Foliage Porosity Summer,Dense,
+Nyssa sylvatica,NYSY,Growth Form,Single Stem,
+Nyssa sylvatica,NYSY,Growth Rate,Moderate,
+Nyssa sylvatica,NYSY,"Height, Mature (feet)",95.0,
+Nyssa sylvatica,NYSY,Lifespan,Moderate,
+Nyssa sylvatica,NYSY,Shape and Orientation,Erect,
+Nyssa sylvatica,NYSY,Toxicity,None,
+Nyssa sylvatica,NYSY,Adapted to Coarse Textured Soils,Yes,
+Nyssa sylvatica,NYSY,Adapted to Fine Textured Soils,No,
+Nyssa sylvatica,NYSY,Adapted to Medium Textured Soils,Yes,
+Nyssa sylvatica,NYSY,Anaerobic Tolerance,Low,
+Nyssa sylvatica,NYSY,CaCO3 Tolerance,None,
+Nyssa sylvatica,NYSY,Drought Tolerance,Low,
+Nyssa sylvatica,NYSY,Fire Tolerance,Low,
+Nyssa sylvatica,NYSY,Hedge Tolerance,None,
+Nyssa sylvatica,NYSY,Moisture Use,Medium,
+Nyssa sylvatica,NYSY,"pH, Maximum",6.0,
+Nyssa sylvatica,NYSY,"pH, Minimum",4.5,
+Nyssa sylvatica,NYSY,"Root Depth, Minimum (inches)",30,
+Nyssa sylvatica,NYSY,Salinity Tolerance,Medium,
+Nyssa sylvatica,NYSY,Shade Tolerance,Low,
+Nyssa sylvatica,NYSY,"Temperature, Minimum (°F)",-18,
+Nyssa sylvatica,NYSY,Bloom Period,Late Spring,
+Nyssa sylvatica,NYSY,Fruit/Seed Abundance,Medium,
+Ostrya virginiana,OSVI,Foliage Porosity Summer,Moderate,
+Ostrya virginiana,OSVI,Growth Form,Single Stem,
+Ostrya virginiana,OSVI,Growth Rate,Slow,
+Ostrya virginiana,OSVI,"Height, Mature (feet)",45.0,
+Ostrya virginiana,OSVI,Lifespan,Short,
+Ostrya virginiana,OSVI,Shape and Orientation,Erect,
+Ostrya virginiana,OSVI,Toxicity,None,
+Ostrya virginiana,OSVI,Adapted to Coarse Textured Soils,Yes,
+Ostrya virginiana,OSVI,Adapted to Fine Textured Soils,Yes,
+Ostrya virginiana,OSVI,Adapted to Medium Textured Soils,Yes,
+Ostrya virginiana,OSVI,Anaerobic Tolerance,None,
+Ostrya virginiana,OSVI,CaCO3 Tolerance,Medium,
+Ostrya virginiana,OSVI,Drought Tolerance,Medium,
+Ostrya virginiana,OSVI,Fire Tolerance,Medium,
+Ostrya virginiana,OSVI,Hedge Tolerance,None,
+Ostrya virginiana,OSVI,Moisture Use,Low,
+Ostrya virginiana,OSVI,"pH, Maximum",7.6,
+Ostrya virginiana,OSVI,"pH, Minimum",4.2,
+Ostrya virginiana,OSVI,"Root Depth, Minimum (inches)",16,
+Ostrya virginiana,OSVI,Salinity Tolerance,None,
+Ostrya virginiana,OSVI,Shade Tolerance,Low,
+Ostrya virginiana,OSVI,"Temperature, Minimum (°F)",-38,
+Ostrya virginiana,OSVI,Bloom Period,Mid Spring,
+Ostrya virginiana,OSVI,Fruit/Seed Abundance,Low,
+Koelreuteria paniculata,KOPA,Foliage Porosity Summer,Moderate,
+Koelreuteria paniculata,KOPA,Growth Form,Single Stem,
+Koelreuteria paniculata,KOPA,Growth Rate,Slow,
+Koelreuteria paniculata,KOPA,"Height, Mature (feet)",45.0,
+Koelreuteria paniculata,KOPA,Lifespan,Moderate,
+Koelreuteria paniculata,KOPA,Shape and Orientation,Erect,
+Koelreuteria paniculata,KOPA,Toxicity,None,
+Koelreuteria paniculata,KOPA,Adapted to Coarse Textured Soils,Yes,
+Koelreuteria paniculata,KOPA,Adapted to Fine Textured Soils,Yes,
+Koelreuteria paniculata,KOPA,Adapted to Medium Textured Soils,Yes,
+Koelreuteria paniculata,KOPA,Anaerobic Tolerance,None,
+Koelreuteria paniculata,KOPA,CaCO3 Tolerance,Medium,
+Koelreuteria paniculata,KOPA,Drought Tolerance,Medium,
+Koelreuteria paniculata,KOPA,Fire Tolerance,Low,
+Koelreuteria paniculata,KOPA,Hedge Tolerance,Low,
+Koelreuteria paniculata,KOPA,Moisture Use,Medium,
+Koelreuteria paniculata,KOPA,"pH, Maximum",8.0,
+Koelreuteria paniculata,KOPA,"pH, Minimum",4.5,
+Koelreuteria paniculata,KOPA,"Root Depth, Minimum (inches)",16,
+Koelreuteria paniculata,KOPA,Salinity Tolerance,Low,
+Koelreuteria paniculata,KOPA,Shade Tolerance,High,
+Koelreuteria paniculata,KOPA,"Temperature, Minimum (°F)",-28,
+Koelreuteria paniculata,KOPA,Bloom Period,Late Spring,
+Koelreuteria paniculata,KOPA,Fruit/Seed Abundance,High,
+Cercis canadensis,CECA4,Foliage Porosity Summer,Moderate,
+Cercis canadensis,CECA4,Growth Form,Multiple Stem,
+Cercis canadensis,CECA4,Growth Rate,Slow,
+Cercis canadensis,CECA4,"Height, Mature (feet)",30.0,
+Cercis canadensis,CECA4,Lifespan,Short,
+Cercis canadensis,CECA4,Shape and Orientation,Erect,
+Cercis canadensis,CECA4,Toxicity,None,
+Cercis canadensis,CECA4,Adapted to Coarse Textured Soils,No,
+Cercis canadensis,CECA4,Adapted to Fine Textured Soils,Yes,
+Cercis canadensis,CECA4,Adapted to Medium Textured Soils,Yes,
+Cercis canadensis,CECA4,Anaerobic Tolerance,None,
+Cercis canadensis,CECA4,CaCO3 Tolerance,Low,
+Cercis canadensis,CECA4,Drought Tolerance,High,
+Cercis canadensis,CECA4,Fire Tolerance,Medium,
+Cercis canadensis,CECA4,Hedge Tolerance,None,
+Cercis canadensis,CECA4,Moisture Use,Low,
+Cercis canadensis,CECA4,"pH, Maximum",7.9,
+Cercis canadensis,CECA4,"pH, Minimum",5.0,
+Cercis canadensis,CECA4,"Root Depth, Minimum (inches)",24,
+Cercis canadensis,CECA4,Salinity Tolerance,None,
+Cercis canadensis,CECA4,Shade Tolerance,Low,
+Cercis canadensis,CECA4,"Temperature, Minimum (°F)",-28,
+Cercis canadensis,CECA4,Bloom Period,Spring,
+Cercis canadensis,CECA4,Fruit/Seed Abundance,Medium,
+Malus sp.,MALUS,Foliage Porosity Summer,Dense,Magenta
+Malus sp.,MALUS,Growth Form,Multiple Stem,Magenta
+Malus sp.,MALUS,Growth Rate,Moderate,Magenta
+Malus sp.,MALUS,"Height, Mature (feet)",30.0,Magenta
+Malus sp.,MALUS,Lifespan,Long,Magenta
+Malus sp.,MALUS,Shape and Orientation,Erect,Magenta
+Malus sp.,MALUS,Toxicity,None,Magenta
+Malus sp.,MALUS,Adapted to Coarse Textured Soils,Yes,Magenta
+Malus sp.,MALUS,Adapted to Fine Textured Soils,No,Magenta
+Malus sp.,MALUS,Adapted to Medium Textured Soils,Yes,Magenta
+Malus sp.,MALUS,Anaerobic Tolerance,None,Magenta
+Malus sp.,MALUS,CaCO3 Tolerance,Medium,Magenta
+Malus sp.,MALUS,Drought Tolerance,Medium,Magenta
+Malus sp.,MALUS,Fire Tolerance,Medium,Magenta
+Malus sp.,MALUS,Hedge Tolerance,Medium,Magenta
+Malus sp.,MALUS,Moisture Use,Medium,Magenta
+Malus sp.,MALUS,"pH, Maximum",7.5,Magenta
+Malus sp.,MALUS,"pH, Minimum",5.0,Magenta
+Malus sp.,MALUS,"Root Depth, Minimum (inches)",30,Magenta
+Malus sp.,MALUS,Salinity Tolerance,None,Magenta
+Malus sp.,MALUS,Shade Tolerance,High,Magenta
+Malus sp.,MALUS,"Temperature, Minimum (°F)",-78,Magenta
+Malus sp.,MALUS,Bloom Period,Mid Spring,Magenta
+Malus sp.,MALUS,Fruit/Seed Abundance,Medium,Magenta
+Prunus virginiana 'Schubert',PRVI,Foliage Porosity Summer,Dense,
+Prunus virginiana 'Schubert',PRVI,Growth Form,Multiple Stem,
+Prunus virginiana 'Schubert',PRVI,Growth Rate,Rapid,
+Prunus virginiana 'Schubert',PRVI,"Height, Mature (feet)",25.0,
+Prunus virginiana 'Schubert',PRVI,Lifespan,Short,
+Prunus virginiana 'Schubert',PRVI,Shape and Orientation,Erect,
+Prunus virginiana 'Schubert',PRVI,Toxicity,Severe,
+Prunus virginiana 'Schubert',PRVI,Adapted to Coarse Textured Soils,Yes,
+Prunus virginiana 'Schubert',PRVI,Adapted to Fine Textured Soils,Yes,
+Prunus virginiana 'Schubert',PRVI,Adapted to Medium Textured Soils,Yes,
+Prunus virginiana 'Schubert',PRVI,Anaerobic Tolerance,Medium,
+Prunus virginiana 'Schubert',PRVI,CaCO3 Tolerance,High,
+Prunus virginiana 'Schubert',PRVI,Drought Tolerance,Medium,
+Prunus virginiana 'Schubert',PRVI,Fire Tolerance,High,
+Prunus virginiana 'Schubert',PRVI,Hedge Tolerance,Low,
+Prunus virginiana 'Schubert',PRVI,Moisture Use,Medium,
+Prunus virginiana 'Schubert',PRVI,"pH, Maximum",8.4,
+Prunus virginiana 'Schubert',PRVI,"pH, Minimum",5.2,
+Prunus virginiana 'Schubert',PRVI,"Root Depth, Minimum (inches)",20,
+Prunus virginiana 'Schubert',PRVI,Salinity Tolerance,Medium,
+Prunus virginiana 'Schubert',PRVI,Shade Tolerance,High,
+Prunus virginiana 'Schubert',PRVI,"Temperature, Minimum (°F)",-43,
+Prunus virginiana 'Schubert',PRVI,Bloom Period,Mid Spring,
+Prunus virginiana 'Schubert',PRVI,Fruit/Seed Abundance,High,
+Prunus padus,PRPA5,Foliage Porosity Summer,Moderate,
+Prunus padus,PRPA5,Foliage Porosity Summer,Moderate,SD131
+Prunus padus,PRPA5,Growth Form,Single Stem,
+Prunus padus,PRPA5,Growth Form,Single Stem,SD131
+Prunus padus,PRPA5,Growth Rate,Moderate,
+Prunus padus,PRPA5,Growth Rate,Moderate,SD131
+Prunus padus,PRPA5,"Height, Mature (feet)",30.0,
+Prunus padus,PRPA5,"Height, Mature (feet)",30.0,SD131
+Prunus padus,PRPA5,Lifespan,Moderate,
+Prunus padus,PRPA5,Lifespan,Moderate,SD131
+Prunus padus,PRPA5,Shape and Orientation,Erect,
+Prunus padus,PRPA5,Shape and Orientation,Erect,SD131
+Prunus padus,PRPA5,Toxicity,None,
+Prunus padus,PRPA5,Toxicity,None,SD131
+Prunus padus,PRPA5,Adapted to Coarse Textured Soils,Yes,
+Prunus padus,PRPA5,Adapted to Coarse Textured Soils,Yes,SD131
+Prunus padus,PRPA5,Adapted to Fine Textured Soils,No,
+Prunus padus,PRPA5,Adapted to Fine Textured Soils,No,SD131
+Prunus padus,PRPA5,Adapted to Medium Textured Soils,Yes,
+Prunus padus,PRPA5,Adapted to Medium Textured Soils,Yes,SD131
+Prunus padus,PRPA5,Anaerobic Tolerance,None,
+Prunus padus,PRPA5,Anaerobic Tolerance,None,SD131
+Prunus padus,PRPA5,CaCO3 Tolerance,High,
+Prunus padus,PRPA5,CaCO3 Tolerance,High,SD131
+Prunus padus,PRPA5,Drought Tolerance,None,
+Prunus padus,PRPA5,Drought Tolerance,None,SD131
+Prunus padus,PRPA5,Fire Tolerance,Low,
+Prunus padus,PRPA5,Fire Tolerance,Low,SD131
+Prunus padus,PRPA5,Hedge Tolerance,None,
+Prunus padus,PRPA5,Hedge Tolerance,None,SD131
+Prunus padus,PRPA5,Moisture Use,Low,SD131
+Prunus padus,PRPA5,Moisture Use,Medium,
+Prunus padus,PRPA5,"pH, Maximum",7.0,
+Prunus padus,PRPA5,"pH, Maximum",7.5,SD131
+Prunus padus,PRPA5,"pH, Minimum",5.0,
+Prunus padus,PRPA5,"pH, Minimum",5.5,SD131
+Prunus padus,PRPA5,"Root Depth, Minimum (inches)",36,
+Prunus padus,PRPA5,"Root Depth, Minimum (inches)",36,SD131
+Prunus padus,PRPA5,Salinity Tolerance,Medium,
+Prunus padus,PRPA5,Salinity Tolerance,Medium,SD131
+Prunus padus,PRPA5,Shade Tolerance,High,
+Prunus padus,PRPA5,Shade Tolerance,High,SD131
+Prunus padus,PRPA5,"Temperature, Minimum (°F)",-33,
+Prunus padus,PRPA5,"Temperature, Minimum (°F)",-33,SD131
+Prunus padus,PRPA5,Bloom Period,Spring,
+Prunus padus,PRPA5,Bloom Period,Spring,SD131
+Prunus padus,PRPA5,Fruit/Seed Abundance,High,
+Prunus padus,PRPA5,Fruit/Seed Abundance,High,SD131
+Acer rubrum,ACRU,Foliage Porosity Summer,Dense,
+Acer rubrum,ACRU,Growth Form,Single Stem,
+Acer rubrum,ACRU,Growth Rate,Rapid,
+Acer rubrum,ACRU,"Height, Mature (feet)",68.0,
+Acer rubrum,ACRU,Lifespan,Short,
+Acer rubrum,ACRU,Shape and Orientation,Rounded,
+Acer rubrum,ACRU,Toxicity,Slight,
+Acer rubrum,ACRU,Adapted to Coarse Textured Soils,Yes,
+Acer rubrum,ACRU,Adapted to Fine Textured Soils,Yes,
+Acer rubrum,ACRU,Adapted to Medium Textured Soils,Yes,
+Acer rubrum,ACRU,Anaerobic Tolerance,Medium,
+Acer rubrum,ACRU,CaCO3 Tolerance,High,
+Acer rubrum,ACRU,Drought Tolerance,Medium,
+Acer rubrum,ACRU,Fire Tolerance,Low,
+Acer rubrum,ACRU,Hedge Tolerance,Low,
+Acer rubrum,ACRU,Moisture Use,High,
+Acer rubrum,ACRU,"pH, Maximum",7.3,
+Acer rubrum,ACRU,"pH, Minimum",4.7,
+Acer rubrum,ACRU,"Root Depth, Minimum (inches)",30,
+Acer rubrum,ACRU,Salinity Tolerance,None,
+Acer rubrum,ACRU,Shade Tolerance,Medium,
+Acer rubrum,ACRU,"Temperature, Minimum (°F)",-47,
+Acer rubrum,ACRU,Bloom Period,Early Spring,
+Acer rubrum,ACRU,Fruit/Seed Abundance,High,
+Celtis occidentalis,CEOC,Foliage Porosity Summer,Dense,
+Celtis occidentalis,CEOC,Foliage Porosity Summer,Dense,Oahe
+Celtis occidentalis,CEOC,Growth Form,Single Stem,
+Celtis occidentalis,CEOC,Growth Form,Single Stem,Oahe
+Celtis occidentalis,CEOC,Growth Rate,Rapid,
+Celtis occidentalis,CEOC,Growth Rate,Rapid,Oahe
+Celtis occidentalis,CEOC,"Height, Mature (feet)",50.0,Oahe
+Celtis occidentalis,CEOC,"Height, Mature (feet)",60.0,
+Celtis occidentalis,CEOC,Lifespan,Moderate,
+Celtis occidentalis,CEOC,Lifespan,Moderate,Oahe
+Celtis occidentalis,CEOC,Shape and Orientation,Erect,
+Celtis occidentalis,CEOC,Shape and Orientation,Erect,Oahe
+Celtis occidentalis,CEOC,Toxicity,None,
+Celtis occidentalis,CEOC,Toxicity,None,Oahe
+Celtis occidentalis,CEOC,Adapted to Coarse Textured Soils,Yes,
+Celtis occidentalis,CEOC,Adapted to Coarse Textured Soils,Yes,Oahe
+Celtis occidentalis,CEOC,Adapted to Fine Textured Soils,Yes,
+Celtis occidentalis,CEOC,Adapted to Fine Textured Soils,Yes,Oahe
+Celtis occidentalis,CEOC,Adapted to Medium Textured Soils,Yes,
+Celtis occidentalis,CEOC,Adapted to Medium Textured Soils,Yes,Oahe
+Celtis occidentalis,CEOC,Anaerobic Tolerance,Medium,
+Celtis occidentalis,CEOC,Anaerobic Tolerance,Medium,Oahe
+Celtis occidentalis,CEOC,CaCO3 Tolerance,Medium,
+Celtis occidentalis,CEOC,CaCO3 Tolerance,Medium,Oahe
+Celtis occidentalis,CEOC,Drought Tolerance,High,
+Celtis occidentalis,CEOC,Drought Tolerance,High,Oahe
+Celtis occidentalis,CEOC,Fire Tolerance,Low,
+Celtis occidentalis,CEOC,Fire Tolerance,Low,Oahe
+Celtis occidentalis,CEOC,Hedge Tolerance,Medium,
+Celtis occidentalis,CEOC,Hedge Tolerance,Medium,Oahe
+Celtis occidentalis,CEOC,Moisture Use,Low,
+Celtis occidentalis,CEOC,Moisture Use,Low,Oahe
+Celtis occidentalis,CEOC,"pH, Maximum",7.8,
+Celtis occidentalis,CEOC,"pH, Maximum",8.0,Oahe
+Celtis occidentalis,CEOC,"pH, Minimum",4.5,Oahe
+Celtis occidentalis,CEOC,"pH, Minimum",6.0,
+Celtis occidentalis,CEOC,"Root Depth, Minimum (inches)",36,
+Celtis occidentalis,CEOC,"Root Depth, Minimum (inches)",36,Oahe
+Celtis occidentalis,CEOC,Salinity Tolerance,Low,
+Celtis occidentalis,CEOC,Salinity Tolerance,Low,Oahe
+Celtis occidentalis,CEOC,Shade Tolerance,Low,
+Celtis occidentalis,CEOC,Shade Tolerance,Low,Oahe
+Celtis occidentalis,CEOC,"Temperature, Minimum (°F)",-43,Oahe
+Celtis occidentalis,CEOC,"Temperature, Minimum (°F)",-47,
+Celtis occidentalis,CEOC,Bloom Period,Mid Spring,
+Celtis occidentalis,CEOC,Bloom Period,Mid Spring,Oahe
+Celtis occidentalis,CEOC,Fruit/Seed Abundance,High,
+Celtis occidentalis,CEOC,Fruit/Seed Abundance,High,Oahe
+Ulmus americana 'Princeton',ULAM,Foliage Porosity Summer,Dense,
+Ulmus americana 'Princeton',ULAM,Growth Form,Single Stem,
+Ulmus americana 'Princeton',ULAM,Growth Rate,Rapid,
+Ulmus americana 'Princeton',ULAM,"Height, Mature (feet)",120.0,
+Ulmus americana 'Princeton',ULAM,Lifespan,Moderate,
+Ulmus americana 'Princeton',ULAM,Shape and Orientation,Erect,
+Ulmus americana 'Princeton',ULAM,Toxicity,None,
+Ulmus americana 'Princeton',ULAM,Adapted to Coarse Textured Soils,Yes,
+Ulmus americana 'Princeton',ULAM,Adapted to Fine Textured Soils,Yes,
+Ulmus americana 'Princeton',ULAM,Adapted to Medium Textured Soils,Yes,
+Ulmus americana 'Princeton',ULAM,Anaerobic Tolerance,Low,
+Ulmus americana 'Princeton',ULAM,CaCO3 Tolerance,Medium,
+Ulmus americana 'Princeton',ULAM,Drought Tolerance,Medium,
+Ulmus americana 'Princeton',ULAM,Fire Tolerance,Low,
+Ulmus americana 'Princeton',ULAM,Hedge Tolerance,None,
+Ulmus americana 'Princeton',ULAM,Moisture Use,High,
+Ulmus americana 'Princeton',ULAM,"pH, Maximum",8.0,
+Ulmus americana 'Princeton',ULAM,"pH, Minimum",5.0,
+Ulmus americana 'Princeton',ULAM,"Root Depth, Minimum (inches)",42,
+Ulmus americana 'Princeton',ULAM,Salinity Tolerance,Low,
+Ulmus americana 'Princeton',ULAM,Shade Tolerance,Medium,
+Ulmus americana 'Princeton',ULAM,"Temperature, Minimum (°F)",-46,
+Ulmus americana 'Princeton',ULAM,Bloom Period,Early Spring,
+Ulmus americana 'Princeton',ULAM,Fruit/Seed Abundance,High,
+Ulmus americana,ULAM,Foliage Porosity Summer,Dense,
+Ulmus americana,ULAM,Growth Form,Single Stem,
+Ulmus americana,ULAM,Growth Rate,Rapid,
+Ulmus americana,ULAM,"Height, Mature (feet)",120.0,
+Ulmus americana,ULAM,Lifespan,Moderate,
+Ulmus americana,ULAM,Shape and Orientation,Erect,
+Ulmus americana,ULAM,Toxicity,None,
+Ulmus americana,ULAM,Adapted to Coarse Textured Soils,Yes,
+Ulmus americana,ULAM,Adapted to Fine Textured Soils,Yes,
+Ulmus americana,ULAM,Adapted to Medium Textured Soils,Yes,
+Ulmus americana,ULAM,Anaerobic Tolerance,Low,
+Ulmus americana,ULAM,CaCO3 Tolerance,Medium,
+Ulmus americana,ULAM,Drought Tolerance,Medium,
+Ulmus americana,ULAM,Fire Tolerance,Low,
+Ulmus americana,ULAM,Hedge Tolerance,None,
+Ulmus americana,ULAM,Moisture Use,High,
+Ulmus americana,ULAM,"pH, Maximum",8.0,
+Ulmus americana,ULAM,"pH, Minimum",5.0,
+Ulmus americana,ULAM,"Root Depth, Minimum (inches)",42,
+Ulmus americana,ULAM,Salinity Tolerance,Low,
+Ulmus americana,ULAM,Shade Tolerance,Medium,
+Ulmus americana,ULAM,"Temperature, Minimum (°F)",-46,
+Ulmus americana,ULAM,Bloom Period,Early Spring,
+Ulmus americana,ULAM,Fruit/Seed Abundance,High,
+Fraxinus pennsylvanica,FRPE,Foliage Porosity Summer,Dense,
+Fraxinus pennsylvanica,FRPE,Foliage Porosity Summer,Dense,Cardan
+Fraxinus pennsylvanica,FRPE,Growth Form,Single Crown,
+Fraxinus pennsylvanica,FRPE,Growth Form,Single Crown,Cardan
+Fraxinus pennsylvanica,FRPE,Growth Rate,Rapid,
+Fraxinus pennsylvanica,FRPE,Growth Rate,Rapid,Cardan
+Fraxinus pennsylvanica,FRPE,"Height, Mature (feet)",65.0,Cardan
+Fraxinus pennsylvanica,FRPE,"Height, Mature (feet)",80.0,
+Fraxinus pennsylvanica,FRPE,Lifespan,Short,
+Fraxinus pennsylvanica,FRPE,Lifespan,Short,Cardan
+Fraxinus pennsylvanica,FRPE,Shape and Orientation,Erect,
+Fraxinus pennsylvanica,FRPE,Shape and Orientation,Irregular,Cardan
+Fraxinus pennsylvanica,FRPE,Toxicity,None,
+Fraxinus pennsylvanica,FRPE,Toxicity,None,Cardan
+Fraxinus pennsylvanica,FRPE,Adapted to Coarse Textured Soils,Yes,
+Fraxinus pennsylvanica,FRPE,Adapted to Coarse Textured Soils,Yes,Cardan
+Fraxinus pennsylvanica,FRPE,Adapted to Fine Textured Soils,Yes,
+Fraxinus pennsylvanica,FRPE,Adapted to Fine Textured Soils,Yes,Cardan
+Fraxinus pennsylvanica,FRPE,Adapted to Medium Textured Soils,Yes,
+Fraxinus pennsylvanica,FRPE,Adapted to Medium Textured Soils,Yes,Cardan
+Fraxinus pennsylvanica,FRPE,Anaerobic Tolerance,Medium,
+Fraxinus pennsylvanica,FRPE,Anaerobic Tolerance,Medium,Cardan
+Fraxinus pennsylvanica,FRPE,CaCO3 Tolerance,High,
+Fraxinus pennsylvanica,FRPE,CaCO3 Tolerance,High,Cardan
+Fraxinus pennsylvanica,FRPE,Drought Tolerance,Medium,
+Fraxinus pennsylvanica,FRPE,Drought Tolerance,Medium,Cardan
+Fraxinus pennsylvanica,FRPE,Fire Tolerance,Medium,
+Fraxinus pennsylvanica,FRPE,Fire Tolerance,Medium,Cardan
+Fraxinus pennsylvanica,FRPE,Hedge Tolerance,Medium,
+Fraxinus pennsylvanica,FRPE,Hedge Tolerance,Medium,Cardan
+Fraxinus pennsylvanica,FRPE,Moisture Use,Medium,
+Fraxinus pennsylvanica,FRPE,Moisture Use,Medium,Cardan
+Fraxinus pennsylvanica,FRPE,"pH, Maximum",8.1,
+Fraxinus pennsylvanica,FRPE,"pH, Maximum",8.1,Cardan
+Fraxinus pennsylvanica,FRPE,"pH, Minimum",4.7,
+Fraxinus pennsylvanica,FRPE,"pH, Minimum",5.0,Cardan
+Fraxinus pennsylvanica,FRPE,"Root Depth, Minimum (inches)",40,
+Fraxinus pennsylvanica,FRPE,"Root Depth, Minimum (inches)",40,Cardan
+Fraxinus pennsylvanica,FRPE,Salinity Tolerance,Low,
+Fraxinus pennsylvanica,FRPE,Salinity Tolerance,Low,Cardan
+Fraxinus pennsylvanica,FRPE,Shade Tolerance,Low,
+Fraxinus pennsylvanica,FRPE,Shade Tolerance,Low,Cardan
+Fraxinus pennsylvanica,FRPE,"Temperature, Minimum (°F)",-47,
+Fraxinus pennsylvanica,FRPE,"Temperature, Minimum (°F)",-47,Cardan
+Fraxinus pennsylvanica,FRPE,Bloom Period,Late Spring,
+Fraxinus pennsylvanica,FRPE,Bloom Period,Late Spring,Cardan
+Fraxinus pennsylvanica,FRPE,Fruit/Seed Abundance,High,
+Fraxinus pennsylvanica,FRPE,Fruit/Seed Abundance,High,Cardan

@@ -1,0 +1,428 @@
+unique_id,indicator_id,name,measure,measure_info,geo_type_name,geo_join_id,geo_place_name,time_period,start_date,data_value
+130361,639,Deaths due to PM2.5,Estimated annual rate (age 30+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,71
+130403,640,Boiler emissions (SO2),Tons,per square kilometer,UHF42,107,Hunts Point - Mott Haven,2013,2013-01-01T00:00:00.000,3.3
+130691,646,Outdoor Air Toxics - Benzene,Annual average concentration,Âµg/m3,UHF42,107,Hunts Point - Mott Haven,2005,2005-01-01T00:00:00.000,2.8
+130739,647,Outdoor Air Toxics - Formaldehyde,Annual average concentration,Âµg/m3,UHF42,107,Hunts Point - Mott Haven,2005,2005-01-01T00:00:00.000,3.5
+130793,648,Asthma emergency department visits due to PM2.5,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,278.6
+130889,650,Respiratory hospitalizations due to PM2.5 (age 20+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,41
+130937,651,Cardiovascular hospitalizations due to PM2.5 (age 40+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,36.8
+130985,652,Cardiac and respiratory deaths due to Ozone,Estimated annual rate,"per 100,000",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,2.5
+131033,653,Asthma emergency department visits due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,169.4
+131129,655,Asthma hospitalizations due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,35.9
+131225,657,Asthma emergency department visits due to PM2.5,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,189.1
+131273,659,Asthma emergency department visits due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,130.1
+131321,661,Asthma hospitalizations due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2005-2007,2005-01-01T00:00:00.000,19.4
+131369,657,Asthma emergency department visits due to PM2.5,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,138.1
+131417,648,Asthma emergency department visits due to PM2.5,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,251.3
+131465,651,Cardiovascular hospitalizations due to PM2.5 (age 40+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,25
+131513,650,Respiratory hospitalizations due to PM2.5 (age 20+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,30.2
+131561,639,Deaths due to PM2.5,Estimated annual rate (age 30+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,58.8
+151389,652,Cardiac and respiratory deaths due to Ozone,Estimated annual rate,"per 100,000",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,3.1
+151437,653,Asthma emergency department visits due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,206.3
+151485,659,Asthma emergency department visits due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,119.1
+151533,655,Asthma hospitalizations due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,43.6
+151581,661,Asthma hospitalizations due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2009-2011,2009-01-01T00:00:00.000,16
+151629,643,Traffic density,Million miles,per square mile,UHF42,107,Hunts Point - Mott Haven,2005,2005-01-01T00:00:00.000,42.666014
+151677,644,Traffic density (cars),Million miles,per square mile,UHF42,107,Hunts Point - Mott Haven,2005,2005-01-01T00:00:00.000,39.404311
+151725,645,Traffic density (trucks),Million miles,per square mile,UHF42,107,Hunts Point - Mott Haven,2005,2005-01-01T00:00:00.000,2.86083
+154454,645,Traffic density (trucks),Million miles,per square mile,CD,201,Mott Haven and Melrose (CD1),2005,2005-01-01T00:00:00.000,4.480769
+154455,645,Traffic density (trucks),Million miles,per square mile,CD,202,Hunts Point and Longwood (CD2),2005,2005-01-01T00:00:00.000,2.680357
+154513,644,Traffic density (cars),Million miles,per square mile,CD,201,Mott Haven and Melrose (CD1),2005,2005-01-01T00:00:00.000,63.532072
+154514,644,Traffic density (cars),Million miles,per square mile,CD,202,Hunts Point and Longwood (CD2),2005,2005-01-01T00:00:00.000,34.881829
+154572,643,Traffic density,Million miles,per square mile,CD,201,Mott Haven and Melrose (CD1),2005,2005-01-01T00:00:00.000,68.56563
+154573,643,Traffic density,Million miles,per square mile,CD,202,Hunts Point and Longwood (CD2),2005,2005-01-01T00:00:00.000,37.935172
+165751,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2009,2009-01-01T00:00:00.000,32.41
+165752,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2009,2009-01-01T00:00:00.000,30.52
+165810,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,27.54
+165811,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,26.32
+165869,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2011,2011-01-01T00:00:00.000,31.73
+165870,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2011,2011-01-01T00:00:00.000,30.57
+165928,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2012,2012-01-01T00:00:00.000,26.34
+165929,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2012,2012-01-01T00:00:00.000,24.95
+165987,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2013,2013-01-01T00:00:00.000,27.63
+165988,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2013,2013-01-01T00:00:00.000,25.71
+166636,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2009,2009-01-01T00:00:00.000,24.8
+166637,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2009,2009-01-01T00:00:00.000,22.71
+166695,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,22.42
+166696,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,20.53
+166754,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2011,2011-01-01T00:00:00.000,21.06
+166755,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2011,2011-01-01T00:00:00.000,19.4
+166813,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2012,2012-01-01T00:00:00.000,19.14
+166814,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2012,2012-01-01T00:00:00.000,17.78
+166872,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2013,2013-01-01T00:00:00.000,18.86
+166873,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2013,2013-01-01T00:00:00.000,17.22
+167521,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2009,2009-01-01T00:00:00.000,28.07
+167522,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2009,2009-01-01T00:00:00.000,26.09
+167580,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,25.47
+167581,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,23.88
+167639,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2011,2011-01-01T00:00:00.000,25.92
+167640,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2011,2011-01-01T00:00:00.000,24.34
+167698,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2012,2012-01-01T00:00:00.000,23.5
+167699,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2012,2012-01-01T00:00:00.000,22.07
+167757,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2013,2013-01-01T00:00:00.000,22.94
+167758,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2013,2013-01-01T00:00:00.000,21.27
+168406,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2009,2009-01-01T00:00:00.000,14.73
+168407,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2009,2009-01-01T00:00:00.000,14.48
+168465,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,11.62
+168466,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,11.39
+168524,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2011,2011-01-01T00:00:00.000,14.72
+168525,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2011,2011-01-01T00:00:00.000,14.51
+168583,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2012,2012-01-01T00:00:00.000,11.17
+168584,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2012,2012-01-01T00:00:00.000,10.92
+168642,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2013,2013-01-01T00:00:00.000,12.26
+168643,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2013,2013-01-01T00:00:00.000,11.88
+169291,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2009,2009-01-01T00:00:00.000,11.68
+169292,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2009,2009-01-01T00:00:00.000,11.49
+169350,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,12.96
+169351,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,12.85
+169409,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2011,2011-01-01T00:00:00.000,12.46
+169410,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2011,2011-01-01T00:00:00.000,12.38
+169468,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2012,2012-01-01T00:00:00.000,11.32
+169469,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2012,2012-01-01T00:00:00.000,11.22
+169527,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2013,2013-01-01T00:00:00.000,11.21
+169528,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2013,2013-01-01T00:00:00.000,11.13
+170176,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2009,2009-01-01T00:00:00.000,11.86
+170177,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2009,2009-01-01T00:00:00.000,11.64
+170235,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,10.88
+170236,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,10.71
+170294,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2011,2011-01-01T00:00:00.000,11.58
+170295,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2011,2011-01-01T00:00:00.000,11.47
+170353,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2012,2012-01-01T00:00:00.000,10.38
+170354,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2012,2012-01-01T00:00:00.000,10.25
+170412,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2013,2013-01-01T00:00:00.000,9.97
+170413,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2013,2013-01-01T00:00:00.000,9.76
+175255,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2009,2009-01-01T00:00:00.000,30.82
+175297,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,26.48
+175339,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2011,2011-01-01T00:00:00.000,30.73
+175381,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2012,2012-01-01T00:00:00.000,25.17
+175423,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2013,2013-01-01T00:00:00.000,26.07
+175885,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2009,2009-01-01T00:00:00.000,23
+175927,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,20.82
+175969,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2011,2011-01-01T00:00:00.000,19.66
+176011,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2012,2012-01-01T00:00:00.000,17.94
+176053,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2013,2013-01-01T00:00:00.000,17.46
+176515,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2009,2009-01-01T00:00:00.000,26.39
+176557,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,24.1
+176599,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2011,2011-01-01T00:00:00.000,24.58
+176641,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2012,2012-01-01T00:00:00.000,22.27
+176683,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2013,2013-01-01T00:00:00.000,21.54
+177145,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2009,2009-01-01T00:00:00.000,12.26
+177187,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,8.92
+177229,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2011,2011-01-01T00:00:00.000,12.41
+177271,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2012,2012-01-01T00:00:00.000,8.81
+177313,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2013,2013-01-01T00:00:00.000,9.82
+177775,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2009,2009-01-01T00:00:00.000,9.74
+177817,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,11.12
+177859,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2011,2011-01-01T00:00:00.000,10.67
+177901,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2012,2012-01-01T00:00:00.000,9.49
+177943,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2013,2013-01-01T00:00:00.000,9.39
+178405,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2009,2009-01-01T00:00:00.000,11.45
+178447,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,10.48
+178489,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2011,2011-01-01T00:00:00.000,11.24
+178531,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2012,2012-01-01T00:00:00.000,10.02
+178573,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2013,2013-01-01T00:00:00.000,9.57
+179793,640,Boiler emissions (SO2),Tons,per square kilometer,UHF42,107,Hunts Point - Mott Haven,2015,2015-01-01T00:00:00.000,1.7
+212296,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2014,2014-01-01T00:00:00.000,27.93
+212422,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2014,2014-01-01T00:00:00.000,16.43
+212548,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2014,2014-01-01T00:00:00.000,21.14
+212674,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2014,2014-01-01T00:00:00.000,11.21
+212800,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2014,2014-01-01T00:00:00.000,7.64
+212926,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2014,2014-01-01T00:00:00.000,9.75
+213235,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2014,2014-01-01T00:00:00.000,28.73
+213236,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2014,2014-01-01T00:00:00.000,27.8
+213412,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2014,2014-01-01T00:00:00.000,17.46
+213413,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2014,2014-01-01T00:00:00.000,16.33
+213589,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2014,2014-01-01T00:00:00.000,22.12
+213590,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2014,2014-01-01T00:00:00.000,21.02
+213766,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2014,2014-01-01T00:00:00.000,13.38
+213767,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2014,2014-01-01T00:00:00.000,13.15
+213943,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2014,2014-01-01T00:00:00.000,9.57
+213944,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2014,2014-01-01T00:00:00.000,9.45
+214120,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2014,2014-01-01T00:00:00.000,10.11
+214121,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2014,2014-01-01T00:00:00.000,9.96
+216350,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2009,2009-01-01T00:00:00.000,23.97
+216351,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,32.14
+216352,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2011,2011-01-01T00:00:00.000,32.12
+216353,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2012,2012-01-01T00:00:00.000,33.99
+216354,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2013,2013-01-01T00:00:00.000,30.57
+216355,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2014,2014-01-01T00:00:00.000,30.46
+216356,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2009,2009-01-01T00:00:00.000,25.51
+216357,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,33.65
+216358,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2011,2011-01-01T00:00:00.000,33.77
+216359,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2012,2012-01-01T00:00:00.000,35.25
+216360,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2013,2013-01-01T00:00:00.000,31.87
+216361,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2014,2014-01-01T00:00:00.000,31.65
+222437,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2009,2009-01-01T00:00:00.000,25.23
+222438,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,33.34
+222439,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2011,2011-01-01T00:00:00.000,33.42
+222440,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2012,2012-01-01T00:00:00.000,34.98
+222441,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2013,2013-01-01T00:00:00.000,31.59
+222442,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2014,2014-01-01T00:00:00.000,31.41
+227521,647,Outdoor Air Toxics - Formaldehyde,Annual average concentration,Âµg/m3,CD,201,Mott Haven and Melrose (CD1),2011,2011-01-01T00:00:00.000,2.2
+227522,647,Outdoor Air Toxics - Formaldehyde,Annual average concentration,Âµg/m3,CD,202,Hunts Point and Longwood (CD2),2011,2011-01-01T00:00:00.000,2.1
+227580,646,Outdoor Air Toxics - Benzene,Annual average concentration,Âµg/m3,CD,201,Mott Haven and Melrose (CD1),2011,2011-01-01T00:00:00.000,1.42003833
+227581,646,Outdoor Air Toxics - Benzene,Annual average concentration,Âµg/m3,CD,202,Hunts Point and Longwood (CD2),2011,2011-01-01T00:00:00.000,1.27218854
+315596,646,Outdoor Air Toxics - Benzene,Annual average concentration,Âµg/m3,UHF42,107,Hunts Point - Mott Haven,2011,2011-01-01T00:00:00.000,1.4
+315644,647,Outdoor Air Toxics - Formaldehyde,Annual average concentration,Âµg/m3,UHF42,107,Hunts Point - Mott Haven,2011,2011-01-01T00:00:00.000,2.1
+333970,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2015,2015-01-01T00:00:00.000,9.62
+333971,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2015,2015-01-01T00:00:00.000,10.35
+333972,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2015,2015-01-01T00:00:00.000,10.51
+334219,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2015,2015-01-01T00:00:00.000,9.93
+334220,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2015,2015-01-01T00:00:00.000,10.63
+334221,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2015,2015-01-01T00:00:00.000,10.81
+334222,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2015,2015-01-01T00:00:00.000,9.85
+334223,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2015,2015-01-01T00:00:00.000,10.6
+334224,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2015,2015-01-01T00:00:00.000,10.76
+336508,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2015,2015-01-01T00:00:00.000,20.91
+336509,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2015,2015-01-01T00:00:00.000,16.47
+336510,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2015,2015-01-01T00:00:00.000,25.21
+336757,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2015,2015-01-01T00:00:00.000,21.8
+336758,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2015,2015-01-01T00:00:00.000,17.41
+336759,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2015,2015-01-01T00:00:00.000,25.9
+336760,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2015,2015-01-01T00:00:00.000,20.85
+336761,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2015,2015-01-01T00:00:00.000,16.41
+336762,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2015,2015-01-01T00:00:00.000,25.17
+338178,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2015,2015-01-01T00:00:00.000,31.66
+338261,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2015,2015-01-01T00:00:00.000,30.79
+338262,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2015,2015-01-01T00:00:00.000,31.83
+410753,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2016,2016-01-01T00:00:00.000,8.75
+410754,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2016,2016-01-01T00:00:00.000,8.97
+410755,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2016,2016-01-01T00:00:00.000,8.26
+411002,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2016,2016-01-01T00:00:00.000,9.03
+411003,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2016,2016-01-01T00:00:00.000,9.28
+411004,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2016,2016-01-01T00:00:00.000,8.55
+411005,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2016,2016-01-01T00:00:00.000,8.99
+411006,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2016,2016-01-01T00:00:00.000,9.19
+411007,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2016,2016-01-01T00:00:00.000,8.49
+412000,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2016,2016-01-01T00:00:00.000,33.57
+412083,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2016,2016-01-01T00:00:00.000,32.81
+412084,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2016,2016-01-01T00:00:00.000,33.74
+412445,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2016,2016-01-01T00:00:00.000,24.04
+412446,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2016,2016-01-01T00:00:00.000,15.59
+412447,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2016,2016-01-01T00:00:00.000,19.91
+412694,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2016,2016-01-01T00:00:00.000,24.83
+412695,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2016,2016-01-01T00:00:00.000,16.51
+412696,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2016,2016-01-01T00:00:00.000,20.84
+412697,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2016,2016-01-01T00:00:00.000,23.94
+412698,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2016,2016-01-01T00:00:00.000,15.53
+412699,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2016,2016-01-01T00:00:00.000,19.79
+518510,653,Asthma emergency department visits due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,237.6
+518558,659,Asthma emergency department visits due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,146.8
+518606,655,Asthma hospitalizations due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,57.8
+518654,661,Asthma hospitalizations due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,19.4
+518702,652,Cardiac and respiratory deaths due to Ozone,Estimated annual rate,"per 100,000",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,3.7
+518750,639,Deaths due to PM2.5,Estimated annual rate (age 30+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,46.50870591
+518798,650,Respiratory hospitalizations due to PM2.5 (age 20+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,25.50736409
+518846,651,Cardiovascular hospitalizations due to PM2.5 (age 40+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,19.71564401
+518894,648,Asthma emergency department visits due to PM2.5,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,233.1883706
+518942,657,Asthma emergency department visits due to PM2.5,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2012-2014,2012-01-02T00:00:00.000,130.5921768
+547386,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2017,2017-01-01T00:00:00.000,10.2
+547387,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2017,2017-01-01T00:00:00.000,8.26
+547388,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2017,2017-01-01T00:00:00.000,8.78
+547635,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2017,2017-01-01T00:00:00.000,10.52
+547636,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2017,2017-01-01T00:00:00.000,8.54
+547637,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2017,2017-01-01T00:00:00.000,8.98
+547638,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2017,2017-01-01T00:00:00.000,10.41
+547639,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2017,2017-01-01T00:00:00.000,8.49
+547640,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2017,2017-01-01T00:00:00.000,9.04
+549333,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2017,2017-01-01T00:00:00.000,29.41
+549416,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2017,2017-01-01T00:00:00.000,28.42
+549417,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2017,2017-01-01T00:00:00.000,29.69
+549778,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2017,2017-01-01T00:00:00.000,15.85
+549779,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2017,2017-01-01T00:00:00.000,20.39
+549780,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2017,2017-01-01T00:00:00.000,26.96
+550027,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2017,2017-01-01T00:00:00.000,16.98
+550028,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2017,2017-01-01T00:00:00.000,21.25
+550029,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2017,2017-01-01T00:00:00.000,27.5
+550030,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2017,2017-01-01T00:00:00.000,15.72
+550031,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2017,2017-01-01T00:00:00.000,20.3
+550032,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2017,2017-01-01T00:00:00.000,27
+602720,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2018,2018-01-01T00:00:00.000,20.23
+602721,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2018,2018-01-01T00:00:00.000,15.21
+602722,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2018,2018-01-01T00:00:00.000,26.75
+602969,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2018,2018-01-01T00:00:00.000,21.17
+602970,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2018,2018-01-01T00:00:00.000,16.15
+602971,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2018,2018-01-01T00:00:00.000,27.52
+602972,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2018,2018-01-01T00:00:00.000,20.45
+602973,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2018,2018-01-01T00:00:00.000,15.44
+602974,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2018,2018-01-01T00:00:00.000,27.01
+605236,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2018,2018-01-01T00:00:00.000,30.62
+605319,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2018,2018-01-01T00:00:00.000,29.7
+605320,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2018,2018-01-01T00:00:00.000,30.73
+605681,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2018,2018-01-01T00:00:00.000,7.85
+605682,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2018,2018-01-01T00:00:00.000,9.23
+605683,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2018,2018-01-01T00:00:00.000,8.78
+605930,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2018,2018-01-01T00:00:00.000,8.05
+605931,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2018,2018-01-01T00:00:00.000,9.41
+605932,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2018,2018-01-01T00:00:00.000,8.97
+605933,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2018,2018-01-01T00:00:00.000,8.12
+605934,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2018,2018-01-01T00:00:00.000,9.5
+605935,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2018,2018-01-01T00:00:00.000,9.05
+628395,639,Deaths due to PM2.5,Estimated annual rate (age 30+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,45.4
+628443,648,Asthma emergency department visits due to PM2.5,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,194.7
+628491,657,Asthma emergency department visits due to PM2.5,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,104.6
+628539,650,Respiratory hospitalizations due to PM2.5 (age 20+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,26.5
+628587,651,Cardiovascular hospitalizations due to PM2.5 (age 40+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,24.3
+628875,653,Asthma emergency department visits due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,225
+628923,659,Asthma emergency department visits due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,130.1
+628971,655,Asthma hospitalizations due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,40.7
+629019,661,Asthma hospitalizations due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,14.2
+629163,652,Cardiac and respiratory deaths due to Ozone,Estimated annual rate,"per 100,000",UHF42,107,Hunts Point - Mott Haven,2015-2017,2015-01-01T00:00:00.000,3.6
+643336,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,18.75
+643337,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,15.52
+643338,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,24.22
+643585,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,19.67
+643586,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,16.48
+643587,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,25.02
+643588,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,19.04
+643589,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,15.78
+643590,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,24.5
+649681,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,7.52
+649682,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,8.71
+649683,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,8.03
+649930,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,7.69
+649931,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,8.86
+649932,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,8.24
+649933,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,7.82
+649934,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,9
+649935,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,8.32
+650928,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,29.58
+651011,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,28.47
+651012,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,29.73
+667093,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2020,2020-01-01T00:00:00.000,18.43
+667094,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2020,2020-01-01T00:00:00.000,25.29
+667095,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2020,2020-01-01T00:00:00.000,14.29
+667591,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2020,2020-01-01T00:00:00.000,19.14
+667592,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2020,2020-01-01T00:00:00.000,26.15
+667593,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2020,2020-01-01T00:00:00.000,15.02
+667597,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2020,2020-01-01T00:00:00.000,18.77
+667598,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2020,2020-01-01T00:00:00.000,25.34
+667599,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2020,2020-01-01T00:00:00.000,14.77
+669585,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2020,2020-01-01T00:00:00.000,6.3
+669586,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2020,2020-01-01T00:00:00.000,7.25
+669587,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2020,2020-01-01T00:00:00.000,7.48
+669588,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2020,2020-01-01T00:00:00.000,6.56
+669589,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2020,2020-01-01T00:00:00.000,7.52
+669590,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2020,2020-01-01T00:00:00.000,7.73
+669818,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2020,2020-01-01T00:00:00.000,7.52
+669819,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2020,2020-01-01T00:00:00.000,7.34
+669820,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2020,2020-01-01T00:00:00.000,6.36
+670889,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2020,2020-01-01T00:00:00.000,31.52
+670890,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2020,2020-01-01T00:00:00.000,30.55
+670973,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2020,2020-01-01T00:00:00.000,31.49
+740911,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2021,2021-01-01T00:00:00.000,21.86906445
+740912,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2021,2021-01-01T00:00:00.000,15.1106655
+740913,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2021,2021-01-01T00:00:00.000,18.51667627
+741160,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2021,2021-01-01T00:00:00.000,22.11981526
+741161,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2021,2021-01-01T00:00:00.000,15.25781582
+741162,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2021,2021-01-01T00:00:00.000,18.74887523
+741163,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2021,2021-01-01T00:00:00.000,22.37779025
+741164,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2021,2021-01-01T00:00:00.000,16.1878592
+741165,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2021,2021-01-01T00:00:00.000,19.30604564
+742180,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2021,2021-01-01T00:00:00.000,7.055217343
+742181,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2021,2021-01-01T00:00:00.000,8.966066841
+742182,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2021,2021-01-01T00:00:00.000,6.979984447
+742429,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2021,2021-01-01T00:00:00.000,6.907172966
+742430,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2021,2021-01-01T00:00:00.000,8.800424193
+742431,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2021,2021-01-01T00:00:00.000,6.842618821
+742432,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2021,2021-01-01T00:00:00.000,7.413674015
+742433,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2021,2021-01-01T00:00:00.000,9.30273131
+742434,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2021,2021-01-01T00:00:00.000,7.291174225
+743636,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2021,2021-01-01T00:00:00.000,29.13468987
+743637,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2021,2021-01-01T00:00:00.000,28.78265953
+743720,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2021,2021-01-01T00:00:00.000,29.45204851
+799779,646,Outdoor Air Toxics - Benzene,Annual average concentration,Âµg/m3,UHF42,107,Hunts Point - Mott Haven,2014,2014-01-01T00:00:00.000,1.060250229
+799821,647,Outdoor Air Toxics - Formaldehyde,Annual average concentration,Âµg/m3,UHF42,107,Hunts Point - Mott Haven,2014,2014-01-01T00:00:00.000,1.72533378
+816787,643,Traffic density,Million miles,per square mile,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,51.448492
+816788,643,Traffic density,Million miles,per square mile,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,44.762653
+816789,643,Traffic density,Million miles,per square mile,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,83.883878
+816790,643,Traffic density,Million miles,per square mile,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,75.642848
+816887,643,Traffic density,Million miles,per square mile,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,57.430409
+816888,643,Traffic density,Million miles,per square mile,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,50.450155
+816937,644,Traffic density (cars),Million miles,per square mile,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,46.177956
+816938,644,Traffic density (cars),Million miles,per square mile,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,51.442868
+817035,644,Traffic density (cars),Million miles,per square mile,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,68.396365
+817036,644,Traffic density (cars),Million miles,per square mile,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,73.759705
+817037,644,Traffic density (cars),Million miles,per square mile,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,41.14552
+817038,644,Traffic density (cars),Million miles,per square mile,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,46.497254
+817151,645,Traffic density (trucks),Million miles,per square mile,UHF42,107,Hunts Point - Mott Haven,2010,2010-01-01T00:00:00.000,2.79971
+817152,645,Traffic density (trucks),Million miles,per square mile,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,4.29022
+817249,645,Traffic density (trucks),Million miles,per square mile,CD,201,Mott Haven and Melrose (CD1),2010,2010-01-01T00:00:00.000,5.020524
+817250,645,Traffic density (trucks),Million miles,per square mile,CD,201,Mott Haven and Melrose (CD1),2019,2019-01-01T00:00:00.000,7.573504
+817251,645,Traffic density (trucks),Million miles,per square mile,CD,202,Hunts Point and Longwood (CD2),2010,2010-01-01T00:00:00.000,2.328497
+817252,645,Traffic density (trucks),Million miles,per square mile,CD,202,Hunts Point and Longwood (CD2),2019,2019-01-01T00:00:00.000,3.417027
+823155,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2022,2022-01-01T00:00:00.000,7.163027195
+823156,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2022,2022-01-01T00:00:00.000,6.123500683
+823157,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2022,2022-01-01T00:00:00.000,7.632038452
+823158,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2022,2022-01-01T00:00:00.000,7.453216161
+823159,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2022,2022-01-01T00:00:00.000,6.515231572
+823188,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2022,2022-01-01T00:00:00.000,7.083975811
+823306,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2022,2022-01-01T00:00:00.000,6.24082796
+823307,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2022,2022-01-01T00:00:00.000,7.222672542
+823308,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2022,2022-01-01T00:00:00.000,7.286723462
+825777,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2022,2022-01-01T00:00:00.000,17.35166499
+825778,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2022,2022-01-01T00:00:00.000,13.42292044
+825779,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2022,2022-01-01T00:00:00.000,23.4007227
+825813,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2022,2022-01-01T00:00:00.000,14.0495527
+825814,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2022,2022-01-01T00:00:00.000,23.4564059
+825999,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2022,2022-01-01T00:00:00.000,17.82998989
+826000,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2022,2022-01-01T00:00:00.000,24.47918464
+826001,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2022,2022-01-01T00:00:00.000,14.15757339
+826002,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2022,2022-01-01T00:00:00.000,18.11608953
+827035,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2022,2022-01-01T00:00:00.000,32.82476154
+827036,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2022,2022-01-01T00:00:00.000,31.85882124
+827137,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2022,2022-01-01T00:00:00.000,32.90099328
+827421,657,Asthma emergency department visits due to PM2.5,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,83
+827469,648,Asthma emergency department visits due to PM2.5,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,147
+827492,651,Cardiovascular hospitalizations due to PM2.5 (age 40+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,14
+827565,639,Deaths due to PM2.5,Estimated annual rate (age 30+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,39
+827588,650,Respiratory hospitalizations due to PM2.5 (age 20+),Estimated annual rate,"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,15
+827828,653,Asthma emergency department visits due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,192
+827876,659,Asthma emergency department visits due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,116
+828019,655,Asthma hospitalizations due to Ozone,Estimated annual rate (under age 18),"per 100,000 children",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,34
+828067,661,Asthma hospitalizations due to Ozone,Estimated annual rate (age 18+),"per 100,000 adults",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,11
+828163,652,Cardiac and respiratory deaths due to Ozone,Estimated annual rate,"per 100,000",UHF42,107,Hunts Point - Mott Haven,2017-2019,2017-01-01T00:00:00.000,4
+874340,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2023,2023-01-01T00:00:00.000,6.746809888
+874341,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2023,2023-01-01T00:00:00.000,9.515300705
+874342,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2023,2023-01-01T00:00:00.000,7.159500847
+874493,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2023,2023-01-01T00:00:00.000,9.493704165
+874494,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2023,2023-01-01T00:00:00.000,7.093354653
+874591,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2023,2023-01-01T00:00:00.000,6.626513845
+874592,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2023,2023-01-01T00:00:00.000,7.398307426
+874593,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2023,2023-01-01T00:00:00.000,9.725961313
+874594,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2023,2023-01-01T00:00:00.000,7.03025526
+876878,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2023,2023-01-01T00:00:00.000,17.52685837
+876879,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2023,2023-01-01T00:00:00.000,14.78510714
+876880,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2023,2023-01-01T00:00:00.000,21.80011208
+877127,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2023,2023-01-01T00:00:00.000,17.71582761
+877128,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2023,2023-01-01T00:00:00.000,14.89235269
+877129,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2023,2023-01-01T00:00:00.000,21.74063621
+877130,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2023,2023-01-01T00:00:00.000,18.29599911
+877131,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2023,2023-01-01T00:00:00.000,15.26199906
+877132,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2023,2023-01-01T00:00:00.000,22.53750523
+878157,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2023,2023-01-01T00:00:00.000,33.48798478
+878158,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2023,2023-01-01T00:00:00.000,32.37118901
+878241,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2023,2023-01-01T00:00:00.000,33.38337979
+906376,642,Boiler emissions (NOx),Tons,per square kilometer,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,31.81395626
+906399,641,Boiler emissions (PM2.5),Tons,per square kilometer,UHF42,107,Hunts Point - Mott Haven,2019,2019-01-01T00:00:00.000,2.018220394
+979153,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2024,2024-01-01T00:00:00.000,7.220022773
+979154,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2024,2024-01-01T00:00:00.000,6.79537083
+979269,1425,Fine particles (PM 2.5),Annual mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2024,2024-01-01T00:00:00.000,6.885882219
+979328,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2024,2024-01-01T00:00:00.000,8.936051725
+979329,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2024,2024-01-01T00:00:00.000,8.399981948
+979412,1426,Fine particles (PM 2.5),Summer mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2024,2024-01-01T00:00:00.000,8.545609307
+979470,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,UHF42,107,Hunts Point - Mott Haven,2024,2024-01-01T00:00:00.000,6.57516587
+979521,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,201,Mott Haven and Melrose (CD1),2024,2024-01-01T00:00:00.000,6.617794562
+979522,1427,Fine particles (PM 2.5),Winter mean,mcg/m3,CD,202,Hunts Point and Longwood (CD2),2024,2024-01-01T00:00:00.000,6.757083589
+980002,1431,Nitrogen dioxide (NO2),Annual mean,ppb,UHF42,107,Hunts Point - Mott Haven,2024,2024-01-01T00:00:00.000,15.22265105
+980067,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,202,Hunts Point and Longwood (CD2),2024,2024-01-01T00:00:00.000,15.23075221
+980068,1431,Nitrogen dioxide (NO2),Annual mean,ppb,CD,201,Mott Haven and Melrose (CD1),2024,2024-01-01T00:00:00.000,16.10202485
+980168,1433,Nitrogen dioxide (NO2),Winter mean,ppb,UHF42,107,Hunts Point - Mott Haven,2024,2024-01-01T00:00:00.000,19.93417823
+980225,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2024,2024-01-01T00:00:00.000,12.90026108
+980226,1432,Nitrogen dioxide (NO2),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2024,2024-01-01T00:00:00.000,13.89563001
+980309,1432,Nitrogen dioxide (NO2),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2024,2024-01-01T00:00:00.000,12.91510354
+980382,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,201,Mott Haven and Melrose (CD1),2024,2024-01-01T00:00:00.000,20.71154826
+980383,1433,Nitrogen dioxide (NO2),Winter mean,ppb,CD,202,Hunts Point and Longwood (CD2),2024,2024-01-01T00:00:00.000,19.82952856
+980482,1435,Ozone (O3),Summer mean,ppb,UHF42,107,Hunts Point - Mott Haven,2024,2024-01-01T00:00:00.000,34.26261751
+980508,1435,Ozone (O3),Summer mean,ppb,CD,201,Mott Haven and Melrose (CD1),2024,2024-01-01T00:00:00.000,33.12405618
+980509,1435,Ozone (O3),Summer mean,ppb,CD,202,Hunts Point and Longwood (CD2),2024,2024-01-01T00:00:00.000,34.51590567

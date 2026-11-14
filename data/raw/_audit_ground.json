@@ -1,0 +1,298 @@
+{
+  "ssurgo": [
+    {
+      "mukey": "2482613",
+      "musym": "UmA",
+      "muname": "Urban land, tidal marsh substratum, 0 to 3 percent slopes",
+      "compname": "Urban land",
+      "comppct_r": "92",
+      "drainagecl": NaN,
+      "hydgrp": NaN
+    },
+    {
+      "mukey": "2482655",
+      "musym": "UoB",
+      "muname": "Urban land, outwash substratum, 3 to 8 percent slopes",
+      "compname": "Urban land",
+      "comppct_r": "92",
+      "drainagecl": NaN,
+      "hydgrp": NaN
+    },
+    {
+      "mukey": "2482656",
+      "musym": "UoA",
+      "muname": "Urban land, outwash substratum, 0 to 3 percent slopes",
+      "compname": "Urban land",
+      "comppct_r": "92",
+      "drainagecl": NaN,
+      "hydgrp": NaN
+    },
+    {
+      "mukey": "2515373",
+      "musym": "UGAl",
+      "muname": "Urban land-Greenbelt complex, 0 to 3 percent slopes, low impervious surface",
+      "compname": "Greenbelt",
+      "comppct_r": "25",
+      "drainagecl": "Well drained",
+      "hydgrp": "B"
+    },
+    {
+      "mukey": "2515373",
+      "musym": "UGAl",
+      "muname": "Urban land-Greenbelt complex, 0 to 3 percent slopes, low impervious surface",
+      "compname": "Urban land",
+      "comppct_r": "60",
+      "drainagecl": NaN,
+      "hydgrp": NaN
+    },
+    {
+      "mukey": "2515374",
+      "musym": "UGBl",
+      "muname": "Urban land-Greenbelt complex, 3 to 8 percent slopes, low impervious surface",
+      "compname": "Greenbelt",
+      "comppct_r": "25",
+      "drainagecl": "Well drained",
+      "hydgrp": "B"
+    },
+    {
+      "mukey": "2515374",
+      "musym": "UGBl",
+      "muname": "Urban land-Greenbelt complex, 3 to 8 percent slopes, low impervious surface",
+      "compname": "Urban land",
+      "comppct_r": "60",
+      "drainagecl": NaN,
+      "hydgrp": NaN
+    },
+    {
+      "mukey": "2518883",
+      "musym": "UrA",
+      "muname": "Urban land, reclaimed substratum, 0 to 3 percent slopes",
+      "compname": "Urban land",
+      "comppct_r": "92",
+      "drainagecl": NaN,
+      "hydgrp": NaN
+    },
+    {
+      "mukey": "2519405",
+      "musym": "UGA",
+      "muname": "Urban land-Greenbelt complex, 0 to 3 percent slopes",
+      "compname": "Greenbelt",
+      "comppct_r": "12",
+      "drainagecl": "Well drained",
+      "hydgrp": "B"
+    },
+    {
+      "mukey": "2519405",
+      "musym": "UGA",
+      "muname": "Urban land-Greenbelt complex, 0 to 3 percent slopes",
+      "compname": "Urban land",
+      "comppct_r": "78",
+      "drainagecl": NaN,
+      "hydgrp": NaN
+    },
+    {
+      "mukey": "2589171",
+      "musym": "UFA",
+      "muname": "Urban land-Flatbush complex, 0 to 3 percent slopes",
+      "compname": "Flatbush",
+      "comppct_r": "12",
+      "drainagecl": "Well drained",
+      "hydgrp": "B"
+    },
+    {
+      "mukey": "2589171",
+      "musym": "UFA",
+      "muname": "Urban land-Flatbush complex, 0 to 3 percent slopes",
+      "compname": "Urban land",
+      "comppct_r": "75",
+      "drainagecl": NaN,
+      "hydgrp": NaN
+    }
+  ],
+  "311_tree_sidewalk_core_2020plus": [
+    {
+      "complaint_type": "Noise - Street/Sidewalk",
+      "descriptor": "Loud Music/Party",
+      "n": "1936"
+    },
+    {
+      "complaint_type": "Noise - Street/Sidewalk",
+      "descriptor": "Loud Talking",
+      "n": "93"
+    },
+    {
+      "complaint_type": "New Tree Request",
+      "descriptor": "For One Address",
+      "n": "70"
+    },
+    {
+      "complaint_type": "Sidewalk Condition",
+      "descriptor": "Broken Sidewalk",
+      "n": "68"
+    },
+    {
+      "complaint_type": "Sidewalk Condition",
+      "descriptor": "Sidewalk Violation",
+      "n": "31"
+    },
+    {
+      "complaint_type": "Damaged Tree",
+      "descriptor": "Branch or Limb Has Fallen Down",
+      "n": "20"
+    },
+    {
+      "complaint_type": "Overgrown Tree/Branches",
+      "descriptor": "Hitting Building",
+      "n": "18"
+    },
+    {
+      "complaint_type": "Damaged Tree",
+      "descriptor": "Entire Tree Has Fallen Down",
+      "n": "14"
+    },
+    {
+      "complaint_type": "Sidewalk Condition",
+      "descriptor": "Sidewalk Collapsed",
+      "n": "13"
+    },
+    {
+      "complaint_type": "Damaged Tree",
+      "descriptor": "Branch Cracked and Will Fall",
+      "n": "7"
+    },
+    {
+      "complaint_type": "Dead/Dying Tree",
+      "descriptor": "Planted More Than 2 Years Ago",
+      "n": "6"
+    },
+    {
+      "complaint_type": "Overgrown Tree/Branches",
+      "descriptor": "Blocking Street",
+      "n": "5"
+    },
+    {
+      "complaint_type": "Damaged Tree",
+      "descriptor": "Tree Alive - in Poor Condition",
+      "n": "5"
+    },
+    {
+      "complaint_type": "Root/Sewer/Sidewalk Condition",
+      "descriptor": "Trees and Sidewalks Program",
+      "n": "4"
+    },
+    {
+      "complaint_type": "Damaged Tree",
+      "descriptor": "Tree Leaning/Uprooted",
+      "n": "3"
+    },
+    {
+      "complaint_type": "Sidewalk Condition",
+      "descriptor": "Blocked - Construction",
+      "n": "2"
+    },
+    {
+      "complaint_type": "Overgrown Tree/Branches",
+      "descriptor": "Dead Branches in Tree",
+      "n": "2"
+    },
+    {
+      "complaint_type": "Illegal Tree Damage",
+      "descriptor": "Roots Damaged",
+      "n": "2"
+    },
+    {
+      "complaint_type": "Illegal Tree Damage",
+      "descriptor": "Trunk Damaged",
+      "n": "1"
+    },
+    {
+      "complaint_type": "Sidewalk Condition",
+      "descriptor": "Sidewalk Grating - Defective",
+      "n": "1"
+    },
+    {
+      "complaint_type": "Sidewalk Condition",
+      "descriptor": "Sidewalk Grating - Missing",
+      "n": "1"
+    },
+    {
+      "complaint_type": "Overgrown Tree/Branches",
+      "descriptor": "Traffic Sign or Signal Blocked",
+      "n": "1"
+    }
+  ],
+  "hvi": {
+    "rows": 184,
+    "columns": [
+      "zcta20",
+      "hvi"
+    ],
+    "bronx_10454_10451": [
+      {
+        "zcta20": "10454",
+        "hvi": "5"
+      },
+      {
+        "zcta20": "10451",
+        "hvi": "5"
+      }
+    ]
+  },
+  "nyccas_air_quality": {
+    "rows": 427,
+    "indicators": [
+      "Asthma emergency department visits due to Ozone",
+      "Asthma emergency department visits due to PM2.5",
+      "Asthma hospitalizations due to Ozone",
+      "Boiler emissions (NOx)",
+      "Boiler emissions (PM2.5)",
+      "Boiler emissions (SO2)",
+      "Cardiac and respiratory deaths due to Ozone",
+      "Cardiovascular hospitalizations due to PM2.5 (age 40+)",
+      "Deaths due to PM2.5",
+      "Fine particles (PM 2.5)",
+      "Nitrogen dioxide (NO2)",
+      "Outdoor Air Toxics - Benzene",
+      "Outdoor Air Toxics - Formaldehyde",
+      "Ozone (O3)",
+      "Respiratory hospitalizations due to PM2.5 (age 20+)",
+      "Traffic density",
+      "Traffic density (cars)",
+      "Traffic density (trucks)"
+    ],
+    "periods": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ]
+  },
+  "nws_stations_nearest": [
+    [
+      "KNYC",
+      "New York City, Central Park"
+    ],
+    [
+      "KLGA",
+      "New York, La Guardia Airport"
+    ],
+    [
+      "KTEB",
+      "Teterboro, Teterboro Airport"
+    ],
+    [
+      "KJFK",
+      "New York, Kennedy International Airport"
+    ],
+    [
+      "KEWR",
+      "Newark, Newark International Airport"
+    ],
+    [
+      "KCDW",
+      "Caldwell, Essex County Airport"
+    ]
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "K_expanded_soil": 30,
+  "generations": 400,
+  "pareto_size": 200,
+  "feasible_pareto": 200,
+  "sites": 121,
+  "known_wired_sites": 11,
+  "narrow_sites": 15,
+  "plans": {
+    "max_cooling": {
+      "exp_cooled_m2": 3011.9,
+      "allergy_isoprene_score": 329.5,
+      "ecology_score": 134.2,
+      "violation": 0.0,
+      "n_species": 30,
+      "n_expanded_soil": 30,
+      "top_genus_share_after": {
+        "Quercus": 0.165,
+        "Platanus": 0.165,
+        "Tilia": 0.082
+      },
+      "verify_wires_sites": 75,
+      "species_mix_top5": {
+        "Gymnocladus dioicus": 16,
+        "Gleditsia triacanthos var. inermis": 15,
+        "Tilia tomentosa": 12,
+        "Tilia x euchlora": 10,
+        "Tilia cordata": 6
+      }
+    },
+    "health_first": {
+      "exp_cooled_m2": 2558.6,
+      "allergy_isoprene_score": 231.0,
+      "ecology_score": 143.3,
+      "violation": 0.0,
+      "n_species": 21,
+      "n_expanded_soil": 23,
+      "top_genus_share_after": {
+        "Platanus": 0.165,
+        "Quercus": 0.153,
+        "Tilia": 0.082
+      },
+      "verify_wires_sites": 56,
+      "species_mix_top5": {
+        "Tilia tomentosa": 18,
+        "Gymnocladus dioicus": 18,
+        "Koelreuteria paniculata": 14,
+        "Syringa reticulata": 10,
+        "Tilia x euchlora": 10
+      }
+    },
+    "ecology_first": {
+      "exp_cooled_m2": 2508.3,
+      "allergy_isoprene_score": 326.0,
+      "ecology_score": 191.8,
+      "violation": 0.0,
+      "n_species": 25,
+      "n_expanded_soil": 23,
+      "top_genus_share_after": {
+        "Quercus": 0.167,
+        "Platanus": 0.165,
+        "Tilia": 0.091
+      },
+      "verify_wires_sites": 54,
+      "species_mix_top5": {
+        "Tilia tomentosa": 27,
+        "Amelanchier sp.": 20,
+        "Carpinus caroliniana": 13,
+        "Gymnocladus dioicus": 8,
+        "Prunus virginiana 'Schubert'": 7
+      }
+    },
+    "balanced": {
+      "exp_cooled_m2": 2800.9,
+      "allergy_isoprene_score": 304.5,
+      "ecology_score": 175.8,
+      "violation": 0.0,
+      "n_species": 26,
+      "n_expanded_soil": 28,
+      "top_genus_share_after": {
+        "Quercus": 0.165,
+        "Platanus": 0.165,
+        "Tilia": 0.103
+      },
+      "verify_wires_sites": 66,
+      "species_mix_top5": {
+        "Tilia tomentosa": 25,
+        "Gymnocladus dioicus": 16,
+        "Amelanchier sp.": 15,
+        "Tilia x euchlora": 11,
+        "Prunus virginiana 'Schubert'": 8
+      }
+    }
+  },
+  "baselines": {
+    "random": {
+      "exp_cooled_m2": 2189.6,
+      "allergy_isoprene_score": 378.0,
+      "ecology_score": 110.8,
+      "violation": 0.0,
+      "n_species": 39,
+      "n_expanded_soil": 30,
+      "top_genus_share_after": {
+        "Quercus": 0.19,
+        "Platanus": 0.165,
+        "Zelkova": 0.076
+      },
+      "verify_wires_sites": 31,
+      "species_mix_top5": {
+        "Cornus mas": 8,
+        "Quercus robur": 8,
+        "Syringa reticulata": 8,
+        "Cercis canadensis": 8,
+        "Prunus virginiana 'Schubert'": 6
+      }
+    },
+    "largest_feasible": {
+      "exp_cooled_m2": 2942.9,
+      "allergy_isoprene_score": 429.0,
+      "ecology_score": 89.7,
+      "violation": 0.0,
+      "n_species": 19,
+      "n_expanded_soil": 30,
+      "top_genus_share_after": {
+        "Quercus": 0.187,
+        "Platanus": 0.165,
+        "Zelkova": 0.072
+      },
+      "verify_wires_sites": 97,
+      "species_mix_top5": {
+        "Metasequoia glyptostroboides": 17,
+        "Tilia cordata": 17,
+        "Ginkgo biloba": 16,
+        "Quercus spp. 'Fastigiata'": 16,
+        "Gymnocladus dioicus": 15
+      }
+    },
+    "nyc_common_mix": {
+      "exp_cooled_m2": 2954.6,
+      "allergy_isoprene_score": 426.0,
+      "ecology_score": 87.2,
+      "violation": 0.0,
+      "n_species": 17,
+      "n_expanded_soil": 30,
+      "top_genus_share_after": {
+        "Quercus": 0.18,
+        "Platanus": 0.165,
+        "Zelkova": 0.101
+      },
+      "verify_wires_sites": 81,
+      "species_mix_top5": {
+        "Styphnolobium japonicum": 25,
+        "Zelkova serrata": 17,
+        "Ginkgo biloba": 17,
+        "Gleditsia triacanthos var. inermis": 16,
+        "Quercus palustris": 16
+      }
+    }
+  }
+}

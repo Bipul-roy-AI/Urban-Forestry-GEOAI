@@ -1,0 +1,47 @@
+{
+  "weather": "2025-06-24 13-16 EDT, Ta max ~37.8 C (bias-corrected ERA5)",
+  "hours_averaged": 4,
+  "sanity_existing_canopy": {
+    "tmrt_pm_sidewalk_under_canopy_c": 45.1,
+    "tmrt_pm_sidewalk_open_c": 60.1
+  },
+  "core_sidewalk_tmrt_pm_c": {
+    "S0_current": 56.99,
+    "S1_plant_10yr": 56.54,
+    "S2_plant_20yr": 56.13
+  },
+  "core_sidewalk_share_tmrt_gt_60c": {
+    "S0_current": 0.49,
+    "S1_plant_10yr": 0.469,
+    "S2_plant_20yr": 0.455
+  },
+  "per_site_median": {
+    "dTmrt_S1_plant_10yr_mean15m_c": -2.52,
+    "cooled_sidewalk_m2_gt10c_S1_plant_10yr": 13.0,
+    "new_canopy_m2_S1_plant_10yr": 19.0,
+    "dTmrt_S2_plant_20yr_mean15m_c": -4.79,
+    "cooled_sidewalk_m2_gt10c_S2_plant_20yr": 27.0,
+    "new_canopy_m2_S2_plant_20yr": 49.0,
+    "o3_g_per_yr_S1_plant_10yr": 76.97,
+    "no2_g_per_yr_S1_plant_10yr": 25.13,
+    "pm25_g_per_yr_S1_plant_10yr": 3.98,
+    "runoff_L_per_yr_S1_plant_10yr": 225.54,
+    "o3_g_per_yr_S2_plant_20yr": 198.5,
+    "no2_g_per_yr_S2_plant_20yr": 64.82,
+    "pm25_g_per_yr_S2_plant_20yr": 10.26,
+    "runoff_L_per_yr_S2_plant_20yr": 581.65
+  },
+  "all_candidates_total_per_yr_20yr": {
+    "o3_g": 20056.4,
+    "no2_g": 6549.1,
+    "pm25_g": 1036.9,
+    "runoff_L": 58770.7
+  },
+  "rates_per_m2_canopy_per_yr": {
+    "o3_g": 4.051,
+    "no2_g": 1.323,
+    "pm25_g": 0.209,
+    "runoff_L": 11.87
+  },
+  "n_sites": 121
+}

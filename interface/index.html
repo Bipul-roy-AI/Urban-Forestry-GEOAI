@@ -1,0 +1,369 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mott Haven Tree Planner</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky control bar; map-first two-column workspace (map | site + plan panel), then comparison, Q&A, caveats. */
+:root{
+  --bg:#f3f5f2; --surface:#ffffff; --ink:#18221d; --muted:#5c6b63; --line:#d7ded9;
+  --canopy:#1f6b4a; --canopy-2:#3f9d6e; --leaf:#9bd17a; --soil:#00a7c4; --flag:#d6332b; --heat:#e3762b;
+  --chip:#e8efe9; --shadow:0 1px 2px rgba(20,40,30,.08);
+  --f-display:"Archivo", "Helvetica Neue", Arial, sans-serif;
+  --f-body:"Public Sans", "Segoe UI", system-ui, sans-serif;
+  --f-data:"IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1512; --surface:#17201b; --ink:#e4ece6; --muted:#9aaba1; --line:#2a3631;
+  --canopy:#5cc58f; --canopy-2:#3f9d6e; --leaf:#b5e39a; --soil:#3fd2ec; --flag:#ff6b61; --heat:#f39a52;
+  --chip:#20302a; --shadow:none; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1512; --surface:#17201b; --ink:#e4ece6; --muted:#9aaba1; --line:#2a3631;
+  --canopy:#5cc58f; --canopy-2:#3f9d6e; --leaf:#b5e39a; --soil:#3fd2ec; --flag:#ff6b61; --heat:#f39a52;
+  --chip:#20302a; --shadow:none; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));max-width:1440px;margin:0 auto}
+header.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+header.bar .wrap{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;padding-block:12px}
+h1{font-family:var(--f-display);font-weight:800;font-size:1.3rem;letter-spacing:-.01em;margin:0;text-wrap:balance}
+h1 small{display:block;font-family:var(--f-body);font-weight:500;font-size:.78rem;color:var(--muted);letter-spacing:0}
+.controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:end;margin-left:auto}
+label.ctl{display:grid;gap:2px;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+select,textarea,button{font:inherit;color:var(--ink)}
+select{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px;text-transform:none;letter-spacing:0;font-size:.9rem}
+main .wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;padding-block:20px}
+.work{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:900px){.work{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);min-width:0}
+.panel>h2,.sec h2{font-family:var(--f-display);font-size:1rem;font-weight:700;margin:0;padding:14px 16px 0}
+.pad{padding:12px 16px 16px}
+.mapbox{position:relative}
+svg.map{display:block;width:100%;height:auto;border-radius:10px 10px 0 0;background:var(--bg);touch-action:manipulation}
+.map .bld{fill:var(--surface);fill-opacity:.18;stroke:var(--ink);stroke-opacity:.35;stroke-width:.6}
+.map .core{fill:none;stroke:var(--soil);stroke-width:2;stroke-dasharray:8 6}
+.map .site{cursor:pointer;stroke:#0d1a14;stroke-width:1.2}
+.map .site:focus-visible,.map .site.sel{stroke:#fff;stroke-width:5}
+.map .halo{fill:none;stroke:#fff;stroke-width:3;stroke-dasharray:4 3;pointer-events:none}
+.map .ring{fill:none;stroke:var(--soil);stroke-width:2.6;pointer-events:none}
+.map .flag{stroke:var(--flag);stroke-width:3.4;stroke-linecap:round;pointer-events:none}
+.map .flag-bg{stroke:#fff;stroke-width:6;stroke-linecap:round;pointer-events:none}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;padding:10px 16px;border-top:1px solid var(--line);font-size:.8rem;color:var(--muted);align-items:center}
+.legend i{display:inline-block;vertical-align:middle;margin-right:5px;border-radius:50%;border:1px solid var(--ink)}
+.ramp{display:inline-block;width:110px;height:9px;border-radius:2px;vertical-align:middle;background:linear-gradient(90deg,#000004,#420a68,#932667,#dd513a,#fca50a,#fcffa4)}
+.toggle{margin-left:auto;display:flex;gap:6px;align-items:center}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.stat{background:var(--chip);border-radius:8px;padding:10px 12px}
+.stat b{display:block;font-family:var(--f-data);font-size:1.25rem;font-weight:500;font-variant-numeric:tabular-nums}
+.stat span{font-size:.75rem;color:var(--muted)}
+.kv{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 14px;font-size:.88rem;margin:0}
+.kv dt{color:var(--muted)} .kv dd{margin:0;font-variant-numeric:tabular-nums;min-width:0;overflow-wrap:anywhere}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--chip)}
+.chip.warn{background:color-mix(in srgb,var(--flag) 18%,transparent);color:var(--flag)}
+.chip.ok{background:color-mix(in srgb,var(--canopy) 18%,transparent);color:var(--canopy)}
+.chip.soil{background:color-mix(in srgb,var(--soil) 20%,transparent);color:var(--ink)}
+.empty{color:var(--muted);font-size:.9rem}
+.mix{list-style:none;margin:0;padding:0;display:grid;gap:4px;font-size:.85rem}
+.mix li{display:grid;grid-template-columns:minmax(0,1fr) 30px 90px;gap:8px;align-items:center}
+.mix .bar{height:7px;border-radius:4px;background:var(--canopy-2)}
+.mix .n{font-family:var(--f-data);text-align:right;font-variant-numeric:tabular-nums}
+.tablebox{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem;min-width:640px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
+td{font-family:var(--f-data);font-variant-numeric:tabular-nums}
+td:first-child{font-family:var(--f-body)}
+tr.cur td{background:var(--chip);font-weight:600}
+.cell{display:flex;gap:8px;align-items:center;justify-content:flex-end}
+.mini{height:6px;border-radius:3px;background:var(--muted);opacity:.55}
+.mini.good{background:var(--canopy-2);opacity:1}
+.qa{display:grid;gap:10px}
+.qa textarea{width:100%;min-height:72px;resize:vertical;border:1px solid var(--line);border-radius:8px;padding:10px;background:var(--bg)}
+.qa .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:7px 12px;cursor:pointer;font-weight:600;font-size:.88rem}
+button.primary{background:var(--canopy);border-color:var(--canopy);color:var(--surface)}
+button:disabled{opacity:.5;cursor:default}
+button:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--soil);outline-offset:2px}
+.sugg{display:flex;flex-wrap:wrap;gap:6px}
+.sugg button{font-weight:500;font-size:.8rem;padding:4px 10px;border-radius:999px}
+.turns{display:grid;gap:10px}
+.turn{border-radius:8px;padding:10px 12px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:.9rem;max-width:75ch}
+.turn.u{background:var(--chip);justify-self:end}
+.turn.a{border:1px solid var(--line)}
+.note{font-size:.8rem;color:var(--muted)}
+.caveats{margin:0;padding-left:18px;display:grid;gap:4px;font-size:.86rem;max-width:90ch}
+footer{color:var(--muted);font-size:.78rem;padding-block:8px 28px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="bar"><div class="wrap">
+  <h1>Mott Haven Tree Planner<small>Third Avenue pilot · 121 candidate planting spaces · South Bronx, NYC</small></h1>
+  <div class="controls">
+    <label class="ctl" for="plan">Plan
+      <select id="plan">
+        <option value="balanced">Balanced (recommended)</option>
+        <option value="max_cooling">Maximum cooling</option>
+        <option value="health_first">Health first</option>
+        <option value="ecology_first">Ecology first</option>
+        <option value="baseline_largest_feasible">Rule: biggest tree that fits</option>
+        <option value="baseline_nyc_common_mix">Rule: NYC common mix</option>
+        <option value="baseline_random">Random approved species</option>
+      </select></label>
+    <label class="ctl" for="kval">Expanded-soil budget
+      <select id="kval"><option value="0">0 sites</option><option value="30" selected>30 sites</option><option value="60">60 sites</option></select></label>
+  </div>
+</div></header>
+
+<main><div class="wrap">
+  <section class="work">
+    <div class="panel mapbox">
+      <svg class="map" id="map" role="img" aria-label="Map of candidate planting sites over afternoon pedestrian heat"></svg>
+      <div class="legend">
+        <span><span class="ramp"></span> Tmrt 35–72 °C</span>
+        <span><i style="width:8px;height:8px;background:var(--leaf)"></i>small</span>
+        <span><i style="width:10px;height:10px;background:var(--canopy-2)"></i>medium</span>
+        <span><i style="width:13px;height:13px;background:var(--canopy)"></i>large</span>
+        <span><i style="width:13px;height:13px;border:2px solid var(--soil);background:none"></i>expanded soil</span>
+        <span style="color:var(--flag);font-weight:700">×</span><span>verify on site</span>
+        <label class="toggle" for="heat"><input type="checkbox" id="heat" checked> heat layer</label>
+      </div>
+    </div>
+
+    <div style="display:grid;gap:20px;min-width:0">
+      <div class="panel">
+        <h2 id="planTitle">Plan</h2>
+        <div class="pad" style="display:grid;gap:12px">
+          <div class="stats" id="stats"></div>
+          <div class="note" id="genus"></div>
+        </div>
+      </div>
+      <div class="panel">
+        <h2>Selected site</h2>
+        <div class="pad" id="site"><p class="empty">Select a site on the map to see its species, heat benefit, risk and field checks.</p></div>
+      </div>
+      <div class="panel">
+        <h2>Species mix</h2>
+        <div class="pad"><ul class="mix" id="mix"></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel sec">
+    <h2>Compare plans at this soil budget</h2>
+    <div class="pad tablebox"><table id="cmp"></table>
+      <p class="note">Cooling = sidewalk m² cooled by more than 10 °C at 20 years, adjusted for 5-year failure risk. Allergy + isoprene: lower is better. Ecology (native to NY, pollinators, climate 2070–2099): higher is better.</p></div>
+  </section>
+
+  <section class="panel sec">
+    <h2>Ask about this plan</h2>
+    <div class="pad qa">
+      <div class="sugg" id="sugg">
+        <button type="button">Which five sites give the most cooling, and what goes there?</button>
+        <button type="button">Why does the balanced plan differ from "biggest tree that fits"?</button>
+        <button type="button">Which sites need a wire check before planting?</button>
+        <button type="button">What would 30 more expanded-soil sites buy?</button>
+      </div>
+      <div class="turns" id="turns" aria-live="polite"></div>
+      <label for="q" class="note">Answers use only this page's data for the current plan and soil budget, and say when the data cannot answer.</label>
+      <textarea id="q" placeholder="e.g. Which Third Avenue sites get large trees, and how confident is the survival estimate?"></textarea>
+      <div class="row"><button class="primary" id="ask" type="button">Ask</button><button id="stop" type="button" hidden>Stop</button><button id="clear" type="button">Clear conversation</button><span class="note" id="qastate"></span></div>
+    </div>
+  </section>
+
+  <section class="panel sec">
+    <h2>What these numbers can and cannot tell you</h2>
+    <div class="pad"><ul class="caveats" id="cav"></ul><p class="note" id="wx"></p></div>
+  </section>
+  <footer>Data: NYC Open Data (Forestry Tree Points, Planting Spaces, Work Orders, PLUTO, planimetrics), USGS 3DEP LiDAR 2017, NAIP 2022/23, Landsat 8/9, Sentinel-2, ECOSTRESS, ERA5, NYC Parks approved species list, USDA PLANTS, published trait sources in the project's species knowledge base. Model outputs, not planting approvals.</footer>
+</div></main>
+
+<script>
+const NS = "http://www.w3.org/2000/svg";
+const $ = id => document.getElementById(id);
+let D = null, cur = null, selected = null;
+const LABEL = {balanced:"Balanced (recommended)",max_cooling:"Maximum cooling",health_first:"Health first",ecology_first:"Ecology first",
+  baseline_largest_feasible:"Rule: biggest tree that fits",baseline_nyc_common_mix:"Rule: NYC common mix",baseline_random:"Random approved species"};
+const R = {small:5, intermediate:6.5, medium:8, large:10};
+const COL = {small:"var(--leaf)", intermediate:"var(--canopy-2)", medium:"var(--canopy-2)", large:"var(--canopy)"};
+const fmt = (v, d=0) => v == null ? "–" : Number(v).toLocaleString("en-US", {maximumFractionDigits:d, minimumFractionDigits:d});
+const el = (tag, attrs={}, text) => { const e = document.createElement(tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; return e; };
+const sv = (tag, attrs={}) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); return e; };
+
+try { const s = JSON.parse(localStorage.getItem("mhtp") || "{}"); if (s.plan) $("plan").value = s.plan; if (s.k) $("kval").value = s.k; } catch {}
+
+function fromHash(){ const m = /^#site-(\d+)$/.exec(location.hash); if (m && D && D.sites[+m[1]]) pick(+m[1]); }
+window.addEventListener("hashchange", fromHash);
+fetch("data.json").then(r => r.json()).then(d => { D = d; drawBase(); render(); fromHash(); },
+  () => { $("site").replaceChildren(el("p", {class:"empty"}, "The plan data could not be loaded. Reload the page to try again.")); });
+
+function drawBase(){
+  const [W, H] = D.meta.map_m, m = $("map");
+  m.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  m.append(sv("image", {href:"tmrt.png", x:0, y:0, width:W, height:H, preserveAspectRatio:"none", id:"heatimg"}));
+  m.append(sv("path", {d:D.meta.buildings.join(""), class:"bld"}));
+  m.append(sv("polygon", {points:D.meta.core.map(p => p.join(",")).join(" "), class:"core"}));
+  m.append(sv("g", {id:"sites"}));
+  $("cav").replaceChildren(...D.meta.caveats.map(c => el("li", {}, c)));
+  $("wx").textContent = "Heat scenario: " + D.meta.weather + ".";
+}
+$("heat").addEventListener("change", e => { const i = $("heatimg"); if (i) i.style.display = e.target.checked ? "" : "none"; });
+
+function render(){
+  const key = $("plan").value + "|" + $("kval").value;
+  cur = D.plans[key];
+  try { localStorage.setItem("mhtp", JSON.stringify({plan:$("plan").value, k:$("kval").value})); } catch {}
+  const g = $("sites"); g.replaceChildren();
+  const rows = [...cur.rows].sort((a,b) => (R[b[2]]||0) - (R[a[2]]||0));
+  for (const r of rows){
+    const s = D.sites[r[0]], [x, y] = s.xy, rad = R[r[2]] || 5;
+    if (r[3]) g.append(sv("circle", {cx:x, cy:y, r:rad + 4.5, class:"ring"}));
+    const c = sv("circle", {cx:x, cy:y, r:rad, fill:COL[r[2]] || "var(--muted)", class:"site" + (selected === r[0] ? " sel" : ""), tabindex:0, role:"button", "aria-label":`${s.addr}: ${r[1] || "no tree"}`, "data-i":r[0]});
+    c.addEventListener("click", () => pick(r[0]));
+    c.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(r[0]); } });
+    g.append(c);
+    if (r[6] || r[7]) { const k = rad * .8, d = `M${x-k},${y-k}L${x+k},${y+k}M${x+k},${y-k}L${x-k},${y+k}`;
+      g.append(sv("path", {d, class:"flag-bg"}), sv("path", {d, class:"flag"})); }
+    if (selected === r[0]) g.append(sv("circle", {cx:x, cy:y, r:rad + 10, class:"halo"}));
+  }
+  const m = cur.metrics;
+  $("planTitle").textContent = `${LABEL[cur.name]} · ${cur.K} expanded-soil sites`;
+  $("stats").replaceChildren(
+    stat(fmt(m.exp_cooled_m2), "m² sidewalk cooled >10 °C (20 yr, risk-adjusted)"),
+    stat(fmt(m.allergy_isoprene_score, 1), "allergy + isoprene score (lower is better)"),
+    stat(fmt(m.ecology_score, 1), "ecology score (higher is better)"),
+    stat(m.n_species, "species planted"),
+    stat(m.n_expanded_soil, "expanded-soil installations"),
+    stat(m.verify_wires_sites, "sites needing a wire check"));
+  $("genus").textContent = "Largest genera in the core after planting: " + Object.entries(cur.genus_after).map(([g, v]) => `${g} ${(v*100).toFixed(1)}%`).join(" · ") + " (limit 20%; London planetree is existing, not planted).";
+  const cnt = {}; cur.rows.forEach(r => { if (r[1]) cnt[r[1]] = (cnt[r[1]] || 0) + 1; });
+  const top = Object.entries(cnt).sort((a,b) => b[1]-a[1]), mx = top[0]?.[1] || 1;
+  $("mix").replaceChildren(...top.map(([sp, n]) => { const li = el("li"); li.append(el("span", {}, `${sp}${D.species[sp]?.common ? " · " + D.species[sp].common : ""}`), el("span", {class:"n"}, n)); const b = el("span", {class:"bar"}); b.style.width = (n/mx*90) + "px"; li.append(b); return li; }));
+  compare();
+  if (selected != null) pick(selected);
+}
+function stat(v, label){ const d = el("div", {class:"stat"}); d.append(el("b", {}, String(v)), el("span", {}, label)); return d; }
+
+function compare(){
+  const K = $("kval").value, names = Object.keys(LABEL), ps = names.map(n => D.plans[n + "|" + K]);
+  const best = {c:Math.max(...ps.map(p => p.metrics.exp_cooled_m2)), r:Math.min(...ps.map(p => p.metrics.allergy_isoprene_score)), e:Math.max(...ps.map(p => p.metrics.ecology_score))};
+  const mxr = Math.max(...ps.map(p => p.metrics.allergy_isoprene_score));
+  const t = $("cmp"); t.replaceChildren();
+  const h = el("tr"), th = el("thead"); ["Plan","Cooling m²","Allergy + isoprene","Ecology","Species","Soil sites"].forEach(x => h.append(el("th", {}, x))); th.append(h); t.append(th);
+  const tb = el("tbody"); t.append(tb);
+  ps.forEach((p, i) => {
+    const m = p.metrics, tr = el("tr", {class: names[i] === $("plan").value ? "cur" : ""});
+    tr.append(el("td", {}, LABEL[names[i]]));
+    tr.append(cell(fmt(m.exp_cooled_m2), m.exp_cooled_m2 / best.c, m.exp_cooled_m2 === best.c));
+    tr.append(cell(fmt(m.allergy_isoprene_score, 1), m.allergy_isoprene_score / mxr, m.allergy_isoprene_score === best.r));
+    tr.append(cell(fmt(m.ecology_score, 1), m.ecology_score / best.e, m.ecology_score === best.e));
+    tr.append(el("td", {}, m.n_species)); tr.append(el("td", {}, m.n_expanded_soil));
+    tb.append(tr);
+  });
+}
+function cell(txt, frac, isBest){ const td = el("td"), d = el("div", {class:"cell"}), b = el("span", {class:"mini" + (isBest ? " good" : "")}); b.style.width = Math.max(4, frac*60) + "px"; d.append(b, el("span", {}, txt)); td.append(d); return td; }
+
+function pick(i){
+  const changed = selected !== i;
+  selected = i;
+  if (location.hash !== "#site-" + i) { try { history.replaceState(null, "", "#site-" + i); } catch {} }
+  if (changed) { render(); return; }
+  document.querySelectorAll(".map .site").forEach(c => c.classList.toggle("sel", +c.dataset.i === i));
+  const s = D.sites[i], r = cur.rows.find(x => x[0] === i), box = $("site"); box.replaceChildren();
+  if (!r) { box.append(el("p", {class:"empty"}, "This site is not in the current plan.")); return; }
+  const sp = D.species[r[1]] || {};
+  box.append(el("p", {style:"margin:0 0 8px;font-weight:700;font-family:var(--f-display);font-size:1.05rem"}, r[1] ? `${r[1]}${sp.common ? " · " + sp.common : ""}` : "No tree"));
+  const dl = el("dl", {class:"kv"});
+  const add = (k, v) => { dl.append(el("dt", {}, k), el("dd", {}, v)); };
+  add("Location", s.addr); add("Now", ({empty:"empty planting space", removed_or_stump:"removed tree / stump", dead_tree:"dead tree"})[s.cls] || s.cls);
+  add("Land use", s.lu || "unknown"); add("Sidewalk width", s.sw == null ? "–" : s.sw + " m");
+  add("Afternoon Tmrt now", s.tmrt == null ? "no sidewalk nearby" : s.tmrt + " °C");
+  add("Tmrt change within 15 m", `${fmt(s.d10,1)} °C at 10 yr · ${fmt(s.d20,1)} °C at 20 yr (generic 8 m crown)`);
+  add("Size class", r[2] + (r[3] ? " · expanded soil" : (r[2] === "large" ? " · standard pit (crown capped at medium)" : "")));
+  add("5-year failure risk", r[4] != null ? (r[4]*100).toFixed(1) + "%" + (r[8] ? " (site median; species not in training)" : "") : "–");
+  add("Risk-adjusted cooled area", fmt(r[5], 1) + " m²");
+  add("Overhead wires", s.wires); add("Soil map", s.soil || "–");
+  if (r[1]) { add("Native to NY", sp.nativeNY ?? "unknown"); add("Pollen allergy", sp.allergy ?? "unknown"); add("Isoprene (ozone)", sp.isoprene ?? "unknown");
+    add("Pollinator value", sp.pollinator ?? "unknown"); add("Climate 2070–2099", sp.climate ?? "no NYC assessment"); add("Sidewalk root risk", sp.roots ?? "unknown");
+    if (sp.nycNote) add("NYC Parks note", sp.nycNote); }
+  box.append(dl);
+  const ch = el("div", {class:"chips"});
+  if (r[6]) ch.append(el("span", {class:"chip warn"}, "Verify no primary overhead wires"));
+  if (r[7]) ch.append(el("span", {class:"chip warn"}, "Verify persistently wet site"));
+  if (r[8]) ch.append(el("span", {class:"chip warn"}, "No species-specific survival evidence"));
+  if (r[3]) ch.append(el("span", {class:"chip soil"}, "Expanded rooting soil"));
+  if (sp.albHost === true || sp.albHost === "True") ch.append(el("span", {class:"chip warn"}, "Asian longhorned beetle host"));
+  ch.append(el("span", {class:"chip"}, "Utility markout + soil test required"));
+  box.append(ch);
+}
+$("plan").addEventListener("change", render); $("kval").addEventListener("change", render);
+
+/* ---------- Q&A (sample capability) ---------- */
+let sample = null, turns = [], ctl = null, qaOff = false;
+(async () => { try { sample = await window.claude?.use?.("sample"); } catch { sample = null; }
+  if (!sample) { $("qastate").textContent = "Asking Claude is not available in this view. Open the page in Claude to use it."; $("ask").disabled = true; document.querySelectorAll("#sugg button").forEach(b => b.disabled = true); } })();
+
+function context(){
+  const K = $("kval").value, m = cur.metrics;
+  const plansTxt = Object.keys(LABEL).map(n => { const p = D.plans[n + "|" + K].metrics; return `${LABEL[n]}: cooling ${p.exp_cooled_m2} m2, allergy+isoprene ${p.allergy_isoprene_score}, ecology ${p.ecology_score}, species ${p.n_species}, soil sites ${p.n_expanded_soil}, wire checks ${p.verify_wires_sites}`; }).join("\n");
+  const other = ["0","30","60"].filter(k => k !== K).map(k => { const p = D.plans[cur.name + "|" + k].metrics; return `${LABEL[cur.name]} at K=${k}: cooling ${p.exp_cooled_m2}, allergy+isoprene ${p.allergy_isoprene_score}, ecology ${p.ecology_score}`; }).join("\n");
+  const rows = cur.rows.map(r => { const s = D.sites[r[0]]; return [r[0], s.addr, s.cls, s.lu||"", s.sw??"", s.tmrt??"", s.d20??"", s.cool20, s.wires, s.soil||"", r[1], r[2], r[3]?"Y":"N", r[4], r[5], r[6]?"wires":"", r[7]?"wet":"", r[8]?"untrained":""].join("|"); }).join("\n");
+  const used = [...new Set(cur.rows.map(r => r[1]).filter(Boolean))];
+  const spTxt = used.map(n => { const p = D.species[n] || {}; return `${n} (${p.common||""}): size ${p.size}, nativeNY ${p.nativeNY}, allergy ${p.allergy}, isoprene ${p.isoprene}, pollinator ${p.pollinator}, climate ${p.climate}, roots ${p.roots}, Bronx young trees good ${p.youngGoodPct}%, ALB host ${p.albHost}${p.nycNote ? ", NYC note: " + p.nycNote : ""}`; }).join("\n");
+  return `You are answering questions from city planners about a street-tree planting plan for the Mott Haven pilot (Third Avenue, South Bronx, NYC). Use ONLY the data below. If the data cannot answer, say so plainly and name what data would be needed. Refer to sites by number and address. Keep answers short and concrete (bullets welcome, under 200 words unless asked). Never invent costs, measurements or species facts. Mention a relevant caveat when it changes the answer.
+
+CURRENT PLAN: ${LABEL[cur.name]}, expanded-soil budget K=${K}. Metrics: cooling ${m.exp_cooled_m2} m2 (sidewalk cooled >10 C at 20 yr, risk-adjusted), allergy+isoprene ${m.allergy_isoprene_score} (lower better), ecology ${m.ecology_score} (higher better), species ${m.n_species}, soil sites ${m.n_expanded_soil}. Genus shares after planting: ${JSON.stringify(cur.genus_after)}.
+
+ALL PLANS AT K=${K}:
+${plansTxt}
+
+SAME PLAN AT OTHER BUDGETS:
+${other}
+
+CORRIDOR SIDEWALK MEAN TMRT 13-16h (C): ${JSON.stringify(D.meta.corridor)}
+PER-CANOPY RATES (Nowak et al. 2018, NYC): ${JSON.stringify(D.meta.rates)}
+
+SITES (site|address|now|land use|sidewalk m|Tmrt now C|Tmrt change 20yr within 15m C|sidewalk m2 cooled>10C generic crown|wires|soil|species|size|expanded soil|5yr failure risk|risk-adjusted cooled m2|flags):
+${rows}
+
+SPECIES USED:
+${spTxt}
+
+CAVEATS:
+- ${D.meta.caveats.join("\n- ")}
+Weather: ${D.meta.weather}`;
+}
+
+function bubble(cls, txt){ const d = el("div", {class:"turn " + cls}, txt); $("turns").append(d); return d; }
+async function ask(q){
+  if (!sample || !q.trim()) return;
+  $("q").value = ""; bubble("u", q);
+  const out = bubble("a", "Thinking…");
+  const history = turns.slice(-6);
+  const input = [{role:"user", content:context()}, ...history, {role:"user", content:q}];
+  ctl = new AbortController(); $("ask").disabled = true; $("stop").hidden = false; $("qastate").textContent = "";
+  try {
+    const { text, truncated } = await sample(input, { signal: ctl.signal, cache: false, onText: ({ text }) => { out.textContent = text; } });
+    turns.push({role:"user", content:q}, {role:"assistant", content:text});
+    if (truncated) $("qastate").textContent = "The answer was cut short. Ask for less at a time.";
+  } catch (e) {
+    out.textContent = e?.text ?? "";
+    const msg = {not_granted:"Asking Claude was not allowed for this page.", sampling_disabled:"Claude is not available for this account.", rate_limited:"Too many questions right now. Try again in a little while.",
+      session_expired:"Sign in to Claude again to keep asking.", refused:"Claude could not answer that question. Try rephrasing it.", prompt_too_large:"The question and plan data were too long. Clear the conversation and try again."}[e?.code];
+    if (e?.code === "cancelled") { if (!out.textContent) out.remove(); }
+    else { if (!out.textContent) out.remove(); $("qastate").textContent = msg || "The answer was interrupted. Ask again to retry."; }
+    if (["not_granted","sampling_disabled","not_declared","capability_disabled","capability_removed"].includes(e?.code)) qaOff = true;
+  } finally {
+    $("ask").disabled = qaOff || !sample;
+    document.querySelectorAll("#sugg button").forEach(b => b.disabled = qaOff || !sample);
+    $("stop").hidden = true; ctl = null;
+  }
+}
+$("ask").addEventListener("click", () => ask($("q").value));
+$("q").addEventListener("keydown", e => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) ask($("q").value); });
+$("stop").addEventListener("click", () => ctl?.abort());
+$("clear").addEventListener("click", () => { turns = []; $("turns").replaceChildren(); $("qastate").textContent = ""; });
+document.querySelectorAll("#sugg button").forEach(b => b.addEventListener("click", () => ask(b.textContent)));
+</script>

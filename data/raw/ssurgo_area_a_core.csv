@@ -1,0 +1,13 @@
+mukey,musym,muname,compname,comppct_r,drainagecl,hydgrp
+2482613,UmA,"Urban land, tidal marsh substratum, 0 to 3 percent slopes",Urban land,92,,
+2482655,UoB,"Urban land, outwash substratum, 3 to 8 percent slopes",Urban land,92,,
+2482656,UoA,"Urban land, outwash substratum, 0 to 3 percent slopes",Urban land,92,,
+2515373,UGAl,"Urban land-Greenbelt complex, 0 to 3 percent slopes, low impervious surface",Greenbelt,25,Well drained,B
+2515373,UGAl,"Urban land-Greenbelt complex, 0 to 3 percent slopes, low impervious surface",Urban land,60,,
+2515374,UGBl,"Urban land-Greenbelt complex, 3 to 8 percent slopes, low impervious surface",Greenbelt,25,Well drained,B
+2515374,UGBl,"Urban land-Greenbelt complex, 3 to 8 percent slopes, low impervious surface",Urban land,60,,
+2518883,UrA,"Urban land, reclaimed substratum, 0 to 3 percent slopes",Urban land,92,,
+2519405,UGA,"Urban land-Greenbelt complex, 0 to 3 percent slopes",Greenbelt,12,Well drained,B
+2519405,UGA,"Urban land-Greenbelt complex, 0 to 3 percent slopes",Urban land,78,,
+2589171,UFA,"Urban land-Flatbush complex, 0 to 3 percent slopes",Flatbush,12,Well drained,B
+2589171,UFA,"Urban land-Flatbush complex, 0 to 3 percent slopes",Urban land,75,,

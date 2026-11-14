@@ -1,0 +1,42 @@
+scientific,common,size_class,mature_height_class_ft,form,growth_rate,tol_salt,tol_drought,tol_wet,tol_wind,tol_pollution,tol_high_ph,tol_shade,loc_median,loc_narrow_space,loc_small_pit_lt3ft,notes
+Ginkgo biloba,Ginkgo,large,>50,Upright,Slow,1,1,0,1,1,1,0,1,1,0,'Autumn Gold' or 'Presidential Gold'
+Quercus spp. 'Fastigiata',Fastigiata Oak,large,>50,Upright,Slow,0,0,0,0,0,0,0,1,1,0,Similar tree is Quercus robur
+Liquidambar styraciflua,Sweetgum,large,>50,Pyramidal,Medium,0,0,1,0,0,0,0,0,0,0,"Plant spring only, lawn pits only, 'Rotundiloba'"
+Metasequoia glyptostroboides,Dawn Redwood,large,>50,Pyramidal,Medium,0,1,1,0,0,1,0,1,1,0,Can grow 2-3 ft per year
+Taxodium distichum,Baldcypress,large,>50,Pyramidal,Medium,1,0,1,1,0,0,0,1,1,0,Ideal for wet soils
+Tilia cordata,Littleleaf Linden,large,>50,Pyramidal,Medium,0,0,0,0,1,0,0,1,0,0,'Greenspire'
+Gymnocladus dioicus,Kentucky Coffeetree,large,>50,Rounded,Medium,0,1,0,0,0,0,0,0,0,0,'Espresso'
+Gleditsia triacanthos var. inermis,Honeylocust,large,>50,Rounded,Medium,1,1,1,1,1,1,0,1,0,0,'Halka'
+Quercus rubra,Northern Red Oak,large,>50,Rounded,Medium,1,0,0,0,0,0,0,0,0,0,Plant spring only
+Quercus bicolor,Swamp White Oak,large,>50,Rounded,Medium,0,1,1,0,0,0,0,1,0,0,Plant spring only
+Quercus imbricaria,Shingle Oak,large,>50,Rounded,Medium,0,0,0,0,0,0,0,0,0,0,Plant spring only
+Quercus palustris,Pin Oak,large,>50,Rounded,Medium,0,1,0,1,1,0,0,1,0,0,Needs large tree pit
+Quercus phellos,Willow Oak,large,>50,Rounded,Slow,0,1,0,0,1,0,0,1,0,0,Plant spring only
+Tilia americana,American Linden,large,>50,Rounded,Medium,0,0,0,0,0,1,1,0,0,0,'Redmond'
+Tilia x euchlora,Crimean Linden,large,>50,Rounded,Medium,0,0,0,0,1,0,0,0,0,0,Pest resistant
+Tilia tomentosa,Silver Linden,large,>50,Rounded,Medium,1,0,0,0,0,0,1,0,0,0,'Green Mountain'
+Zelkova serrata,Japanese Zelkova,large,>50,Vase-like,Medium,0,1,0,1,1,1,0,1,1,1,'Halka'
+Carpinus betulus,European Hornbeam,medium,35-50,Upright,Medium,1,1,0,0,1,0,1,0,1,1,'Fastigiata' best for narrow spaces
+Quercus robur,English Oak,medium,35-50,Upright,Slow,1,0,0,0,0,1,0,0,1,1,Plant spring only
+Corylus colurna,Turkish Filbert,medium,35-50,Pyramidal,Medium,0,1,0,0,0,1,0,0,0,1,Turkish hazelnut
+Nyssa sylvatica,Black Gum,medium,35-50,Pyramidal,Medium,0,0,1,0,0,0,0,0,0,0,Only in extremely wet sites
+Ostrya virginiana,American Hophornbeam,medium,35-50,Rounded,Slow,0,0,0,0,0,1,1,0,0,1,Plant spring only
+Quercus acutissima,Sawtooth Oak,medium,35-50,Rounded,Medium,1,0,0,0,0,1,0,0,0,1,Plant spring only
+Eucommia ulmoides,Hardy Rubber Tree,medium,35-50,Rounded,Slow,1,1,0,0,0,0,0,0,0,1,Tolerates tough conditions
+Styphnolobium japonicum,Scholar Tree,medium,35-50,Rounded,Medium,0,1,0,1,1,0,0,1,0,1,'Regent'
+Koelreuteria paniculata,Goldenraintree,intermediate,25-35,Rounded,Medium,1,1,0,0,1,1,0,0,0,1,Tolerates tough conditions
+Maackia amurensis,Amur Maackia,intermediate,25-35,Rounded,Slow,0,1,0,0,0,1,0,0,0,1,"Fixes nitrogen, late bloomer"
+Amelanchier sp.,Serviceberry,small,<25,Rounded,Slow,0,0,1,0,0,0,1,0,0,1,"'Autumn Sunset', 'Cumulus', 'White Pillar'"
+Cercis canadensis,Eastern Redbud,small,<25,Rounded,Medium,1,0,0,0,0,1,1,1,0,1,Does best in lawn pits
+Carpinus caroliniana,American Hornbeam,small,<25,Rounded,Slow,0,0,0,0,0,0,1,0,0,1,Plant spring only
+Malus sp.,Crabapple,small,<25,Rounded,Slow,1,1,0,0,0,0,0,1,0,1,"M. zumi, 'Donald Wyman', 'Spring Snow' seedless"
+Crataegus sp.,Hawthorn,small,<25,Rounded,Medium,1,1,0,0,0,0,0,1,0,1,"'Winter King', 'Princeton Sentry', 'Crimson Cloud'"
+Cornus mas,Cornelian Cherry,small,<25,Rounded,Medium,1,0,0,0,0,0,0,0,0,1,Early spring flowering
+Prunus virginiana 'Schubert',Schubert Cherry,small,<25,Pyramidal,Medium,1,1,0,0,1,1,0,1,0,1,Tolerates tough conditions
+Syringa reticulata,Japanese Tree Lilac,small,<25,Rounded,Medium,1,1,0,0,0,0,1,1,1,1,'Ivory Silk'
+Prunus cerasifera,Purpleleaf Plum,small,<25,Rounded,Medium,1,0,0,0,0,0,0,0,0,1,"'Atropurpurea', 'Thundercloud'"
+Prunus 'Okame',Okame Cherry,small,<25,Rounded,Medium,0,0,0,0,0,0,0,0,0,1,Earliest blooming cherry
+Prunus padus,European Birdcherry,small,<25,Rounded,Slow,0,0,0,0,0,0,0,0,0,1,Early leaf-out
+Prunus sargentii,Sargent Cherry,small,<25,Rounded,Slow,0,0,0,0,0,0,0,0,0,1,'Accolade' semi-double
+Prunus serrulata 'Kwanzan',Japanese Flowering Cherry,small,<25,Rounded,Slow,0,0,0,0,0,0,0,0,0,1,Double-flowering
+Prunus x yedoensis,Yoshino Cherry,small,<25,Rounded,Medium,0,0,0,0,0,0,0,0,0,1,Best in lawn pits

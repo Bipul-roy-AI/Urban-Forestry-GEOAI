@@ -1,0 +1,50 @@
+scientific,common,nyc_approved,core_count
+Ginkgo biloba,Ginkgo,True,
+Quercus spp. 'Fastigiata',Fastigiata Oak,True,
+Liquidambar styraciflua,Sweetgum,True,
+Metasequoia glyptostroboides,Dawn Redwood,True,
+Taxodium distichum,Baldcypress,True,
+Tilia cordata,Littleleaf Linden,True,
+Gymnocladus dioicus,Kentucky Coffeetree,True,
+Gleditsia triacanthos var. inermis,Honeylocust,True,
+Quercus rubra,Northern Red Oak,True,
+Quercus bicolor,Swamp White Oak,True,
+Quercus imbricaria,Shingle Oak,True,
+Quercus palustris,Pin Oak,True,
+Quercus phellos,Willow Oak,True,
+Tilia americana,American Linden,True,
+Tilia x euchlora,Crimean Linden,True,
+Tilia tomentosa,Silver Linden,True,
+Zelkova serrata,Japanese Zelkova,True,
+Carpinus betulus,European Hornbeam,True,
+Quercus robur,English Oak,True,
+Corylus colurna,Turkish Filbert,True,
+Nyssa sylvatica,Black Gum,True,
+Ostrya virginiana,American Hophornbeam,True,
+Quercus acutissima,Sawtooth Oak,True,
+Eucommia ulmoides,Hardy Rubber Tree,True,
+Styphnolobium japonicum,Scholar Tree,True,
+Koelreuteria paniculata,Goldenraintree,True,
+Maackia amurensis,Amur Maackia,True,
+Amelanchier sp.,Serviceberry,True,
+Cercis canadensis,Eastern Redbud,True,
+Carpinus caroliniana,American Hornbeam,True,
+Malus sp.,Crabapple,True,
+Crataegus sp.,Hawthorn,True,
+Cornus mas,Cornelian Cherry,True,
+Prunus virginiana 'Schubert',Schubert Cherry,True,
+Syringa reticulata,Japanese Tree Lilac,True,
+Prunus cerasifera,Purpleleaf Plum,True,
+Prunus 'Okame',Okame Cherry,True,
+Prunus padus,European Birdcherry,True,
+Prunus sargentii,Sargent Cherry,True,
+Prunus serrulata 'Kwanzan',Japanese Flowering Cherry,True,
+Prunus x yedoensis,Yoshino Cherry,True,
+Platanus x acerifolia,,False,89.0
+Pyrus calleryana,,False,22.0
+Acer rubrum,,False,21.0
+Celtis occidentalis,,False,18.0
+Ulmus americana 'Princeton',,False,17.0
+Ulmus americana,,False,13.0
+Aesculus sp.,,False,8.0
+Fraxinus pennsylvanica,,False,5.0

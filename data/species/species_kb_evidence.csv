@@ -1,0 +1,2688 @@
+taxon,field,value,source_id
+Ginkgo biloba,nyc_approved,True,NYCP_LIST
+Ginkgo biloba,common_name,Ginkgo,NYCP_LIST
+Ginkgo biloba,size_class,large,NYCP_LIST
+Ginkgo biloba,mature_height_class_ft,>50,NYCP_LIST
+Ginkgo biloba,form,Upright,NYCP_LIST
+Ginkgo biloba,growth_rate,Slow,NYCP_LIST
+Ginkgo biloba,tol_salt,1,NYCP_LIST
+Ginkgo biloba,tol_drought,1,NYCP_LIST
+Ginkgo biloba,tol_wet,0,NYCP_LIST
+Ginkgo biloba,tol_wind,1,NYCP_LIST
+Ginkgo biloba,tol_pollution,1,NYCP_LIST
+Ginkgo biloba,tol_high_ph,1,NYCP_LIST
+Ginkgo biloba,tol_shade,0,NYCP_LIST
+Ginkgo biloba,loc_median,1,NYCP_LIST
+Ginkgo biloba,loc_narrow_space,1,NYCP_LIST
+Ginkgo biloba,loc_small_pit_lt3ft,0,NYCP_LIST
+Ginkgo biloba,notes,'Autumn Gold' or 'Presidential Gold',NYCP_LIST
+Ginkgo biloba,bronx_match_level,species,NYC_CENSUS15
+Ginkgo biloba,bronx_c15_n,2685,NYC_CENSUS15
+Ginkgo biloba,bronx_c15_pct_good,83.9,NYC_CENSUS15
+Ginkgo biloba,bronx_c15_pct_poor,4.8,NYC_CENSUS15
+Ginkgo biloba,bronx_c15_pct_sidewalk_damage,28.8,NYC_CENSUS15
+Ginkgo biloba,bronx_c15_pct_root_problem,16.8,NYC_CENSUS15
+Ginkgo biloba,bronx_c15y_n,540,NYC_CENSUS15
+Ginkgo biloba,bronx_c15y_pct_good,80.2,NYC_CENSUS15
+Ginkgo biloba,bronx_c15y_pct_poor,8.3,NYC_CENSUS15
+Ginkgo biloba,bronx_c15_mean_dbh_in,9.0,NYC_CENSUS15
+Ginkgo biloba,usda_symbol,GIBI2,USDA_PLANTS
+Ginkgo biloba,native_L48,False,USDA_PLANTS
+Ginkgo biloba,alb_regulated_host,False,APHIS_ALB
+Ginkgo biloba,eab_host,False,APHIS_EAB
+Ginkgo biloba,core_species_share_pct,0.6,NYC_TREEPTS
+Ginkgo biloba,core_genus_share_pct,0.6,NYC_TREEPTS
+Quercus spp. 'Fastigiata',nyc_approved,True,NYCP_LIST
+Quercus spp. 'Fastigiata',common_name,Fastigiata Oak,NYCP_LIST
+Quercus spp. 'Fastigiata',size_class,large,NYCP_LIST
+Quercus spp. 'Fastigiata',mature_height_class_ft,>50,NYCP_LIST
+Quercus spp. 'Fastigiata',form,Upright,NYCP_LIST
+Quercus spp. 'Fastigiata',growth_rate,Slow,NYCP_LIST
+Quercus spp. 'Fastigiata',tol_salt,0,NYCP_LIST
+Quercus spp. 'Fastigiata',tol_drought,0,NYCP_LIST
+Quercus spp. 'Fastigiata',tol_wet,0,NYCP_LIST
+Quercus spp. 'Fastigiata',tol_wind,0,NYCP_LIST
+Quercus spp. 'Fastigiata',tol_pollution,0,NYCP_LIST
+Quercus spp. 'Fastigiata',tol_high_ph,0,NYCP_LIST
+Quercus spp. 'Fastigiata',tol_shade,0,NYCP_LIST
+Quercus spp. 'Fastigiata',loc_median,1,NYCP_LIST
+Quercus spp. 'Fastigiata',loc_narrow_space,1,NYCP_LIST
+Quercus spp. 'Fastigiata',loc_small_pit_lt3ft,0,NYCP_LIST
+Quercus spp. 'Fastigiata',notes,Similar tree is Quercus robur,NYCP_LIST
+Quercus spp. 'Fastigiata',usda_symbol,QUERC,USDA_PLANTS
+Quercus spp. 'Fastigiata',alb_regulated_host,False,APHIS_ALB
+Quercus spp. 'Fastigiata',eab_host,False,APHIS_EAB
+Quercus spp. 'Fastigiata',core_genus_share_pct,19.2,NYC_TREEPTS
+Liquidambar styraciflua,nyc_approved,True,NYCP_LIST
+Liquidambar styraciflua,common_name,Sweetgum,NYCP_LIST
+Liquidambar styraciflua,size_class,large,NYCP_LIST
+Liquidambar styraciflua,mature_height_class_ft,>50,NYCP_LIST
+Liquidambar styraciflua,form,Pyramidal,NYCP_LIST
+Liquidambar styraciflua,growth_rate,Medium,NYCP_LIST
+Liquidambar styraciflua,tol_salt,0,NYCP_LIST
+Liquidambar styraciflua,tol_drought,0,NYCP_LIST
+Liquidambar styraciflua,tol_wet,1,NYCP_LIST
+Liquidambar styraciflua,tol_wind,0,NYCP_LIST
+Liquidambar styraciflua,tol_pollution,0,NYCP_LIST
+Liquidambar styraciflua,tol_high_ph,0,NYCP_LIST
+Liquidambar styraciflua,tol_shade,0,NYCP_LIST
+Liquidambar styraciflua,loc_median,0,NYCP_LIST
+Liquidambar styraciflua,loc_narrow_space,0,NYCP_LIST
+Liquidambar styraciflua,loc_small_pit_lt3ft,0,NYCP_LIST
+Liquidambar styraciflua,notes,"Plant spring only, lawn pits only, 'Rotundiloba'",NYCP_LIST
+Liquidambar styraciflua,bronx_match_level,species,NYC_CENSUS15
+Liquidambar styraciflua,bronx_c15_n,904,NYC_CENSUS15
+Liquidambar styraciflua,bronx_c15_pct_good,90.5,NYC_CENSUS15
+Liquidambar styraciflua,bronx_c15_pct_poor,1.9,NYC_CENSUS15
+Liquidambar styraciflua,bronx_c15_pct_sidewalk_damage,31.3,NYC_CENSUS15
+Liquidambar styraciflua,bronx_c15_pct_root_problem,14.7,NYC_CENSUS15
+Liquidambar styraciflua,bronx_c15y_n,246,NYC_CENSUS15
+Liquidambar styraciflua,bronx_c15y_pct_good,84.1,NYC_CENSUS15
+Liquidambar styraciflua,bronx_c15y_pct_poor,3.7,NYC_CENSUS15
+Liquidambar styraciflua,bronx_c15_mean_dbh_in,9.6,NYC_CENSUS15
+Liquidambar styraciflua,usda_symbol,LIST2,USDA_PLANTS
+Liquidambar styraciflua,native_L48,True,USDA_PLANTS
+Liquidambar styraciflua,usda_drought_tol,Low,USDA_PLANTS
+Liquidambar styraciflua,usda_shade_tol,High,USDA_PLANTS
+Liquidambar styraciflua,usda_anaerobic_tol,Low,USDA_PLANTS
+Liquidambar styraciflua,usda_moisture_use,High,USDA_PLANTS
+Liquidambar styraciflua,usda_mature_height_ft,100.0,USDA_PLANTS
+Liquidambar styraciflua,usda_growth_rate,Rapid,USDA_PLANTS
+Liquidambar styraciflua,usda_lifespan,Long,USDA_PLANTS
+Liquidambar styraciflua,usda_root_depth_min_in,36,USDA_PLANTS
+Liquidambar styraciflua,usda_ph_min,4.5,USDA_PLANTS
+Liquidambar styraciflua,usda_ph_max,7.0,USDA_PLANTS
+Liquidambar styraciflua,usda_temp_min_f,-21,USDA_PLANTS
+Liquidambar styraciflua,usda_bloom_period,Mid Spring,USDA_PLANTS
+Liquidambar styraciflua,usda_caco3_tol,Low,USDA_PLANTS
+Liquidambar styraciflua,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Liquidambar styraciflua,alb_regulated_host,False,APHIS_ALB
+Liquidambar styraciflua,eab_host,False,APHIS_EAB
+Liquidambar styraciflua,core_species_share_pct,0.0,NYC_TREEPTS
+Liquidambar styraciflua,core_genus_share_pct,0.0,NYC_TREEPTS
+Metasequoia glyptostroboides,nyc_approved,True,NYCP_LIST
+Metasequoia glyptostroboides,common_name,Dawn Redwood,NYCP_LIST
+Metasequoia glyptostroboides,size_class,large,NYCP_LIST
+Metasequoia glyptostroboides,mature_height_class_ft,>50,NYCP_LIST
+Metasequoia glyptostroboides,form,Pyramidal,NYCP_LIST
+Metasequoia glyptostroboides,growth_rate,Medium,NYCP_LIST
+Metasequoia glyptostroboides,tol_salt,0,NYCP_LIST
+Metasequoia glyptostroboides,tol_drought,1,NYCP_LIST
+Metasequoia glyptostroboides,tol_wet,1,NYCP_LIST
+Metasequoia glyptostroboides,tol_wind,0,NYCP_LIST
+Metasequoia glyptostroboides,tol_pollution,0,NYCP_LIST
+Metasequoia glyptostroboides,tol_high_ph,1,NYCP_LIST
+Metasequoia glyptostroboides,tol_shade,0,NYCP_LIST
+Metasequoia glyptostroboides,loc_median,1,NYCP_LIST
+Metasequoia glyptostroboides,loc_narrow_space,1,NYCP_LIST
+Metasequoia glyptostroboides,loc_small_pit_lt3ft,0,NYCP_LIST
+Metasequoia glyptostroboides,notes,Can grow 2-3 ft per year,NYCP_LIST
+Metasequoia glyptostroboides,bronx_match_level,species,NYC_CENSUS15
+Metasequoia glyptostroboides,bronx_c15_n,396,NYC_CENSUS15
+Metasequoia glyptostroboides,bronx_c15_pct_good,71.5,NYC_CENSUS15
+Metasequoia glyptostroboides,bronx_c15_pct_poor,11.1,NYC_CENSUS15
+Metasequoia glyptostroboides,bronx_c15_pct_sidewalk_damage,17.4,NYC_CENSUS15
+Metasequoia glyptostroboides,bronx_c15_pct_root_problem,4.5,NYC_CENSUS15
+Metasequoia glyptostroboides,bronx_c15y_n,209,NYC_CENSUS15
+Metasequoia glyptostroboides,bronx_c15y_pct_good,74.2,NYC_CENSUS15
+Metasequoia glyptostroboides,bronx_c15y_pct_poor,11.0,NYC_CENSUS15
+Metasequoia glyptostroboides,bronx_c15_mean_dbh_in,3.9,NYC_CENSUS15
+Metasequoia glyptostroboides,usda_symbol,MEGL8,USDA_PLANTS
+Metasequoia glyptostroboides,native_L48,False,USDA_PLANTS
+Metasequoia glyptostroboides,usda_drought_tol,Low,USDA_PLANTS
+Metasequoia glyptostroboides,usda_shade_tol,High,USDA_PLANTS
+Metasequoia glyptostroboides,usda_anaerobic_tol,Low,USDA_PLANTS
+Metasequoia glyptostroboides,usda_moisture_use,High,USDA_PLANTS
+Metasequoia glyptostroboides,usda_mature_height_ft,100.0,USDA_PLANTS
+Metasequoia glyptostroboides,usda_growth_rate,Rapid,USDA_PLANTS
+Metasequoia glyptostroboides,usda_lifespan,Long,USDA_PLANTS
+Metasequoia glyptostroboides,usda_root_depth_min_in,48,USDA_PLANTS
+Metasequoia glyptostroboides,usda_ph_min,6.2,USDA_PLANTS
+Metasequoia glyptostroboides,usda_ph_max,8.4,USDA_PLANTS
+Metasequoia glyptostroboides,usda_temp_min_f,-13,USDA_PLANTS
+Metasequoia glyptostroboides,usda_bloom_period,Spring,USDA_PLANTS
+Metasequoia glyptostroboides,usda_caco3_tol,Medium,USDA_PLANTS
+Metasequoia glyptostroboides,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Metasequoia glyptostroboides,alb_regulated_host,False,APHIS_ALB
+Metasequoia glyptostroboides,eab_host,False,APHIS_EAB
+Metasequoia glyptostroboides,core_species_share_pct,0.2,NYC_TREEPTS
+Metasequoia glyptostroboides,core_genus_share_pct,0.2,NYC_TREEPTS
+Taxodium distichum,nyc_approved,True,NYCP_LIST
+Taxodium distichum,common_name,Baldcypress,NYCP_LIST
+Taxodium distichum,size_class,large,NYCP_LIST
+Taxodium distichum,mature_height_class_ft,>50,NYCP_LIST
+Taxodium distichum,form,Pyramidal,NYCP_LIST
+Taxodium distichum,growth_rate,Medium,NYCP_LIST
+Taxodium distichum,tol_salt,1,NYCP_LIST
+Taxodium distichum,tol_drought,0,NYCP_LIST
+Taxodium distichum,tol_wet,1,NYCP_LIST
+Taxodium distichum,tol_wind,1,NYCP_LIST
+Taxodium distichum,tol_pollution,0,NYCP_LIST
+Taxodium distichum,tol_high_ph,0,NYCP_LIST
+Taxodium distichum,tol_shade,0,NYCP_LIST
+Taxodium distichum,loc_median,1,NYCP_LIST
+Taxodium distichum,loc_narrow_space,1,NYCP_LIST
+Taxodium distichum,loc_small_pit_lt3ft,0,NYCP_LIST
+Taxodium distichum,notes,Ideal for wet soils,NYCP_LIST
+Taxodium distichum,bronx_match_level,species,NYC_CENSUS15
+Taxodium distichum,bronx_c15_n,85,NYC_CENSUS15
+Taxodium distichum,bronx_c15_pct_good,76.5,NYC_CENSUS15
+Taxodium distichum,bronx_c15_pct_poor,10.6,NYC_CENSUS15
+Taxodium distichum,bronx_c15_pct_sidewalk_damage,35.3,NYC_CENSUS15
+Taxodium distichum,bronx_c15_pct_root_problem,5.9,NYC_CENSUS15
+Taxodium distichum,bronx_c15y_n,48,NYC_CENSUS15
+Taxodium distichum,bronx_c15y_pct_good,83.3,NYC_CENSUS15
+Taxodium distichum,bronx_c15y_pct_poor,6.2,NYC_CENSUS15
+Taxodium distichum,bronx_c15_mean_dbh_in,3.5,NYC_CENSUS15
+Taxodium distichum,usda_symbol,TADI2,USDA_PLANTS
+Taxodium distichum,native_L48,True,USDA_PLANTS
+Taxodium distichum,usda_drought_tol,Low,USDA_PLANTS
+Taxodium distichum,usda_shade_tol,Medium,USDA_PLANTS
+Taxodium distichum,usda_salinity_tol,High,USDA_PLANTS
+Taxodium distichum,usda_anaerobic_tol,High,USDA_PLANTS
+Taxodium distichum,usda_moisture_use,High,USDA_PLANTS
+Taxodium distichum,usda_mature_height_ft,130.0,USDA_PLANTS
+Taxodium distichum,usda_growth_rate,Rapid,USDA_PLANTS
+Taxodium distichum,usda_lifespan,Long,USDA_PLANTS
+Taxodium distichum,usda_root_depth_min_in,40,USDA_PLANTS
+Taxodium distichum,usda_ph_min,4.5,USDA_PLANTS
+Taxodium distichum,usda_ph_max,6.0,USDA_PLANTS
+Taxodium distichum,usda_temp_min_f,-18,USDA_PLANTS
+Taxodium distichum,usda_bloom_period,Mid Spring,USDA_PLANTS
+Taxodium distichum,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Taxodium distichum,alb_regulated_host,False,APHIS_ALB
+Taxodium distichum,eab_host,False,APHIS_EAB
+Taxodium distichum,core_species_share_pct,0.0,NYC_TREEPTS
+Taxodium distichum,core_genus_share_pct,0.0,NYC_TREEPTS
+Tilia cordata,nyc_approved,True,NYCP_LIST
+Tilia cordata,common_name,Littleleaf Linden,NYCP_LIST
+Tilia cordata,size_class,large,NYCP_LIST
+Tilia cordata,mature_height_class_ft,>50,NYCP_LIST
+Tilia cordata,form,Pyramidal,NYCP_LIST
+Tilia cordata,growth_rate,Medium,NYCP_LIST
+Tilia cordata,tol_salt,0,NYCP_LIST
+Tilia cordata,tol_drought,0,NYCP_LIST
+Tilia cordata,tol_wet,0,NYCP_LIST
+Tilia cordata,tol_wind,0,NYCP_LIST
+Tilia cordata,tol_pollution,1,NYCP_LIST
+Tilia cordata,tol_high_ph,0,NYCP_LIST
+Tilia cordata,tol_shade,0,NYCP_LIST
+Tilia cordata,loc_median,1,NYCP_LIST
+Tilia cordata,loc_narrow_space,0,NYCP_LIST
+Tilia cordata,loc_small_pit_lt3ft,0,NYCP_LIST
+Tilia cordata,notes,'Greenspire',NYCP_LIST
+Tilia cordata,bronx_match_level,species,NYC_CENSUS15
+Tilia cordata,bronx_c15_n,3917,NYC_CENSUS15
+Tilia cordata,bronx_c15_pct_good,79.2,NYC_CENSUS15
+Tilia cordata,bronx_c15_pct_poor,5.1,NYC_CENSUS15
+Tilia cordata,bronx_c15_pct_sidewalk_damage,29.9,NYC_CENSUS15
+Tilia cordata,bronx_c15_pct_root_problem,23.6,NYC_CENSUS15
+Tilia cordata,bronx_c15y_n,552,NYC_CENSUS15
+Tilia cordata,bronx_c15y_pct_good,78.6,NYC_CENSUS15
+Tilia cordata,bronx_c15y_pct_poor,6.3,NYC_CENSUS15
+Tilia cordata,bronx_c15_mean_dbh_in,9.3,NYC_CENSUS15
+Tilia cordata,usda_symbol,TICO2,USDA_PLANTS
+Tilia cordata,native_L48,False,USDA_PLANTS
+Tilia cordata,usda_drought_tol,Medium,USDA_PLANTS
+Tilia cordata,usda_shade_tol,Medium,USDA_PLANTS
+Tilia cordata,usda_moisture_use,Medium,USDA_PLANTS
+Tilia cordata,usda_mature_height_ft,100.0,USDA_PLANTS
+Tilia cordata,usda_growth_rate,Moderate,USDA_PLANTS
+Tilia cordata,usda_lifespan,Moderate,USDA_PLANTS
+Tilia cordata,usda_root_depth_min_in,26,USDA_PLANTS
+Tilia cordata,usda_ph_min,4.8,USDA_PLANTS
+Tilia cordata,usda_ph_max,7.2,USDA_PLANTS
+Tilia cordata,usda_temp_min_f,-33,USDA_PLANTS
+Tilia cordata,usda_bloom_period,Early Summer,USDA_PLANTS
+Tilia cordata,usda_caco3_tol,Low,USDA_PLANTS
+Tilia cordata,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Tilia cordata,alb_regulated_host,False,APHIS_ALB
+Tilia cordata,eab_host,False,APHIS_EAB
+Tilia cordata,core_species_share_pct,1.7,NYC_TREEPTS
+Tilia cordata,core_genus_share_pct,3.8,NYC_TREEPTS
+Gymnocladus dioicus,nyc_approved,True,NYCP_LIST
+Gymnocladus dioicus,common_name,Kentucky Coffeetree,NYCP_LIST
+Gymnocladus dioicus,size_class,large,NYCP_LIST
+Gymnocladus dioicus,mature_height_class_ft,>50,NYCP_LIST
+Gymnocladus dioicus,form,Rounded,NYCP_LIST
+Gymnocladus dioicus,growth_rate,Medium,NYCP_LIST
+Gymnocladus dioicus,tol_salt,0,NYCP_LIST
+Gymnocladus dioicus,tol_drought,1,NYCP_LIST
+Gymnocladus dioicus,tol_wet,0,NYCP_LIST
+Gymnocladus dioicus,tol_wind,0,NYCP_LIST
+Gymnocladus dioicus,tol_pollution,0,NYCP_LIST
+Gymnocladus dioicus,tol_high_ph,0,NYCP_LIST
+Gymnocladus dioicus,tol_shade,0,NYCP_LIST
+Gymnocladus dioicus,loc_median,0,NYCP_LIST
+Gymnocladus dioicus,loc_narrow_space,0,NYCP_LIST
+Gymnocladus dioicus,loc_small_pit_lt3ft,0,NYCP_LIST
+Gymnocladus dioicus,notes,'Espresso',NYCP_LIST
+Gymnocladus dioicus,bronx_match_level,species,NYC_CENSUS15
+Gymnocladus dioicus,bronx_c15_n,452,NYC_CENSUS15
+Gymnocladus dioicus,bronx_c15_pct_good,77.9,NYC_CENSUS15
+Gymnocladus dioicus,bronx_c15_pct_poor,4.6,NYC_CENSUS15
+Gymnocladus dioicus,bronx_c15_pct_sidewalk_damage,17.5,NYC_CENSUS15
+Gymnocladus dioicus,bronx_c15_pct_root_problem,12.6,NYC_CENSUS15
+Gymnocladus dioicus,bronx_c15y_n,269,NYC_CENSUS15
+Gymnocladus dioicus,bronx_c15y_pct_good,78.4,NYC_CENSUS15
+Gymnocladus dioicus,bronx_c15y_pct_poor,5.6,NYC_CENSUS15
+Gymnocladus dioicus,bronx_c15_mean_dbh_in,4.1,NYC_CENSUS15
+Gymnocladus dioicus,usda_symbol,GYDI,USDA_PLANTS
+Gymnocladus dioicus,native_L48,True,USDA_PLANTS
+Gymnocladus dioicus,usda_drought_tol,Medium,USDA_PLANTS
+Gymnocladus dioicus,usda_shade_tol,High,USDA_PLANTS
+Gymnocladus dioicus,usda_salinity_tol,Medium,USDA_PLANTS
+Gymnocladus dioicus,usda_moisture_use,Medium,USDA_PLANTS
+Gymnocladus dioicus,usda_mature_height_ft,100.0,USDA_PLANTS
+Gymnocladus dioicus,usda_growth_rate,Slow,USDA_PLANTS
+Gymnocladus dioicus,usda_lifespan,Long,USDA_PLANTS
+Gymnocladus dioicus,usda_root_depth_min_in,36,USDA_PLANTS
+Gymnocladus dioicus,usda_ph_min,6.0,USDA_PLANTS
+Gymnocladus dioicus,usda_ph_max,8.0,USDA_PLANTS
+Gymnocladus dioicus,usda_temp_min_f,-32,USDA_PLANTS
+Gymnocladus dioicus,usda_bloom_period,Early Summer,USDA_PLANTS
+Gymnocladus dioicus,usda_foliage_porosity_summer,Moderate,USDA_PLANTS
+Gymnocladus dioicus,usda_toxicity,Severe,USDA_PLANTS
+Gymnocladus dioicus,alb_regulated_host,False,APHIS_ALB
+Gymnocladus dioicus,eab_host,False,APHIS_EAB
+Gymnocladus dioicus,core_species_share_pct,0.4,NYC_TREEPTS
+Gymnocladus dioicus,core_genus_share_pct,0.4,NYC_TREEPTS
+Gleditsia triacanthos var. inermis,nyc_approved,True,NYCP_LIST
+Gleditsia triacanthos var. inermis,common_name,Honeylocust,NYCP_LIST
+Gleditsia triacanthos var. inermis,size_class,large,NYCP_LIST
+Gleditsia triacanthos var. inermis,mature_height_class_ft,>50,NYCP_LIST
+Gleditsia triacanthos var. inermis,form,Rounded,NYCP_LIST
+Gleditsia triacanthos var. inermis,growth_rate,Medium,NYCP_LIST
+Gleditsia triacanthos var. inermis,tol_salt,1,NYCP_LIST
+Gleditsia triacanthos var. inermis,tol_drought,1,NYCP_LIST
+Gleditsia triacanthos var. inermis,tol_wet,1,NYCP_LIST
+Gleditsia triacanthos var. inermis,tol_wind,1,NYCP_LIST
+Gleditsia triacanthos var. inermis,tol_pollution,1,NYCP_LIST
+Gleditsia triacanthos var. inermis,tol_high_ph,1,NYCP_LIST
+Gleditsia triacanthos var. inermis,tol_shade,0,NYCP_LIST
+Gleditsia triacanthos var. inermis,loc_median,1,NYCP_LIST
+Gleditsia triacanthos var. inermis,loc_narrow_space,0,NYCP_LIST
+Gleditsia triacanthos var. inermis,loc_small_pit_lt3ft,0,NYCP_LIST
+Gleditsia triacanthos var. inermis,notes,'Halka',NYCP_LIST
+Gleditsia triacanthos var. inermis,bronx_match_level,species,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,bronx_c15_n,9691,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,bronx_c15_pct_good,88.5,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,bronx_c15_pct_poor,1.7,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,bronx_c15_pct_sidewalk_damage,37.7,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,bronx_c15_pct_root_problem,33.4,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,bronx_c15y_n,802,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,bronx_c15y_pct_good,77.2,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,bronx_c15y_pct_poor,8.5,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,bronx_c15_mean_dbh_in,10.3,NYC_CENSUS15
+Gleditsia triacanthos var. inermis,usda_symbol,GLTR,USDA_PLANTS
+Gleditsia triacanthos var. inermis,native_L48,True,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_drought_tol,High,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_shade_tol,High,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_salinity_tol,Medium,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_moisture_use,Medium,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_mature_height_ft,70.0,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_growth_rate,Rapid,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_lifespan,Moderate,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_root_depth_min_in,48,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_ph_min,4.8,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_ph_max,8.0,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_temp_min_f,-36,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_bloom_period,Late Spring,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_caco3_tol,Medium,USDA_PLANTS
+Gleditsia triacanthos var. inermis,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Gleditsia triacanthos var. inermis,alb_regulated_host,False,APHIS_ALB
+Gleditsia triacanthos var. inermis,eab_host,False,APHIS_EAB
+Gleditsia triacanthos var. inermis,core_species_share_pct,6.3,NYC_TREEPTS
+Gleditsia triacanthos var. inermis,core_genus_share_pct,6.6,NYC_TREEPTS
+Quercus rubra,nyc_approved,True,NYCP_LIST
+Quercus rubra,common_name,Northern Red Oak,NYCP_LIST
+Quercus rubra,size_class,large,NYCP_LIST
+Quercus rubra,mature_height_class_ft,>50,NYCP_LIST
+Quercus rubra,form,Rounded,NYCP_LIST
+Quercus rubra,growth_rate,Medium,NYCP_LIST
+Quercus rubra,tol_salt,1,NYCP_LIST
+Quercus rubra,tol_drought,0,NYCP_LIST
+Quercus rubra,tol_wet,0,NYCP_LIST
+Quercus rubra,tol_wind,0,NYCP_LIST
+Quercus rubra,tol_pollution,0,NYCP_LIST
+Quercus rubra,tol_high_ph,0,NYCP_LIST
+Quercus rubra,tol_shade,0,NYCP_LIST
+Quercus rubra,loc_median,0,NYCP_LIST
+Quercus rubra,loc_narrow_space,0,NYCP_LIST
+Quercus rubra,loc_small_pit_lt3ft,0,NYCP_LIST
+Quercus rubra,notes,Plant spring only,NYCP_LIST
+Quercus rubra,bronx_match_level,species,NYC_CENSUS15
+Quercus rubra,bronx_c15_n,1483,NYC_CENSUS15
+Quercus rubra,bronx_c15_pct_good,82.1,NYC_CENSUS15
+Quercus rubra,bronx_c15_pct_poor,3.0,NYC_CENSUS15
+Quercus rubra,bronx_c15_pct_sidewalk_damage,28.1,NYC_CENSUS15
+Quercus rubra,bronx_c15_pct_root_problem,25.1,NYC_CENSUS15
+Quercus rubra,bronx_c15y_n,271,NYC_CENSUS15
+Quercus rubra,bronx_c15y_pct_good,79.3,NYC_CENSUS15
+Quercus rubra,bronx_c15y_pct_poor,4.4,NYC_CENSUS15
+Quercus rubra,bronx_c15_mean_dbh_in,11.3,NYC_CENSUS15
+Quercus rubra,usda_symbol,QURU,USDA_PLANTS
+Quercus rubra,native_L48,True,USDA_PLANTS
+Quercus rubra,usda_drought_tol,Low,USDA_PLANTS
+Quercus rubra,usda_shade_tol,Medium,USDA_PLANTS
+Quercus rubra,usda_salinity_tol,Medium,USDA_PLANTS
+Quercus rubra,usda_moisture_use,Medium,USDA_PLANTS
+Quercus rubra,usda_mature_height_ft,81.0,USDA_PLANTS
+Quercus rubra,usda_growth_rate,Moderate,USDA_PLANTS
+Quercus rubra,usda_lifespan,Long,USDA_PLANTS
+Quercus rubra,usda_root_depth_min_in,36,USDA_PLANTS
+Quercus rubra,usda_ph_min,4.3,USDA_PLANTS
+Quercus rubra,usda_ph_max,7.3,USDA_PLANTS
+Quercus rubra,usda_temp_min_f,-35,USDA_PLANTS
+Quercus rubra,usda_bloom_period,Mid Spring,USDA_PLANTS
+Quercus rubra,usda_caco3_tol,Low,USDA_PLANTS
+Quercus rubra,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Quercus rubra,alb_regulated_host,False,APHIS_ALB
+Quercus rubra,eab_host,False,APHIS_EAB
+Quercus rubra,core_species_share_pct,1.5,NYC_TREEPTS
+Quercus rubra,core_genus_share_pct,19.2,NYC_TREEPTS
+Quercus bicolor,nyc_approved,True,NYCP_LIST
+Quercus bicolor,common_name,Swamp White Oak,NYCP_LIST
+Quercus bicolor,size_class,large,NYCP_LIST
+Quercus bicolor,mature_height_class_ft,>50,NYCP_LIST
+Quercus bicolor,form,Rounded,NYCP_LIST
+Quercus bicolor,growth_rate,Medium,NYCP_LIST
+Quercus bicolor,tol_salt,0,NYCP_LIST
+Quercus bicolor,tol_drought,1,NYCP_LIST
+Quercus bicolor,tol_wet,1,NYCP_LIST
+Quercus bicolor,tol_wind,0,NYCP_LIST
+Quercus bicolor,tol_pollution,0,NYCP_LIST
+Quercus bicolor,tol_high_ph,0,NYCP_LIST
+Quercus bicolor,tol_shade,0,NYCP_LIST
+Quercus bicolor,loc_median,1,NYCP_LIST
+Quercus bicolor,loc_narrow_space,0,NYCP_LIST
+Quercus bicolor,loc_small_pit_lt3ft,0,NYCP_LIST
+Quercus bicolor,notes,Plant spring only,NYCP_LIST
+Quercus bicolor,bronx_match_level,species,NYC_CENSUS15
+Quercus bicolor,bronx_c15_n,826,NYC_CENSUS15
+Quercus bicolor,bronx_c15_pct_good,83.9,NYC_CENSUS15
+Quercus bicolor,bronx_c15_pct_poor,3.1,NYC_CENSUS15
+Quercus bicolor,bronx_c15_pct_sidewalk_damage,20.1,NYC_CENSUS15
+Quercus bicolor,bronx_c15_pct_root_problem,9.3,NYC_CENSUS15
+Quercus bicolor,bronx_c15y_n,343,NYC_CENSUS15
+Quercus bicolor,bronx_c15y_pct_good,79.6,NYC_CENSUS15
+Quercus bicolor,bronx_c15y_pct_poor,4.4,NYC_CENSUS15
+Quercus bicolor,bronx_c15_mean_dbh_in,4.5,NYC_CENSUS15
+Quercus bicolor,usda_symbol,QUBI,USDA_PLANTS
+Quercus bicolor,native_L48,True,USDA_PLANTS
+Quercus bicolor,usda_drought_tol,Low,USDA_PLANTS
+Quercus bicolor,usda_shade_tol,Medium,USDA_PLANTS
+Quercus bicolor,usda_anaerobic_tol,Medium,USDA_PLANTS
+Quercus bicolor,usda_moisture_use,High,USDA_PLANTS
+Quercus bicolor,usda_mature_height_ft,100.0,USDA_PLANTS
+Quercus bicolor,usda_growth_rate,Rapid,USDA_PLANTS
+Quercus bicolor,usda_lifespan,Long,USDA_PLANTS
+Quercus bicolor,usda_root_depth_min_in,40,USDA_PLANTS
+Quercus bicolor,usda_ph_min,4.3,USDA_PLANTS
+Quercus bicolor,usda_ph_max,6.5,USDA_PLANTS
+Quercus bicolor,usda_temp_min_f,-28,USDA_PLANTS
+Quercus bicolor,usda_bloom_period,Early Spring,USDA_PLANTS
+Quercus bicolor,usda_caco3_tol,Low,USDA_PLANTS
+Quercus bicolor,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Quercus bicolor,alb_regulated_host,False,APHIS_ALB
+Quercus bicolor,eab_host,False,APHIS_EAB
+Quercus bicolor,core_species_share_pct,2.5,NYC_TREEPTS
+Quercus bicolor,core_genus_share_pct,19.2,NYC_TREEPTS
+Quercus imbricaria,nyc_approved,True,NYCP_LIST
+Quercus imbricaria,common_name,Shingle Oak,NYCP_LIST
+Quercus imbricaria,size_class,large,NYCP_LIST
+Quercus imbricaria,mature_height_class_ft,>50,NYCP_LIST
+Quercus imbricaria,form,Rounded,NYCP_LIST
+Quercus imbricaria,growth_rate,Medium,NYCP_LIST
+Quercus imbricaria,tol_salt,0,NYCP_LIST
+Quercus imbricaria,tol_drought,0,NYCP_LIST
+Quercus imbricaria,tol_wet,0,NYCP_LIST
+Quercus imbricaria,tol_wind,0,NYCP_LIST
+Quercus imbricaria,tol_pollution,0,NYCP_LIST
+Quercus imbricaria,tol_high_ph,0,NYCP_LIST
+Quercus imbricaria,tol_shade,0,NYCP_LIST
+Quercus imbricaria,loc_median,0,NYCP_LIST
+Quercus imbricaria,loc_narrow_space,0,NYCP_LIST
+Quercus imbricaria,loc_small_pit_lt3ft,0,NYCP_LIST
+Quercus imbricaria,notes,Plant spring only,NYCP_LIST
+Quercus imbricaria,bronx_match_level,species,NYC_CENSUS15
+Quercus imbricaria,bronx_c15_n,177,NYC_CENSUS15
+Quercus imbricaria,bronx_c15_pct_good,87.6,NYC_CENSUS15
+Quercus imbricaria,bronx_c15_pct_poor,3.4,NYC_CENSUS15
+Quercus imbricaria,bronx_c15_pct_sidewalk_damage,21.5,NYC_CENSUS15
+Quercus imbricaria,bronx_c15_pct_root_problem,21.5,NYC_CENSUS15
+Quercus imbricaria,bronx_c15y_n,63,NYC_CENSUS15
+Quercus imbricaria,bronx_c15y_pct_good,84.1,NYC_CENSUS15
+Quercus imbricaria,bronx_c15y_pct_poor,6.3,NYC_CENSUS15
+Quercus imbricaria,bronx_c15_mean_dbh_in,5.4,NYC_CENSUS15
+Quercus imbricaria,usda_symbol,QUIM,USDA_PLANTS
+Quercus imbricaria,native_L48,True,USDA_PLANTS
+Quercus imbricaria,usda_drought_tol,Medium,USDA_PLANTS
+Quercus imbricaria,usda_shade_tol,High,USDA_PLANTS
+Quercus imbricaria,usda_salinity_tol,Low,USDA_PLANTS
+Quercus imbricaria,usda_anaerobic_tol,Low,USDA_PLANTS
+Quercus imbricaria,usda_moisture_use,Medium,USDA_PLANTS
+Quercus imbricaria,usda_mature_height_ft,45.0,USDA_PLANTS
+Quercus imbricaria,usda_growth_rate,Moderate,USDA_PLANTS
+Quercus imbricaria,usda_lifespan,Moderate,USDA_PLANTS
+Quercus imbricaria,usda_root_depth_min_in,24,USDA_PLANTS
+Quercus imbricaria,usda_ph_min,4.5,USDA_PLANTS
+Quercus imbricaria,usda_ph_max,6.0,USDA_PLANTS
+Quercus imbricaria,usda_temp_min_f,-18,USDA_PLANTS
+Quercus imbricaria,usda_bloom_period,Late Spring,USDA_PLANTS
+Quercus imbricaria,usda_caco3_tol,Medium,USDA_PLANTS
+Quercus imbricaria,usda_foliage_porosity_summer,Moderate,USDA_PLANTS
+Quercus imbricaria,alb_regulated_host,False,APHIS_ALB
+Quercus imbricaria,eab_host,False,APHIS_EAB
+Quercus imbricaria,core_species_share_pct,0.0,NYC_TREEPTS
+Quercus imbricaria,core_genus_share_pct,19.2,NYC_TREEPTS
+Quercus palustris,nyc_approved,True,NYCP_LIST
+Quercus palustris,common_name,Pin Oak,NYCP_LIST
+Quercus palustris,size_class,large,NYCP_LIST
+Quercus palustris,mature_height_class_ft,>50,NYCP_LIST
+Quercus palustris,form,Rounded,NYCP_LIST
+Quercus palustris,growth_rate,Medium,NYCP_LIST
+Quercus palustris,tol_salt,0,NYCP_LIST
+Quercus palustris,tol_drought,1,NYCP_LIST
+Quercus palustris,tol_wet,0,NYCP_LIST
+Quercus palustris,tol_wind,1,NYCP_LIST
+Quercus palustris,tol_pollution,1,NYCP_LIST
+Quercus palustris,tol_high_ph,0,NYCP_LIST
+Quercus palustris,tol_shade,0,NYCP_LIST
+Quercus palustris,loc_median,1,NYCP_LIST
+Quercus palustris,loc_narrow_space,0,NYCP_LIST
+Quercus palustris,loc_small_pit_lt3ft,0,NYCP_LIST
+Quercus palustris,notes,Needs large tree pit,NYCP_LIST
+Quercus palustris,bronx_match_level,species,NYC_CENSUS15
+Quercus palustris,bronx_c15_n,6445,NYC_CENSUS15
+Quercus palustris,bronx_c15_pct_good,87.3,NYC_CENSUS15
+Quercus palustris,bronx_c15_pct_poor,2.2,NYC_CENSUS15
+Quercus palustris,bronx_c15_pct_sidewalk_damage,33.7,NYC_CENSUS15
+Quercus palustris,bronx_c15_pct_root_problem,35.0,NYC_CENSUS15
+Quercus palustris,bronx_c15y_n,596,NYC_CENSUS15
+Quercus palustris,bronx_c15y_pct_good,81.4,NYC_CENSUS15
+Quercus palustris,bronx_c15y_pct_poor,4.9,NYC_CENSUS15
+Quercus palustris,bronx_c15_mean_dbh_in,16.3,NYC_CENSUS15
+Quercus palustris,usda_symbol,QUPA2,USDA_PLANTS
+Quercus palustris,native_L48,True,USDA_PLANTS
+Quercus palustris,usda_drought_tol,Low,USDA_PLANTS
+Quercus palustris,usda_shade_tol,High,USDA_PLANTS
+Quercus palustris,usda_salinity_tol,Low,USDA_PLANTS
+Quercus palustris,usda_anaerobic_tol,Medium,USDA_PLANTS
+Quercus palustris,usda_moisture_use,High,USDA_PLANTS
+Quercus palustris,usda_mature_height_ft,100.0,USDA_PLANTS
+Quercus palustris,usda_growth_rate,Rapid,USDA_PLANTS
+Quercus palustris,usda_lifespan,Moderate,USDA_PLANTS
+Quercus palustris,usda_root_depth_min_in,30,USDA_PLANTS
+Quercus palustris,usda_ph_min,4.5,USDA_PLANTS
+Quercus palustris,usda_ph_max,6.5,USDA_PLANTS
+Quercus palustris,usda_temp_min_f,-33,USDA_PLANTS
+Quercus palustris,usda_bloom_period,Spring,USDA_PLANTS
+Quercus palustris,usda_caco3_tol,Low,USDA_PLANTS
+Quercus palustris,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Quercus palustris,alb_regulated_host,False,APHIS_ALB
+Quercus palustris,eab_host,False,APHIS_EAB
+Quercus palustris,core_species_share_pct,8.7,NYC_TREEPTS
+Quercus palustris,core_genus_share_pct,19.2,NYC_TREEPTS
+Quercus phellos,nyc_approved,True,NYCP_LIST
+Quercus phellos,common_name,Willow Oak,NYCP_LIST
+Quercus phellos,size_class,large,NYCP_LIST
+Quercus phellos,mature_height_class_ft,>50,NYCP_LIST
+Quercus phellos,form,Rounded,NYCP_LIST
+Quercus phellos,growth_rate,Slow,NYCP_LIST
+Quercus phellos,tol_salt,0,NYCP_LIST
+Quercus phellos,tol_drought,1,NYCP_LIST
+Quercus phellos,tol_wet,0,NYCP_LIST
+Quercus phellos,tol_wind,0,NYCP_LIST
+Quercus phellos,tol_pollution,1,NYCP_LIST
+Quercus phellos,tol_high_ph,0,NYCP_LIST
+Quercus phellos,tol_shade,0,NYCP_LIST
+Quercus phellos,loc_median,1,NYCP_LIST
+Quercus phellos,loc_narrow_space,0,NYCP_LIST
+Quercus phellos,loc_small_pit_lt3ft,0,NYCP_LIST
+Quercus phellos,notes,Plant spring only,NYCP_LIST
+Quercus phellos,bronx_match_level,species,NYC_CENSUS15
+Quercus phellos,bronx_c15_n,505,NYC_CENSUS15
+Quercus phellos,bronx_c15_pct_good,89.7,NYC_CENSUS15
+Quercus phellos,bronx_c15_pct_poor,2.0,NYC_CENSUS15
+Quercus phellos,bronx_c15_pct_sidewalk_damage,34.9,NYC_CENSUS15
+Quercus phellos,bronx_c15_pct_root_problem,30.7,NYC_CENSUS15
+Quercus phellos,bronx_c15y_n,85,NYC_CENSUS15
+Quercus phellos,bronx_c15y_pct_good,81.2,NYC_CENSUS15
+Quercus phellos,bronx_c15y_pct_poor,3.5,NYC_CENSUS15
+Quercus phellos,bronx_c15_mean_dbh_in,13.2,NYC_CENSUS15
+Quercus phellos,usda_symbol,QUPH,USDA_PLANTS
+Quercus phellos,native_L48,True,USDA_PLANTS
+Quercus phellos,usda_shade_tol,High,USDA_PLANTS
+Quercus phellos,usda_anaerobic_tol,Low,USDA_PLANTS
+Quercus phellos,usda_moisture_use,High,USDA_PLANTS
+Quercus phellos,usda_mature_height_ft,100.0,USDA_PLANTS
+Quercus phellos,usda_growth_rate,Rapid,USDA_PLANTS
+Quercus phellos,usda_lifespan,Long,USDA_PLANTS
+Quercus phellos,usda_root_depth_min_in,12,USDA_PLANTS
+Quercus phellos,usda_ph_min,4.5,USDA_PLANTS
+Quercus phellos,usda_ph_max,6.5,USDA_PLANTS
+Quercus phellos,usda_temp_min_f,-23,USDA_PLANTS
+Quercus phellos,usda_bloom_period,Mid Spring,USDA_PLANTS
+Quercus phellos,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Quercus phellos,alb_regulated_host,False,APHIS_ALB
+Quercus phellos,eab_host,False,APHIS_EAB
+Quercus phellos,core_species_share_pct,0.0,NYC_TREEPTS
+Quercus phellos,core_genus_share_pct,19.2,NYC_TREEPTS
+Tilia americana,nyc_approved,True,NYCP_LIST
+Tilia americana,common_name,American Linden,NYCP_LIST
+Tilia americana,size_class,large,NYCP_LIST
+Tilia americana,mature_height_class_ft,>50,NYCP_LIST
+Tilia americana,form,Rounded,NYCP_LIST
+Tilia americana,growth_rate,Medium,NYCP_LIST
+Tilia americana,tol_salt,0,NYCP_LIST
+Tilia americana,tol_drought,0,NYCP_LIST
+Tilia americana,tol_wet,0,NYCP_LIST
+Tilia americana,tol_wind,0,NYCP_LIST
+Tilia americana,tol_pollution,0,NYCP_LIST
+Tilia americana,tol_high_ph,1,NYCP_LIST
+Tilia americana,tol_shade,1,NYCP_LIST
+Tilia americana,loc_median,0,NYCP_LIST
+Tilia americana,loc_narrow_space,0,NYCP_LIST
+Tilia americana,loc_small_pit_lt3ft,0,NYCP_LIST
+Tilia americana,notes,'Redmond',NYCP_LIST
+Tilia americana,bronx_match_level,species,NYC_CENSUS15
+Tilia americana,bronx_c15_n,2132,NYC_CENSUS15
+Tilia americana,bronx_c15_pct_good,80.9,NYC_CENSUS15
+Tilia americana,bronx_c15_pct_poor,4.4,NYC_CENSUS15
+Tilia americana,bronx_c15_pct_sidewalk_damage,27.5,NYC_CENSUS15
+Tilia americana,bronx_c15_pct_root_problem,20.3,NYC_CENSUS15
+Tilia americana,bronx_c15y_n,466,NYC_CENSUS15
+Tilia americana,bronx_c15y_pct_good,82.2,NYC_CENSUS15
+Tilia americana,bronx_c15y_pct_poor,4.3,NYC_CENSUS15
+Tilia americana,bronx_c15_mean_dbh_in,9.0,NYC_CENSUS15
+Tilia americana,usda_symbol,TIAM,USDA_PLANTS
+Tilia americana,native_L48,True,USDA_PLANTS
+Tilia americana,usda_drought_tol,Low,USDA_PLANTS
+Tilia americana,usda_shade_tol,Low,USDA_PLANTS
+Tilia americana,usda_moisture_use,Medium,USDA_PLANTS
+Tilia americana,usda_mature_height_ft,100.0,USDA_PLANTS
+Tilia americana,usda_growth_rate,Moderate,USDA_PLANTS
+Tilia americana,usda_lifespan,Moderate,USDA_PLANTS
+Tilia americana,usda_root_depth_min_in,30,USDA_PLANTS
+Tilia americana,usda_ph_min,4.5,USDA_PLANTS
+Tilia americana,usda_ph_max,7.5,USDA_PLANTS
+Tilia americana,usda_temp_min_f,-46,USDA_PLANTS
+Tilia americana,usda_bloom_period,Late Spring,USDA_PLANTS
+Tilia americana,usda_caco3_tol,Low,USDA_PLANTS
+Tilia americana,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Tilia americana,alb_regulated_host,False,APHIS_ALB
+Tilia americana,eab_host,False,APHIS_EAB
+Tilia americana,core_species_share_pct,1.5,NYC_TREEPTS
+Tilia americana,core_genus_share_pct,3.8,NYC_TREEPTS
+Tilia x euchlora,nyc_approved,True,NYCP_LIST
+Tilia x euchlora,common_name,Crimean Linden,NYCP_LIST
+Tilia x euchlora,size_class,large,NYCP_LIST
+Tilia x euchlora,mature_height_class_ft,>50,NYCP_LIST
+Tilia x euchlora,form,Rounded,NYCP_LIST
+Tilia x euchlora,growth_rate,Medium,NYCP_LIST
+Tilia x euchlora,tol_salt,0,NYCP_LIST
+Tilia x euchlora,tol_drought,0,NYCP_LIST
+Tilia x euchlora,tol_wet,0,NYCP_LIST
+Tilia x euchlora,tol_wind,0,NYCP_LIST
+Tilia x euchlora,tol_pollution,1,NYCP_LIST
+Tilia x euchlora,tol_high_ph,0,NYCP_LIST
+Tilia x euchlora,tol_shade,0,NYCP_LIST
+Tilia x euchlora,loc_median,0,NYCP_LIST
+Tilia x euchlora,loc_narrow_space,0,NYCP_LIST
+Tilia x euchlora,loc_small_pit_lt3ft,0,NYCP_LIST
+Tilia x euchlora,notes,Pest resistant,NYCP_LIST
+Tilia x euchlora,alb_regulated_host,False,APHIS_ALB
+Tilia x euchlora,eab_host,False,APHIS_EAB
+Tilia x euchlora,core_species_share_pct,0.0,NYC_TREEPTS
+Tilia x euchlora,core_genus_share_pct,3.8,NYC_TREEPTS
+Tilia tomentosa,nyc_approved,True,NYCP_LIST
+Tilia tomentosa,common_name,Silver Linden,NYCP_LIST
+Tilia tomentosa,size_class,large,NYCP_LIST
+Tilia tomentosa,mature_height_class_ft,>50,NYCP_LIST
+Tilia tomentosa,form,Rounded,NYCP_LIST
+Tilia tomentosa,growth_rate,Medium,NYCP_LIST
+Tilia tomentosa,tol_salt,1,NYCP_LIST
+Tilia tomentosa,tol_drought,0,NYCP_LIST
+Tilia tomentosa,tol_wet,0,NYCP_LIST
+Tilia tomentosa,tol_wind,0,NYCP_LIST
+Tilia tomentosa,tol_pollution,0,NYCP_LIST
+Tilia tomentosa,tol_high_ph,0,NYCP_LIST
+Tilia tomentosa,tol_shade,1,NYCP_LIST
+Tilia tomentosa,loc_median,0,NYCP_LIST
+Tilia tomentosa,loc_narrow_space,0,NYCP_LIST
+Tilia tomentosa,loc_small_pit_lt3ft,0,NYCP_LIST
+Tilia tomentosa,notes,'Green Mountain',NYCP_LIST
+Tilia tomentosa,bronx_match_level,species,NYC_CENSUS15
+Tilia tomentosa,bronx_c15_n,670,NYC_CENSUS15
+Tilia tomentosa,bronx_c15_pct_good,82.1,NYC_CENSUS15
+Tilia tomentosa,bronx_c15_pct_poor,4.6,NYC_CENSUS15
+Tilia tomentosa,bronx_c15_pct_sidewalk_damage,28.2,NYC_CENSUS15
+Tilia tomentosa,bronx_c15_pct_root_problem,24.5,NYC_CENSUS15
+Tilia tomentosa,bronx_c15y_n,82,NYC_CENSUS15
+Tilia tomentosa,bronx_c15y_pct_good,76.8,NYC_CENSUS15
+Tilia tomentosa,bronx_c15y_pct_poor,6.1,NYC_CENSUS15
+Tilia tomentosa,bronx_c15_mean_dbh_in,9.0,NYC_CENSUS15
+Tilia tomentosa,usda_symbol,TITO,USDA_PLANTS
+Tilia tomentosa,alb_regulated_host,False,APHIS_ALB
+Tilia tomentosa,eab_host,False,APHIS_EAB
+Tilia tomentosa,core_species_share_pct,0.6,NYC_TREEPTS
+Tilia tomentosa,core_genus_share_pct,3.8,NYC_TREEPTS
+Zelkova serrata,nyc_approved,True,NYCP_LIST
+Zelkova serrata,common_name,Japanese Zelkova,NYCP_LIST
+Zelkova serrata,size_class,large,NYCP_LIST
+Zelkova serrata,mature_height_class_ft,>50,NYCP_LIST
+Zelkova serrata,form,Vase-like,NYCP_LIST
+Zelkova serrata,growth_rate,Medium,NYCP_LIST
+Zelkova serrata,tol_salt,0,NYCP_LIST
+Zelkova serrata,tol_drought,1,NYCP_LIST
+Zelkova serrata,tol_wet,0,NYCP_LIST
+Zelkova serrata,tol_wind,1,NYCP_LIST
+Zelkova serrata,tol_pollution,1,NYCP_LIST
+Zelkova serrata,tol_high_ph,1,NYCP_LIST
+Zelkova serrata,tol_shade,0,NYCP_LIST
+Zelkova serrata,loc_median,1,NYCP_LIST
+Zelkova serrata,loc_narrow_space,1,NYCP_LIST
+Zelkova serrata,loc_small_pit_lt3ft,1,NYCP_LIST
+Zelkova serrata,notes,'Halka',NYCP_LIST
+Zelkova serrata,bronx_match_level,species,NYC_CENSUS15
+Zelkova serrata,bronx_c15_n,4638,NYC_CENSUS15
+Zelkova serrata,bronx_c15_pct_good,85.4,NYC_CENSUS15
+Zelkova serrata,bronx_c15_pct_poor,2.8,NYC_CENSUS15
+Zelkova serrata,bronx_c15_pct_sidewalk_damage,28.3,NYC_CENSUS15
+Zelkova serrata,bronx_c15_pct_root_problem,21.3,NYC_CENSUS15
+Zelkova serrata,bronx_c15y_n,667,NYC_CENSUS15
+Zelkova serrata,bronx_c15y_pct_good,81.9,NYC_CENSUS15
+Zelkova serrata,bronx_c15y_pct_poor,4.3,NYC_CENSUS15
+Zelkova serrata,bronx_c15_mean_dbh_in,7.8,NYC_CENSUS15
+Zelkova serrata,alb_regulated_host,False,APHIS_ALB
+Zelkova serrata,eab_host,False,APHIS_EAB
+Zelkova serrata,core_species_share_pct,9.1,NYC_TREEPTS
+Zelkova serrata,core_genus_share_pct,9.1,NYC_TREEPTS
+Carpinus betulus,nyc_approved,True,NYCP_LIST
+Carpinus betulus,common_name,European Hornbeam,NYCP_LIST
+Carpinus betulus,size_class,medium,NYCP_LIST
+Carpinus betulus,mature_height_class_ft,35-50,NYCP_LIST
+Carpinus betulus,form,Upright,NYCP_LIST
+Carpinus betulus,growth_rate,Medium,NYCP_LIST
+Carpinus betulus,tol_salt,1,NYCP_LIST
+Carpinus betulus,tol_drought,1,NYCP_LIST
+Carpinus betulus,tol_wet,0,NYCP_LIST
+Carpinus betulus,tol_wind,0,NYCP_LIST
+Carpinus betulus,tol_pollution,1,NYCP_LIST
+Carpinus betulus,tol_high_ph,0,NYCP_LIST
+Carpinus betulus,tol_shade,1,NYCP_LIST
+Carpinus betulus,loc_median,0,NYCP_LIST
+Carpinus betulus,loc_narrow_space,1,NYCP_LIST
+Carpinus betulus,loc_small_pit_lt3ft,1,NYCP_LIST
+Carpinus betulus,notes,'Fastigiata' best for narrow spaces,NYCP_LIST
+Carpinus betulus,bronx_match_level,species,NYC_CENSUS15
+Carpinus betulus,bronx_c15_n,449,NYC_CENSUS15
+Carpinus betulus,bronx_c15_pct_good,74.8,NYC_CENSUS15
+Carpinus betulus,bronx_c15_pct_poor,5.3,NYC_CENSUS15
+Carpinus betulus,bronx_c15_pct_sidewalk_damage,15.6,NYC_CENSUS15
+Carpinus betulus,bronx_c15_pct_root_problem,7.1,NYC_CENSUS15
+Carpinus betulus,bronx_c15y_n,218,NYC_CENSUS15
+Carpinus betulus,bronx_c15y_pct_good,76.6,NYC_CENSUS15
+Carpinus betulus,bronx_c15y_pct_poor,6.4,NYC_CENSUS15
+Carpinus betulus,bronx_c15_mean_dbh_in,4.0,NYC_CENSUS15
+Carpinus betulus,usda_symbol,CABE8,USDA_PLANTS
+Carpinus betulus,native_L48,False,USDA_PLANTS
+Carpinus betulus,alb_regulated_host,False,APHIS_ALB
+Carpinus betulus,eab_host,False,APHIS_EAB
+Carpinus betulus,core_species_share_pct,0.0,NYC_TREEPTS
+Carpinus betulus,core_genus_share_pct,0.0,NYC_TREEPTS
+Quercus robur,nyc_approved,True,NYCP_LIST
+Quercus robur,common_name,English Oak,NYCP_LIST
+Quercus robur,size_class,medium,NYCP_LIST
+Quercus robur,mature_height_class_ft,35-50,NYCP_LIST
+Quercus robur,form,Upright,NYCP_LIST
+Quercus robur,growth_rate,Slow,NYCP_LIST
+Quercus robur,tol_salt,1,NYCP_LIST
+Quercus robur,tol_drought,0,NYCP_LIST
+Quercus robur,tol_wet,0,NYCP_LIST
+Quercus robur,tol_wind,0,NYCP_LIST
+Quercus robur,tol_pollution,0,NYCP_LIST
+Quercus robur,tol_high_ph,1,NYCP_LIST
+Quercus robur,tol_shade,0,NYCP_LIST
+Quercus robur,loc_median,0,NYCP_LIST
+Quercus robur,loc_narrow_space,1,NYCP_LIST
+Quercus robur,loc_small_pit_lt3ft,1,NYCP_LIST
+Quercus robur,notes,Plant spring only,NYCP_LIST
+Quercus robur,bronx_match_level,species,NYC_CENSUS15
+Quercus robur,bronx_c15_n,223,NYC_CENSUS15
+Quercus robur,bronx_c15_pct_good,87.9,NYC_CENSUS15
+Quercus robur,bronx_c15_pct_poor,1.3,NYC_CENSUS15
+Quercus robur,bronx_c15_pct_sidewalk_damage,16.6,NYC_CENSUS15
+Quercus robur,bronx_c15_pct_root_problem,5.8,NYC_CENSUS15
+Quercus robur,bronx_c15y_n,109,NYC_CENSUS15
+Quercus robur,bronx_c15y_pct_good,88.1,NYC_CENSUS15
+Quercus robur,bronx_c15y_pct_poor,2.8,NYC_CENSUS15
+Quercus robur,bronx_c15_mean_dbh_in,4.9,NYC_CENSUS15
+Quercus robur,usda_symbol,QURO2,USDA_PLANTS
+Quercus robur,native_L48,False,USDA_PLANTS
+Quercus robur,alb_regulated_host,False,APHIS_ALB
+Quercus robur,eab_host,False,APHIS_EAB
+Quercus robur,core_species_share_pct,1.1,NYC_TREEPTS
+Quercus robur,core_genus_share_pct,19.2,NYC_TREEPTS
+Corylus colurna,nyc_approved,True,NYCP_LIST
+Corylus colurna,common_name,Turkish Filbert,NYCP_LIST
+Corylus colurna,size_class,medium,NYCP_LIST
+Corylus colurna,mature_height_class_ft,35-50,NYCP_LIST
+Corylus colurna,form,Pyramidal,NYCP_LIST
+Corylus colurna,growth_rate,Medium,NYCP_LIST
+Corylus colurna,tol_salt,0,NYCP_LIST
+Corylus colurna,tol_drought,1,NYCP_LIST
+Corylus colurna,tol_wet,0,NYCP_LIST
+Corylus colurna,tol_wind,0,NYCP_LIST
+Corylus colurna,tol_pollution,0,NYCP_LIST
+Corylus colurna,tol_high_ph,1,NYCP_LIST
+Corylus colurna,tol_shade,0,NYCP_LIST
+Corylus colurna,loc_median,0,NYCP_LIST
+Corylus colurna,loc_narrow_space,0,NYCP_LIST
+Corylus colurna,loc_small_pit_lt3ft,1,NYCP_LIST
+Corylus colurna,notes,Turkish hazelnut,NYCP_LIST
+Corylus colurna,bronx_match_level,species,NYC_CENSUS15
+Corylus colurna,bronx_c15_n,54,NYC_CENSUS15
+Corylus colurna,bronx_c15_pct_good,83.3,NYC_CENSUS15
+Corylus colurna,bronx_c15_pct_poor,5.6,NYC_CENSUS15
+Corylus colurna,bronx_c15_pct_sidewalk_damage,16.7,NYC_CENSUS15
+Corylus colurna,bronx_c15_pct_root_problem,9.3,NYC_CENSUS15
+Corylus colurna,bronx_c15y_n,35,NYC_CENSUS15
+Corylus colurna,bronx_c15y_pct_good,85.7,NYC_CENSUS15
+Corylus colurna,bronx_c15y_pct_poor,8.6,NYC_CENSUS15
+Corylus colurna,bronx_c15_mean_dbh_in,4.1,NYC_CENSUS15
+Corylus colurna,alb_regulated_host,False,APHIS_ALB
+Corylus colurna,eab_host,False,APHIS_EAB
+Corylus colurna,core_species_share_pct,0.2,NYC_TREEPTS
+Corylus colurna,core_genus_share_pct,0.2,NYC_TREEPTS
+Nyssa sylvatica,nyc_approved,True,NYCP_LIST
+Nyssa sylvatica,common_name,Black Gum,NYCP_LIST
+Nyssa sylvatica,size_class,medium,NYCP_LIST
+Nyssa sylvatica,mature_height_class_ft,35-50,NYCP_LIST
+Nyssa sylvatica,form,Pyramidal,NYCP_LIST
+Nyssa sylvatica,growth_rate,Medium,NYCP_LIST
+Nyssa sylvatica,tol_salt,0,NYCP_LIST
+Nyssa sylvatica,tol_drought,0,NYCP_LIST
+Nyssa sylvatica,tol_wet,1,NYCP_LIST
+Nyssa sylvatica,tol_wind,0,NYCP_LIST
+Nyssa sylvatica,tol_pollution,0,NYCP_LIST
+Nyssa sylvatica,tol_high_ph,0,NYCP_LIST
+Nyssa sylvatica,tol_shade,0,NYCP_LIST
+Nyssa sylvatica,loc_median,0,NYCP_LIST
+Nyssa sylvatica,loc_narrow_space,0,NYCP_LIST
+Nyssa sylvatica,loc_small_pit_lt3ft,0,NYCP_LIST
+Nyssa sylvatica,notes,Only in extremely wet sites,NYCP_LIST
+Nyssa sylvatica,bronx_match_level,species,NYC_CENSUS15
+Nyssa sylvatica,bronx_c15_n,28,NYC_CENSUS15
+Nyssa sylvatica,bronx_c15_pct_good,67.9,NYC_CENSUS15
+Nyssa sylvatica,bronx_c15_pct_poor,0.0,NYC_CENSUS15
+Nyssa sylvatica,bronx_c15_pct_sidewalk_damage,32.1,NYC_CENSUS15
+Nyssa sylvatica,bronx_c15_pct_root_problem,3.6,NYC_CENSUS15
+Nyssa sylvatica,bronx_c15y_n,19,NYC_CENSUS15
+Nyssa sylvatica,bronx_c15y_pct_good,73.7,NYC_CENSUS15
+Nyssa sylvatica,bronx_c15y_pct_poor,0.0,NYC_CENSUS15
+Nyssa sylvatica,bronx_c15_mean_dbh_in,3.1,NYC_CENSUS15
+Nyssa sylvatica,usda_symbol,NYSY,USDA_PLANTS
+Nyssa sylvatica,native_L48,True,USDA_PLANTS
+Nyssa sylvatica,usda_drought_tol,Low,USDA_PLANTS
+Nyssa sylvatica,usda_shade_tol,Low,USDA_PLANTS
+Nyssa sylvatica,usda_salinity_tol,Medium,USDA_PLANTS
+Nyssa sylvatica,usda_anaerobic_tol,Low,USDA_PLANTS
+Nyssa sylvatica,usda_moisture_use,Medium,USDA_PLANTS
+Nyssa sylvatica,usda_mature_height_ft,95.0,USDA_PLANTS
+Nyssa sylvatica,usda_growth_rate,Moderate,USDA_PLANTS
+Nyssa sylvatica,usda_lifespan,Moderate,USDA_PLANTS
+Nyssa sylvatica,usda_root_depth_min_in,30,USDA_PLANTS
+Nyssa sylvatica,usda_ph_min,4.5,USDA_PLANTS
+Nyssa sylvatica,usda_ph_max,6.0,USDA_PLANTS
+Nyssa sylvatica,usda_temp_min_f,-18,USDA_PLANTS
+Nyssa sylvatica,usda_bloom_period,Late Spring,USDA_PLANTS
+Nyssa sylvatica,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Nyssa sylvatica,alb_regulated_host,False,APHIS_ALB
+Nyssa sylvatica,eab_host,False,APHIS_EAB
+Nyssa sylvatica,core_species_share_pct,0.2,NYC_TREEPTS
+Nyssa sylvatica,core_genus_share_pct,0.2,NYC_TREEPTS
+Ostrya virginiana,nyc_approved,True,NYCP_LIST
+Ostrya virginiana,common_name,American Hophornbeam,NYCP_LIST
+Ostrya virginiana,size_class,medium,NYCP_LIST
+Ostrya virginiana,mature_height_class_ft,35-50,NYCP_LIST
+Ostrya virginiana,form,Rounded,NYCP_LIST
+Ostrya virginiana,growth_rate,Slow,NYCP_LIST
+Ostrya virginiana,tol_salt,0,NYCP_LIST
+Ostrya virginiana,tol_drought,0,NYCP_LIST
+Ostrya virginiana,tol_wet,0,NYCP_LIST
+Ostrya virginiana,tol_wind,0,NYCP_LIST
+Ostrya virginiana,tol_pollution,0,NYCP_LIST
+Ostrya virginiana,tol_high_ph,1,NYCP_LIST
+Ostrya virginiana,tol_shade,1,NYCP_LIST
+Ostrya virginiana,loc_median,0,NYCP_LIST
+Ostrya virginiana,loc_narrow_space,0,NYCP_LIST
+Ostrya virginiana,loc_small_pit_lt3ft,1,NYCP_LIST
+Ostrya virginiana,notes,Plant spring only,NYCP_LIST
+Ostrya virginiana,bronx_match_level,species,NYC_CENSUS15
+Ostrya virginiana,bronx_c15_n,185,NYC_CENSUS15
+Ostrya virginiana,bronx_c15_pct_good,80.0,NYC_CENSUS15
+Ostrya virginiana,bronx_c15_pct_poor,4.9,NYC_CENSUS15
+Ostrya virginiana,bronx_c15_pct_sidewalk_damage,19.5,NYC_CENSUS15
+Ostrya virginiana,bronx_c15_pct_root_problem,11.9,NYC_CENSUS15
+Ostrya virginiana,bronx_c15y_n,78,NYC_CENSUS15
+Ostrya virginiana,bronx_c15y_pct_good,73.1,NYC_CENSUS15
+Ostrya virginiana,bronx_c15y_pct_poor,10.3,NYC_CENSUS15
+Ostrya virginiana,bronx_c15_mean_dbh_in,5.2,NYC_CENSUS15
+Ostrya virginiana,usda_symbol,OSVI,USDA_PLANTS
+Ostrya virginiana,native_L48,True,USDA_PLANTS
+Ostrya virginiana,usda_drought_tol,Medium,USDA_PLANTS
+Ostrya virginiana,usda_shade_tol,Low,USDA_PLANTS
+Ostrya virginiana,usda_moisture_use,Low,USDA_PLANTS
+Ostrya virginiana,usda_mature_height_ft,45.0,USDA_PLANTS
+Ostrya virginiana,usda_growth_rate,Slow,USDA_PLANTS
+Ostrya virginiana,usda_lifespan,Short,USDA_PLANTS
+Ostrya virginiana,usda_root_depth_min_in,16,USDA_PLANTS
+Ostrya virginiana,usda_ph_min,4.2,USDA_PLANTS
+Ostrya virginiana,usda_ph_max,7.6,USDA_PLANTS
+Ostrya virginiana,usda_temp_min_f,-38,USDA_PLANTS
+Ostrya virginiana,usda_bloom_period,Mid Spring,USDA_PLANTS
+Ostrya virginiana,usda_caco3_tol,Medium,USDA_PLANTS
+Ostrya virginiana,usda_foliage_porosity_summer,Moderate,USDA_PLANTS
+Ostrya virginiana,alb_regulated_host,False,APHIS_ALB
+Ostrya virginiana,eab_host,False,APHIS_EAB
+Ostrya virginiana,core_species_share_pct,0.2,NYC_TREEPTS
+Ostrya virginiana,core_genus_share_pct,0.2,NYC_TREEPTS
+Quercus acutissima,nyc_approved,True,NYCP_LIST
+Quercus acutissima,common_name,Sawtooth Oak,NYCP_LIST
+Quercus acutissima,size_class,medium,NYCP_LIST
+Quercus acutissima,mature_height_class_ft,35-50,NYCP_LIST
+Quercus acutissima,form,Rounded,NYCP_LIST
+Quercus acutissima,growth_rate,Medium,NYCP_LIST
+Quercus acutissima,tol_salt,1,NYCP_LIST
+Quercus acutissima,tol_drought,0,NYCP_LIST
+Quercus acutissima,tol_wet,0,NYCP_LIST
+Quercus acutissima,tol_wind,0,NYCP_LIST
+Quercus acutissima,tol_pollution,0,NYCP_LIST
+Quercus acutissima,tol_high_ph,1,NYCP_LIST
+Quercus acutissima,tol_shade,0,NYCP_LIST
+Quercus acutissima,loc_median,0,NYCP_LIST
+Quercus acutissima,loc_narrow_space,0,NYCP_LIST
+Quercus acutissima,loc_small_pit_lt3ft,1,NYCP_LIST
+Quercus acutissima,notes,Plant spring only,NYCP_LIST
+Quercus acutissima,bronx_match_level,species,NYC_CENSUS15
+Quercus acutissima,bronx_c15_n,363,NYC_CENSUS15
+Quercus acutissima,bronx_c15_pct_good,90.9,NYC_CENSUS15
+Quercus acutissima,bronx_c15_pct_poor,1.1,NYC_CENSUS15
+Quercus acutissima,bronx_c15_pct_sidewalk_damage,21.8,NYC_CENSUS15
+Quercus acutissima,bronx_c15_pct_root_problem,8.3,NYC_CENSUS15
+Quercus acutissima,bronx_c15y_n,92,NYC_CENSUS15
+Quercus acutissima,bronx_c15y_pct_good,89.1,NYC_CENSUS15
+Quercus acutissima,bronx_c15y_pct_poor,2.2,NYC_CENSUS15
+Quercus acutissima,bronx_c15_mean_dbh_in,5.6,NYC_CENSUS15
+Quercus acutissima,alb_regulated_host,False,APHIS_ALB
+Quercus acutissima,eab_host,False,APHIS_EAB
+Quercus acutissima,core_species_share_pct,2.5,NYC_TREEPTS
+Quercus acutissima,core_genus_share_pct,19.2,NYC_TREEPTS
+Eucommia ulmoides,nyc_approved,True,NYCP_LIST
+Eucommia ulmoides,common_name,Hardy Rubber Tree,NYCP_LIST
+Eucommia ulmoides,size_class,medium,NYCP_LIST
+Eucommia ulmoides,mature_height_class_ft,35-50,NYCP_LIST
+Eucommia ulmoides,form,Rounded,NYCP_LIST
+Eucommia ulmoides,growth_rate,Slow,NYCP_LIST
+Eucommia ulmoides,tol_salt,1,NYCP_LIST
+Eucommia ulmoides,tol_drought,1,NYCP_LIST
+Eucommia ulmoides,tol_wet,0,NYCP_LIST
+Eucommia ulmoides,tol_wind,0,NYCP_LIST
+Eucommia ulmoides,tol_pollution,0,NYCP_LIST
+Eucommia ulmoides,tol_high_ph,0,NYCP_LIST
+Eucommia ulmoides,tol_shade,0,NYCP_LIST
+Eucommia ulmoides,loc_median,0,NYCP_LIST
+Eucommia ulmoides,loc_narrow_space,0,NYCP_LIST
+Eucommia ulmoides,loc_small_pit_lt3ft,1,NYCP_LIST
+Eucommia ulmoides,notes,Tolerates tough conditions,NYCP_LIST
+Eucommia ulmoides,bronx_match_level,species,NYC_CENSUS15
+Eucommia ulmoides,bronx_c15_n,101,NYC_CENSUS15
+Eucommia ulmoides,bronx_c15_pct_good,80.2,NYC_CENSUS15
+Eucommia ulmoides,bronx_c15_pct_poor,3.0,NYC_CENSUS15
+Eucommia ulmoides,bronx_c15_pct_sidewalk_damage,23.8,NYC_CENSUS15
+Eucommia ulmoides,bronx_c15_pct_root_problem,5.0,NYC_CENSUS15
+Eucommia ulmoides,bronx_c15y_n,66,NYC_CENSUS15
+Eucommia ulmoides,bronx_c15y_pct_good,80.3,NYC_CENSUS15
+Eucommia ulmoides,bronx_c15y_pct_poor,3.0,NYC_CENSUS15
+Eucommia ulmoides,bronx_c15_mean_dbh_in,3.4,NYC_CENSUS15
+Eucommia ulmoides,alb_regulated_host,False,APHIS_ALB
+Eucommia ulmoides,eab_host,False,APHIS_EAB
+Eucommia ulmoides,core_species_share_pct,0.0,NYC_TREEPTS
+Eucommia ulmoides,core_genus_share_pct,0.0,NYC_TREEPTS
+Styphnolobium japonicum,nyc_approved,True,NYCP_LIST
+Styphnolobium japonicum,common_name,Scholar Tree,NYCP_LIST
+Styphnolobium japonicum,size_class,medium,NYCP_LIST
+Styphnolobium japonicum,mature_height_class_ft,35-50,NYCP_LIST
+Styphnolobium japonicum,form,Rounded,NYCP_LIST
+Styphnolobium japonicum,growth_rate,Medium,NYCP_LIST
+Styphnolobium japonicum,tol_salt,0,NYCP_LIST
+Styphnolobium japonicum,tol_drought,1,NYCP_LIST
+Styphnolobium japonicum,tol_wet,0,NYCP_LIST
+Styphnolobium japonicum,tol_wind,1,NYCP_LIST
+Styphnolobium japonicum,tol_pollution,1,NYCP_LIST
+Styphnolobium japonicum,tol_high_ph,0,NYCP_LIST
+Styphnolobium japonicum,tol_shade,0,NYCP_LIST
+Styphnolobium japonicum,loc_median,1,NYCP_LIST
+Styphnolobium japonicum,loc_narrow_space,0,NYCP_LIST
+Styphnolobium japonicum,loc_small_pit_lt3ft,1,NYCP_LIST
+Styphnolobium japonicum,notes,'Regent',NYCP_LIST
+Styphnolobium japonicum,bronx_match_level,species,NYC_CENSUS15
+Styphnolobium japonicum,bronx_c15_n,2555,NYC_CENSUS15
+Styphnolobium japonicum,bronx_c15_pct_good,84.3,NYC_CENSUS15
+Styphnolobium japonicum,bronx_c15_pct_poor,3.2,NYC_CENSUS15
+Styphnolobium japonicum,bronx_c15_pct_sidewalk_damage,32.7,NYC_CENSUS15
+Styphnolobium japonicum,bronx_c15_pct_root_problem,29.6,NYC_CENSUS15
+Styphnolobium japonicum,bronx_c15y_n,341,NYC_CENSUS15
+Styphnolobium japonicum,bronx_c15y_pct_good,81.5,NYC_CENSUS15
+Styphnolobium japonicum,bronx_c15y_pct_poor,5.9,NYC_CENSUS15
+Styphnolobium japonicum,bronx_c15_mean_dbh_in,9.1,NYC_CENSUS15
+Styphnolobium japonicum,usda_symbol,STJA9,USDA_PLANTS
+Styphnolobium japonicum,native_L48,False,USDA_PLANTS
+Styphnolobium japonicum,alb_regulated_host,False,APHIS_ALB
+Styphnolobium japonicum,eab_host,False,APHIS_EAB
+Styphnolobium japonicum,core_species_share_pct,4.2,NYC_TREEPTS
+Styphnolobium japonicum,core_genus_share_pct,4.2,NYC_TREEPTS
+Koelreuteria paniculata,nyc_approved,True,NYCP_LIST
+Koelreuteria paniculata,common_name,Goldenraintree,NYCP_LIST
+Koelreuteria paniculata,size_class,intermediate,NYCP_LIST
+Koelreuteria paniculata,mature_height_class_ft,25-35,NYCP_LIST
+Koelreuteria paniculata,form,Rounded,NYCP_LIST
+Koelreuteria paniculata,growth_rate,Medium,NYCP_LIST
+Koelreuteria paniculata,tol_salt,1,NYCP_LIST
+Koelreuteria paniculata,tol_drought,1,NYCP_LIST
+Koelreuteria paniculata,tol_wet,0,NYCP_LIST
+Koelreuteria paniculata,tol_wind,0,NYCP_LIST
+Koelreuteria paniculata,tol_pollution,1,NYCP_LIST
+Koelreuteria paniculata,tol_high_ph,1,NYCP_LIST
+Koelreuteria paniculata,tol_shade,0,NYCP_LIST
+Koelreuteria paniculata,loc_median,0,NYCP_LIST
+Koelreuteria paniculata,loc_narrow_space,0,NYCP_LIST
+Koelreuteria paniculata,loc_small_pit_lt3ft,1,NYCP_LIST
+Koelreuteria paniculata,notes,Tolerates tough conditions,NYCP_LIST
+Koelreuteria paniculata,bronx_match_level,species,NYC_CENSUS15
+Koelreuteria paniculata,bronx_c15_n,518,NYC_CENSUS15
+Koelreuteria paniculata,bronx_c15_pct_good,81.7,NYC_CENSUS15
+Koelreuteria paniculata,bronx_c15_pct_poor,3.7,NYC_CENSUS15
+Koelreuteria paniculata,bronx_c15_pct_sidewalk_damage,19.7,NYC_CENSUS15
+Koelreuteria paniculata,bronx_c15_pct_root_problem,8.9,NYC_CENSUS15
+Koelreuteria paniculata,bronx_c15y_n,126,NYC_CENSUS15
+Koelreuteria paniculata,bronx_c15y_pct_good,79.4,NYC_CENSUS15
+Koelreuteria paniculata,bronx_c15y_pct_poor,7.1,NYC_CENSUS15
+Koelreuteria paniculata,bronx_c15_mean_dbh_in,5.4,NYC_CENSUS15
+Koelreuteria paniculata,usda_symbol,KOPA,USDA_PLANTS
+Koelreuteria paniculata,native_L48,False,USDA_PLANTS
+Koelreuteria paniculata,usda_drought_tol,Medium,USDA_PLANTS
+Koelreuteria paniculata,usda_shade_tol,High,USDA_PLANTS
+Koelreuteria paniculata,usda_salinity_tol,Low,USDA_PLANTS
+Koelreuteria paniculata,usda_moisture_use,Medium,USDA_PLANTS
+Koelreuteria paniculata,usda_mature_height_ft,45.0,USDA_PLANTS
+Koelreuteria paniculata,usda_growth_rate,Slow,USDA_PLANTS
+Koelreuteria paniculata,usda_lifespan,Moderate,USDA_PLANTS
+Koelreuteria paniculata,usda_root_depth_min_in,16,USDA_PLANTS
+Koelreuteria paniculata,usda_ph_min,4.5,USDA_PLANTS
+Koelreuteria paniculata,usda_ph_max,8.0,USDA_PLANTS
+Koelreuteria paniculata,usda_temp_min_f,-28,USDA_PLANTS
+Koelreuteria paniculata,usda_bloom_period,Late Spring,USDA_PLANTS
+Koelreuteria paniculata,usda_caco3_tol,Medium,USDA_PLANTS
+Koelreuteria paniculata,usda_foliage_porosity_summer,Moderate,USDA_PLANTS
+Koelreuteria paniculata,alb_regulated_host,True,APHIS_ALB
+Koelreuteria paniculata,eab_host,False,APHIS_EAB
+Koelreuteria paniculata,core_species_share_pct,0.0,NYC_TREEPTS
+Koelreuteria paniculata,core_genus_share_pct,0.0,NYC_TREEPTS
+Maackia amurensis,nyc_approved,True,NYCP_LIST
+Maackia amurensis,common_name,Amur Maackia,NYCP_LIST
+Maackia amurensis,size_class,intermediate,NYCP_LIST
+Maackia amurensis,mature_height_class_ft,25-35,NYCP_LIST
+Maackia amurensis,form,Rounded,NYCP_LIST
+Maackia amurensis,growth_rate,Slow,NYCP_LIST
+Maackia amurensis,tol_salt,0,NYCP_LIST
+Maackia amurensis,tol_drought,1,NYCP_LIST
+Maackia amurensis,tol_wet,0,NYCP_LIST
+Maackia amurensis,tol_wind,0,NYCP_LIST
+Maackia amurensis,tol_pollution,0,NYCP_LIST
+Maackia amurensis,tol_high_ph,1,NYCP_LIST
+Maackia amurensis,tol_shade,0,NYCP_LIST
+Maackia amurensis,loc_median,0,NYCP_LIST
+Maackia amurensis,loc_narrow_space,0,NYCP_LIST
+Maackia amurensis,loc_small_pit_lt3ft,1,NYCP_LIST
+Maackia amurensis,notes,"Fixes nitrogen, late bloomer",NYCP_LIST
+Maackia amurensis,bronx_match_level,species,NYC_CENSUS15
+Maackia amurensis,bronx_c15_n,466,NYC_CENSUS15
+Maackia amurensis,bronx_c15_pct_good,81.3,NYC_CENSUS15
+Maackia amurensis,bronx_c15_pct_poor,5.4,NYC_CENSUS15
+Maackia amurensis,bronx_c15_pct_sidewalk_damage,22.1,NYC_CENSUS15
+Maackia amurensis,bronx_c15_pct_root_problem,11.4,NYC_CENSUS15
+Maackia amurensis,bronx_c15y_n,138,NYC_CENSUS15
+Maackia amurensis,bronx_c15y_pct_good,81.9,NYC_CENSUS15
+Maackia amurensis,bronx_c15y_pct_poor,5.8,NYC_CENSUS15
+Maackia amurensis,bronx_c15_mean_dbh_in,5.1,NYC_CENSUS15
+Maackia amurensis,usda_symbol,MAAM9,USDA_PLANTS
+Maackia amurensis,alb_regulated_host,False,APHIS_ALB
+Maackia amurensis,eab_host,False,APHIS_EAB
+Maackia amurensis,core_species_share_pct,0.4,NYC_TREEPTS
+Maackia amurensis,core_genus_share_pct,0.4,NYC_TREEPTS
+Amelanchier sp.,nyc_approved,True,NYCP_LIST
+Amelanchier sp.,common_name,Serviceberry,NYCP_LIST
+Amelanchier sp.,size_class,small,NYCP_LIST
+Amelanchier sp.,mature_height_class_ft,<25,NYCP_LIST
+Amelanchier sp.,form,Rounded,NYCP_LIST
+Amelanchier sp.,growth_rate,Slow,NYCP_LIST
+Amelanchier sp.,tol_salt,0,NYCP_LIST
+Amelanchier sp.,tol_drought,0,NYCP_LIST
+Amelanchier sp.,tol_wet,1,NYCP_LIST
+Amelanchier sp.,tol_wind,0,NYCP_LIST
+Amelanchier sp.,tol_pollution,0,NYCP_LIST
+Amelanchier sp.,tol_high_ph,0,NYCP_LIST
+Amelanchier sp.,tol_shade,1,NYCP_LIST
+Amelanchier sp.,loc_median,0,NYCP_LIST
+Amelanchier sp.,loc_narrow_space,0,NYCP_LIST
+Amelanchier sp.,loc_small_pit_lt3ft,1,NYCP_LIST
+Amelanchier sp.,notes,"'Autumn Sunset', 'Cumulus', 'White Pillar'",NYCP_LIST
+Amelanchier sp.,bronx_match_level,genus (census records genus only),NYC_CENSUS15
+Amelanchier sp.,bronx_c15_n,307,NYC_CENSUS15
+Amelanchier sp.,bronx_c15_pct_good,83.7,NYC_CENSUS15
+Amelanchier sp.,bronx_c15_pct_poor,5.5,NYC_CENSUS15
+Amelanchier sp.,bronx_c15_pct_sidewalk_damage,15.0,NYC_CENSUS15
+Amelanchier sp.,bronx_c15_pct_root_problem,6.8,NYC_CENSUS15
+Amelanchier sp.,bronx_c15y_n,226,NYC_CENSUS15
+Amelanchier sp.,bronx_c15y_pct_good,83.2,NYC_CENSUS15
+Amelanchier sp.,bronx_c15y_pct_poor,5.8,NYC_CENSUS15
+Amelanchier sp.,bronx_c15_mean_dbh_in,3.3,NYC_CENSUS15
+Amelanchier sp.,usda_symbol,AMELA,USDA_PLANTS
+Amelanchier sp.,alb_regulated_host,False,APHIS_ALB
+Amelanchier sp.,eab_host,False,APHIS_EAB
+Amelanchier sp.,core_genus_share_pct,0.4,NYC_TREEPTS
+Cercis canadensis,nyc_approved,True,NYCP_LIST
+Cercis canadensis,common_name,Eastern Redbud,NYCP_LIST
+Cercis canadensis,size_class,small,NYCP_LIST
+Cercis canadensis,mature_height_class_ft,<25,NYCP_LIST
+Cercis canadensis,form,Rounded,NYCP_LIST
+Cercis canadensis,growth_rate,Medium,NYCP_LIST
+Cercis canadensis,tol_salt,1,NYCP_LIST
+Cercis canadensis,tol_drought,0,NYCP_LIST
+Cercis canadensis,tol_wet,0,NYCP_LIST
+Cercis canadensis,tol_wind,0,NYCP_LIST
+Cercis canadensis,tol_pollution,0,NYCP_LIST
+Cercis canadensis,tol_high_ph,1,NYCP_LIST
+Cercis canadensis,tol_shade,1,NYCP_LIST
+Cercis canadensis,loc_median,1,NYCP_LIST
+Cercis canadensis,loc_narrow_space,0,NYCP_LIST
+Cercis canadensis,loc_small_pit_lt3ft,1,NYCP_LIST
+Cercis canadensis,notes,Does best in lawn pits,NYCP_LIST
+Cercis canadensis,bronx_match_level,species,NYC_CENSUS15
+Cercis canadensis,bronx_c15_n,632,NYC_CENSUS15
+Cercis canadensis,bronx_c15_pct_good,77.5,NYC_CENSUS15
+Cercis canadensis,bronx_c15_pct_poor,8.7,NYC_CENSUS15
+Cercis canadensis,bronx_c15_pct_sidewalk_damage,18.4,NYC_CENSUS15
+Cercis canadensis,bronx_c15_pct_root_problem,5.9,NYC_CENSUS15
+Cercis canadensis,bronx_c15y_n,281,NYC_CENSUS15
+Cercis canadensis,bronx_c15y_pct_good,78.6,NYC_CENSUS15
+Cercis canadensis,bronx_c15y_pct_poor,8.5,NYC_CENSUS15
+Cercis canadensis,bronx_c15_mean_dbh_in,4.2,NYC_CENSUS15
+Cercis canadensis,usda_symbol,CECA4,USDA_PLANTS
+Cercis canadensis,native_L48,True,USDA_PLANTS
+Cercis canadensis,usda_drought_tol,High,USDA_PLANTS
+Cercis canadensis,usda_shade_tol,Low,USDA_PLANTS
+Cercis canadensis,usda_moisture_use,Low,USDA_PLANTS
+Cercis canadensis,usda_mature_height_ft,30.0,USDA_PLANTS
+Cercis canadensis,usda_growth_rate,Slow,USDA_PLANTS
+Cercis canadensis,usda_lifespan,Short,USDA_PLANTS
+Cercis canadensis,usda_root_depth_min_in,24,USDA_PLANTS
+Cercis canadensis,usda_ph_min,5.0,USDA_PLANTS
+Cercis canadensis,usda_ph_max,7.9,USDA_PLANTS
+Cercis canadensis,usda_temp_min_f,-28,USDA_PLANTS
+Cercis canadensis,usda_bloom_period,Spring,USDA_PLANTS
+Cercis canadensis,usda_caco3_tol,Low,USDA_PLANTS
+Cercis canadensis,usda_foliage_porosity_summer,Moderate,USDA_PLANTS
+Cercis canadensis,alb_regulated_host,False,APHIS_ALB
+Cercis canadensis,eab_host,False,APHIS_EAB
+Cercis canadensis,core_species_share_pct,1.1,NYC_TREEPTS
+Cercis canadensis,core_genus_share_pct,1.1,NYC_TREEPTS
+Carpinus caroliniana,nyc_approved,True,NYCP_LIST
+Carpinus caroliniana,common_name,American Hornbeam,NYCP_LIST
+Carpinus caroliniana,size_class,small,NYCP_LIST
+Carpinus caroliniana,mature_height_class_ft,<25,NYCP_LIST
+Carpinus caroliniana,form,Rounded,NYCP_LIST
+Carpinus caroliniana,growth_rate,Slow,NYCP_LIST
+Carpinus caroliniana,tol_salt,0,NYCP_LIST
+Carpinus caroliniana,tol_drought,0,NYCP_LIST
+Carpinus caroliniana,tol_wet,0,NYCP_LIST
+Carpinus caroliniana,tol_wind,0,NYCP_LIST
+Carpinus caroliniana,tol_pollution,0,NYCP_LIST
+Carpinus caroliniana,tol_high_ph,0,NYCP_LIST
+Carpinus caroliniana,tol_shade,1,NYCP_LIST
+Carpinus caroliniana,loc_median,0,NYCP_LIST
+Carpinus caroliniana,loc_narrow_space,0,NYCP_LIST
+Carpinus caroliniana,loc_small_pit_lt3ft,1,NYCP_LIST
+Carpinus caroliniana,notes,Plant spring only,NYCP_LIST
+Carpinus caroliniana,bronx_match_level,species,NYC_CENSUS15
+Carpinus caroliniana,bronx_c15_n,295,NYC_CENSUS15
+Carpinus caroliniana,bronx_c15_pct_good,71.5,NYC_CENSUS15
+Carpinus caroliniana,bronx_c15_pct_poor,7.8,NYC_CENSUS15
+Carpinus caroliniana,bronx_c15_pct_sidewalk_damage,22.7,NYC_CENSUS15
+Carpinus caroliniana,bronx_c15_pct_root_problem,8.8,NYC_CENSUS15
+Carpinus caroliniana,bronx_c15y_n,149,NYC_CENSUS15
+Carpinus caroliniana,bronx_c15y_pct_good,67.8,NYC_CENSUS15
+Carpinus caroliniana,bronx_c15y_pct_poor,8.7,NYC_CENSUS15
+Carpinus caroliniana,bronx_c15_mean_dbh_in,4.1,NYC_CENSUS15
+Carpinus caroliniana,alb_regulated_host,False,APHIS_ALB
+Carpinus caroliniana,eab_host,False,APHIS_EAB
+Carpinus caroliniana,core_species_share_pct,0.0,NYC_TREEPTS
+Carpinus caroliniana,core_genus_share_pct,0.0,NYC_TREEPTS
+Malus sp.,nyc_approved,True,NYCP_LIST
+Malus sp.,common_name,Crabapple,NYCP_LIST
+Malus sp.,size_class,small,NYCP_LIST
+Malus sp.,mature_height_class_ft,<25,NYCP_LIST
+Malus sp.,form,Rounded,NYCP_LIST
+Malus sp.,growth_rate,Slow,NYCP_LIST
+Malus sp.,tol_salt,1,NYCP_LIST
+Malus sp.,tol_drought,1,NYCP_LIST
+Malus sp.,tol_wet,0,NYCP_LIST
+Malus sp.,tol_wind,0,NYCP_LIST
+Malus sp.,tol_pollution,0,NYCP_LIST
+Malus sp.,tol_high_ph,0,NYCP_LIST
+Malus sp.,tol_shade,0,NYCP_LIST
+Malus sp.,loc_median,1,NYCP_LIST
+Malus sp.,loc_narrow_space,0,NYCP_LIST
+Malus sp.,loc_small_pit_lt3ft,1,NYCP_LIST
+Malus sp.,notes,"M. zumi, 'Donald Wyman', 'Spring Snow' seedless",NYCP_LIST
+Malus sp.,bronx_match_level,genus (census records genus only),NYC_CENSUS15
+Malus sp.,bronx_c15_n,507,NYC_CENSUS15
+Malus sp.,bronx_c15_pct_good,82.8,NYC_CENSUS15
+Malus sp.,bronx_c15_pct_poor,3.6,NYC_CENSUS15
+Malus sp.,bronx_c15_pct_sidewalk_damage,15.4,NYC_CENSUS15
+Malus sp.,bronx_c15_pct_root_problem,10.1,NYC_CENSUS15
+Malus sp.,bronx_c15y_n,178,NYC_CENSUS15
+Malus sp.,bronx_c15y_pct_good,82.0,NYC_CENSUS15
+Malus sp.,bronx_c15y_pct_poor,4.5,NYC_CENSUS15
+Malus sp.,bronx_c15_mean_dbh_in,4.6,NYC_CENSUS15
+Malus sp.,usda_symbol,MALUS,USDA_PLANTS
+Malus sp.,alb_regulated_host,False,APHIS_ALB
+Malus sp.,eab_host,False,APHIS_EAB
+Malus sp.,core_genus_share_pct,2.5,NYC_TREEPTS
+Crataegus sp.,nyc_approved,True,NYCP_LIST
+Crataegus sp.,common_name,Hawthorn,NYCP_LIST
+Crataegus sp.,size_class,small,NYCP_LIST
+Crataegus sp.,mature_height_class_ft,<25,NYCP_LIST
+Crataegus sp.,form,Rounded,NYCP_LIST
+Crataegus sp.,growth_rate,Medium,NYCP_LIST
+Crataegus sp.,tol_salt,1,NYCP_LIST
+Crataegus sp.,tol_drought,1,NYCP_LIST
+Crataegus sp.,tol_wet,0,NYCP_LIST
+Crataegus sp.,tol_wind,0,NYCP_LIST
+Crataegus sp.,tol_pollution,0,NYCP_LIST
+Crataegus sp.,tol_high_ph,0,NYCP_LIST
+Crataegus sp.,tol_shade,0,NYCP_LIST
+Crataegus sp.,loc_median,1,NYCP_LIST
+Crataegus sp.,loc_narrow_space,0,NYCP_LIST
+Crataegus sp.,loc_small_pit_lt3ft,1,NYCP_LIST
+Crataegus sp.,notes,"'Winter King', 'Princeton Sentry', 'Crimson Cloud'",NYCP_LIST
+Crataegus sp.,bronx_match_level,genus (census records genus only),NYC_CENSUS15
+Crataegus sp.,bronx_c15_n,472,NYC_CENSUS15
+Crataegus sp.,bronx_c15_pct_good,79.4,NYC_CENSUS15
+Crataegus sp.,bronx_c15_pct_poor,4.0,NYC_CENSUS15
+Crataegus sp.,bronx_c15_pct_sidewalk_damage,16.5,NYC_CENSUS15
+Crataegus sp.,bronx_c15_pct_root_problem,7.4,NYC_CENSUS15
+Crataegus sp.,bronx_c15y_n,229,NYC_CENSUS15
+Crataegus sp.,bronx_c15y_pct_good,80.8,NYC_CENSUS15
+Crataegus sp.,bronx_c15y_pct_poor,4.4,NYC_CENSUS15
+Crataegus sp.,bronx_c15_mean_dbh_in,4.0,NYC_CENSUS15
+Crataegus sp.,usda_symbol,CRATA,USDA_PLANTS
+Crataegus sp.,alb_regulated_host,False,APHIS_ALB
+Crataegus sp.,eab_host,False,APHIS_EAB
+Crataegus sp.,core_genus_share_pct,0.0,NYC_TREEPTS
+Cornus mas,nyc_approved,True,NYCP_LIST
+Cornus mas,common_name,Cornelian Cherry,NYCP_LIST
+Cornus mas,size_class,small,NYCP_LIST
+Cornus mas,mature_height_class_ft,<25,NYCP_LIST
+Cornus mas,form,Rounded,NYCP_LIST
+Cornus mas,growth_rate,Medium,NYCP_LIST
+Cornus mas,tol_salt,1,NYCP_LIST
+Cornus mas,tol_drought,0,NYCP_LIST
+Cornus mas,tol_wet,0,NYCP_LIST
+Cornus mas,tol_wind,0,NYCP_LIST
+Cornus mas,tol_pollution,0,NYCP_LIST
+Cornus mas,tol_high_ph,0,NYCP_LIST
+Cornus mas,tol_shade,0,NYCP_LIST
+Cornus mas,loc_median,0,NYCP_LIST
+Cornus mas,loc_narrow_space,0,NYCP_LIST
+Cornus mas,loc_small_pit_lt3ft,1,NYCP_LIST
+Cornus mas,notes,Early spring flowering,NYCP_LIST
+Cornus mas,bronx_match_level,species,NYC_CENSUS15
+Cornus mas,bronx_c15_n,170,NYC_CENSUS15
+Cornus mas,bronx_c15_pct_good,90.6,NYC_CENSUS15
+Cornus mas,bronx_c15_pct_poor,4.7,NYC_CENSUS15
+Cornus mas,bronx_c15_pct_sidewalk_damage,17.6,NYC_CENSUS15
+Cornus mas,bronx_c15_pct_root_problem,7.6,NYC_CENSUS15
+Cornus mas,bronx_c15y_n,94,NYC_CENSUS15
+Cornus mas,bronx_c15y_pct_good,87.2,NYC_CENSUS15
+Cornus mas,bronx_c15y_pct_poor,7.4,NYC_CENSUS15
+Cornus mas,bronx_c15_mean_dbh_in,3.9,NYC_CENSUS15
+Cornus mas,alb_regulated_host,False,APHIS_ALB
+Cornus mas,eab_host,False,APHIS_EAB
+Cornus mas,core_species_share_pct,0.0,NYC_TREEPTS
+Cornus mas,core_genus_share_pct,0.0,NYC_TREEPTS
+Prunus virginiana 'Schubert',nyc_approved,True,NYCP_LIST
+Prunus virginiana 'Schubert',common_name,Schubert Cherry,NYCP_LIST
+Prunus virginiana 'Schubert',size_class,small,NYCP_LIST
+Prunus virginiana 'Schubert',mature_height_class_ft,<25,NYCP_LIST
+Prunus virginiana 'Schubert',form,Pyramidal,NYCP_LIST
+Prunus virginiana 'Schubert',growth_rate,Medium,NYCP_LIST
+Prunus virginiana 'Schubert',tol_salt,1,NYCP_LIST
+Prunus virginiana 'Schubert',tol_drought,1,NYCP_LIST
+Prunus virginiana 'Schubert',tol_wet,0,NYCP_LIST
+Prunus virginiana 'Schubert',tol_wind,0,NYCP_LIST
+Prunus virginiana 'Schubert',tol_pollution,1,NYCP_LIST
+Prunus virginiana 'Schubert',tol_high_ph,1,NYCP_LIST
+Prunus virginiana 'Schubert',tol_shade,0,NYCP_LIST
+Prunus virginiana 'Schubert',loc_median,1,NYCP_LIST
+Prunus virginiana 'Schubert',loc_narrow_space,0,NYCP_LIST
+Prunus virginiana 'Schubert',loc_small_pit_lt3ft,1,NYCP_LIST
+Prunus virginiana 'Schubert',notes,Tolerates tough conditions,NYCP_LIST
+Prunus virginiana 'Schubert',bronx_match_level,species,NYC_CENSUS15
+Prunus virginiana 'Schubert',bronx_c15_n,575,NYC_CENSUS15
+Prunus virginiana 'Schubert',bronx_c15_pct_good,79.3,NYC_CENSUS15
+Prunus virginiana 'Schubert',bronx_c15_pct_poor,5.0,NYC_CENSUS15
+Prunus virginiana 'Schubert',bronx_c15_pct_sidewalk_damage,12.0,NYC_CENSUS15
+Prunus virginiana 'Schubert',bronx_c15_pct_root_problem,13.6,NYC_CENSUS15
+Prunus virginiana 'Schubert',bronx_c15y_n,224,NYC_CENSUS15
+Prunus virginiana 'Schubert',bronx_c15y_pct_good,79.0,NYC_CENSUS15
+Prunus virginiana 'Schubert',bronx_c15y_pct_poor,3.6,NYC_CENSUS15
+Prunus virginiana 'Schubert',bronx_c15_mean_dbh_in,4.6,NYC_CENSUS15
+Prunus virginiana 'Schubert',usda_symbol,PRVI,USDA_PLANTS
+Prunus virginiana 'Schubert',native_L48,True,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_drought_tol,Medium,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_shade_tol,High,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_salinity_tol,Medium,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_anaerobic_tol,Medium,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_moisture_use,Medium,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_mature_height_ft,25.0,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_growth_rate,Rapid,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_lifespan,Short,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_root_depth_min_in,20,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_ph_min,5.2,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_ph_max,8.4,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_temp_min_f,-43,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_bloom_period,Mid Spring,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_caco3_tol,High,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Prunus virginiana 'Schubert',usda_toxicity,Severe,USDA_PLANTS
+Prunus virginiana 'Schubert',alb_regulated_host,False,APHIS_ALB
+Prunus virginiana 'Schubert',eab_host,False,APHIS_EAB
+Prunus virginiana 'Schubert',core_species_share_pct,0.0,NYC_TREEPTS
+Prunus virginiana 'Schubert',core_genus_share_pct,1.5,NYC_TREEPTS
+Syringa reticulata,nyc_approved,True,NYCP_LIST
+Syringa reticulata,common_name,Japanese Tree Lilac,NYCP_LIST
+Syringa reticulata,size_class,small,NYCP_LIST
+Syringa reticulata,mature_height_class_ft,<25,NYCP_LIST
+Syringa reticulata,form,Rounded,NYCP_LIST
+Syringa reticulata,growth_rate,Medium,NYCP_LIST
+Syringa reticulata,tol_salt,1,NYCP_LIST
+Syringa reticulata,tol_drought,1,NYCP_LIST
+Syringa reticulata,tol_wet,0,NYCP_LIST
+Syringa reticulata,tol_wind,0,NYCP_LIST
+Syringa reticulata,tol_pollution,0,NYCP_LIST
+Syringa reticulata,tol_high_ph,0,NYCP_LIST
+Syringa reticulata,tol_shade,1,NYCP_LIST
+Syringa reticulata,loc_median,1,NYCP_LIST
+Syringa reticulata,loc_narrow_space,1,NYCP_LIST
+Syringa reticulata,loc_small_pit_lt3ft,1,NYCP_LIST
+Syringa reticulata,notes,'Ivory Silk',NYCP_LIST
+Syringa reticulata,bronx_match_level,species,NYC_CENSUS15
+Syringa reticulata,bronx_c15_n,579,NYC_CENSUS15
+Syringa reticulata,bronx_c15_pct_good,80.1,NYC_CENSUS15
+Syringa reticulata,bronx_c15_pct_poor,4.1,NYC_CENSUS15
+Syringa reticulata,bronx_c15_pct_sidewalk_damage,23.5,NYC_CENSUS15
+Syringa reticulata,bronx_c15_pct_root_problem,11.4,NYC_CENSUS15
+Syringa reticulata,bronx_c15y_n,309,NYC_CENSUS15
+Syringa reticulata,bronx_c15y_pct_good,77.3,NYC_CENSUS15
+Syringa reticulata,bronx_c15y_pct_poor,5.5,NYC_CENSUS15
+Syringa reticulata,bronx_c15_mean_dbh_in,4.1,NYC_CENSUS15
+Syringa reticulata,usda_symbol,SYRE2,USDA_PLANTS
+Syringa reticulata,native_L48,False,USDA_PLANTS
+Syringa reticulata,alb_regulated_host,False,APHIS_ALB
+Syringa reticulata,eab_host,False,APHIS_EAB
+Syringa reticulata,core_species_share_pct,1.3,NYC_TREEPTS
+Syringa reticulata,core_genus_share_pct,1.5,NYC_TREEPTS
+Prunus cerasifera,nyc_approved,True,NYCP_LIST
+Prunus cerasifera,common_name,Purpleleaf Plum,NYCP_LIST
+Prunus cerasifera,size_class,small,NYCP_LIST
+Prunus cerasifera,mature_height_class_ft,<25,NYCP_LIST
+Prunus cerasifera,form,Rounded,NYCP_LIST
+Prunus cerasifera,growth_rate,Medium,NYCP_LIST
+Prunus cerasifera,tol_salt,1,NYCP_LIST
+Prunus cerasifera,tol_drought,0,NYCP_LIST
+Prunus cerasifera,tol_wet,0,NYCP_LIST
+Prunus cerasifera,tol_wind,0,NYCP_LIST
+Prunus cerasifera,tol_pollution,0,NYCP_LIST
+Prunus cerasifera,tol_high_ph,0,NYCP_LIST
+Prunus cerasifera,tol_shade,0,NYCP_LIST
+Prunus cerasifera,loc_median,0,NYCP_LIST
+Prunus cerasifera,loc_narrow_space,0,NYCP_LIST
+Prunus cerasifera,loc_small_pit_lt3ft,1,NYCP_LIST
+Prunus cerasifera,notes,"'Atropurpurea', 'Thundercloud'",NYCP_LIST
+Prunus cerasifera,bronx_match_level,species,NYC_CENSUS15
+Prunus cerasifera,bronx_c15_n,774,NYC_CENSUS15
+Prunus cerasifera,bronx_c15_pct_good,82.0,NYC_CENSUS15
+Prunus cerasifera,bronx_c15_pct_poor,5.7,NYC_CENSUS15
+Prunus cerasifera,bronx_c15_pct_sidewalk_damage,15.5,NYC_CENSUS15
+Prunus cerasifera,bronx_c15_pct_root_problem,9.8,NYC_CENSUS15
+Prunus cerasifera,bronx_c15y_n,270,NYC_CENSUS15
+Prunus cerasifera,bronx_c15y_pct_good,79.6,NYC_CENSUS15
+Prunus cerasifera,bronx_c15y_pct_poor,5.6,NYC_CENSUS15
+Prunus cerasifera,bronx_c15_mean_dbh_in,4.4,NYC_CENSUS15
+Prunus cerasifera,usda_symbol,PRCE2,USDA_PLANTS
+Prunus cerasifera,native_L48,False,USDA_PLANTS
+Prunus cerasifera,alb_regulated_host,False,APHIS_ALB
+Prunus cerasifera,eab_host,False,APHIS_EAB
+Prunus cerasifera,core_species_share_pct,0.2,NYC_TREEPTS
+Prunus cerasifera,core_genus_share_pct,1.5,NYC_TREEPTS
+Prunus 'Okame',nyc_approved,True,NYCP_LIST
+Prunus 'Okame',common_name,Okame Cherry,NYCP_LIST
+Prunus 'Okame',size_class,small,NYCP_LIST
+Prunus 'Okame',mature_height_class_ft,<25,NYCP_LIST
+Prunus 'Okame',form,Rounded,NYCP_LIST
+Prunus 'Okame',growth_rate,Medium,NYCP_LIST
+Prunus 'Okame',tol_salt,0,NYCP_LIST
+Prunus 'Okame',tol_drought,0,NYCP_LIST
+Prunus 'Okame',tol_wet,0,NYCP_LIST
+Prunus 'Okame',tol_wind,0,NYCP_LIST
+Prunus 'Okame',tol_pollution,0,NYCP_LIST
+Prunus 'Okame',tol_high_ph,0,NYCP_LIST
+Prunus 'Okame',tol_shade,0,NYCP_LIST
+Prunus 'Okame',loc_median,0,NYCP_LIST
+Prunus 'Okame',loc_narrow_space,0,NYCP_LIST
+Prunus 'Okame',loc_small_pit_lt3ft,1,NYCP_LIST
+Prunus 'Okame',notes,Earliest blooming cherry,NYCP_LIST
+Prunus 'Okame',bronx_match_level,genus (census records genus only),NYC_CENSUS15
+Prunus 'Okame',bronx_c15_n,4092,NYC_CENSUS15
+Prunus 'Okame',bronx_c15_pct_good,81.9,NYC_CENSUS15
+Prunus 'Okame',bronx_c15_pct_poor,5.0,NYC_CENSUS15
+Prunus 'Okame',bronx_c15_pct_sidewalk_damage,17.6,NYC_CENSUS15
+Prunus 'Okame',bronx_c15_pct_root_problem,8.3,NYC_CENSUS15
+Prunus 'Okame',bronx_c15y_n,1490,NYC_CENSUS15
+Prunus 'Okame',bronx_c15y_pct_good,80.7,NYC_CENSUS15
+Prunus 'Okame',bronx_c15y_pct_poor,5.4,NYC_CENSUS15
+Prunus 'Okame',bronx_c15_mean_dbh_in,4.9,NYC_CENSUS15
+Prunus 'Okame',usda_symbol,PRUNU,USDA_PLANTS
+Prunus 'Okame',alb_regulated_host,False,APHIS_ALB
+Prunus 'Okame',eab_host,False,APHIS_EAB
+Prunus 'Okame',core_genus_share_pct,1.5,NYC_TREEPTS
+Prunus padus,nyc_approved,True,NYCP_LIST
+Prunus padus,common_name,European Birdcherry,NYCP_LIST
+Prunus padus,size_class,small,NYCP_LIST
+Prunus padus,mature_height_class_ft,<25,NYCP_LIST
+Prunus padus,form,Rounded,NYCP_LIST
+Prunus padus,growth_rate,Slow,NYCP_LIST
+Prunus padus,tol_salt,0,NYCP_LIST
+Prunus padus,tol_drought,0,NYCP_LIST
+Prunus padus,tol_wet,0,NYCP_LIST
+Prunus padus,tol_wind,0,NYCP_LIST
+Prunus padus,tol_pollution,0,NYCP_LIST
+Prunus padus,tol_high_ph,0,NYCP_LIST
+Prunus padus,tol_shade,0,NYCP_LIST
+Prunus padus,loc_median,0,NYCP_LIST
+Prunus padus,loc_narrow_space,0,NYCP_LIST
+Prunus padus,loc_small_pit_lt3ft,1,NYCP_LIST
+Prunus padus,notes,Early leaf-out,NYCP_LIST
+Prunus padus,usda_symbol,PRPA5,USDA_PLANTS
+Prunus padus,native_L48,False,USDA_PLANTS
+Prunus padus,usda_shade_tol,High,USDA_PLANTS
+Prunus padus,usda_salinity_tol,Medium,USDA_PLANTS
+Prunus padus,usda_moisture_use,Medium,USDA_PLANTS
+Prunus padus,usda_mature_height_ft,30.0,USDA_PLANTS
+Prunus padus,usda_growth_rate,Moderate,USDA_PLANTS
+Prunus padus,usda_lifespan,Moderate,USDA_PLANTS
+Prunus padus,usda_root_depth_min_in,36,USDA_PLANTS
+Prunus padus,usda_ph_min,5.0,USDA_PLANTS
+Prunus padus,usda_ph_max,7.0,USDA_PLANTS
+Prunus padus,usda_temp_min_f,-33,USDA_PLANTS
+Prunus padus,usda_bloom_period,Spring,USDA_PLANTS
+Prunus padus,usda_caco3_tol,High,USDA_PLANTS
+Prunus padus,usda_foliage_porosity_summer,Moderate,USDA_PLANTS
+Prunus padus,alb_regulated_host,False,APHIS_ALB
+Prunus padus,eab_host,False,APHIS_EAB
+Prunus padus,core_species_share_pct,0.0,NYC_TREEPTS
+Prunus padus,core_genus_share_pct,1.5,NYC_TREEPTS
+Prunus sargentii,nyc_approved,True,NYCP_LIST
+Prunus sargentii,common_name,Sargent Cherry,NYCP_LIST
+Prunus sargentii,size_class,small,NYCP_LIST
+Prunus sargentii,mature_height_class_ft,<25,NYCP_LIST
+Prunus sargentii,form,Rounded,NYCP_LIST
+Prunus sargentii,growth_rate,Slow,NYCP_LIST
+Prunus sargentii,tol_salt,0,NYCP_LIST
+Prunus sargentii,tol_drought,0,NYCP_LIST
+Prunus sargentii,tol_wet,0,NYCP_LIST
+Prunus sargentii,tol_wind,0,NYCP_LIST
+Prunus sargentii,tol_pollution,0,NYCP_LIST
+Prunus sargentii,tol_high_ph,0,NYCP_LIST
+Prunus sargentii,tol_shade,0,NYCP_LIST
+Prunus sargentii,loc_median,0,NYCP_LIST
+Prunus sargentii,loc_narrow_space,0,NYCP_LIST
+Prunus sargentii,loc_small_pit_lt3ft,1,NYCP_LIST
+Prunus sargentii,notes,'Accolade' semi-double,NYCP_LIST
+Prunus sargentii,alb_regulated_host,False,APHIS_ALB
+Prunus sargentii,eab_host,False,APHIS_EAB
+Prunus sargentii,core_species_share_pct,0.0,NYC_TREEPTS
+Prunus sargentii,core_genus_share_pct,1.5,NYC_TREEPTS
+Prunus serrulata 'Kwanzan',nyc_approved,True,NYCP_LIST
+Prunus serrulata 'Kwanzan',common_name,Japanese Flowering Cherry,NYCP_LIST
+Prunus serrulata 'Kwanzan',size_class,small,NYCP_LIST
+Prunus serrulata 'Kwanzan',mature_height_class_ft,<25,NYCP_LIST
+Prunus serrulata 'Kwanzan',form,Rounded,NYCP_LIST
+Prunus serrulata 'Kwanzan',growth_rate,Slow,NYCP_LIST
+Prunus serrulata 'Kwanzan',tol_salt,0,NYCP_LIST
+Prunus serrulata 'Kwanzan',tol_drought,0,NYCP_LIST
+Prunus serrulata 'Kwanzan',tol_wet,0,NYCP_LIST
+Prunus serrulata 'Kwanzan',tol_wind,0,NYCP_LIST
+Prunus serrulata 'Kwanzan',tol_pollution,0,NYCP_LIST
+Prunus serrulata 'Kwanzan',tol_high_ph,0,NYCP_LIST
+Prunus serrulata 'Kwanzan',tol_shade,0,NYCP_LIST
+Prunus serrulata 'Kwanzan',loc_median,0,NYCP_LIST
+Prunus serrulata 'Kwanzan',loc_narrow_space,0,NYCP_LIST
+Prunus serrulata 'Kwanzan',loc_small_pit_lt3ft,1,NYCP_LIST
+Prunus serrulata 'Kwanzan',notes,Double-flowering,NYCP_LIST
+Prunus serrulata 'Kwanzan',usda_symbol,PRSE3,USDA_PLANTS
+Prunus serrulata 'Kwanzan',native_L48,False,USDA_PLANTS
+Prunus serrulata 'Kwanzan',alb_regulated_host,False,APHIS_ALB
+Prunus serrulata 'Kwanzan',eab_host,False,APHIS_EAB
+Prunus serrulata 'Kwanzan',core_species_share_pct,1.3,NYC_TREEPTS
+Prunus serrulata 'Kwanzan',core_genus_share_pct,1.5,NYC_TREEPTS
+Prunus x yedoensis,nyc_approved,True,NYCP_LIST
+Prunus x yedoensis,common_name,Yoshino Cherry,NYCP_LIST
+Prunus x yedoensis,size_class,small,NYCP_LIST
+Prunus x yedoensis,mature_height_class_ft,<25,NYCP_LIST
+Prunus x yedoensis,form,Rounded,NYCP_LIST
+Prunus x yedoensis,growth_rate,Medium,NYCP_LIST
+Prunus x yedoensis,tol_salt,0,NYCP_LIST
+Prunus x yedoensis,tol_drought,0,NYCP_LIST
+Prunus x yedoensis,tol_wet,0,NYCP_LIST
+Prunus x yedoensis,tol_wind,0,NYCP_LIST
+Prunus x yedoensis,tol_pollution,0,NYCP_LIST
+Prunus x yedoensis,tol_high_ph,0,NYCP_LIST
+Prunus x yedoensis,tol_shade,0,NYCP_LIST
+Prunus x yedoensis,loc_median,0,NYCP_LIST
+Prunus x yedoensis,loc_narrow_space,0,NYCP_LIST
+Prunus x yedoensis,loc_small_pit_lt3ft,1,NYCP_LIST
+Prunus x yedoensis,notes,Best in lawn pits,NYCP_LIST
+Prunus x yedoensis,alb_regulated_host,False,APHIS_ALB
+Prunus x yedoensis,eab_host,False,APHIS_EAB
+Prunus x yedoensis,core_species_share_pct,0.0,NYC_TREEPTS
+Prunus x yedoensis,core_genus_share_pct,1.5,NYC_TREEPTS
+Platanus x acerifolia,nyc_approved,False,NYCP_LIST
+Platanus x acerifolia,bronx_match_level,species,NYC_CENSUS15
+Platanus x acerifolia,bronx_c15_n,7511,NYC_CENSUS15
+Platanus x acerifolia,bronx_c15_pct_good,83.6,NYC_CENSUS15
+Platanus x acerifolia,bronx_c15_pct_poor,2.9,NYC_CENSUS15
+Platanus x acerifolia,bronx_c15_pct_sidewalk_damage,35.5,NYC_CENSUS15
+Platanus x acerifolia,bronx_c15_pct_root_problem,30.8,NYC_CENSUS15
+Platanus x acerifolia,bronx_c15y_n,469,NYC_CENSUS15
+Platanus x acerifolia,bronx_c15y_pct_good,77.8,NYC_CENSUS15
+Platanus x acerifolia,bronx_c15y_pct_poor,6.0,NYC_CENSUS15
+Platanus x acerifolia,bronx_c15_mean_dbh_in,17.5,NYC_CENSUS15
+Platanus x acerifolia,alb_regulated_host,True,APHIS_ALB
+Platanus x acerifolia,eab_host,False,APHIS_EAB
+Platanus x acerifolia,core_species_share_pct,19.9,NYC_TREEPTS
+Platanus x acerifolia,core_genus_share_pct,20.7,NYC_TREEPTS
+Pyrus calleryana,nyc_approved,False,NYCP_LIST
+Pyrus calleryana,bronx_match_level,species,NYC_CENSUS15
+Pyrus calleryana,bronx_c15_n,4947,NYC_CENSUS15
+Pyrus calleryana,bronx_c15_pct_good,87.6,NYC_CENSUS15
+Pyrus calleryana,bronx_c15_pct_poor,2.1,NYC_CENSUS15
+Pyrus calleryana,bronx_c15_pct_sidewalk_damage,28.2,NYC_CENSUS15
+Pyrus calleryana,bronx_c15_pct_root_problem,24.7,NYC_CENSUS15
+Pyrus calleryana,bronx_c15y_n,274,NYC_CENSUS15
+Pyrus calleryana,bronx_c15y_pct_good,74.1,NYC_CENSUS15
+Pyrus calleryana,bronx_c15y_pct_poor,8.8,NYC_CENSUS15
+Pyrus calleryana,bronx_c15_mean_dbh_in,9.4,NYC_CENSUS15
+Pyrus calleryana,alb_regulated_host,False,APHIS_ALB
+Pyrus calleryana,eab_host,False,APHIS_EAB
+Pyrus calleryana,core_species_share_pct,4.7,NYC_TREEPTS
+Pyrus calleryana,core_genus_share_pct,4.7,NYC_TREEPTS
+Acer rubrum,nyc_approved,False,NYCP_LIST
+Acer rubrum,bronx_match_level,species,NYC_CENSUS15
+Acer rubrum,bronx_c15_n,2198,NYC_CENSUS15
+Acer rubrum,bronx_c15_pct_good,78.5,NYC_CENSUS15
+Acer rubrum,bronx_c15_pct_poor,5.1,NYC_CENSUS15
+Acer rubrum,bronx_c15_pct_sidewalk_damage,26.0,NYC_CENSUS15
+Acer rubrum,bronx_c15_pct_root_problem,23.1,NYC_CENSUS15
+Acer rubrum,bronx_c15y_n,422,NYC_CENSUS15
+Acer rubrum,bronx_c15y_pct_good,79.6,NYC_CENSUS15
+Acer rubrum,bronx_c15y_pct_poor,5.9,NYC_CENSUS15
+Acer rubrum,bronx_c15_mean_dbh_in,7.8,NYC_CENSUS15
+Acer rubrum,usda_symbol,ACRU,USDA_PLANTS
+Acer rubrum,native_L48,True,USDA_PLANTS
+Acer rubrum,usda_drought_tol,Medium,USDA_PLANTS
+Acer rubrum,usda_shade_tol,Medium,USDA_PLANTS
+Acer rubrum,usda_anaerobic_tol,Medium,USDA_PLANTS
+Acer rubrum,usda_moisture_use,High,USDA_PLANTS
+Acer rubrum,usda_mature_height_ft,68.0,USDA_PLANTS
+Acer rubrum,usda_growth_rate,Rapid,USDA_PLANTS
+Acer rubrum,usda_lifespan,Short,USDA_PLANTS
+Acer rubrum,usda_root_depth_min_in,30,USDA_PLANTS
+Acer rubrum,usda_ph_min,4.7,USDA_PLANTS
+Acer rubrum,usda_ph_max,7.3,USDA_PLANTS
+Acer rubrum,usda_temp_min_f,-47,USDA_PLANTS
+Acer rubrum,usda_bloom_period,Early Spring,USDA_PLANTS
+Acer rubrum,usda_caco3_tol,High,USDA_PLANTS
+Acer rubrum,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Acer rubrum,usda_toxicity,Slight,USDA_PLANTS
+Acer rubrum,alb_regulated_host,True,APHIS_ALB
+Acer rubrum,eab_host,False,APHIS_EAB
+Acer rubrum,core_species_share_pct,5.3,NYC_TREEPTS
+Acer rubrum,core_genus_share_pct,8.0,NYC_TREEPTS
+Celtis occidentalis,nyc_approved,False,NYCP_LIST
+Celtis occidentalis,bronx_match_level,species,NYC_CENSUS15
+Celtis occidentalis,bronx_c15_n,807,NYC_CENSUS15
+Celtis occidentalis,bronx_c15_pct_good,79.1,NYC_CENSUS15
+Celtis occidentalis,bronx_c15_pct_poor,4.6,NYC_CENSUS15
+Celtis occidentalis,bronx_c15_pct_sidewalk_damage,22.8,NYC_CENSUS15
+Celtis occidentalis,bronx_c15_pct_root_problem,14.6,NYC_CENSUS15
+Celtis occidentalis,bronx_c15y_n,213,NYC_CENSUS15
+Celtis occidentalis,bronx_c15y_pct_good,76.1,NYC_CENSUS15
+Celtis occidentalis,bronx_c15y_pct_poor,8.5,NYC_CENSUS15
+Celtis occidentalis,bronx_c15_mean_dbh_in,5.7,NYC_CENSUS15
+Celtis occidentalis,usda_symbol,CEOC,USDA_PLANTS
+Celtis occidentalis,native_L48,True,USDA_PLANTS
+Celtis occidentalis,usda_drought_tol,High,USDA_PLANTS
+Celtis occidentalis,usda_shade_tol,Low,USDA_PLANTS
+Celtis occidentalis,usda_salinity_tol,Low,USDA_PLANTS
+Celtis occidentalis,usda_anaerobic_tol,Medium,USDA_PLANTS
+Celtis occidentalis,usda_moisture_use,Low,USDA_PLANTS
+Celtis occidentalis,usda_mature_height_ft,60.0,USDA_PLANTS
+Celtis occidentalis,usda_growth_rate,Rapid,USDA_PLANTS
+Celtis occidentalis,usda_lifespan,Moderate,USDA_PLANTS
+Celtis occidentalis,usda_root_depth_min_in,36,USDA_PLANTS
+Celtis occidentalis,usda_ph_min,6.0,USDA_PLANTS
+Celtis occidentalis,usda_ph_max,7.8,USDA_PLANTS
+Celtis occidentalis,usda_temp_min_f,-47,USDA_PLANTS
+Celtis occidentalis,usda_bloom_period,Mid Spring,USDA_PLANTS
+Celtis occidentalis,usda_caco3_tol,Medium,USDA_PLANTS
+Celtis occidentalis,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Celtis occidentalis,alb_regulated_host,False,APHIS_ALB
+Celtis occidentalis,eab_host,False,APHIS_EAB
+Celtis occidentalis,core_species_share_pct,4.0,NYC_TREEPTS
+Celtis occidentalis,core_genus_share_pct,4.0,NYC_TREEPTS
+Ulmus americana 'Princeton',nyc_approved,False,NYCP_LIST
+Ulmus americana 'Princeton',bronx_match_level,species,NYC_CENSUS15
+Ulmus americana 'Princeton',bronx_c15_n,1471,NYC_CENSUS15
+Ulmus americana 'Princeton',bronx_c15_pct_good,79.9,NYC_CENSUS15
+Ulmus americana 'Princeton',bronx_c15_pct_poor,3.2,NYC_CENSUS15
+Ulmus americana 'Princeton',bronx_c15_pct_sidewalk_damage,24.9,NYC_CENSUS15
+Ulmus americana 'Princeton',bronx_c15_pct_root_problem,22.2,NYC_CENSUS15
+Ulmus americana 'Princeton',bronx_c15y_n,237,NYC_CENSUS15
+Ulmus americana 'Princeton',bronx_c15y_pct_good,70.9,NYC_CENSUS15
+Ulmus americana 'Princeton',bronx_c15y_pct_poor,6.8,NYC_CENSUS15
+Ulmus americana 'Princeton',bronx_c15_mean_dbh_in,9.8,NYC_CENSUS15
+Ulmus americana 'Princeton',usda_symbol,ULAM,USDA_PLANTS
+Ulmus americana 'Princeton',native_L48,True,USDA_PLANTS
+Ulmus americana 'Princeton',usda_drought_tol,Medium,USDA_PLANTS
+Ulmus americana 'Princeton',usda_shade_tol,Medium,USDA_PLANTS
+Ulmus americana 'Princeton',usda_salinity_tol,Low,USDA_PLANTS
+Ulmus americana 'Princeton',usda_anaerobic_tol,Low,USDA_PLANTS
+Ulmus americana 'Princeton',usda_moisture_use,High,USDA_PLANTS
+Ulmus americana 'Princeton',usda_mature_height_ft,120.0,USDA_PLANTS
+Ulmus americana 'Princeton',usda_growth_rate,Rapid,USDA_PLANTS
+Ulmus americana 'Princeton',usda_lifespan,Moderate,USDA_PLANTS
+Ulmus americana 'Princeton',usda_root_depth_min_in,42,USDA_PLANTS
+Ulmus americana 'Princeton',usda_ph_min,5.0,USDA_PLANTS
+Ulmus americana 'Princeton',usda_ph_max,8.0,USDA_PLANTS
+Ulmus americana 'Princeton',usda_temp_min_f,-46,USDA_PLANTS
+Ulmus americana 'Princeton',usda_bloom_period,Early Spring,USDA_PLANTS
+Ulmus americana 'Princeton',usda_caco3_tol,Medium,USDA_PLANTS
+Ulmus americana 'Princeton',usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Ulmus americana 'Princeton',alb_regulated_host,True,APHIS_ALB
+Ulmus americana 'Princeton',eab_host,False,APHIS_EAB
+Ulmus americana 'Princeton',core_species_share_pct,6.3,NYC_TREEPTS
+Ulmus americana 'Princeton',core_genus_share_pct,6.6,NYC_TREEPTS
+Ulmus americana,nyc_approved,False,NYCP_LIST
+Ulmus americana,bronx_match_level,species,NYC_CENSUS15
+Ulmus americana,bronx_c15_n,1471,NYC_CENSUS15
+Ulmus americana,bronx_c15_pct_good,79.9,NYC_CENSUS15
+Ulmus americana,bronx_c15_pct_poor,3.2,NYC_CENSUS15
+Ulmus americana,bronx_c15_pct_sidewalk_damage,24.9,NYC_CENSUS15
+Ulmus americana,bronx_c15_pct_root_problem,22.2,NYC_CENSUS15
+Ulmus americana,bronx_c15y_n,237,NYC_CENSUS15
+Ulmus americana,bronx_c15y_pct_good,70.9,NYC_CENSUS15
+Ulmus americana,bronx_c15y_pct_poor,6.8,NYC_CENSUS15
+Ulmus americana,bronx_c15_mean_dbh_in,9.8,NYC_CENSUS15
+Ulmus americana,usda_symbol,ULAM,USDA_PLANTS
+Ulmus americana,native_L48,True,USDA_PLANTS
+Ulmus americana,usda_drought_tol,Medium,USDA_PLANTS
+Ulmus americana,usda_shade_tol,Medium,USDA_PLANTS
+Ulmus americana,usda_salinity_tol,Low,USDA_PLANTS
+Ulmus americana,usda_anaerobic_tol,Low,USDA_PLANTS
+Ulmus americana,usda_moisture_use,High,USDA_PLANTS
+Ulmus americana,usda_mature_height_ft,120.0,USDA_PLANTS
+Ulmus americana,usda_growth_rate,Rapid,USDA_PLANTS
+Ulmus americana,usda_lifespan,Moderate,USDA_PLANTS
+Ulmus americana,usda_root_depth_min_in,42,USDA_PLANTS
+Ulmus americana,usda_ph_min,5.0,USDA_PLANTS
+Ulmus americana,usda_ph_max,8.0,USDA_PLANTS
+Ulmus americana,usda_temp_min_f,-46,USDA_PLANTS
+Ulmus americana,usda_bloom_period,Early Spring,USDA_PLANTS
+Ulmus americana,usda_caco3_tol,Medium,USDA_PLANTS
+Ulmus americana,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Ulmus americana,alb_regulated_host,True,APHIS_ALB
+Ulmus americana,eab_host,False,APHIS_EAB
+Ulmus americana,core_species_share_pct,6.3,NYC_TREEPTS
+Ulmus americana,core_genus_share_pct,6.6,NYC_TREEPTS
+Aesculus sp.,nyc_approved,False,NYCP_LIST
+Aesculus sp.,usda_symbol,AESCU,USDA_PLANTS
+Aesculus sp.,alb_regulated_host,True,APHIS_ALB
+Aesculus sp.,eab_host,False,APHIS_EAB
+Aesculus sp.,core_genus_share_pct,1.9,NYC_TREEPTS
+Fraxinus pennsylvanica,nyc_approved,False,NYCP_LIST
+Fraxinus pennsylvanica,bronx_match_level,species,NYC_CENSUS15
+Fraxinus pennsylvanica,bronx_c15_n,1889,NYC_CENSUS15
+Fraxinus pennsylvanica,bronx_c15_pct_good,81.2,NYC_CENSUS15
+Fraxinus pennsylvanica,bronx_c15_pct_poor,3.7,NYC_CENSUS15
+Fraxinus pennsylvanica,bronx_c15_pct_sidewalk_damage,35.2,NYC_CENSUS15
+Fraxinus pennsylvanica,bronx_c15_pct_root_problem,25.1,NYC_CENSUS15
+Fraxinus pennsylvanica,bronx_c15y_n,25,NYC_CENSUS15
+Fraxinus pennsylvanica,bronx_c15y_pct_good,64.0,NYC_CENSUS15
+Fraxinus pennsylvanica,bronx_c15y_pct_poor,12.0,NYC_CENSUS15
+Fraxinus pennsylvanica,bronx_c15_mean_dbh_in,12.3,NYC_CENSUS15
+Fraxinus pennsylvanica,usda_symbol,FRPE,USDA_PLANTS
+Fraxinus pennsylvanica,native_L48,True,USDA_PLANTS
+Fraxinus pennsylvanica,usda_drought_tol,Medium,USDA_PLANTS
+Fraxinus pennsylvanica,usda_shade_tol,Low,USDA_PLANTS
+Fraxinus pennsylvanica,usda_salinity_tol,Low,USDA_PLANTS
+Fraxinus pennsylvanica,usda_anaerobic_tol,Medium,USDA_PLANTS
+Fraxinus pennsylvanica,usda_moisture_use,Medium,USDA_PLANTS
+Fraxinus pennsylvanica,usda_mature_height_ft,80.0,USDA_PLANTS
+Fraxinus pennsylvanica,usda_growth_rate,Rapid,USDA_PLANTS
+Fraxinus pennsylvanica,usda_lifespan,Short,USDA_PLANTS
+Fraxinus pennsylvanica,usda_root_depth_min_in,40,USDA_PLANTS
+Fraxinus pennsylvanica,usda_ph_min,4.7,USDA_PLANTS
+Fraxinus pennsylvanica,usda_ph_max,8.1,USDA_PLANTS
+Fraxinus pennsylvanica,usda_temp_min_f,-47,USDA_PLANTS
+Fraxinus pennsylvanica,usda_bloom_period,Late Spring,USDA_PLANTS
+Fraxinus pennsylvanica,usda_caco3_tol,High,USDA_PLANTS
+Fraxinus pennsylvanica,usda_foliage_porosity_summer,Dense,USDA_PLANTS
+Fraxinus pennsylvanica,alb_regulated_host,True,APHIS_ALB
+Fraxinus pennsylvanica,eab_host,True,APHIS_EAB
+Fraxinus pennsylvanica,core_species_share_pct,1.1,NYC_TREEPTS
+Fraxinus pennsylvanica,core_genus_share_pct,1.1,NYC_TREEPTS
+Acer rubrum,bvoc_isoprene_class,low,AG_B_ce86ce
+Acer rubrum,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Acer rubrum,bvoc_monoterpene_class,moderate,AG_B_ce86ce
+Acer rubrum,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Acer rubrum,bvoc_monoterpene_ef,2.75,AG_B_ce86ce
+Acer rubrum,bvoc_monoterpene_ef_match_level,species,AG_B_ce86ce
+Acer rubrum,climate_suitability_2070_2099,likely suitable,AG_C_23e4ae
+Acer rubrum,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Acer rubrum,native_NY_region,yes,AG_A_4d71dd
+Acer rubrum,native_NY_region_match_level,species,AG_A_4d71dd
+Acer rubrum,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Acer rubrum,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Acer rubrum,pollen_allergenicity,high,AG_B_0b9902
+Acer rubrum,pollen_allergenicity_match_level,species,AG_B_0b9902
+Acer rubrum,pollen_allergenicity_conflict,high [AG_B_0b9902] | moderate [AG_B_d7ff63] | moderate [AG_B_45be78],MULTI
+Acer rubrum,pollinator_notes,Atlas codes pollination agent 'wind'; Lepidoptera host genus Acer 297 spp. (rank 8),AG_C_760e91
+Acer rubrum,pollinator_notes_match_level,species,AG_C_760e91
+Acer rubrum,pollinator_value,high,AG_C_070d2f
+Acer rubrum,pollinator_value_match_level,species,AG_C_070d2f
+Acer rubrum,root_sidewalk_damage_risk,high,AG_D_db919e
+Acer rubrum,root_sidewalk_damage_risk_match_level,species,AG_D_db919e
+Aesculus sp.,bvoc_isoprene_class,low,AG_B_ce86ce
+Aesculus sp.,bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Aesculus sp.,bvoc_monoterpene_class,low,AG_B_ce86ce
+Aesculus sp.,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Aesculus sp.,climate_suitability_2070_2099,likely reduced,AG_C_59dd89
+Aesculus sp.,climate_suitability_2070_2099_match_level,genus,AG_C_59dd89
+Aesculus sp.,native_NY_region,no,AG_A_4d71dd
+Aesculus sp.,native_NY_region_match_level,genus,AG_A_4d71dd
+Aesculus sp.,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Aesculus sp.,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Aesculus sp.,pollen_allergenicity,moderate,AG_B_d7ff63
+Aesculus sp.,pollen_allergenicity_match_level,genus,AG_B_d7ff63
+Aesculus sp.,pollinator_notes,"insect-pollinated (Atlas pollination agent: insects, A. glabra and A. octandra)",AG_C_8611a6
+Aesculus sp.,pollinator_notes_match_level,genus,AG_C_8611a6
+Aesculus sp.,pollinator_value,moderate,AG_C_070d2f
+Aesculus sp.,pollinator_value_match_level,genus,AG_C_070d2f
+Aesculus sp.,root_sidewalk_damage_risk,low,AG_D_972313
+Aesculus sp.,root_sidewalk_damage_risk_match_level,genus,AG_D_972313
+Amelanchier sp.,bvoc_isoprene_class,low,AG_B_04372a
+Amelanchier sp.,bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Amelanchier sp.,bvoc_monoterpene_class,low,AG_B_ce86ce
+Amelanchier sp.,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Amelanchier sp.,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Amelanchier sp.,climate_suitability_2070_2099_match_level,genus,AG_C_59dd89
+Amelanchier sp.,climate_suitability_2070_2099_conflict,likely suitable [AG_C_59dd89] | likely suitable [AG_C_59dd89] | likely reduced [AG_C_59dd89] | likely reduced [AG_C_23e4ae],MULTI
+Amelanchier sp.,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Amelanchier sp.,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Amelanchier sp.,native_NY_region,yes,AG_A_4d71dd
+Amelanchier sp.,native_NY_region_match_level,genus,AG_A_4d71dd
+Amelanchier sp.,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Amelanchier sp.,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Amelanchier sp.,pollen_allergenicity,moderate,AG_B_d7ff63
+Amelanchier sp.,pollen_allergenicity_match_level,genus,AG_B_d7ff63
+Amelanchier sp.,pollen_allergenicity_conflict,low [AG_B_be92d5] | moderate [AG_B_d7ff63],MULTI
+Amelanchier sp.,pollinator_notes,insect-pollinated (Atlas pollination agent: insects); early-season bloom,AG_C_d40fd7
+Amelanchier sp.,pollinator_notes_match_level,genus,AG_C_d40fd7
+Amelanchier sp.,pollinator_value,moderate,AG_C_070d2f
+Amelanchier sp.,pollinator_value_match_level,genus,AG_C_070d2f
+Amelanchier sp.,root_sidewalk_damage_risk,low,AG_D_ade262
+Amelanchier sp.,root_sidewalk_damage_risk_match_level,genus,AG_D_ade262
+Amelanchier sp.,wire_compatible,yes,AG_D_387c05
+Amelanchier sp.,wire_compatible_match_level,genus,AG_D_387c05
+Carpinus betulus,bvoc_isoprene_class,low,AG_B_ce86ce
+Carpinus betulus,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Carpinus betulus,bvoc_monoterpene_class,low,AG_B_ce86ce
+Carpinus betulus,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Carpinus betulus,min_soil_volume_m3,34.0,AG_D_7c6d9f
+Carpinus betulus,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Carpinus betulus,native_NY_region,no,AG_A_4d71dd
+Carpinus betulus,native_NY_region_match_level,species,AG_A_4d71dd
+Carpinus betulus,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Carpinus betulus,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Carpinus betulus,pollen_allergenicity,moderate,AG_B_258e3e
+Carpinus betulus,pollen_allergenicity_match_level,species,AG_B_258e3e
+Carpinus betulus,pollen_allergenicity_conflict,low [AG_B_d7ff63] | moderate [AG_B_258e3e],MULTI
+Carpinus betulus,pollinator_value,low,AG_C_860bc3
+Carpinus betulus,pollinator_value_match_level,species,AG_C_860bc3
+Carpinus betulus,root_sidewalk_damage_risk,low,AG_D_8ada32
+Carpinus betulus,root_sidewalk_damage_risk_match_level,species,AG_D_8ada32
+Carpinus caroliniana,bvoc_isoprene_class,low,AG_B_ce86ce
+Carpinus caroliniana,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Carpinus caroliniana,bvoc_monoterpene_class,moderate,AG_B_ce86ce
+Carpinus caroliniana,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Carpinus caroliniana,climate_suitability_2070_2099,likely suitable,AG_C_23e4ae
+Carpinus caroliniana,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Carpinus caroliniana,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Carpinus caroliniana,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Carpinus caroliniana,native_NY_region,yes,AG_A_4d71dd
+Carpinus caroliniana,native_NY_region_match_level,infraspecific,AG_A_4d71dd
+Carpinus caroliniana,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Carpinus caroliniana,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Carpinus caroliniana,pollen_allergenicity,moderate,AG_B_958993
+Carpinus caroliniana,pollen_allergenicity_match_level,species,AG_B_958993
+Carpinus caroliniana,pollen_allergenicity_conflict,moderate [AG_B_958993] | low [AG_B_d7ff63],MULTI
+Carpinus caroliniana,pollinator_notes,wind-pollinated (Atlas pollination agent: wind),AG_C_967bfb
+Carpinus caroliniana,pollinator_notes_match_level,species,AG_C_967bfb
+Carpinus caroliniana,pollinator_value,low,AG_C_860bc3
+Carpinus caroliniana,pollinator_value_match_level,species,AG_C_860bc3
+Carpinus caroliniana,root_sidewalk_damage_risk,low,AG_D_c3258c
+Carpinus caroliniana,root_sidewalk_damage_risk_match_level,species,AG_D_c3258c
+Carpinus caroliniana,usda_symbol,CACA18,AG_A_1a393c
+Carpinus caroliniana,usda_symbol_match_level,species,AG_A_1a393c
+Celtis occidentalis,bvoc_isoprene_class,low,AG_B_ce86ce
+Celtis occidentalis,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Celtis occidentalis,bvoc_monoterpene_class,low,AG_B_ce86ce
+Celtis occidentalis,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Celtis occidentalis,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Celtis occidentalis,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Celtis occidentalis,native_NY_region,yes,AG_A_4d71dd
+Celtis occidentalis,native_NY_region_match_level,species,AG_A_4d71dd
+Celtis occidentalis,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Celtis occidentalis,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Celtis occidentalis,pollen_allergenicity,moderate,AG_B_d7ff63
+Celtis occidentalis,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Celtis occidentalis,pollinator_notes,wind-pollinated per Atlas (pollination agent: wind),AG_C_5774e7
+Celtis occidentalis,pollinator_notes_match_level,species,AG_C_5774e7
+Celtis occidentalis,pollinator_value,moderate,AG_C_070d2f
+Celtis occidentalis,pollinator_value_match_level,species,AG_C_070d2f
+Celtis occidentalis,root_sidewalk_damage_risk,high,AG_D_ce289a
+Celtis occidentalis,root_sidewalk_damage_risk_match_level,species,AG_D_ce289a
+Cercis canadensis,bvoc_isoprene_class,low,AG_B_ce86ce
+Cercis canadensis,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Cercis canadensis,bvoc_monoterpene_class,low,AG_B_ce86ce
+Cercis canadensis,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Cercis canadensis,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Cercis canadensis,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Cercis canadensis,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Cercis canadensis,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Cercis canadensis,native_NY_region,no,AG_A_4d71dd
+Cercis canadensis,native_NY_region_match_level,infraspecific,AG_A_4d71dd
+Cercis canadensis,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Cercis canadensis,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Cercis canadensis,pollen_allergenicity,moderate,AG_B_d7ff63
+Cercis canadensis,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Cercis canadensis,pollen_allergenicity_conflict,moderate [AG_B_d7ff63] | low [AG_B_8c20f6] | low [AG_B_0b9902],MULTI
+Cercis canadensis,pollinator_notes,very early bloom; leaves also used by leafcutter bees,AG_C_8603b5
+Cercis canadensis,pollinator_notes_match_level,species,AG_C_8603b5
+Cercis canadensis,pollinator_value,moderate,AG_C_070d2f
+Cercis canadensis,pollinator_value_match_level,species,AG_C_070d2f
+Cercis canadensis,pollinator_value_conflict,moderate [AG_C_070d2f] | high [AG_C_d88683],MULTI
+Cercis canadensis,root_sidewalk_damage_risk,low,AG_D_2389bf
+Cercis canadensis,root_sidewalk_damage_risk_match_level,species,AG_D_2389bf
+Cornus mas,bvoc_isoprene_class,low,AG_B_ce86ce
+Cornus mas,bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Cornus mas,bvoc_monoterpene_class,moderate,AG_B_ce86ce
+Cornus mas,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Cornus mas,climate_suitability_2070_2099,likely reduced,AG_C_59dd89
+Cornus mas,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Cornus mas,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Cornus mas,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Cornus mas,native_NY_region,no,AG_A_4d71dd
+Cornus mas,native_NY_region_match_level,species,AG_A_4d71dd
+Cornus mas,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Cornus mas,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Cornus mas,pollen_allergenicity,moderate,AG_B_d7ff63
+Cornus mas,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Cornus mas,pollen_allergenicity_conflict,moderate [AG_B_d7ff63] | low [AG_B_46b43c],MULTI
+Cornus mas,pollinator_value,moderate,AG_C_070d2f
+Cornus mas,pollinator_value_match_level,species,AG_C_070d2f
+Cornus mas,root_sidewalk_damage_risk,low,AG_D_d5368f
+Cornus mas,root_sidewalk_damage_risk_match_level,species,AG_D_d5368f
+Cornus mas,usda_symbol,COMA21,AG_A_1a393c
+Cornus mas,usda_symbol_match_level,species,AG_A_1a393c
+Corylus colurna,bvoc_isoprene_class,low,AG_B_ce86ce
+Corylus colurna,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Corylus colurna,min_soil_volume_m3,34.0,AG_D_7c6d9f
+Corylus colurna,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Corylus colurna,native_NY_region,no,AG_A_def742
+Corylus colurna,native_NY_region_match_level,species,AG_A_def742
+Corylus colurna,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Corylus colurna,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Corylus colurna,pollen_allergenicity,low,AG_B_d7ff63
+Corylus colurna,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Corylus colurna,pollinator_notes,Lepidoptera host genus Corylus: 131 spp. (rank 20; genus level),AG_C_47a56a
+Corylus colurna,pollinator_notes_match_level,genus,AG_C_47a56a
+Corylus colurna,pollinator_value,low,AG_C_070d2f
+Corylus colurna,pollinator_value_match_level,genus,AG_C_070d2f
+Corylus colurna,root_sidewalk_damage_risk,low,AG_D_619933
+Corylus colurna,root_sidewalk_damage_risk_match_level,species,AG_D_619933
+Corylus colurna,usda_symbol,COCO30,AG_A_1a393c
+Corylus colurna,usda_symbol_match_level,species,AG_A_1a393c
+Crataegus sp.,bvoc_isoprene_class,low,AG_B_04372a
+Crataegus sp.,bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Crataegus sp.,bvoc_monoterpene_class,low,AG_B_ce86ce
+Crataegus sp.,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Crataegus sp.,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Crataegus sp.,climate_suitability_2070_2099_match_level,genus,AG_C_59dd89
+Crataegus sp.,climate_suitability_2070_2099_conflict,likely suitable [AG_C_59dd89] | likely reduced [AG_C_59dd89],MULTI
+Crataegus sp.,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Crataegus sp.,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Crataegus sp.,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Crataegus sp.,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Crataegus sp.,pollen_allergenicity,low,AG_B_5b6057
+Crataegus sp.,pollen_allergenicity_match_level,genus,AG_B_5b6057
+Crataegus sp.,pollinator_notes,Lepidoptera host genus Crataegus: 168 spp. (rank 13; genus level),AG_C_47a56a
+Crataegus sp.,pollinator_notes_match_level,genus,AG_C_47a56a
+Crataegus sp.,pollinator_value,high,AG_C_d88683
+Crataegus sp.,pollinator_value_match_level,genus,AG_C_d88683
+Crataegus sp.,root_sidewalk_damage_risk,low,AG_D_86a742
+Crataegus sp.,root_sidewalk_damage_risk_match_level,genus,AG_D_86a742
+Crataegus sp.,wire_compatible,yes,AG_D_90246f
+Crataegus sp.,wire_compatible_match_level,genus,AG_D_90246f
+Eucommia ulmoides,min_soil_volume_m3,34.0,AG_D_7c6d9f
+Eucommia ulmoides,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Eucommia ulmoides,native_NY_region,no,AG_A_4d71dd
+Eucommia ulmoides,native_NY_region_match_level,species,AG_A_4d71dd
+Eucommia ulmoides,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Eucommia ulmoides,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Eucommia ulmoides,root_sidewalk_damage_risk,low,AG_D_afe227
+Eucommia ulmoides,root_sidewalk_damage_risk_match_level,species,AG_D_afe227
+Fraxinus pennsylvanica,bvoc_isoprene_class,low,AG_B_ce86ce
+Fraxinus pennsylvanica,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Fraxinus pennsylvanica,bvoc_monoterpene_class,low,AG_B_ce86ce
+Fraxinus pennsylvanica,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Fraxinus pennsylvanica,climate_suitability_2070_2099,uncertain,AG_C_23e4ae
+Fraxinus pennsylvanica,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Fraxinus pennsylvanica,climate_suitability_2070_2099_conflict,uncertain [AG_C_23e4ae] | likely suitable [AG_C_59dd89],MULTI
+Fraxinus pennsylvanica,dioecious_male_pollen_note,male individuals increase pollen load,AG_B_87f26d
+Fraxinus pennsylvanica,dioecious_male_pollen_note_match_level,genus,AG_B_87f26d
+Fraxinus pennsylvanica,native_NY_region,yes,AG_A_4d71dd
+Fraxinus pennsylvanica,native_NY_region_match_level,species,AG_A_4d71dd
+Fraxinus pennsylvanica,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Fraxinus pennsylvanica,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Fraxinus pennsylvanica,pollen_allergenicity,high,AG_B_c8d4c2
+Fraxinus pennsylvanica,pollen_allergenicity_match_level,species,AG_B_c8d4c2
+Fraxinus pennsylvanica,pollinator_notes,wind-pollinated (Atlas: wind); Lepidoptera host genus Fraxinus 149 spp. (rank 16),AG_C_115ea3
+Fraxinus pennsylvanica,pollinator_notes_match_level,species,AG_C_115ea3
+Fraxinus pennsylvanica,pollinator_value,low,AG_C_070d2f
+Fraxinus pennsylvanica,pollinator_value_match_level,genus,AG_C_070d2f
+Fraxinus pennsylvanica,root_sidewalk_damage_risk,high,AG_D_af0c44
+Fraxinus pennsylvanica,root_sidewalk_damage_risk_match_level,species,AG_D_af0c44
+Ginkgo biloba,bvoc_isoprene_class,low,AG_B_ce86ce
+Ginkgo biloba,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Ginkgo biloba,bvoc_monoterpene_class,moderate,AG_B_ce86ce
+Ginkgo biloba,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Ginkgo biloba,bvoc_monoterpene_ef,3 (±6.8 sd),AG_B_ce86ce
+Ginkgo biloba,bvoc_monoterpene_ef_match_level,species,AG_B_ce86ce
+Ginkgo biloba,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Ginkgo biloba,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Ginkgo biloba,dioecious_male_pollen_note,"male trees allergenic (ap=2), female ap=0",AG_B_0b9902
+Ginkgo biloba,dioecious_male_pollen_note_match_level,species,AG_B_0b9902
+Ginkgo biloba,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Ginkgo biloba,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Ginkgo biloba,native_NY_region,no,AG_A_1a393c
+Ginkgo biloba,native_NY_region_match_level,species,AG_A_1a393c
+Ginkgo biloba,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Ginkgo biloba,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Ginkgo biloba,pollen_allergenicity,high,AG_B_d7ff63
+Ginkgo biloba,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Ginkgo biloba,pollen_allergenicity_conflict,moderate [AG_B_0b9902] | high [AG_B_d7ff63] | low [AG_B_c86379],MULTI
+Ginkgo biloba,root_sidewalk_damage_risk,low,AG_D_f7d6e9
+Ginkgo biloba,root_sidewalk_damage_risk_match_level,species,AG_D_f7d6e9
+Ginkgo biloba,wire_compatible,no,AG_D_717b87
+Ginkgo biloba,wire_compatible_match_level,size_class,AG_D_717b87
+Gleditsia triacanthos var. inermis,bvoc_isoprene_class,low,AG_B_04372a
+Gleditsia triacanthos var. inermis,bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Gleditsia triacanthos var. inermis,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Gleditsia triacanthos var. inermis,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Gleditsia triacanthos var. inermis,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Gleditsia triacanthos var. inermis,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Gleditsia triacanthos var. inermis,native_NY_region,no,AG_A_4d71dd
+Gleditsia triacanthos var. inermis,native_NY_region_match_level,species,AG_A_4d71dd
+Gleditsia triacanthos var. inermis,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Gleditsia triacanthos var. inermis,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Gleditsia triacanthos var. inermis,pollen_allergenicity,moderate,AG_B_0b9902
+Gleditsia triacanthos var. inermis,pollen_allergenicity_match_level,species,AG_B_0b9902
+Gleditsia triacanthos var. inermis,pollen_allergenicity_conflict,moderate [AG_B_0b9902] | moderate [AG_B_d7ff63] | low [AG_B_f2792a],MULTI
+Gleditsia triacanthos var. inermis,pollinator_notes,insect-pollinated (Atlas pollination agent: insects),AG_C_4faf49
+Gleditsia triacanthos var. inermis,pollinator_notes_match_level,species,AG_C_4faf49
+Gleditsia triacanthos var. inermis,pollinator_value,moderate,AG_C_070d2f
+Gleditsia triacanthos var. inermis,pollinator_value_match_level,species,AG_C_070d2f
+Gleditsia triacanthos var. inermis,root_sidewalk_damage_risk,high,AG_D_840a4a
+Gleditsia triacanthos var. inermis,root_sidewalk_damage_risk_match_level,species,AG_D_840a4a
+Gleditsia triacanthos var. inermis,wire_compatible,no,AG_D_717b87
+Gleditsia triacanthos var. inermis,wire_compatible_match_level,size_class,AG_D_717b87
+Gymnocladus dioicus,bvoc_isoprene_class,low,AG_B_ce86ce
+Gymnocladus dioicus,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Gymnocladus dioicus,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Gymnocladus dioicus,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Gymnocladus dioicus,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Gymnocladus dioicus,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Gymnocladus dioicus,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Gymnocladus dioicus,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Gymnocladus dioicus,pollen_allergenicity,low,AG_B_bc0361
+Gymnocladus dioicus,pollen_allergenicity_match_level,species,AG_B_bc0361
+Gymnocladus dioicus,pollinator_notes,Atlas life-history 'Pollination Agent' field reads 'seeds' (apparent data error) - not used,AG_C_00927c
+Gymnocladus dioicus,pollinator_notes_match_level,species,AG_C_00927c
+Gymnocladus dioicus,pollinator_value,moderate,AG_C_860bc3
+Gymnocladus dioicus,pollinator_value_match_level,species,AG_C_860bc3
+Gymnocladus dioicus,root_sidewalk_damage_risk,low,AG_D_03face
+Gymnocladus dioicus,root_sidewalk_damage_risk_match_level,species,AG_D_03face
+Gymnocladus dioicus,wire_compatible,no,AG_D_717b87
+Gymnocladus dioicus,wire_compatible_match_level,size_class,AG_D_717b87
+Koelreuteria paniculata,bvoc_isoprene_class,low,AG_B_ce86ce
+Koelreuteria paniculata,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Koelreuteria paniculata,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Koelreuteria paniculata,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Koelreuteria paniculata,native_NY_region,no,AG_A_4d71dd
+Koelreuteria paniculata,native_NY_region_match_level,species,AG_A_4d71dd
+Koelreuteria paniculata,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Koelreuteria paniculata,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Koelreuteria paniculata,pollen_allergenicity,none_reported,AG_B_0eba22
+Koelreuteria paniculata,pollen_allergenicity_match_level,species,AG_B_0eba22
+Koelreuteria paniculata,pollinator_value,moderate,AG_C_860bc3
+Koelreuteria paniculata,pollinator_value_match_level,species,AG_C_860bc3
+Koelreuteria paniculata,root_sidewalk_damage_risk,low,AG_D_f2a368
+Koelreuteria paniculata,root_sidewalk_damage_risk_match_level,species,AG_D_f2a368
+Liquidambar styraciflua,bvoc_isoprene_class,high,AG_B_ce86ce
+Liquidambar styraciflua,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Liquidambar styraciflua,bvoc_isoprene_ef,15.72-86,AG_B_ce86ce
+Liquidambar styraciflua,bvoc_isoprene_ef_match_level,species,AG_B_ce86ce
+Liquidambar styraciflua,bvoc_isoprene_ef_conflict,15.72-86 [AG_B_ce86ce] | 26 [AG_B_04372a],MULTI
+Liquidambar styraciflua,bvoc_monoterpene_class,moderate,AG_B_ce86ce
+Liquidambar styraciflua,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Liquidambar styraciflua,bvoc_monoterpene_ef,2.54-3,AG_B_ce86ce
+Liquidambar styraciflua,bvoc_monoterpene_ef_match_level,species,AG_B_ce86ce
+Liquidambar styraciflua,climate_suitability_2070_2099,likely suitable,AG_C_23e4ae
+Liquidambar styraciflua,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Liquidambar styraciflua,climate_suitability_2070_2099_conflict,likely suitable [AG_C_23e4ae] | uncertain [AG_C_59dd89],MULTI
+Liquidambar styraciflua,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Liquidambar styraciflua,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Liquidambar styraciflua,native_NY_region,yes,AG_A_4d71dd
+Liquidambar styraciflua,native_NY_region_match_level,species,AG_A_4d71dd
+Liquidambar styraciflua,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Liquidambar styraciflua,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Liquidambar styraciflua,pollen_allergenicity,low,AG_B_b275c2
+Liquidambar styraciflua,pollen_allergenicity_match_level,species,AG_B_b275c2
+Liquidambar styraciflua,pollinator_notes,wind-pollinated (Atlas pollination agent: wind),AG_C_cb001f
+Liquidambar styraciflua,pollinator_notes_match_level,species,AG_C_cb001f
+Liquidambar styraciflua,pollinator_value,low,AG_C_860bc3
+Liquidambar styraciflua,pollinator_value_match_level,species,AG_C_860bc3
+Liquidambar styraciflua,root_sidewalk_damage_risk,high,AG_D_fbeb10
+Liquidambar styraciflua,root_sidewalk_damage_risk_match_level,species,AG_D_fbeb10
+Liquidambar styraciflua,wire_compatible,no,AG_D_717b87
+Liquidambar styraciflua,wire_compatible_match_level,size_class,AG_D_717b87
+Maackia amurensis,native_NY_region,no,AG_A_def742
+Maackia amurensis,native_NY_region_match_level,species,AG_A_def742
+Maackia amurensis,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Maackia amurensis,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Maackia amurensis,pollinator_value,moderate,AG_C_860bc3
+Maackia amurensis,pollinator_value_match_level,species,AG_C_860bc3
+Maackia amurensis,root_sidewalk_damage_risk,low,AG_D_2b07fc
+Maackia amurensis,root_sidewalk_damage_risk_match_level,species,AG_D_2b07fc
+Malus sp.,bvoc_isoprene_class,low,AG_B_04372a
+Malus sp.,bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Malus sp.,bvoc_monoterpene_class,high,AG_B_ce86ce
+Malus sp.,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Malus sp.,bvoc_monoterpene_class_conflict,low [AG_B_ce86ce] | high [AG_B_ce86ce],MULTI
+Malus sp.,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Malus sp.,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Malus sp.,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Malus sp.,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Malus sp.,pollen_allergenicity,low,AG_B_87f311
+Malus sp.,pollen_allergenicity_match_level,genus,AG_B_87f311
+Malus sp.,pollinator_notes,Lepidoptera host genus Malus: 308 spp. (rank 6; genus level),AG_C_47a56a
+Malus sp.,pollinator_notes_match_level,genus,AG_C_47a56a
+Malus sp.,pollinator_value,high,AG_C_070d2f
+Malus sp.,pollinator_value_match_level,genus,AG_C_070d2f
+Malus sp.,root_sidewalk_damage_risk,low,AG_D_c0cb7d
+Malus sp.,root_sidewalk_damage_risk_match_level,genus,AG_D_c0cb7d
+Malus sp.,wire_compatible,yes,AG_D_c0cb7d
+Malus sp.,wire_compatible_match_level,genus,AG_D_c0cb7d
+Metasequoia glyptostroboides,bvoc_isoprene_class,low,AG_B_ce86ce
+Metasequoia glyptostroboides,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Metasequoia glyptostroboides,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Metasequoia glyptostroboides,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Metasequoia glyptostroboides,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Metasequoia glyptostroboides,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Metasequoia glyptostroboides,native_NY_region,no,AG_A_1a393c
+Metasequoia glyptostroboides,native_NY_region_match_level,species,AG_A_1a393c
+Metasequoia glyptostroboides,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Metasequoia glyptostroboides,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Metasequoia glyptostroboides,root_sidewalk_damage_risk,low,AG_D_979e12
+Metasequoia glyptostroboides,root_sidewalk_damage_risk_match_level,species,AG_D_979e12
+Metasequoia glyptostroboides,wire_compatible,no,AG_D_717b87
+Metasequoia glyptostroboides,wire_compatible_match_level,size_class,AG_D_717b87
+Nyssa sylvatica,bvoc_isoprene_class,low,AG_B_ce86ce
+Nyssa sylvatica,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Nyssa sylvatica,bvoc_isoprene_class_conflict,low [AG_B_ce86ce] | moderate [AG_B_ce86ce],MULTI
+Nyssa sylvatica,bvoc_monoterpene_class,low,AG_B_ce86ce
+Nyssa sylvatica,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Nyssa sylvatica,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Nyssa sylvatica,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Nyssa sylvatica,climate_suitability_2070_2099_conflict,likely suitable [AG_C_59dd89] | uncertain [AG_C_23e4ae],MULTI
+Nyssa sylvatica,dioecious_male_pollen_note,male trees shed pollen,AG_B_485189
+Nyssa sylvatica,dioecious_male_pollen_note_match_level,genus,AG_B_485189
+Nyssa sylvatica,min_soil_volume_m3,34.0,AG_D_7c6d9f
+Nyssa sylvatica,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Nyssa sylvatica,native_NY_region,yes,AG_A_4d71dd
+Nyssa sylvatica,native_NY_region_match_level,species,AG_A_4d71dd
+Nyssa sylvatica,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Nyssa sylvatica,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Nyssa sylvatica,pollen_allergenicity,low,AG_B_d7ff63
+Nyssa sylvatica,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Nyssa sylvatica,pollinator_notes,"insect- and wind-pollinated (Atlas pollination agent: insects, wind)",AG_C_dbb11f
+Nyssa sylvatica,pollinator_notes_match_level,species,AG_C_dbb11f
+Nyssa sylvatica,pollinator_value,moderate,AG_C_070d2f
+Nyssa sylvatica,pollinator_value_match_level,species,AG_C_070d2f
+Nyssa sylvatica,root_sidewalk_damage_risk,low,AG_D_f84bc4
+Nyssa sylvatica,root_sidewalk_damage_risk_match_level,species,AG_D_f84bc4
+Ostrya virginiana,bvoc_isoprene_class,low,AG_B_ce86ce
+Ostrya virginiana,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Ostrya virginiana,climate_suitability_2070_2099,likely suitable,AG_C_23e4ae
+Ostrya virginiana,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Ostrya virginiana,min_soil_volume_m3,34.0,AG_D_7c6d9f
+Ostrya virginiana,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Ostrya virginiana,native_NY_region,yes,AG_A_4d71dd
+Ostrya virginiana,native_NY_region_match_level,species,AG_A_4d71dd
+Ostrya virginiana,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Ostrya virginiana,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Ostrya virginiana,pollen_allergenicity,moderate,AG_B_56e900
+Ostrya virginiana,pollen_allergenicity_match_level,species,AG_B_56e900
+Ostrya virginiana,pollen_allergenicity_conflict,low [AG_B_d7ff63] | moderate [AG_B_56e900],MULTI
+Ostrya virginiana,pollinator_notes,wind-pollinated (Atlas pollination agent: wind),AG_C_1a51b2
+Ostrya virginiana,pollinator_notes_match_level,species,AG_C_1a51b2
+Ostrya virginiana,pollinator_value,low,AG_C_860bc3
+Ostrya virginiana,pollinator_value_match_level,species,AG_C_860bc3
+Ostrya virginiana,root_sidewalk_damage_risk,low,AG_D_bb23eb
+Ostrya virginiana,root_sidewalk_damage_risk_match_level,species,AG_D_bb23eb
+Platanus x acerifolia,bvoc_isoprene_class,moderate,AG_B_ce86ce
+Platanus x acerifolia,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Platanus x acerifolia,bvoc_isoprene_class_conflict,moderate [AG_B_ce86ce] | high [AG_B_04372a] | high [AG_B_ce86ce],MULTI
+Platanus x acerifolia,bvoc_isoprene_ef,10.68,AG_B_ce86ce
+Platanus x acerifolia,bvoc_isoprene_ef_match_level,species,AG_B_ce86ce
+Platanus x acerifolia,bvoc_monoterpene_class,low,AG_B_ce86ce
+Platanus x acerifolia,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Platanus x acerifolia,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Platanus x acerifolia,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Platanus x acerifolia,native_NY_region,hybrid-nonnative,AG_A_1a393c
+Platanus x acerifolia,native_NY_region_match_level,species,AG_A_1a393c
+Platanus x acerifolia,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Platanus x acerifolia,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Platanus x acerifolia,pollen_allergenicity,high,AG_B_0b9902
+Platanus x acerifolia,pollen_allergenicity_match_level,species,AG_B_0b9902
+Platanus x acerifolia,pollen_allergenicity_conflict,high [AG_B_0b9902] | high [AG_B_87f26d] | moderate [AG_B_d7ff63] | moderate [AG_B_cd9d72],MULTI
+Platanus x acerifolia,pollinator_notes,"wind-pollinated (Atlas, parent species P. occidentalis)",AG_C_2fbdbb
+Platanus x acerifolia,pollinator_notes_match_level,genus,AG_C_2fbdbb
+Platanus x acerifolia,pollinator_value,low,AG_C_860bc3
+Platanus x acerifolia,pollinator_value_match_level,species,AG_C_860bc3
+Platanus x acerifolia,root_sidewalk_damage_risk,high,AG_D_03abb3
+Platanus x acerifolia,root_sidewalk_damage_risk_match_level,cultivar,AG_D_03abb3
+Platanus x acerifolia,usda_symbol,PLHI,AG_A_1a393c
+Platanus x acerifolia,usda_symbol_match_level,species (synonym resolved),AG_A_1a393c
+Prunus 'Okame',bvoc_isoprene_class,low,AG_B_04372a
+Prunus 'Okame',bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Prunus 'Okame',bvoc_monoterpene_class,low,AG_B_ce86ce
+Prunus 'Okame',bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Prunus 'Okame',min_soil_volume_m3,8.5,AG_D_7c6d9f
+Prunus 'Okame',min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Prunus 'Okame',native_NY_region,hybrid-nonnative,AG_A_5850ad
+Prunus 'Okame',native_NY_region_match_level,cultivar,AG_A_5850ad
+Prunus 'Okame',nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Prunus 'Okame',nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Prunus 'Okame',pollen_allergenicity,low,AG_B_99a088
+Prunus 'Okame',pollen_allergenicity_match_level,genus,AG_B_99a088
+Prunus 'Okame',pollinator_notes,"Lepidoptera host genus Prunus: 456 spp. (rank 2; genus level, native-dominated)",AG_C_47a56a
+Prunus 'Okame',pollinator_notes_match_level,genus,AG_C_47a56a
+Prunus 'Okame',pollinator_value,high,AG_C_070d2f
+Prunus 'Okame',pollinator_value_match_level,genus,AG_C_070d2f
+Prunus 'Okame',root_sidewalk_damage_risk,low,AG_D_a637b3
+Prunus 'Okame',root_sidewalk_damage_risk_match_level,cultivar,AG_D_a637b3
+Prunus 'Okame',root_sidewalk_damage_risk_conflict,low [AG_D_a637b3] | high [AG_D_86a742],MULTI
+Prunus cerasifera,bvoc_isoprene_class,low,AG_B_04372a
+Prunus cerasifera,bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Prunus cerasifera,bvoc_monoterpene_class,low,AG_B_ce86ce
+Prunus cerasifera,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Prunus cerasifera,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Prunus cerasifera,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Prunus cerasifera,native_NY_region,no,AG_A_4d71dd
+Prunus cerasifera,native_NY_region_match_level,species,AG_A_4d71dd
+Prunus cerasifera,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Prunus cerasifera,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Prunus cerasifera,pollen_allergenicity,moderate,AG_B_d7ff63
+Prunus cerasifera,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Prunus cerasifera,pollen_allergenicity_conflict,low [AG_B_0b9902] | moderate [AG_B_d7ff63] | low [AG_B_99a088],MULTI
+Prunus cerasifera,pollinator_notes,"Lepidoptera host genus Prunus: 456 spp. (rank 2; genus level, native-dominated)",AG_C_47a56a
+Prunus cerasifera,pollinator_notes_match_level,genus,AG_C_47a56a
+Prunus cerasifera,pollinator_value,high,AG_C_070d2f
+Prunus cerasifera,pollinator_value_match_level,genus,AG_C_070d2f
+Prunus cerasifera,root_sidewalk_damage_risk,low,AG_D_df747a
+Prunus cerasifera,root_sidewalk_damage_risk_match_level,cultivar,AG_D_df747a
+Prunus cerasifera,root_sidewalk_damage_risk_conflict,low [AG_D_df747a] | high [AG_D_86a742],MULTI
+Prunus padus,bvoc_isoprene_class,low,AG_B_04372a
+Prunus padus,bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Prunus padus,bvoc_monoterpene_class,low,AG_B_ce86ce
+Prunus padus,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Prunus padus,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Prunus padus,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Prunus padus,native_NY_region,no,AG_A_4d71dd
+Prunus padus,native_NY_region_match_level,species,AG_A_4d71dd
+Prunus padus,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Prunus padus,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Prunus padus,pollen_allergenicity,low,AG_B_d7ff63
+Prunus padus,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Prunus padus,pollinator_notes,"Lepidoptera host genus Prunus: 456 spp. (rank 2; genus level, native-dominated)",AG_C_47a56a
+Prunus padus,pollinator_notes_match_level,genus,AG_C_47a56a
+Prunus padus,pollinator_value,high,AG_C_070d2f
+Prunus padus,pollinator_value_match_level,genus,AG_C_070d2f
+Prunus padus,root_sidewalk_damage_risk,high,AG_D_86a742
+Prunus padus,root_sidewalk_damage_risk_match_level,genus,AG_D_86a742
+Prunus sargentii,bvoc_isoprene_class,low,AG_B_04372a
+Prunus sargentii,bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Prunus sargentii,bvoc_monoterpene_class,low,AG_B_ce86ce
+Prunus sargentii,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Prunus sargentii,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Prunus sargentii,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Prunus sargentii,native_NY_region,no,AG_A_4d71dd
+Prunus sargentii,native_NY_region_match_level,species,AG_A_4d71dd
+Prunus sargentii,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Prunus sargentii,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Prunus sargentii,pollen_allergenicity,moderate,AG_B_d7ff63
+Prunus sargentii,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Prunus sargentii,pollen_allergenicity_conflict,moderate [AG_B_d7ff63] | low [AG_B_99a088] | low [AG_B_0b9902],MULTI
+Prunus sargentii,pollinator_notes,"Lepidoptera host genus Prunus: 456 spp. (rank 2; genus level, native-dominated)",AG_C_47a56a
+Prunus sargentii,pollinator_notes_match_level,genus,AG_C_47a56a
+Prunus sargentii,pollinator_value,high,AG_C_070d2f
+Prunus sargentii,pollinator_value_match_level,genus,AG_C_070d2f
+Prunus sargentii,root_sidewalk_damage_risk,low,AG_D_0a462b
+Prunus sargentii,root_sidewalk_damage_risk_match_level,species,AG_D_0a462b
+Prunus sargentii,root_sidewalk_damage_risk_conflict,low [AG_D_0a462b] | high [AG_D_86a742],MULTI
+Prunus serrulata 'Kwanzan',bvoc_isoprene_class,low,AG_B_04372a
+Prunus serrulata 'Kwanzan',bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Prunus serrulata 'Kwanzan',bvoc_monoterpene_class,low,AG_B_ce86ce
+Prunus serrulata 'Kwanzan',bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Prunus serrulata 'Kwanzan',min_soil_volume_m3,8.5,AG_D_7c6d9f
+Prunus serrulata 'Kwanzan',min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Prunus serrulata 'Kwanzan',native_NY_region,no,AG_A_1a393c
+Prunus serrulata 'Kwanzan',native_NY_region_match_level,species,AG_A_1a393c
+Prunus serrulata 'Kwanzan',nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Prunus serrulata 'Kwanzan',nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Prunus serrulata 'Kwanzan',pollen_allergenicity,low,AG_B_99a088
+Prunus serrulata 'Kwanzan',pollen_allergenicity_match_level,genus,AG_B_99a088
+Prunus serrulata 'Kwanzan',pollinator_notes,"Lepidoptera host genus Prunus: 456 spp. (rank 2; genus level, native-dominated)",AG_C_47a56a
+Prunus serrulata 'Kwanzan',pollinator_notes_match_level,genus,AG_C_47a56a
+Prunus serrulata 'Kwanzan',pollinator_value,high,AG_C_070d2f
+Prunus serrulata 'Kwanzan',pollinator_value_match_level,genus,AG_C_070d2f
+Prunus serrulata 'Kwanzan',root_sidewalk_damage_risk,low,AG_D_958c56
+Prunus serrulata 'Kwanzan',root_sidewalk_damage_risk_match_level,cultivar,AG_D_958c56
+Prunus serrulata 'Kwanzan',root_sidewalk_damage_risk_conflict,low [AG_D_958c56] | high [AG_D_86a742],MULTI
+Prunus virginiana 'Schubert',bvoc_isoprene_class,low,AG_B_ce86ce
+Prunus virginiana 'Schubert',bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Prunus virginiana 'Schubert',bvoc_monoterpene_class,low,AG_B_ce86ce
+Prunus virginiana 'Schubert',bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Prunus virginiana 'Schubert',climate_suitability_2070_2099,likely reduced,AG_C_59dd89
+Prunus virginiana 'Schubert',climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Prunus virginiana 'Schubert',min_soil_volume_m3,8.5,AG_D_7c6d9f
+Prunus virginiana 'Schubert',min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Prunus virginiana 'Schubert',native_NY_region,cultivar-of-native,AG_A_4d71dd
+Prunus virginiana 'Schubert',native_NY_region_match_level,species,AG_A_4d71dd
+Prunus virginiana 'Schubert',nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Prunus virginiana 'Schubert',nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Prunus virginiana 'Schubert',pollen_allergenicity,low,AG_B_67a4e7
+Prunus virginiana 'Schubert',pollen_allergenicity_match_level,species,AG_B_67a4e7
+Prunus virginiana 'Schubert',pollinator_notes,Lepidoptera host genus Prunus: 456 spp. (rank 2; genus level),AG_C_47a56a
+Prunus virginiana 'Schubert',pollinator_notes_match_level,genus,AG_C_47a56a
+Prunus virginiana 'Schubert',pollinator_value,high,AG_C_070d2f
+Prunus virginiana 'Schubert',pollinator_value_match_level,species,AG_C_070d2f
+Prunus virginiana 'Schubert',root_sidewalk_damage_risk,high,AG_D_86a742
+Prunus virginiana 'Schubert',root_sidewalk_damage_risk_match_level,genus,AG_D_86a742
+Prunus x yedoensis,bvoc_isoprene_class,low,AG_B_04372a
+Prunus x yedoensis,bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Prunus x yedoensis,bvoc_monoterpene_class,low,AG_B_ce86ce
+Prunus x yedoensis,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Prunus x yedoensis,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Prunus x yedoensis,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Prunus x yedoensis,native_NY_region,hybrid-nonnative,AG_A_1a393c
+Prunus x yedoensis,native_NY_region_match_level,species,AG_A_1a393c
+Prunus x yedoensis,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Prunus x yedoensis,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Prunus x yedoensis,pollen_allergenicity,low,AG_B_99a088
+Prunus x yedoensis,pollen_allergenicity_match_level,genus,AG_B_99a088
+Prunus x yedoensis,pollinator_notes,"Lepidoptera host genus Prunus: 456 spp. (rank 2; genus level, native-dominated)",AG_C_47a56a
+Prunus x yedoensis,pollinator_notes_match_level,genus,AG_C_47a56a
+Prunus x yedoensis,pollinator_value,high,AG_C_070d2f
+Prunus x yedoensis,pollinator_value_match_level,genus,AG_C_070d2f
+Prunus x yedoensis,root_sidewalk_damage_risk,low,AG_D_c34a13
+Prunus x yedoensis,root_sidewalk_damage_risk_match_level,species,AG_D_c34a13
+Prunus x yedoensis,root_sidewalk_damage_risk_conflict,low [AG_D_c34a13] | high [AG_D_86a742],MULTI
+Prunus x yedoensis,usda_symbol,PRYE,AG_A_1a393c
+Prunus x yedoensis,usda_symbol_match_level,species,AG_A_1a393c
+Pyrus calleryana,bvoc_isoprene_class,high,AG_B_ce86ce
+Pyrus calleryana,bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Pyrus calleryana,bvoc_isoprene_class_conflict,low [AG_B_ce86ce] | high [AG_B_ce86ce],MULTI
+Pyrus calleryana,bvoc_monoterpene_class,low,AG_B_ce86ce
+Pyrus calleryana,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Pyrus calleryana,climate_suitability_2070_2099,likely reduced,AG_C_59dd89
+Pyrus calleryana,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Pyrus calleryana,native_NY_region,no,AG_A_4d71dd
+Pyrus calleryana,native_NY_region_match_level,species,AG_A_4d71dd
+Pyrus calleryana,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Pyrus calleryana,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Pyrus calleryana,pollen_allergenicity,moderate,AG_B_d7ff63
+Pyrus calleryana,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Pyrus calleryana,pollen_allergenicity_conflict,moderate [AG_B_d7ff63] | low [AG_B_4da0f1] | low [AG_B_0b9902],MULTI
+Pyrus calleryana,pollinator_notes,Lepidoptera host genus Pyrus: 138 spp. (Table 1 rank 18; inflated by commercial pear records),AG_C_47a56a
+Pyrus calleryana,pollinator_notes_match_level,genus,AG_C_47a56a
+Pyrus calleryana,pollinator_value,moderate,AG_C_070d2f
+Pyrus calleryana,pollinator_value_match_level,genus,AG_C_070d2f
+Pyrus calleryana,root_sidewalk_damage_risk,low,AG_D_cd5960
+Pyrus calleryana,root_sidewalk_damage_risk_match_level,cultivar,AG_D_cd5960
+Pyrus calleryana,usda_symbol,PYCA80,AG_A_1a393c
+Pyrus calleryana,usda_symbol_match_level,species,AG_A_1a393c
+Quercus acutissima,bvoc_isoprene_class,high,AG_B_ce86ce
+Quercus acutissima,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Quercus acutissima,bvoc_isoprene_ef,24.7,AG_B_ce86ce
+Quercus acutissima,bvoc_isoprene_ef_match_level,species,AG_B_ce86ce
+Quercus acutissima,min_soil_volume_m3,34.0,AG_D_7c6d9f
+Quercus acutissima,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Quercus acutissima,native_NY_region,no,AG_A_1a393c
+Quercus acutissima,native_NY_region_match_level,species,AG_A_1a393c
+Quercus acutissima,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Quercus acutissima,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Quercus acutissima,pollen_allergenicity,low,AG_B_d7ff63
+Quercus acutissima,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Quercus acutissima,pollen_allergenicity_conflict,low [AG_B_d7ff63] | high [AG_B_942d26] | moderate [AG_B_0b9902],MULTI
+Quercus acutissima,pollinator_notes,"Lepidoptera host: Quercus ranked #1 genus, 534 Lepidoptera spp. (mid-Atlantic)",AG_C_47a56a
+Quercus acutissima,pollinator_notes_match_level,genus,AG_C_47a56a
+Quercus acutissima,pollinator_value,low,AG_C_070d2f
+Quercus acutissima,pollinator_value_match_level,genus,AG_C_070d2f
+Quercus acutissima,root_sidewalk_damage_risk,low,AG_D_c0e62f
+Quercus acutissima,root_sidewalk_damage_risk_match_level,species,AG_D_c0e62f
+Quercus acutissima,usda_symbol,QUAC80,AG_A_1a393c
+Quercus acutissima,usda_symbol_match_level,species,AG_A_1a393c
+Quercus bicolor,bvoc_isoprene_class,high,AG_B_ce86ce
+Quercus bicolor,bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Quercus bicolor,bvoc_monoterpene_class,low,AG_B_ce86ce
+Quercus bicolor,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Quercus bicolor,climate_suitability_2070_2099,likely reduced,AG_C_23e4ae
+Quercus bicolor,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Quercus bicolor,climate_suitability_2070_2099_conflict,likely reduced [AG_C_23e4ae] | uncertain [AG_C_59dd89],MULTI
+Quercus bicolor,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Quercus bicolor,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Quercus bicolor,native_NY_region,yes,AG_A_4d71dd
+Quercus bicolor,native_NY_region_match_level,species,AG_A_4d71dd
+Quercus bicolor,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Quercus bicolor,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Quercus bicolor,pollen_allergenicity,high,AG_B_31f3b8
+Quercus bicolor,pollen_allergenicity_match_level,species,AG_B_31f3b8
+Quercus bicolor,pollen_allergenicity_conflict,moderate [AG_B_d7ff63] | high [AG_B_31f3b8] | moderate [AG_B_0b9902],MULTI
+Quercus bicolor,pollinator_notes,wind-pollinated (Atlas pollination agent: wind),AG_C_529c30
+Quercus bicolor,pollinator_notes_match_level,species,AG_C_529c30
+Quercus bicolor,pollinator_notes_conflict,"wind-pollinated (Atlas pollination agent: wind) [AG_C_529c30] | Lepidoptera host: Quercus ranked #1 genus, 534 Lepidoptera spp. (mid-Atlantic) [AG_C_47a56a]",MULTI
+Quercus bicolor,pollinator_value,low,AG_C_070d2f
+Quercus bicolor,pollinator_value_match_level,genus,AG_C_070d2f
+Quercus bicolor,root_sidewalk_damage_risk,low,AG_D_bd8c14
+Quercus bicolor,root_sidewalk_damage_risk_match_level,species,AG_D_bd8c14
+Quercus bicolor,wire_compatible,no,AG_D_717b87
+Quercus bicolor,wire_compatible_match_level,size_class,AG_D_717b87
+Quercus imbricaria,bvoc_isoprene_class,high,AG_B_ce86ce
+Quercus imbricaria,bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Quercus imbricaria,bvoc_monoterpene_class,low,AG_B_ce86ce
+Quercus imbricaria,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Quercus imbricaria,climate_suitability_2070_2099,uncertain,AG_C_59dd89
+Quercus imbricaria,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Quercus imbricaria,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Quercus imbricaria,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Quercus imbricaria,native_NY_region,no,AG_A_4d71dd
+Quercus imbricaria,native_NY_region_match_level,species,AG_A_4d71dd
+Quercus imbricaria,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Quercus imbricaria,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Quercus imbricaria,pollen_allergenicity,high,AG_B_6419e9
+Quercus imbricaria,pollen_allergenicity_match_level,species,AG_B_6419e9
+Quercus imbricaria,pollen_allergenicity_conflict,high [AG_B_6419e9] | moderate [AG_B_0b9902],MULTI
+Quercus imbricaria,pollinator_notes,wind-pollinated (Atlas pollination agent: wind),AG_C_97fe35
+Quercus imbricaria,pollinator_notes_match_level,species,AG_C_97fe35
+Quercus imbricaria,pollinator_notes_conflict,"wind-pollinated (Atlas pollination agent: wind) [AG_C_97fe35] | Lepidoptera host: Quercus ranked #1 genus, 534 Lepidoptera spp. (mid-Atlantic) [AG_C_47a56a]",MULTI
+Quercus imbricaria,pollinator_value,low,AG_C_070d2f
+Quercus imbricaria,pollinator_value_match_level,genus,AG_C_070d2f
+Quercus imbricaria,root_sidewalk_damage_risk,low,AG_D_bef084
+Quercus imbricaria,root_sidewalk_damage_risk_match_level,species,AG_D_bef084
+Quercus imbricaria,wire_compatible,no,AG_D_717b87
+Quercus imbricaria,wire_compatible_match_level,size_class,AG_D_717b87
+Quercus palustris,bvoc_isoprene_class,high,AG_B_ce86ce
+Quercus palustris,bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Quercus palustris,bvoc_monoterpene_class,low,AG_B_ce86ce
+Quercus palustris,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Quercus palustris,climate_suitability_2070_2099,likely reduced,AG_C_23e4ae
+Quercus palustris,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Quercus palustris,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Quercus palustris,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Quercus palustris,native_NY_region,yes,AG_A_4d71dd
+Quercus palustris,native_NY_region_match_level,species,AG_A_4d71dd
+Quercus palustris,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Quercus palustris,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Quercus palustris,pollen_allergenicity,high,AG_B_7b1f1d
+Quercus palustris,pollen_allergenicity_match_level,species,AG_B_7b1f1d
+Quercus palustris,pollen_allergenicity_conflict,moderate [AG_B_d7ff63] | high [AG_B_7b1f1d] | moderate [AG_B_0b9902],MULTI
+Quercus palustris,pollinator_notes,wind-pollinated (Atlas pollination agent: wind),AG_C_f52f3a
+Quercus palustris,pollinator_notes_match_level,species,AG_C_f52f3a
+Quercus palustris,pollinator_notes_conflict,"wind-pollinated (Atlas pollination agent: wind) [AG_C_f52f3a] | Lepidoptera host: Quercus ranked #1 genus, 534 Lepidoptera spp. (mid-Atlantic) [AG_C_47a56a]",MULTI
+Quercus palustris,pollinator_value,low,AG_C_070d2f
+Quercus palustris,pollinator_value_match_level,genus,AG_C_070d2f
+Quercus palustris,root_sidewalk_damage_risk,low,AG_D_6b359d
+Quercus palustris,root_sidewalk_damage_risk_match_level,species,AG_D_6b359d
+Quercus palustris,wire_compatible,no,AG_D_717b87
+Quercus palustris,wire_compatible_match_level,size_class,AG_D_717b87
+Quercus phellos,bvoc_isoprene_class,high,AG_B_ce86ce
+Quercus phellos,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Quercus phellos,bvoc_isoprene_ef,32.2,AG_B_ce86ce
+Quercus phellos,bvoc_isoprene_ef_match_level,species,AG_B_ce86ce
+Quercus phellos,bvoc_monoterpene_class,low,AG_B_ce86ce
+Quercus phellos,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Quercus phellos,climate_suitability_2070_2099,likely suitable,AG_C_23e4ae
+Quercus phellos,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Quercus phellos,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Quercus phellos,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Quercus phellos,native_NY_region,yes,AG_A_4d71dd
+Quercus phellos,native_NY_region_match_level,species,AG_A_4d71dd
+Quercus phellos,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Quercus phellos,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Quercus phellos,pollen_allergenicity,high,AG_B_6833fd
+Quercus phellos,pollen_allergenicity_match_level,species,AG_B_6833fd
+Quercus phellos,pollen_allergenicity_conflict,moderate [AG_B_d7ff63] | high [AG_B_6833fd] | moderate [AG_B_0b9902],MULTI
+Quercus phellos,pollinator_notes,wind-pollinated (Atlas pollination agent: wind),AG_C_331efc
+Quercus phellos,pollinator_notes_match_level,species,AG_C_331efc
+Quercus phellos,pollinator_notes_conflict,"wind-pollinated (Atlas pollination agent: wind) [AG_C_331efc] | Lepidoptera host: Quercus ranked #1 genus, 534 Lepidoptera spp. (mid-Atlantic) [AG_C_47a56a]",MULTI
+Quercus phellos,pollinator_value,low,AG_C_070d2f
+Quercus phellos,pollinator_value_match_level,genus,AG_C_070d2f
+Quercus phellos,root_sidewalk_damage_risk,low,AG_D_6f35af
+Quercus phellos,root_sidewalk_damage_risk_match_level,species,AG_D_6f35af
+Quercus phellos,wire_compatible,no,AG_D_717b87
+Quercus phellos,wire_compatible_match_level,size_class,AG_D_717b87
+Quercus robur,bvoc_isoprene_class,high,AG_B_ce86ce
+Quercus robur,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Quercus robur,bvoc_isoprene_ef,40-76.6,AG_B_ce86ce
+Quercus robur,bvoc_isoprene_ef_match_level,species,AG_B_ce86ce
+Quercus robur,bvoc_monoterpene_class,moderate,AG_B_ce86ce
+Quercus robur,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Quercus robur,min_soil_volume_m3,34.0,AG_D_7c6d9f
+Quercus robur,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Quercus robur,native_NY_region,no,AG_A_4d71dd
+Quercus robur,native_NY_region_match_level,species,AG_A_4d71dd
+Quercus robur,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Quercus robur,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Quercus robur,pollen_allergenicity,moderate,AG_B_d7ff63
+Quercus robur,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Quercus robur,pollen_allergenicity_conflict,moderate [AG_B_d7ff63] | high [AG_B_942d26] | moderate [AG_B_0b9902],MULTI
+Quercus robur,pollinator_notes,"Lepidoptera host: Quercus ranked #1 genus, 534 Lepidoptera spp. (mid-Atlantic)",AG_C_47a56a
+Quercus robur,pollinator_notes_match_level,genus,AG_C_47a56a
+Quercus robur,pollinator_value,low,AG_C_070d2f
+Quercus robur,pollinator_value_match_level,genus,AG_C_070d2f
+Quercus robur,root_sidewalk_damage_risk,low,AG_D_57f1a1
+Quercus robur,root_sidewalk_damage_risk_match_level,species,AG_D_57f1a1
+Quercus rubra,bvoc_isoprene_class,high,AG_B_ce86ce
+Quercus rubra,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Quercus rubra,bvoc_isoprene_ef,14.8-61,AG_B_ce86ce
+Quercus rubra,bvoc_isoprene_ef_match_level,species,AG_B_ce86ce
+Quercus rubra,bvoc_monoterpene_class,moderate,AG_B_ce86ce
+Quercus rubra,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Quercus rubra,climate_suitability_2070_2099,likely suitable,AG_C_23e4ae
+Quercus rubra,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Quercus rubra,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Quercus rubra,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Quercus rubra,native_NY_region,yes,AG_A_4d71dd
+Quercus rubra,native_NY_region_match_level,species,AG_A_4d71dd
+Quercus rubra,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Quercus rubra,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Quercus rubra,pollen_allergenicity,high,AG_B_de8413
+Quercus rubra,pollen_allergenicity_match_level,species,AG_B_de8413
+Quercus rubra,pollen_allergenicity_conflict,moderate [AG_B_d7ff63] | high [AG_B_de8413] | moderate [AG_B_0b9902],MULTI
+Quercus rubra,pollinator_notes,wind-pollinated (Atlas pollination agent: wind),AG_C_a589b5
+Quercus rubra,pollinator_notes_match_level,species,AG_C_a589b5
+Quercus rubra,pollinator_notes_conflict,"wind-pollinated (Atlas pollination agent: wind) [AG_C_a589b5] | Lepidoptera host: Quercus ranked #1 genus, 534 Lepidoptera spp. (mid-Atlantic) [AG_C_47a56a]",MULTI
+Quercus rubra,pollinator_value,low,AG_C_070d2f
+Quercus rubra,pollinator_value_match_level,genus,AG_C_070d2f
+Quercus rubra,root_sidewalk_damage_risk,high,AG_D_26a1bf
+Quercus rubra,root_sidewalk_damage_risk_match_level,species,AG_D_26a1bf
+Quercus rubra,wire_compatible,no,AG_D_717b87
+Quercus rubra,wire_compatible_match_level,size_class,AG_D_717b87
+Quercus spp. 'Fastigiata',bvoc_isoprene_class,high,AG_B_ce86ce
+Quercus spp. 'Fastigiata',bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Quercus spp. 'Fastigiata',bvoc_monoterpene_class,low,AG_B_ce86ce
+Quercus spp. 'Fastigiata',bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Quercus spp. 'Fastigiata',min_soil_volume_m3,76.5,AG_D_7c6d9f
+Quercus spp. 'Fastigiata',min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Quercus spp. 'Fastigiata',nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Quercus spp. 'Fastigiata',nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Quercus spp. 'Fastigiata',pollen_allergenicity,high,AG_B_942d26
+Quercus spp. 'Fastigiata',pollen_allergenicity_match_level,genus,AG_B_942d26
+Quercus spp. 'Fastigiata',pollen_allergenicity_conflict,high [AG_B_942d26] | moderate [AG_B_d7ff63] | moderate [AG_B_0b9902],MULTI
+Quercus spp. 'Fastigiata',pollinator_notes,"Lepidoptera host: Quercus ranked #1 genus, 534 Lepidoptera spp. (mid-Atlantic)",AG_C_47a56a
+Quercus spp. 'Fastigiata',pollinator_notes_match_level,genus,AG_C_47a56a
+Quercus spp. 'Fastigiata',pollinator_value,low,AG_C_070d2f
+Quercus spp. 'Fastigiata',pollinator_value_match_level,genus,AG_C_070d2f
+Quercus spp. 'Fastigiata',root_sidewalk_damage_risk,low,AG_D_f3028e
+Quercus spp. 'Fastigiata',root_sidewalk_damage_risk_match_level,cultivar_proxy,AG_D_f3028e
+Quercus spp. 'Fastigiata',wire_compatible,no,AG_D_717b87
+Quercus spp. 'Fastigiata',wire_compatible_match_level,size_class,AG_D_717b87
+Styphnolobium japonicum,min_soil_volume_m3,34.0,AG_D_7c6d9f
+Styphnolobium japonicum,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Styphnolobium japonicum,native_NY_region,no,AG_A_4d71dd
+Styphnolobium japonicum,native_NY_region_match_level,species,AG_A_4d71dd
+Styphnolobium japonicum,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Styphnolobium japonicum,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Styphnolobium japonicum,pollinator_value,moderate,AG_C_860bc3
+Styphnolobium japonicum,pollinator_value_match_level,species,AG_C_860bc3
+Styphnolobium japonicum,root_sidewalk_damage_risk,low,AG_D_d622e8
+Styphnolobium japonicum,root_sidewalk_damage_risk_match_level,species,AG_D_d622e8
+Syringa reticulata,bvoc_isoprene_class,low,AG_B_ce86ce
+Syringa reticulata,bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Syringa reticulata,min_soil_volume_m3,8.5,AG_D_7c6d9f
+Syringa reticulata,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Syringa reticulata,native_NY_region,no,AG_A_4d71dd
+Syringa reticulata,native_NY_region_match_level,infraspecific,AG_A_4d71dd
+Syringa reticulata,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Syringa reticulata,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Syringa reticulata,pollen_allergenicity,none_reported,AG_B_6568ba
+Syringa reticulata,pollen_allergenicity_match_level,species,AG_B_6568ba
+Syringa reticulata,pollen_allergenicity_conflict,none_reported [AG_B_6568ba] | moderate [AG_B_0b9902],MULTI
+Syringa reticulata,pollinator_value,moderate,AG_C_860bc3
+Syringa reticulata,pollinator_value_match_level,species,AG_C_860bc3
+Syringa reticulata,root_sidewalk_damage_risk,low,AG_D_ab1b1e
+Syringa reticulata,root_sidewalk_damage_risk_match_level,species,AG_D_ab1b1e
+Syringa reticulata,wire_compatible,yes,AG_D_ab1b1e
+Syringa reticulata,wire_compatible_match_level,species,AG_D_ab1b1e
+Taxodium distichum,bvoc_isoprene_class,low,AG_B_ce86ce
+Taxodium distichum,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Taxodium distichum,bvoc_monoterpene_class,moderate,AG_B_ce86ce
+Taxodium distichum,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Taxodium distichum,climate_suitability_2070_2099,likely suitable,AG_C_23e4ae
+Taxodium distichum,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Taxodium distichum,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Taxodium distichum,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Taxodium distichum,native_NY_region,no,AG_A_4d71dd
+Taxodium distichum,native_NY_region_match_level,infraspecific,AG_A_4d71dd
+Taxodium distichum,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Taxodium distichum,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Taxodium distichum,pollen_allergenicity,high,AG_B_0b9902
+Taxodium distichum,pollen_allergenicity_match_level,species,AG_B_0b9902
+Taxodium distichum,pollen_allergenicity_conflict,high [AG_B_0b9902] | none_reported [AG_B_aa6434],MULTI
+Taxodium distichum,pollinator_notes,wind-pollinated conifer (Atlas pollination agent: wind),AG_C_9dbe53
+Taxodium distichum,pollinator_notes_match_level,species,AG_C_9dbe53
+Taxodium distichum,root_sidewalk_damage_risk,low,AG_D_f8b721
+Taxodium distichum,root_sidewalk_damage_risk_match_level,species,AG_D_f8b721
+Taxodium distichum,wire_compatible,no,AG_D_717b87
+Taxodium distichum,wire_compatible_match_level,size_class,AG_D_717b87
+Tilia americana,bvoc_isoprene_class,low-moderate,AG_B_ce86ce
+Tilia americana,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Tilia americana,bvoc_isoprene_ef,1.0-10.0,AG_B_ce86ce
+Tilia americana,bvoc_isoprene_ef_match_level,species,AG_B_ce86ce
+Tilia americana,climate_suitability_2070_2099,likely reduced,AG_C_23e4ae
+Tilia americana,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Tilia americana,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Tilia americana,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Tilia americana,native_NY_region,yes,AG_A_4d71dd
+Tilia americana,native_NY_region_match_level,species,AG_A_4d71dd
+Tilia americana,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Tilia americana,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Tilia americana,pollen_allergenicity,moderate,AG_B_4b9d09
+Tilia americana,pollen_allergenicity_match_level,species,AG_B_4b9d09
+Tilia americana,pollen_allergenicity_conflict,low [AG_B_d7ff63] | moderate [AG_B_4b9d09] | moderate [AG_B_0b9902],MULTI
+Tilia americana,pollinator_notes,insect-pollinated (Atlas pollination agent: insects); Lepidoptera host genus Tilia 149 spp. (rank 17),AG_C_5ee27f
+Tilia americana,pollinator_notes_match_level,species,AG_C_5ee27f
+Tilia americana,pollinator_value,high,AG_C_8603b5
+Tilia americana,pollinator_value_match_level,species,AG_C_8603b5
+Tilia americana,root_sidewalk_damage_risk,low,AG_D_887d37
+Tilia americana,root_sidewalk_damage_risk_match_level,species,AG_D_887d37
+Tilia americana,wire_compatible,no,AG_D_717b87
+Tilia americana,wire_compatible_match_level,size_class,AG_D_717b87
+Tilia cordata,bvoc_isoprene_class,low,AG_B_ce86ce
+Tilia cordata,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Tilia cordata,bvoc_monoterpene_class,low,AG_B_ce86ce
+Tilia cordata,bvoc_monoterpene_class_match_level,species,AG_B_ce86ce
+Tilia cordata,climate_suitability_2070_2099,uncertain,AG_C_59dd89
+Tilia cordata,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Tilia cordata,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Tilia cordata,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Tilia cordata,native_NY_region,no,AG_A_4d71dd
+Tilia cordata,native_NY_region_match_level,species,AG_A_4d71dd
+Tilia cordata,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Tilia cordata,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Tilia cordata,pollen_allergenicity,moderate,AG_B_fa7e37
+Tilia cordata,pollen_allergenicity_match_level,species,AG_B_fa7e37
+Tilia cordata,pollen_allergenicity_conflict,low [AG_B_87f26d] | low [AG_B_d7ff63] | moderate [AG_B_fa7e37] | moderate [AG_B_0b9902],MULTI
+Tilia cordata,pollinator_notes,"Lepidoptera host genus Tilia: 149 spp. (rank 17, mid-Atlantic; genus level)",AG_C_47a56a
+Tilia cordata,pollinator_notes_match_level,genus,AG_C_47a56a
+Tilia cordata,pollinator_value,high,AG_C_070d2f
+Tilia cordata,pollinator_value_match_level,genus,AG_C_070d2f
+Tilia cordata,root_sidewalk_damage_risk,low,AG_D_4dbc10
+Tilia cordata,root_sidewalk_damage_risk_match_level,species,AG_D_4dbc10
+Tilia cordata,wire_compatible,no,AG_D_717b87
+Tilia cordata,wire_compatible_match_level,size_class,AG_D_717b87
+Tilia tomentosa,bvoc_isoprene_class,low,AG_B_ce86ce
+Tilia tomentosa,bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Tilia tomentosa,climate_suitability_2070_2099,likely suitable,AG_C_59dd89
+Tilia tomentosa,climate_suitability_2070_2099_match_level,species,AG_C_59dd89
+Tilia tomentosa,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Tilia tomentosa,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Tilia tomentosa,native_NY_region,no,AG_A_4d71dd
+Tilia tomentosa,native_NY_region_match_level,species,AG_A_4d71dd
+Tilia tomentosa,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Tilia tomentosa,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Tilia tomentosa,pollen_allergenicity,low,AG_B_d7ff63
+Tilia tomentosa,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Tilia tomentosa,pollen_allergenicity_conflict,low [AG_B_d7ff63] | moderate [AG_B_0b9902],MULTI
+Tilia tomentosa,pollinator_notes,"caveat: bee deaths reported under flowering silver linden; review attributes them to late-season starvation, finds no experimental evidence of nectar toxicity",AG_C_e97677
+Tilia tomentosa,pollinator_notes_match_level,species,AG_C_e97677
+Tilia tomentosa,pollinator_notes_conflict,"caveat: bee deaths reported under flowering silver linden; review attributes them to late-season starvation, finds no experimental evidence of nectar toxicity [AG_C_e97677] | Lepidoptera host genus Tilia: 149 spp. (rank 17, mid-Atlantic; genus level) [AG_C_47a56a]",MULTI
+Tilia tomentosa,pollinator_value,high,AG_C_070d2f
+Tilia tomentosa,pollinator_value_match_level,genus,AG_C_070d2f
+Tilia tomentosa,root_sidewalk_damage_risk,low,AG_D_25f14a
+Tilia tomentosa,root_sidewalk_damage_risk_match_level,species,AG_D_25f14a
+Tilia tomentosa,wire_compatible,no,AG_D_717b87
+Tilia tomentosa,wire_compatible_match_level,size_class,AG_D_717b87
+Tilia x euchlora,bvoc_isoprene_class,low,AG_B_ce86ce
+Tilia x euchlora,bvoc_isoprene_class_match_level,genus,AG_B_ce86ce
+Tilia x euchlora,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Tilia x euchlora,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Tilia x euchlora,native_NY_region,hybrid-nonnative,AG_A_5c481a
+Tilia x euchlora,native_NY_region_match_level,species,AG_A_5c481a
+Tilia x euchlora,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Tilia x euchlora,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Tilia x euchlora,pollen_allergenicity,low,AG_B_d7ff63
+Tilia x euchlora,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Tilia x euchlora,pollen_allergenicity_conflict,low [AG_B_d7ff63] | moderate [AG_B_0b9902],MULTI
+Tilia x euchlora,pollinator_notes,"Lepidoptera host genus Tilia: 149 spp. (rank 17, mid-Atlantic; genus level)",AG_C_47a56a
+Tilia x euchlora,pollinator_notes_match_level,genus,AG_C_47a56a
+Tilia x euchlora,pollinator_value,high,AG_C_070d2f
+Tilia x euchlora,pollinator_value_match_level,genus,AG_C_070d2f
+Tilia x euchlora,usda_symbol,TIEU3,AG_A_1a393c
+Tilia x euchlora,usda_symbol_match_level,species,AG_A_1a393c
+Tilia x euchlora,wire_compatible,no,AG_D_717b87
+Tilia x euchlora,wire_compatible_match_level,size_class,AG_D_717b87
+Ulmus americana,bvoc_isoprene_class,low,AG_B_04372a
+Ulmus americana,bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Ulmus americana,bvoc_monoterpene_class,low,AG_B_ce86ce
+Ulmus americana,bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Ulmus americana,climate_suitability_2070_2099,likely reduced,AG_C_23e4ae
+Ulmus americana,climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Ulmus americana,climate_suitability_2070_2099_conflict,likely reduced [AG_C_23e4ae] | likely suitable [AG_C_59dd89],MULTI
+Ulmus americana,native_NY_region,yes,AG_A_4d71dd
+Ulmus americana,native_NY_region_match_level,species,AG_A_4d71dd
+Ulmus americana,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Ulmus americana,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Ulmus americana,pollen_allergenicity,moderate,AG_B_0ccdb3
+Ulmus americana,pollen_allergenicity_match_level,species,AG_B_0ccdb3
+Ulmus americana,pollen_allergenicity_conflict,moderate [AG_B_0ccdb3] | low [AG_B_d7ff63] | high [AG_B_0b9902] | high [AG_B_87f26d],MULTI
+Ulmus americana,pollinator_notes,Lepidoptera host genus Ulmus: 215 spp. (rank 11; genus level),AG_C_47a56a
+Ulmus americana,pollinator_notes_match_level,genus,AG_C_47a56a
+Ulmus americana,pollinator_value,low,AG_C_070d2f
+Ulmus americana,pollinator_value_match_level,species,AG_C_070d2f
+Ulmus americana,root_sidewalk_damage_risk,high,AG_D_8adebb
+Ulmus americana,root_sidewalk_damage_risk_match_level,species,AG_D_8adebb
+Ulmus americana 'Princeton',bvoc_isoprene_class,low,AG_B_04372a
+Ulmus americana 'Princeton',bvoc_isoprene_class_match_level,genus,AG_B_04372a
+Ulmus americana 'Princeton',bvoc_monoterpene_class,low,AG_B_ce86ce
+Ulmus americana 'Princeton',bvoc_monoterpene_class_match_level,genus,AG_B_ce86ce
+Ulmus americana 'Princeton',climate_suitability_2070_2099,likely reduced,AG_C_23e4ae
+Ulmus americana 'Princeton',climate_suitability_2070_2099_match_level,species,AG_C_23e4ae
+Ulmus americana 'Princeton',climate_suitability_2070_2099_conflict,likely reduced [AG_C_23e4ae] | likely suitable [AG_C_59dd89],MULTI
+Ulmus americana 'Princeton',native_NY_region,cultivar-of-native,AG_A_4d71dd
+Ulmus americana 'Princeton',native_NY_region_match_level,species,AG_A_4d71dd
+Ulmus americana 'Princeton',nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Ulmus americana 'Princeton',nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Ulmus americana 'Princeton',pollen_allergenicity,moderate,AG_B_0ccdb3
+Ulmus americana 'Princeton',pollen_allergenicity_match_level,species,AG_B_0ccdb3
+Ulmus americana 'Princeton',pollen_allergenicity_conflict,moderate [AG_B_0ccdb3] | low [AG_B_d7ff63] | high [AG_B_0b9902] | high [AG_B_87f26d],MULTI
+Ulmus americana 'Princeton',pollinator_notes,Lepidoptera host genus Ulmus: 215 spp. (rank 11; genus level),AG_C_47a56a
+Ulmus americana 'Princeton',pollinator_notes_match_level,genus,AG_C_47a56a
+Ulmus americana 'Princeton',pollinator_value,low,AG_C_070d2f
+Ulmus americana 'Princeton',pollinator_value_match_level,species,AG_C_070d2f
+Ulmus americana 'Princeton',root_sidewalk_damage_risk,high,AG_D_8adebb
+Ulmus americana 'Princeton',root_sidewalk_damage_risk_match_level,species,AG_D_8adebb
+Zelkova serrata,bvoc_isoprene_class,low,AG_B_ce86ce
+Zelkova serrata,bvoc_isoprene_class_match_level,species,AG_B_ce86ce
+Zelkova serrata,min_soil_volume_m3,76.5,AG_D_7c6d9f
+Zelkova serrata,min_soil_volume_m3_match_level,size_class,AG_D_7c6d9f
+Zelkova serrata,native_NY_region,no,AG_A_4d71dd
+Zelkova serrata,native_NY_region_match_level,species,AG_A_4d71dd
+Zelkova serrata,nyc_min_pit_rule,Standard street tree pit 5 ft x 10 ft; alternate dimensions require Forester approval; continuous pits encouraged,AG_D_717b87
+Zelkova serrata,nyc_min_pit_rule_match_level,jurisdiction_rule,AG_D_717b87
+Zelkova serrata,pollen_allergenicity,low,AG_B_d7ff63
+Zelkova serrata,pollen_allergenicity_match_level,species,AG_B_d7ff63
+Zelkova serrata,root_sidewalk_damage_risk,low,AG_D_7ec012
+Zelkova serrata,root_sidewalk_damage_risk_match_level,species,AG_D_7ec012
+Zelkova serrata,usda_symbol,ZESE80,AG_A_1a393c
+Zelkova serrata,usda_symbol_match_level,species,AG_A_1a393c
+Zelkova serrata,wire_compatible,no,AG_D_717b87
+Zelkova serrata,wire_compatible_match_level,size_class,AG_D_717b87

@@ -1,0 +1,28 @@
+# Python environment & caches
+.venv/
+__pycache__/
+*.pyc
+
+# Machine-specific config
+.claude/
+.mcp.json
+
+# Personal notes not for publication
+Chat.txt
+
+# Large raw downloads (re-create with scripts/ — see README "Reproduce")
+data/raw/lidar/
+data/raw/naip/
+data/raw/sentinel2/
+data/raw/landsat_lst/
+data/raw/ecostress/
+data/raw/bronx/
+data/raw/nyc_opendata/
+data/species/raw/RDS-2016-0005.zip
+
+# Large model rasters (re-create with scripts/solweig_scenarios.py)
+data/processed/solweig/
+
+# OS / editor
+.DS_Store
+Thumbs.db
