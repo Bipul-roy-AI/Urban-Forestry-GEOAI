@@ -49,16 +49,39 @@ ps["tree_dbh_in"] = pd.to_numeric(ps.tree_dbh_in, errors="coerce")
 
 
 def site_class(r):
-    if r.psstatus == "Empty" or pd.isna(r.tree_structure):
-        return "empty"
-    if r.tree_structure in ("Retired",) or str(r.tree_structure).startswith("Stump"):
+    """Reconcile the planting-space status with the linked tree record (audit fix, Nov 2026).
+    Conflicting records are NOT treated as plantable; they are routed to review."""
+    if "DNP" in str(r.psstatus):
+        return "do_not_plant"         # city status "Empty - DNP" / "Retired - DNP": never a candidate
+    has_tree = pd.notna(r.tree_structure)
+    gone = has_tree and (r.tree_structure == "Retired" or str(r.tree_structure).startswith("Stump"))
+    dead = has_tree and r.tree_condition == "Dead"
+    living = has_tree and not gone and not dead
+    if r.psstatus == "Empty":
+        if living:
+            return "conflict_empty_but_living_tree_recorded"
+        return "removed_or_stump" if gone else ("dead_tree" if dead else "empty")
+    if not has_tree:
+        return "conflict_populated_but_no_tree_record"
+    if gone:
         return "removed_or_stump"
-    if r.tree_condition in ("Dead", "Critical"):
+    if dead:
         return "dead_tree"
-    return "living_tree"
+    return "critical_tree" if r.tree_condition == "Critical" else "living_tree"
+
+
+def plantable_status(c):
+    if c in ("empty", "removed_or_stump", "dead_tree"):
+        return "candidate"            # plantable per records; still needs field confirmation
+    if c == "do_not_plant":
+        return "excluded"
+    if c.startswith("conflict"):
+        return "review"               # records disagree: verify on site / imagery before any decision
+    return "retain"                   # living tree (incl. critical): retain and care / assess
 
 
 ps["site_class"] = ps.apply(site_class, axis=1)
+ps["plantable_status"] = ps.site_class.map(plantable_status)
 
 # ---------------- maintenance history ----------------
 wo = rd("work_orders")
@@ -84,7 +107,8 @@ gi = ins.groupby("plantingspaceglobalid").agg(insp_n=("objectid", "size"), insp_
 ps = ps.merge(gi, left_on="ps_id", right_index=True, how="left")
 for c in ("wo_n", "wo_planting_n", "wo_removal_n", "insp_n"):
     ps[c] = ps[c].fillna(0).astype(int)
-ps["planting_attempts_failed"] = np.maximum(ps.wo_planting_n - (ps.site_class == "living_tree").astype(int), 0)
+# NOTE: counts plant-related work orders (incl. cancelled / removal-for-planting); a rough proxy, NOT measured establishment failure
+ps["planting_wo_minus_living"] = np.maximum(ps.wo_planting_n - (ps.site_class == "living_tree").astype(int), 0)
 
 # 311/forestry service requests within 15 m
 sr = rd("service_requests")
@@ -185,13 +209,17 @@ ps["hvi"] = pd.to_numeric(ps.zipcode.astype(str).str[:5].map(dict(zip(hvi.zcta20
 
 # ---------------- soil (SSURGO map units) ----------------
 try:
-    wkt = gpd.GeoSeries([ctx], crs=UTM).to_crs(4326).iloc[0].envelope.wkt
-    q = f"""SELECT mp.mukey, mu.musym, mu.muname, mp.mupolygongeo.STAsText() AS wkt FROM mupolygon mp
-            JOIN mapunit mu ON mu.mukey = mp.mukey
-            WHERE mp.mupolygongeo.STIntersects(geometry::STGeomFromText('{wkt}', 4326)) = 1"""
-    r = requests.post("https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", data={"query": q, "format": "JSON+COLUMNNAME"}, timeout=180).json()["Table"]
-    soil = gpd.GeoDataFrame(pd.DataFrame(r[1:], columns=r[0]), geometry=gpd.GeoSeries.from_wkt(pd.DataFrame(r[1:], columns=r[0]).wkt), crs=4326).to_crs(UTM)
-    soil.drop(columns="wkt").to_file(RAW / "ssurgo_mapunits_context.gpkg")
+    soil_f = RAW / "ssurgo_mapunits_context.gpkg"
+    if soil_f.exists():               # review fix: reuse the saved polygons; no network call, no git noise
+        soil = gpd.read_file(soil_f).to_crs(UTM)
+    else:
+        wkt = gpd.GeoSeries([ctx], crs=UTM).to_crs(4326).iloc[0].envelope.wkt
+        q = f"""SELECT mp.mukey, mu.musym, mu.muname, mp.mupolygongeo.STAsText() AS wkt FROM mupolygon mp
+                JOIN mapunit mu ON mu.mukey = mp.mukey
+                WHERE mp.mupolygongeo.STIntersects(geometry::STGeomFromText('{wkt}', 4326)) = 1"""
+        r = requests.post("https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", data={"query": q, "format": "JSON+COLUMNNAME"}, timeout=180).json()["Table"]
+        soil = gpd.GeoDataFrame(pd.DataFrame(r[1:], columns=r[0]), geometry=gpd.GeoSeries.from_wkt(pd.DataFrame(r[1:], columns=r[0]).wkt), crs=4326).to_crs(UTM)
+        soil.drop(columns="wkt").to_file(soil_f)
     ps = gpd.sjoin(ps, soil[["musym", "muname", "geometry"]], how="left", predicate="within").drop(columns="index_right").drop_duplicates("ps_id")
     ps["soil_substratum"] = ps.muname.str.extract(r"(tidal marsh|outwash|reclaimed|till|Greenbelt|Flatbush)", expand=False)
     ps = ps.rename(columns={"musym": "soil_musym", "muname": "soil_muname"})
@@ -205,6 +233,7 @@ ps.drop(columns="geometry").assign(x=ps.geometry.x, y=ps.geometry.y).to_csv(PROC
 num = ps.select_dtypes("number")
 summary = {"n_sites": len(ps), "n_core": int(ps.in_core.sum()), "site_class": ps.site_class.value_counts().to_dict(),
            "site_class_core": ps[ps.in_core].site_class.value_counts().to_dict(),
+           "plantable_status_core": ps[ps.in_core].plantable_status.value_counts().to_dict(),
            "missing_frac": {c: round(float(ps[c].isna().mean()), 3) for c in ps.columns if c != "geometry" and ps[c].isna().mean() > 0.2},
            "medians": {c: round(float(num[c].median()), 2) for c in num.columns if num[c].notna().any()}}
 (PROC / "sites_summary.json").write_text(json.dumps(summary, indent=2, default=str))

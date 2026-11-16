@@ -1,41 +1,47 @@
 {
-  "weather": "2025-06-24 13-16 EDT, Ta max ~37.8 C (bias-corrected ERA5)",
-  "hours_averaged": 4,
+  "weather": "2025-06-24 13:00-17:00 EDT (hour-ending 13-16 EST run clock), Ta max ~37.8 C (bias-corrected ERA5)",
+  "n_candidate_sites": 98,
   "sanity_existing_canopy": {
-    "tmrt_pm_sidewalk_under_canopy_c": 45.1,
-    "tmrt_pm_sidewalk_open_c": 60.1
+    "tmrt_pm_sidewalk_under_canopy_c": 45.3,
+    "tmrt_pm_sidewalk_open_c": 62.3
   },
-  "core_sidewalk_tmrt_pm_c": {
-    "S0_current": 56.99,
-    "S1_plant_10yr": 56.54,
-    "S2_plant_20yr": 56.13
+  "core_sidewalk_now": {
+    "tmrt_pm_c": 58.73,
+    "share_gt60c": 0.531
   },
-  "core_sidewalk_share_tmrt_gt_60c": {
-    "S0_current": 0.49,
-    "S1_plant_10yr": 0.469,
-    "S2_plant_20yr": 0.455
+  "whole_plan": {
+    "crown5m": {
+      "unique_cooled_sidewalk_m2": 1139,
+      "attributed_to_sites_m2": 1139,
+      "cooled_beyond_15m_of_any_site_m2": 0,
+      "degree_m2_all_sidewalk": 29809.0,
+      "sidewalk_warmed_gt1c_m2": 3,
+      "simulated_new_canopy_m2": 1547,
+      "canopy_attributed_m2": 1547,
+      "core_sidewalk_tmrt_pm_c": 58.27,
+      "core_sidewalk_share_gt60c": 0.514
+    },
+    "crown8m": {
+      "unique_cooled_sidewalk_m2": 2167,
+      "attributed_to_sites_m2": 2167,
+      "cooled_beyond_15m_of_any_site_m2": 0,
+      "degree_m2_all_sidewalk": 56729.0,
+      "sidewalk_warmed_gt1c_m2": 4,
+      "simulated_new_canopy_m2": 3761,
+      "canopy_attributed_m2": 3761,
+      "core_sidewalk_tmrt_pm_c": 57.85,
+      "core_sidewalk_share_gt60c": 0.501
+    }
   },
   "per_site_median": {
-    "dTmrt_S1_plant_10yr_mean15m_c": -2.52,
-    "cooled_sidewalk_m2_gt10c_S1_plant_10yr": 13.0,
-    "new_canopy_m2_S1_plant_10yr": 19.0,
-    "dTmrt_S2_plant_20yr_mean15m_c": -4.79,
-    "cooled_sidewalk_m2_gt10c_S2_plant_20yr": 27.0,
-    "new_canopy_m2_S2_plant_20yr": 49.0,
-    "o3_g_per_yr_S1_plant_10yr": 76.97,
-    "no2_g_per_yr_S1_plant_10yr": 25.13,
-    "pm25_g_per_yr_S1_plant_10yr": 3.98,
-    "runoff_L_per_yr_S1_plant_10yr": 225.54,
-    "o3_g_per_yr_S2_plant_20yr": 198.5,
-    "no2_g_per_yr_S2_plant_20yr": 64.82,
-    "pm25_g_per_yr_S2_plant_20yr": 10.26,
-    "runoff_L_per_yr_S2_plant_20yr": 581.65
-  },
-  "all_candidates_total_per_yr_20yr": {
-    "o3_g": 20056.4,
-    "no2_g": 6549.1,
-    "pm25_g": 1036.9,
-    "runoff_L": 58770.7
+    "cooled_m2_crown5m": 11.0,
+    "degree_m2_crown5m": 289.9,
+    "dTmrt_mean_crown5m_c": -2.63,
+    "new_canopy_m2_crown5m": 19.0,
+    "cooled_m2_crown8m": 22.5,
+    "degree_m2_crown8m": 571.5,
+    "dTmrt_mean_crown8m_c": -4.84,
+    "new_canopy_m2_crown8m": 42.0
   },
   "rates_per_m2_canopy_per_yr": {
     "o3_g": 4.051,
@@ -43,5 +49,10 @@
     "pm25_g": 0.209,
     "runoff_L": 11.87
   },
-  "n_sites": 121
+  "totals_per_yr_crown8m": {
+    "o3_g": 15235.7,
+    "no2_g": 4974.9,
+    "pm25_g": 787.7,
+    "runoff_L": 44644.9
+  }
 }

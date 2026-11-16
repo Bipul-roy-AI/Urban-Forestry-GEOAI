@@ -100,19 +100,20 @@ footer{color:var(--muted);font-size:.78rem;padding-block:8px 28px}
 </style>
 
 <header class="bar"><div class="wrap">
-  <h1>Mott Haven Tree Planner<small>Third Avenue pilot · 121 candidate planting spaces · South Bronx, NYC</small></h1>
+  <h1>Mott Haven Tree Planner<small id="sub">Third Avenue pilot · South Bronx, NYC</small></h1>
   <div class="controls">
     <label class="ctl" for="plan">Plan
       <select id="plan">
-        <option value="balanced">Balanced (recommended)</option>
+        <option value="balanced">Balanced</option>
         <option value="max_cooling">Maximum cooling</option>
         <option value="health_first">Health first</option>
         <option value="ecology_first">Ecology first</option>
+        <option value="lowest_risk">Lowest condition risk</option>
         <option value="baseline_largest_feasible">Rule: biggest tree that fits</option>
         <option value="baseline_nyc_common_mix">Rule: NYC common mix</option>
         <option value="baseline_random">Random approved species</option>
       </select></label>
-    <label class="ctl" for="kval">Expanded-soil budget
+    <label class="ctl" for="kval">Expanded-soil cap
       <select id="kval"><option value="0">0 sites</option><option value="30" selected>30 sites</option><option value="60">60 sites</option></select></label>
   </div>
 </div></header>
@@ -127,7 +128,8 @@ footer{color:var(--muted);font-size:.78rem;padding-block:8px 28px}
         <span><i style="width:10px;height:10px;background:var(--canopy-2)"></i>medium</span>
         <span><i style="width:13px;height:13px;background:var(--canopy)"></i>large</span>
         <span><i style="width:13px;height:13px;border:2px solid var(--soil);background:none"></i>expanded soil</span>
-        <span style="color:var(--flag);font-weight:700">×</span><span>verify on site</span>
+        <span><i style="width:10px;height:10px;border-radius:2px;background:var(--muted)"></i>deferred: verify first</span>
+        <span style="color:var(--flag);font-weight:700">×</span><span>wire or wet-site check</span>
         <label class="toggle" for="heat"><input type="checkbox" id="heat" checked> heat layer</label>
       </div>
     </div>
@@ -142,7 +144,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:8px 28px}
       </div>
       <div class="panel">
         <h2>Selected site</h2>
-        <div class="pad" id="site"><p class="empty">Select a site on the map to see its species, heat benefit, risk and field checks.</p></div>
+        <div class="pad" id="site"><p class="empty">Select a site on the map to see its recommendation, heat benefit, condition risk and the checks it still needs.</p></div>
       </div>
       <div class="panel">
         <h2>Species mix</h2>
@@ -152,9 +154,9 @@ footer{color:var(--muted);font-size:.78rem;padding-block:8px 28px}
   </section>
 
   <section class="panel sec">
-    <h2>Compare plans at this soil budget</h2>
+    <h2>Compare plans at this soil cap</h2>
     <div class="pad tablebox"><table id="cmp"></table>
-      <p class="note">Cooling = sidewalk m² cooled by more than 10 °C at 20 years, adjusted for 5-year failure risk. Allergy + isoprene: lower is better. Ecology (native to NY, pollinators, climate 2070–2099): higher is better.</p></div>
+      <p class="note">Simulated cooling = sidewalk m² cooled by more than 10 °C when the whole plan is run through the heat model, each square metre counted once (available for the 30-site cap). Estimate = the additive value used during the search. Allergy + isoprene and ecology are constructed indices. Condition risk is a relative score, not survival.</p></div>
   </section>
 
   <section class="panel sec">
@@ -163,12 +165,12 @@ footer{color:var(--muted);font-size:.78rem;padding-block:8px 28px}
       <div class="sugg" id="sugg">
         <button type="button">Which five sites give the most cooling, and what goes there?</button>
         <button type="button">Why does the balanced plan differ from "biggest tree that fits"?</button>
-        <button type="button">Which sites need a wire check before planting?</button>
-        <button type="button">What would 30 more expanded-soil sites buy?</button>
+        <button type="button">Which sites are deferred, and what needs checking?</button>
+        <button type="button">What would a larger expanded-soil cap buy?</button>
       </div>
       <div class="turns" id="turns" aria-live="polite"></div>
-      <label for="q" class="note">Answers use only this page's data for the current plan and soil budget, and say when the data cannot answer.</label>
-      <textarea id="q" placeholder="e.g. Which Third Avenue sites get large trees, and how confident is the survival estimate?"></textarea>
+      <label for="q" class="note">Answers use only this page's data for the current plan and soil cap, and say when the data cannot answer.</label>
+      <textarea id="q" placeholder="e.g. Which Third Avenue sites get large trees, and what still needs checking there?"></textarea>
       <div class="row"><button class="primary" id="ask" type="button">Ask</button><button id="stop" type="button" hidden>Stop</button><button id="clear" type="button">Clear conversation</button><span class="note" id="qastate"></span></div>
     </div>
   </section>
@@ -177,22 +179,25 @@ footer{color:var(--muted);font-size:.78rem;padding-block:8px 28px}
     <h2>What these numbers can and cannot tell you</h2>
     <div class="pad"><ul class="caveats" id="cav"></ul><p class="note" id="wx"></p></div>
   </section>
-  <footer>Data: NYC Open Data (Forestry Tree Points, Planting Spaces, Work Orders, PLUTO, planimetrics), USGS 3DEP LiDAR 2017, NAIP 2022/23, Landsat 8/9, Sentinel-2, ECOSTRESS, ERA5, NYC Parks approved species list, USDA PLANTS, published trait sources in the project's species knowledge base. Model outputs, not planting approvals.</footer>
+  <footer>Data: NYC Open Data (Forestry Tree Points, Planting Spaces, Work Orders, PLUTO, planimetrics), USGS 3DEP LiDAR 2017, NAIP 2022/23, Landsat 8/9, Sentinel-2, ECOSTRESS, ERA5, NYC Parks approved species list, USDA PLANTS, published trait sources in the project's species knowledge base. Model outputs, not planting approvals. Revised November 2026 after an external audit.</footer>
 </div></main>
 
 <script>
 const NS = "http://www.w3.org/2000/svg";
 const $ = id => document.getElementById(id);
 let D = null, cur = null, selected = null;
-const LABEL = {balanced:"Balanced (recommended)",max_cooling:"Maximum cooling",health_first:"Health first",ecology_first:"Ecology first",
+const LABEL = {balanced:"Balanced",max_cooling:"Maximum cooling",health_first:"Health first",ecology_first:"Ecology first",lowest_risk:"Lowest condition risk",
   baseline_largest_feasible:"Rule: biggest tree that fits",baseline_nyc_common_mix:"Rule: NYC common mix",baseline_random:"Random approved species"};
+const FLAGTXT = {verify_wires:"Verify no primary overhead wires", verify_wet_site:"Verify persistently wet site", untrained_species:"No species-specific condition evidence",
+  no_risk_prediction:"No condition-risk estimate for this site", trait_unknown:"Allergy or isoprene trait unknown", verify_jurisdiction:"Verify who owns this space", no_sidewalk_benefit:"No sidewalk nearby to shade: chosen for other goals"};
 const R = {small:5, intermediate:6.5, medium:8, large:10};
 const COL = {small:"var(--leaf)", intermediate:"var(--canopy-2)", medium:"var(--canopy-2)", large:"var(--canopy)"};
 const fmt = (v, d=0) => v == null ? "–" : Number(v).toLocaleString("en-US", {maximumFractionDigits:d, minimumFractionDigits:d});
 const el = (tag, attrs={}, text) => { const e = document.createElement(tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; return e; };
 const sv = (tag, attrs={}) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); return e; };
+// row = [siteIndex, action, species, sizeClass, expandedSoil, conditionRisk, coolingPotential, flags[]]
 
-try { const s = JSON.parse(localStorage.getItem("mhtp") || "{}"); if (s.plan) $("plan").value = s.plan; if (s.k) $("kval").value = s.k; } catch {}
+try { const s = JSON.parse(localStorage.getItem("mhtp") || "{}"); if (s.plan && LABEL[s.plan]) $("plan").value = s.plan; if (s.k) $("kval").value = s.k; } catch {}
 
 function fromHash(){ const m = /^#site-(\d+)$/.exec(location.hash); if (m && D && D.sites[+m[1]]) pick(+m[1]); }
 window.addEventListener("hashchange", fromHash);
@@ -206,6 +211,8 @@ function drawBase(){
   m.append(sv("path", {d:D.meta.buildings.join(""), class:"bld"}));
   m.append(sv("polygon", {points:D.meta.core.map(p => p.join(",")).join(" "), class:"core"}));
   m.append(sv("g", {id:"sites"}));
+  const nc = D.sites.filter(s => s.status === "candidate").length, nr = D.sites.length - nc;
+  $("sub").textContent = `Third Avenue pilot · ${nc} confirmed planting spaces, ${nr} deferred for verification · South Bronx, NYC`;
   $("cav").replaceChildren(...D.meta.caveats.map(c => el("li", {}, c)));
   $("wx").textContent = "Heat scenario: " + D.meta.weather + ".";
 }
@@ -216,29 +223,31 @@ function render(){
   cur = D.plans[key];
   try { localStorage.setItem("mhtp", JSON.stringify({plan:$("plan").value, k:$("kval").value})); } catch {}
   const g = $("sites"); g.replaceChildren();
-  const rows = [...cur.rows].sort((a,b) => (R[b[2]]||0) - (R[a[2]]||0));
+  const rows = [...cur.rows].sort((a,b) => (R[b[3]]||0) - (R[a[3]]||0));
   for (const r of rows){
-    const s = D.sites[r[0]], [x, y] = s.xy, rad = R[r[2]] || 5;
-    if (r[3]) g.append(sv("circle", {cx:x, cy:y, r:rad + 4.5, class:"ring"}));
-    const c = sv("circle", {cx:x, cy:y, r:rad, fill:COL[r[2]] || "var(--muted)", class:"site" + (selected === r[0] ? " sel" : ""), tabindex:0, role:"button", "aria-label":`${s.addr}: ${r[1] || "no tree"}`, "data-i":r[0]});
+    const s = D.sites[r[0]], [x, y] = s.xy, planted = r[1] === "plant", rad = planted ? (R[r[3]] || 5) : 5;
+    if (planted && r[4]) g.append(sv("circle", {cx:x, cy:y, r:rad + 4.5, class:"ring"}));
+    const attrs = {class:"site" + (selected === r[0] ? " sel" : ""), tabindex:0, role:"button", "aria-label":`${s.addr}: ${planted ? r[2] : r[1]}`, "data-i":r[0]};
+    const c = planted ? sv("circle", {cx:x, cy:y, r:rad, fill:COL[r[3]] || "var(--muted)", ...attrs})
+                      : sv("rect", {x:x-5, y:y-5, width:10, height:10, rx:2, fill:"var(--muted)", ...attrs});
     c.addEventListener("click", () => pick(r[0]));
     c.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(r[0]); } });
     g.append(c);
-    if (r[6] || r[7]) { const k = rad * .8, d = `M${x-k},${y-k}L${x+k},${y+k}M${x+k},${y-k}L${x-k},${y+k}`;
+    if (r[7].includes("verify_wires") || r[7].includes("verify_wet_site")) { const k = rad * .8, d = `M${x-k},${y-k}L${x+k},${y+k}M${x+k},${y-k}L${x-k},${y+k}`;
       g.append(sv("path", {d, class:"flag-bg"}), sv("path", {d, class:"flag"})); }
     if (selected === r[0]) g.append(sv("circle", {cx:x, cy:y, r:rad + 10, class:"halo"}));
   }
-  const m = cur.metrics;
-  $("planTitle").textContent = `${LABEL[cur.name]} · ${cur.K} expanded-soil sites`;
+  const m = cur.metrics, deferred = cur.rows.filter(r => r[1] !== "plant").length;
+  $("planTitle").textContent = `${LABEL[cur.name]} · cap of ${cur.K} expanded-soil sites`;
   $("stats").replaceChildren(
-    stat(fmt(m.exp_cooled_m2), "m² sidewalk cooled >10 °C (20 yr, risk-adjusted)"),
-    stat(fmt(m.allergy_isoprene_score, 1), "allergy + isoprene score (lower is better)"),
-    stat(fmt(m.ecology_score, 1), "ecology score (higher is better)"),
-    stat(m.n_species, "species planted"),
-    stat(m.n_expanded_soil, "expanded-soil installations"),
-    stat(m.verify_wires_sites, "sites needing a wire check"));
-  $("genus").textContent = "Largest genera in the core after planting: " + Object.entries(cur.genus_after).map(([g, v]) => `${g} ${(v*100).toFixed(1)}%`).join(" · ") + " (limit 20%; London planetree is existing, not planted).";
-  const cnt = {}; cur.rows.forEach(r => { if (r[1]) cnt[r[1]] = (cnt[r[1]] || 0) + 1; });
+    m.cool_sim != null ? stat(fmt(m.cool_sim), "m² sidewalk cooled >10 °C (whole-plan simulation)") : stat(fmt(m.cool_est), "m² sidewalk cooled >10 °C (additive estimate)"),
+    stat(fmt(m.health, 1), "allergy + isoprene index (lower is better)"),
+    stat(fmt(m.eco, 1), "ecology index (higher is better)"),
+    stat(`${m.n_planted} · ${m.n_species}`, "trees planted · species"),
+    stat(m.n_soil, "expanded-soil installations"),
+    stat(deferred, "sites deferred for verification"));
+  $("genus").textContent = "Largest shares in the core after planting: " + Object.entries(cur.max_share).map(([lvl, v]) => `${lvl} ${v[0]} ${(v[1]*100).toFixed(1)}%`).join(" · ") + ". Limits are 10% species, 20% genus, 30% family; a taxon already above its limit cannot gain trees.";
+  const cnt = {}; cur.rows.forEach(r => { if (r[2]) cnt[r[2]] = (cnt[r[2]] || 0) + 1; });
   const top = Object.entries(cnt).sort((a,b) => b[1]-a[1]), mx = top[0]?.[1] || 1;
   $("mix").replaceChildren(...top.map(([sp, n]) => { const li = el("li"); li.append(el("span", {}, `${sp}${D.species[sp]?.common ? " · " + D.species[sp].common : ""}`), el("span", {class:"n"}, n)); const b = el("span", {class:"bar"}); b.style.width = (n/mx*90) + "px"; li.append(b); return li; }));
   compare();
@@ -248,23 +257,30 @@ function stat(v, label){ const d = el("div", {class:"stat"}); d.append(el("b", {
 
 function compare(){
   const K = $("kval").value, names = Object.keys(LABEL), ps = names.map(n => D.plans[n + "|" + K]);
-  const best = {c:Math.max(...ps.map(p => p.metrics.exp_cooled_m2)), r:Math.min(...ps.map(p => p.metrics.allergy_isoprene_score)), e:Math.max(...ps.map(p => p.metrics.ecology_score))};
-  const mxr = Math.max(...ps.map(p => p.metrics.allergy_isoprene_score));
+  const hasSim = ps.some(p => p.metrics.cool_sim != null);
+  const cool = p => hasSim ? p.metrics.cool_sim : p.metrics.cool_est;
+  const vals = ps.map(cool).filter(v => v != null);
+  const best = {c:Math.max(...vals), h:Math.min(...ps.map(p => p.metrics.health)), e:Math.max(...ps.map(p => p.metrics.eco)), r:Math.min(...ps.map(p => p.metrics.risk))};
+  const mxh = Math.max(...ps.map(p => p.metrics.health)), mxr = Math.max(...ps.map(p => p.metrics.risk));
   const t = $("cmp"); t.replaceChildren();
-  const h = el("tr"), th = el("thead"); ["Plan","Cooling m²","Allergy + isoprene","Ecology","Species","Soil sites"].forEach(x => h.append(el("th", {}, x))); th.append(h); t.append(th);
+  const h = el("tr"), th = el("thead"); ["Plan", hasSim ? "Cooling m² (simulated)" : "Cooling m² (estimate)", "Allergy + isoprene", "Ecology", "Condition risk", "Species", "Soil sites"].forEach(x => h.append(el("th", {}, x))); th.append(h); t.append(th);
   const tb = el("tbody"); t.append(tb);
   ps.forEach((p, i) => {
-    const m = p.metrics, tr = el("tr", {class: names[i] === $("plan").value ? "cur" : ""});
+    const m = p.metrics, c = cool(p), tr = el("tr", {class: names[i] === $("plan").value ? "cur" : ""});
     tr.append(el("td", {}, LABEL[names[i]]));
-    tr.append(cell(fmt(m.exp_cooled_m2), m.exp_cooled_m2 / best.c, m.exp_cooled_m2 === best.c));
-    tr.append(cell(fmt(m.allergy_isoprene_score, 1), m.allergy_isoprene_score / mxr, m.allergy_isoprene_score === best.r));
-    tr.append(cell(fmt(m.ecology_score, 1), m.ecology_score / best.e, m.ecology_score === best.e));
-    tr.append(el("td", {}, m.n_species)); tr.append(el("td", {}, m.n_expanded_soil));
+    tr.append(c == null ? el("td", {}, "not simulated") : cell(fmt(c), c / best.c, c === best.c));
+    tr.append(cell(fmt(m.health, 1), m.health / mxh, m.health === best.h));
+    tr.append(cell(fmt(m.eco, 1), m.eco / best.e, m.eco === best.e));
+    tr.append(cell(fmt(m.risk, 3), m.risk / mxr, m.risk === best.r));
+    tr.append(el("td", {}, m.n_species)); tr.append(el("td", {}, m.n_soil));
     tb.append(tr);
   });
 }
 function cell(txt, frac, isBest){ const td = el("td"), d = el("div", {class:"cell"}), b = el("span", {class:"mini" + (isBest ? " good" : "")}); b.style.width = Math.max(4, frac*60) + "px"; d.append(b, el("span", {}, txt)); td.append(d); return td; }
 
+const CLS = {empty:"empty planting space", removed_or_stump:"removed tree / stump", dead_tree:"dead tree",
+  conflict_empty_but_living_tree_recorded:"records disagree: space marked empty, but a living tree is on record",
+  conflict_populated_but_no_tree_record:"records disagree: space marked populated, but no tree record"};
 function pick(i){
   const changed = selected !== i;
   selected = i;
@@ -273,29 +289,33 @@ function pick(i){
   document.querySelectorAll(".map .site").forEach(c => c.classList.toggle("sel", +c.dataset.i === i));
   const s = D.sites[i], r = cur.rows.find(x => x[0] === i), box = $("site"); box.replaceChildren();
   if (!r) { box.append(el("p", {class:"empty"}, "This site is not in the current plan.")); return; }
-  const sp = D.species[r[1]] || {};
-  box.append(el("p", {style:"margin:0 0 8px;font-weight:700;font-family:var(--f-display);font-size:1.05rem"}, r[1] ? `${r[1]}${sp.common ? " · " + sp.common : ""}` : "No tree"));
+  const planted = r[1] === "plant", sp = D.species[r[2]] || {};
+  const head = planted ? `Plant: ${r[2]}${sp.common ? " · " + sp.common : ""}` : (r[1].startsWith("defer") ? "Deferred: " + r[1].slice(7) : "No tree: no feasible species");
+  box.append(el("p", {style:"margin:0 0 8px;font-weight:700;font-family:var(--f-display);font-size:1.05rem"}, head));
   const dl = el("dl", {class:"kv"});
   const add = (k, v) => { dl.append(el("dt", {}, k), el("dd", {}, v)); };
-  add("Location", s.addr); add("Now", ({empty:"empty planting space", removed_or_stump:"removed tree / stump", dead_tree:"dead tree"})[s.cls] || s.cls);
-  add("Land use", s.lu || "unknown"); add("Sidewalk width", s.sw == null ? "–" : s.sw + " m");
-  add("Afternoon Tmrt now", s.tmrt == null ? "no sidewalk nearby" : s.tmrt + " °C");
-  add("Tmrt change within 15 m", `${fmt(s.d10,1)} °C at 10 yr · ${fmt(s.d20,1)} °C at 20 yr (generic 8 m crown)`);
-  add("Size class", r[2] + (r[3] ? " · expanded soil" : (r[2] === "large" ? " · standard pit (crown capped at medium)" : "")));
-  add("5-year failure risk", r[4] != null ? (r[4]*100).toFixed(1) + "%" + (r[8] ? " (site median; species not in training)" : "") : "–");
-  add("Risk-adjusted cooled area", fmt(r[5], 1) + " m²");
-  add("Overhead wires", s.wires); add("Soil map", s.soil || "–");
-  if (r[1]) { add("Native to NY", sp.nativeNY ?? "unknown"); add("Pollen allergy", sp.allergy ?? "unknown"); add("Isoprene (ozone)", sp.isoprene ?? "unknown");
-    add("Pollinator value", sp.pollinator ?? "unknown"); add("Climate 2070–2099", sp.climate ?? "no NYC assessment"); add("Sidewalk root risk", sp.roots ?? "unknown");
-    if (sp.nycNote) add("NYC Parks note", sp.nycNote); }
+  add("Location", s.addr); add("Records say", CLS[s.cls] || s.cls);
+  if (s.tree) add("Tree on record", s.tree);
+  add("Land use nearby", s.lu || "unknown"); add("Sidewalk width (approx.)", s.sw == null ? "–" : s.sw + " m");
+  add("Jurisdiction", s.juris); add("Overhead wires", s.wires); add("Soil map", s.soil || "–");
+  if (s.tmrt != null) add("Afternoon Tmrt now", s.tmrt + " °C");
+  if (s.d8 != null) add("Tmrt change on nearby sidewalk", `${fmt(s.d5,1)} °C with a 5 m crown · ${fmt(s.d8,1)} °C with an 8 m crown`);
+  if (planted) {
+    add("Assumed crown class", r[3] + (r[4] ? " · expanded soil" : (r[3] === "large" ? " · standard pit (crown capped at medium)" : "")));
+    add("Sidewalk cooled >10 °C (estimate)", fmt(r[6], 1) + " m²");
+    add("Condition risk (relative)", r[5] == null ? "no estimate" : fmt(r[5], 3) + (r[7].includes("untrained_species") ? " (site value; species not in training data)" : ""));
+    add("Native to NY", sp.nativeNY ?? "unknown"); add("Pollen allergy", (sp.allergy ?? "unknown") + (sp.allergyConflict ? " (sources disagree)" : ""));
+    add("Isoprene (ozone precursor)", sp.isoprene ?? "unknown"); add("Pollinator value", sp.pollinator ?? "unknown");
+    add("Climate 2070–2099", sp.climate ?? "no NYC assessment"); add("Sidewalk root risk", sp.roots ?? "unknown");
+    if (sp.nycNote) add("NYC Parks note", sp.nycNote);
+  }
   box.append(dl);
   const ch = el("div", {class:"chips"});
-  if (r[6]) ch.append(el("span", {class:"chip warn"}, "Verify no primary overhead wires"));
-  if (r[7]) ch.append(el("span", {class:"chip warn"}, "Verify persistently wet site"));
-  if (r[8]) ch.append(el("span", {class:"chip warn"}, "No species-specific survival evidence"));
-  if (r[3]) ch.append(el("span", {class:"chip soil"}, "Expanded rooting soil"));
-  if (sp.albHost === true || sp.albHost === "True") ch.append(el("span", {class:"chip warn"}, "Asian longhorned beetle host"));
-  ch.append(el("span", {class:"chip"}, "Utility markout + soil test required"));
+  r[7].forEach(f => ch.append(el("span", {class:"chip warn"}, FLAGTXT[f] || f)));
+  if (planted && r[4]) ch.append(el("span", {class:"chip soil"}, "Expanded rooting soil"));
+  if (planted && (sp.albHost === true || sp.albHost === "True")) ch.append(el("span", {class:"chip warn"}, "Asian longhorned beetle host"));
+  if (!planted && r[1].startsWith("defer")) ch.append(el("span", {class:"chip warn"}, "Check on site or in recent imagery before deciding"));
+  ch.append(el("span", {class:"chip"}, "Utility markout + pit and soil survey required"));
   box.append(ch);
 }
 $("plan").addEventListener("change", render); $("kval").addEventListener("change", render);
@@ -306,26 +326,28 @@ let sample = null, turns = [], ctl = null, qaOff = false;
   if (!sample) { $("qastate").textContent = "Asking Claude is not available in this view. Open the page in Claude to use it."; $("ask").disabled = true; document.querySelectorAll("#sugg button").forEach(b => b.disabled = true); } })();
 
 function context(){
-  const K = $("kval").value, m = cur.metrics;
-  const plansTxt = Object.keys(LABEL).map(n => { const p = D.plans[n + "|" + K].metrics; return `${LABEL[n]}: cooling ${p.exp_cooled_m2} m2, allergy+isoprene ${p.allergy_isoprene_score}, ecology ${p.ecology_score}, species ${p.n_species}, soil sites ${p.n_expanded_soil}, wire checks ${p.verify_wires_sites}`; }).join("\n");
-  const other = ["0","30","60"].filter(k => k !== K).map(k => { const p = D.plans[cur.name + "|" + k].metrics; return `${LABEL[cur.name]} at K=${k}: cooling ${p.exp_cooled_m2}, allergy+isoprene ${p.allergy_isoprene_score}, ecology ${p.ecology_score}`; }).join("\n");
-  const rows = cur.rows.map(r => { const s = D.sites[r[0]]; return [r[0], s.addr, s.cls, s.lu||"", s.sw??"", s.tmrt??"", s.d20??"", s.cool20, s.wires, s.soil||"", r[1], r[2], r[3]?"Y":"N", r[4], r[5], r[6]?"wires":"", r[7]?"wet":"", r[8]?"untrained":""].join("|"); }).join("\n");
-  const used = [...new Set(cur.rows.map(r => r[1]).filter(Boolean))];
-  const spTxt = used.map(n => { const p = D.species[n] || {}; return `${n} (${p.common||""}): size ${p.size}, nativeNY ${p.nativeNY}, allergy ${p.allergy}, isoprene ${p.isoprene}, pollinator ${p.pollinator}, climate ${p.climate}, roots ${p.roots}, Bronx young trees good ${p.youngGoodPct}%, ALB host ${p.albHost}${p.nycNote ? ", NYC note: " + p.nycNote : ""}`; }).join("\n");
-  return `You are answering questions from city planners about a street-tree planting plan for the Mott Haven pilot (Third Avenue, South Bronx, NYC). Use ONLY the data below. If the data cannot answer, say so plainly and name what data would be needed. Refer to sites by number and address. Keep answers short and concrete (bullets welcome, under 200 words unless asked). Never invent costs, measurements or species facts. Mention a relevant caveat when it changes the answer.
+  const K = $("kval").value;
+  const line = p => { const m = p.metrics; return `${LABEL[p.name]} (K=${p.K}): cooling simulated ${m.cool_sim ?? "n/a"} m2, additive estimate ${m.cool_est} m2, core sidewalk mean Tmrt ${m.core_tmrt_sim ?? "n/a"} C, allergy+isoprene index ${m.health}, ecology index ${m.eco}, mean condition risk ${m.risk}, trees ${m.n_planted}, species ${m.n_species}, soil sites ${m.n_soil}, flags ${JSON.stringify(p.flags)}`; };
+  const plansTxt = Object.keys(LABEL).map(n => line(D.plans[n + "|" + K])).join("\n");
+  const other = ["0","30","60"].filter(k => k !== K).map(k => line(D.plans[cur.name + "|" + k])).join("\n");
+  const rows = cur.rows.map(r => { const s = D.sites[r[0]]; return [r[0], s.addr, s.cls, r[1], s.lu||"", s.sw??"", s.juris, s.tmrt??"", s.d8??"", s.wires, s.soil||"", r[2], r[3], r[4]?"Y":"N", r[5]??"", r[6]??"", r[7].join(",")].join("|"); }).join("\n");
+  const used = [...new Set(cur.rows.map(r => r[2]).filter(Boolean))];
+  const spTxt = used.map(n => { const p = D.species[n] || {}; return `${n} (${p.common||""}): size ${p.size}, nativeNY ${p.nativeNY}, allergy ${p.allergy}${p.allergyConflict ? " (sources disagree)" : ""}, isoprene ${p.isoprene}, pollinator ${p.pollinator}, climate ${p.climate}, roots ${p.roots}, ALB host ${p.albHost}${p.nycNote ? ", NYC note: " + p.nycNote : ""}`; }).join("\n");
+  return `You are answering questions from city planners about a street-tree planting plan for the Mott Haven pilot (Third Avenue, South Bronx, NYC). Use ONLY the data below. If the data cannot answer, say so plainly and name what data would be needed. Refer to sites by number and address. Keep answers short and concrete (bullets welcome, under 200 words unless asked). Never invent costs, measurements or species facts. Condition risk is a relative ranking score, not a survival probability: never present it as a percentage chance. Mention a relevant caveat when it changes the answer.
 
-CURRENT PLAN: ${LABEL[cur.name]}, expanded-soil budget K=${K}. Metrics: cooling ${m.exp_cooled_m2} m2 (sidewalk cooled >10 C at 20 yr, risk-adjusted), allergy+isoprene ${m.allergy_isoprene_score} (lower better), ecology ${m.ecology_score} (higher better), species ${m.n_species}, soil sites ${m.n_expanded_soil}. Genus shares after planting: ${JSON.stringify(cur.genus_after)}.
+CURRENT PLAN: ${line(cur)}. Largest shares after planting: ${JSON.stringify(cur.max_share)}.
 
 ALL PLANS AT K=${K}:
 ${plansTxt}
 
-SAME PLAN AT OTHER BUDGETS:
+SAME PLAN AT OTHER SOIL CAPS:
 ${other}
 
-CORRIDOR SIDEWALK MEAN TMRT 13-16h (C): ${JSON.stringify(D.meta.corridor)}
-PER-CANOPY RATES (Nowak et al. 2018, NYC): ${JSON.stringify(D.meta.rates)}
+CORE SIDEWALK NOW (13-17 h EDT): ${JSON.stringify(D.meta.now)}. GENERIC SCENARIOS (one tree per confirmed site): ${JSON.stringify(D.meta.generic)}. EXISTING SHADE CHECK: ${JSON.stringify(D.meta.sanity)}
+CONDITION MODEL: ${JSON.stringify(D.meta.model)} (AUC on unseen 1 km blocks; ranking only)
+PER-CANOPY RATES per m2 per year (Nowak et al. 2018, NYC): ${JSON.stringify(D.meta.rates)}
 
-SITES (site|address|now|land use|sidewalk m|Tmrt now C|Tmrt change 20yr within 15m C|sidewalk m2 cooled>10C generic crown|wires|soil|species|size|expanded soil|5yr failure risk|risk-adjusted cooled m2|flags):
+SITES (site|address|records say|action|land use|sidewalk m|jurisdiction|Tmrt now C|Tmrt change with 8 m crown C|wires|soil|species|size|expanded soil|condition risk|cooled m2 estimate|flags):
 ${rows}
 
 SPECIES USED:

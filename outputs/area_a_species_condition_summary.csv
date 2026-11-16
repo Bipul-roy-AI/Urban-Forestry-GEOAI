@@ -1,0 +1,42 @@
+taxon,median_p_poor,in_training,census_young_pct_poor
+Corylus colurna,0.0519,False,8.6
+Ginkgo biloba,0.0519,True,8.3
+Gleditsia triacanthos var. inermis,0.0519,True,8.5
+Nyssa sylvatica,0.0519,True,0.0
+Quercus acutissima,0.0519,True,2.2
+Quercus robur,0.0519,True,2.8
+Gymnocladus dioicus,0.05635,True,5.6
+Prunus serrulata 'Kwanzan',0.0608,True,
+Quercus rubra,0.0608,True,4.4
+Prunus x yedoensis,0.0608,True,
+Tilia x euchlora,0.0608,False,
+Quercus imbricaria,0.08,True,6.3
+Malus sp.,0.08,True,4.5
+Tilia americana,0.08,True,4.3
+Taxodium distichum,0.08,True,6.2
+Quercus bicolor,0.08,True,4.4
+Prunus virginiana 'Schubert',0.08610000000000001,False,3.6
+Koelreuteria paniculata,0.0922,True,7.1
+Prunus padus,0.0922,False,
+Prunus sargentii,0.0922,False,
+Quercus palustris,0.0922,True,4.9
+Prunus cerasifera,0.0922,True,5.6
+Maackia amurensis,0.0922,True,5.8
+Cornus mas,0.0922,True,7.4
+Zelkova serrata,0.0922,True,4.3
+Ostrya virginiana,0.0955,True,10.3
+Tilia cordata,0.0955,True,6.3
+Tilia tomentosa,0.0955,True,6.1
+Crataegus sp.,0.0955,True,4.4
+Eucommia ulmoides,0.0955,True,3.0
+Carpinus betulus,0.0955,True,6.4
+Cercis canadensis,0.0955,True,8.5
+Syringa reticulata,0.1063,True,5.5
+Styphnolobium japonicum,0.1063,True,5.9
+Liquidambar styraciflua,0.1146,True,3.7
+Carpinus caroliniana,0.1146,True,8.7
+Prunus 'Okame',0.1146,True,5.4
+Quercus phellos,0.1164,True,3.5
+Quercus spp. 'Fastigiata',0.1182,True,
+Metasequoia glyptostroboides,0.1319,True,11.0
+Amelanchier sp.,0.1382,True,5.8

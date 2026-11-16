@@ -16,16 +16,17 @@ Open <http://localhost:8765>.
 
 ## Suggested walkthrough
 
-1. **The question (30 s).** "Which tree should go where, to cool streets and still survive?" Point at the README's first image.
-2. **The heat map (1 min).** On the planner map, yellow is about 70 °C radiant heat on the sidewalk; purple is shade. Existing trees cut it from 60 °C to 45 °C.
-3. **A single site (1 min).** Click a large ringed marker on Lincoln Avenue or Third Avenue (or open `#site-19`). Show the species, the cooling at 10 and 20 years, the 5-year failure risk, and the red "verify wires" check.
-4. **Compare plans (2 min).** Switch between *Balanced*, *Maximum cooling* and *Rule: biggest tree that fits*. The table shows the trade-off: about the same cooling, but much lower allergy/ozone risk and twice the ecological value.
-5. **Soil budget (1 min).** Change expanded soil from 0 → 30 → 60. The first 30 installations add the most cooling.
-6. **Ask a question (1 min, inside Claude).** Use a ready-made question, such as "Which sites need a wire check before planting?"
-7. **Honesty slide (1 min).** Scroll to "What these numbers can and cannot tell you". It is a pilot: crown sizes are assumptions, survival is a proxy, and field checks are needed.
+1. **The question (30 s).** "Which tree should go where, to cool the street, and what must be checked first?"
+2. **The heat map (1 min).** Yellow is about 70 °C radiant heat on the sidewalk; purple is shade. Under existing trees the model gives about 45 °C against 62 °C in the open.
+3. **A single site (1 min).** Click a large ringed marker (or open `#site-5`). Show the species, the cooling for a 5 m and an 8 m crown, and the list of checks that site still needs.
+4. **A deferred site (30 s).** Click a grey square. The city's records disagree there, so the tool refuses to recommend a tree until someone checks.
+5. **Compare plans (2 min).** Switch between *Balanced*, *Maximum cooling* and *Rule: biggest tree that fits*. The simple rule ties the optimiser on cooling; the balanced plan gives up some cooling for lower allergy/ozone and higher ecology scores.
+6. **Soil cap (30 s).** Change the expanded-soil cap from 0 → 30 → 60. The gain shrinks.
+7. **Ask a question (1 min, inside Claude).** For example, "Which sites are deferred, and what needs checking?"
+8. **Limits (1 min).** Scroll to "What these numbers can and cannot tell you". It is a simulation study: crown sizes are assumed, the risk score is relative, and nothing has been measured in the field.
 
 ## Three numbers to remember
 
-- **−4.8 °C**: typical local cooling of sidewalk radiant heat from one new tree after 20 years (up to −13 °C at the best sites).
-- **0.78 AUC**: survival model accuracy on unseen neighbourhoods; site conditions matter more than species.
-- **~95% cooling, −29% risk, 2× ecology**: the balanced plan versus "plant the biggest tree that fits".
+- **−4.8 °C**: median modelled cooling of sidewalk radiant heat next to one new tree with an 8 m crown.
+- **87% / −29% / 2×**: the balanced plan keeps 87% of the maximum cooling, with a 29% lower allergy/isoprene index and about double the ecology index.
+- **24 of 121**: sites the tool defers because records conflict or ownership is private. Knowing what not to plant yet is part of the result.

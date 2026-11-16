@@ -26,3 +26,9 @@ data/processed/solweig/
 # OS / editor
 .DS_Store
 Thumbs.db
+
+# Working notes copied from Claude memory (not for publication)
+notes/
+
+# External audit document (kept local unless the author chooses to publish it)
+Urban_Forestry_GeoAI_PhD_Audit_and_Pilot_Plan.md

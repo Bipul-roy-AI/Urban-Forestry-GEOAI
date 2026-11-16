@@ -3,15 +3,26 @@
   "n_core": 594,
   "site_class": {
     "living_tree": 4667,
-    "empty": 987,
-    "removed_or_stump": 286,
-    "dead_tree": 77
+    "removed_or_stump": 519,
+    "empty": 514,
+    "conflict_empty_but_living_tree_recorded": 221,
+    "dead_tree": 76,
+    "do_not_plant": 10,
+    "conflict_populated_but_no_tree_record": 6,
+    "critical_tree": 4
   },
   "site_class_core": {
     "living_tree": 473,
-    "empty": 88,
-    "removed_or_stump": 29,
-    "dead_tree": 4
+    "removed_or_stump": 50,
+    "empty": 44,
+    "conflict_empty_but_living_tree_recorded": 20,
+    "dead_tree": 4,
+    "conflict_populated_but_no_tree_record": 3
+  },
+  "plantable_status_core": {
+    "retain": 473,
+    "candidate": 98,
+    "review": 23
   },
   "missing_frac": {
     "plantingspaceonstreet": 0.716,
@@ -51,7 +62,7 @@
     "wo_removal_n": 0.0,
     "insp_n": 2.0,
     "insp_sidewalk_rating_max": 74.0,
-    "planting_attempts_failed": 0.0,
+    "planting_wo_minus_living": 0.0,
     "sr_15m_n": 0.0,
     "c15_dist_m": 0.0,
     "dist_building_m": 8.31,
@@ -75,7 +86,7 @@
     "lst_landsat_median_c": 40.45,
     "lst_landsat_p90_c": 46.0,
     "lst_ecostress_pm_median_c": 38.41,
-    "ndvi_s2_median": 0.2,
+    "ndvi_s2_median": 0.3,
     "hvi": 5.0
   }
 }

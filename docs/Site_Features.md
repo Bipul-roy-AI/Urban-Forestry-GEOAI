@@ -17,17 +17,21 @@
 ## Contents
 
 - **One row per NYC Forestry planting space** in the 4.26 km² context area: **6,017 sites, 594 in the core**.
+- **Revised 16 Nov 2026:** the space status and the linked tree record are now reconciled. Records that disagree are sent to review, not planted.
 
-| Site class | Context | Core | Meaning |
+| Site class | Context | Core | Planting status |
 |---|---|---|---|
-| `empty` | 987 | 88 | No tree recorded on the space |
-| `removed_or_stump` | 286 | 29 | Tree retired or stump |
-| `dead_tree` | 77 | 4 | Tree recorded Dead or Critical |
-| `living_tree` | 4,667 | 473 | Existing tree, a candidate for retention and care |
+| `empty` | 514 | 44 | candidate |
+| `removed_or_stump` | 519 | 50 | candidate |
+| `dead_tree` | 76 | 4 | candidate |
+| `conflict_empty_but_living_tree_recorded` | 221 | 20 | review |
+| `conflict_populated_but_no_tree_record` | 16 | 3 | review |
+| `living_tree` | 4,667 | 473 | retain |
+| `critical_tree` | 4 | 0 | retain |
+| `do_not_plant` (city status "DNP") | 10 | 0 | excluded |
 
-- **Candidate pool for new planting in the core: 121 sites** (empty + removed/stump + dead).
-  - Their land use is mostly multi-family elevator (31), commercial/office (27) and mixed residential/commercial (26).
-  - Their median building-only sun is 9 h on 15 July, and median afternoon surface temperature is 37.8 °C.
+- **Core: 98 candidates, 23 sites for review, 473 trees to retain.** A candidate is plantable according to the records; it still needs confirming on site.
+- The column `plantable_status` holds `candidate`, `review`, `retain` or `excluded`.
 
 ## Features
 
@@ -36,7 +40,7 @@
 | ID / location | `ps_id`, `in_core`, `streetname`, `buildingnumber`, `zipcode`, `bbl`, `nta` | Forestry Planting Spaces | `bbl` is missing for 34% of sites |
 | Space attributes | `psstatus`, `pssite`, `plantingspaceonstreet`, `jurisdiction`, `treeguard`, `width`, `length`, `overheadutilities` | Planting Spaces | **`width`/`length` 99.9% missing; `overheadutilities` 94% missing** |
 | Current tree | `tree_id`, `tree_species`, `tree_dbh_in`, `tree_condition`, `tree_structure`, `tree_created`, `site_class` | Forestry Tree Points (latest per space) | |
-| Maintenance history | `wo_n`, `wo_planting_n`, `wo_removal_n`, `planting_attempts_failed`, `wo_sidewalk_damage` (1,048 true), `wo_wire_conflict` (103 true), `wo_recommended_species` (265 sites) | Forestry Work Orders, matched to the **nearest space within 3 m** (the WO planting-space ID is empty here) | 941 sites have no work order |
+| Maintenance history | `wo_n`, `wo_planting_n`, `wo_removal_n`, `planting_wo_minus_living` (plant-related work orders minus a living tree; a rough proxy, not measured failure), `wo_sidewalk_damage` (1,048 true), `wo_wire_conflict` (103 true), `wo_recommended_species` (265 sites) | Forestry Work Orders, matched to the **nearest space within 3 m** (the WO planting-space ID is empty here) | 941 sites have no work order |
 | Inspections | `insp_n`, `insp_sidewalk_rating_max` | Forestry Inspections (by space ID) | |
 | Complaints | `sr_15m_n` | Forestry Service Requests within 15 m | |
 | 2015 census | `c15_*` (status, health, sidewalk, root_stone/grate/other, species, dbh, curb_loc), `c15_root_problem`, `c15_dist_m` | 2015 Street Tree Census, nearest ≤3 m | ~49% matched; empty spaces had no tree in 2015 |
@@ -44,7 +48,7 @@
 | Sun / shade | `sun_hours_bldg_jul15`, `bldg_shade_hours_13_17`, `shade_total_hours_jul15` (3 m mean) | `shade_hours.py`: ray-cast on 1 m LiDAR, 15 Jul, 08–19 EDT | "bldg" = buildings only (sun available to a new tree); "total" includes 2017 trees |
 | 3D context | `canopy_frac_10m`, `canopy_frac_30m`, `building_frac_30m`, `veg_frac_30m`, `impervious_frac_30m_proxy`, `max_obstacle_height_30m`, `canyon_hw_proxy`, `ground_elev_m` | LiDAR 2017 + NAIP 2022/23 NDVI | Impervious = 1 − vegetated fraction (proxy; includes roofs) |
 | Heat | `lst_landsat_median_c`, `lst_landsat_p90_c`, `lst_ecostress_pm_median_c` | Landsat 8/9 (77 scenes, ~10:30 EDT); ECOSTRESS 12–16 EDT (129 granules) | **Surface** temperature, 30 m / 70 m: neighbourhood scale, not per tree |
-| Greenness | `ndvi_s2_median` | Sentinel-2 summer median (105 scenes) | 10 m |
+| Greenness | `ndvi_s2_median` | Sentinel-2 summer median (95 unique acquisitions; reflectance offset corrected for processing baseline ≥ 04.00) | 10 m |
 | Land use | `lot_landuse`, `lot_landuse_name`, `lot_bldgclass`, `lot_zonedist1`, `lot_numfloors`, `lot_yearbuilt`, `lot_unitsres`, `lot_join` | PLUTO by BBL, else nearest lot ≤40 m | 1,096 sites (18%) still unmatched; MapPLUTO polygons would fix this |
 | Vulnerability | `hvi` | NYC Heat Vulnerability Index by ZCTA | All core sites = 5 (highest), so no variation inside the core |
 | Soil | `soil_musym`, `soil_muname`, `soil_substratum` | SSURGO map units (SDA) | Substratum classes: Flatbush, outwash, Greenbelt, till, reclaimed, tidal marsh (47 sites) |

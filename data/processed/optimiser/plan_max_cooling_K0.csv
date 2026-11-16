@@ -1,122 +1,122 @@
-ps_id,streetname,buildingnumber,site_class,lot_landuse_name,sidewalk_width_m,species,size_class,expanded_soil,p_fail_5yr,exp_cooled_m2,flag_verify_wires,flag_untrained_species,flag_verify_wet_site
-A4292895-6BFC-4960-9A27-51907D0C51E7,EAST 139 STREET,330,empty,multi-family walk-up,3.605551275463989,Amelanchier sp.,small,False,0.153,0.0,False,False,False
-94176418-56C9-4C33-A12E-E42D1835149D,MORRIS AVENUE,339,empty,public facility/institution,6.708203932499369,Quercus palustris,large,False,0.072,36.9,True,False,False
-74DD4691-04DE-4ECC-90CA-ED42AE2E0255,3 AVENUE,2417,empty,commercial/office,5.0,Tilia tomentosa,large,False,0.072,33.4,True,False,False
-1BB0CBDF-9A18-436E-BB4F-248645897A3E,BRUCKNER BOULEVARD,7,empty,mixed res/commercial,3.605551275463989,Gymnocladus dioicus,large,False,0.068,29.2,True,False,False
-B93CA538-E2DB-450C-A160-B8716D3FADA9,3 AVENUE,2417,empty,commercial/office,5.0,Tilia americana,large,False,0.072,46.2,True,False,False
-B798BBCC-FB6F-4A52-93B0-EEE397634CFE,MORRIS AVENUE,339,empty,public facility/institution,6.708203932499369,Gymnocladus dioicus,large,False,0.068,36.4,True,False,False
-5E4C210B-376E-4FE5-9506-6E63910E33DD,3 AVENUE,2417,empty,commercial/office,5.0,Nyssa sylvatica,medium,False,0.054,62.3,False,False,True
-BA2E8570-89D4-48BD-B8D3-931517BACB4A,LINCOLN AVENUE,199,empty,commercial/office,5.830951894845301,Gleditsia triacanthos var. inermis,large,False,0.062,66.1,True,False,False
-69911871-3CB7-48AF-A2E7-A07846569A61,LINCOLN AVENUE,133,empty,mixed res/commercial,4.47213595499958,Tilia tomentosa,large,False,0.072,26.3,True,False,False
-C87C8483-BD5B-4D8C-8508-78B89C5232B1,EAST 137 STREET,245,empty,industrial/manufacturing,3.1622776601683795,Gymnocladus dioicus,large,False,0.068,15.7,True,False,False
-F3150F5B-69B7-4EA0-AA29-0E99FCE60B5B,3 AVENUE,2417,empty,commercial/office,5.0,Nyssa sylvatica,medium,False,0.054,24.6,False,False,True
-283B3CA0-5CC0-4F07-BCD7-58A332DD1CBF,MORRIS AVENUE,271,empty,,5.656854249492381,Gymnocladus dioicus,large,False,0.068,30.7,True,False,False
-178510FC-F76C-4579-8A47-423BBB976E7F,BRUCKNER BOULEVARD,9,empty,industrial/manufacturing,3.605551275463989,Tilia tomentosa,large,False,0.072,25.6,True,False,False
-1DAD9F82-03A6-4118-91FB-7018AE0068A1,RIDER AVENUE,208,empty,industrial/manufacturing,2.8284271247461903,Tilia americana,large,False,0.072,7.1,True,False,False
-BCEA9499-CB8C-4296-9B49-C78D06DC50A5,LINCOLN AVENUE,179,empty,industrial/manufacturing,5.0,Zelkova serrata,large,False,0.072,19.2,True,False,False
-D5A88DD6-7864-4038-9757-F75DC59C4B94,3 AVENUE,2604,empty,commercial/office,5.0,Cercis canadensis,small,False,0.083,0.4,False,False,False
-FC3A2447-3441-4EFC-A6E4-23C876CED8EA,ALEXANDER AVENUE,290,empty,multi-family walk-up,4.123105625617661,Ginkgo biloba,large,False,0.072,19.9,True,False,False
-A1C30D7E-A21D-40B1-A61C-56054905FE57,EAST 140 STREET,305,empty,mixed res/commercial,4.123105625617661,Tilia x euchlora,large,False,0.062,45.2,True,True,False
-77513CBC-B52B-45F1-AF67-E662C4F36D0B,LINCOLN AVENUE,112,empty,mixed res/commercial,3.605551275463989,Quercus rubra,large,False,0.068,34.2,True,False,False
-7EEB910F-549D-433A-9BBB-6AA5AAD3B0F9,LINCOLN AVENUE,199,empty,commercial/office,5.830951894845301,Gleditsia triacanthos var. inermis,large,False,0.062,99.9,True,False,False
-B3AEAA94-FD1E-4AC2-9480-03A327978522,CANAL PLACE,180,removed_or_stump,industrial/manufacturing,3.605551275463989,Nyssa sylvatica,medium,False,0.072,22.0,False,False,True
-62FB5565-F31B-411B-A628-17E3E2B62C12,CANAL PLACE,258,removed_or_stump,industrial/manufacturing,4.47213595499958,Tilia cordata,large,False,0.083,8.4,True,False,False
-DF24BDE7-A598-42F0-98A0-04A45E2A62C1,RIDER AVENUE,321,empty,industrial/manufacturing,3.1622776601683795,Ginkgo biloba,large,False,0.062,9.3,True,False,False
-739D2FD4-814D-40A0-BFA0-851085A16A23,LINCOLN AVENUE,188,empty,multi-family elevator,5.0,Tilia x euchlora,large,False,0.083,24.6,True,True,False
-00A0D441-F3DD-4492-9AC2-44B53B466628,BRUCKNER BOULEVARD,25,removed_or_stump,multi-family elevator,3.605551275463989,Gymnocladus dioicus,large,False,0.054,34.8,True,False,False
-41D47837-8022-4CBC-96E3-702DDBD714DA,LINCOLN AVENUE,112,empty,mixed res/commercial,4.123105625617661,Tilia americana,large,False,0.072,20.6,True,False,False
-722F494B-2015-4911-9B41-D35FA59B5FA3,LINCOLN AVENUE,131,dead_tree,transport/utility,5.0,Tilia tomentosa,large,False,0.068,22.1,True,False,False
-ABDACCBD-2E8F-4741-930A-F322C485D380,LINCOLN AVENUE,112,empty,mixed res/commercial,5.0,Gymnocladus dioicus,large,False,0.083,23.2,True,False,False
-ACD769A1-5576-4C08-9E57-554E8F897E4D,ALEXANDER AVENUE,270,dead_tree,mixed res/commercial,3.605551275463989,Tilia tomentosa,large,False,0.101,20.6,True,False,False
-54712281-9921-478F-886A-4EDB7FAF7221,,,empty,open space/recreation,4.47213595499958,Zelkova serrata,large,False,0.062,19.4,True,False,False
-AFD63A1B-5CA4-4487-BB2F-0ECF18085A34,,,empty,open space/recreation,0.0,Prunus serrulata 'Kwanzan',small,False,0.054,2.6,False,False,False
-F9AE5100-1B37-49B1-B310-87F4AA83A309,,,empty,open space/recreation,0.0,Prunus virginiana 'Schubert',small,False,0.065,0.0,False,True,False
-CB96EA72-1B1D-491E-9ABC-1816B00A5898,,,empty,open space/recreation,4.242640687119285,Zelkova serrata,large,False,0.054,19.6,True,False,False
-F359CFDB-DCB3-46DC-86FE-E217D03F6222,,,empty,multi-family elevator,4.242640687119285,Gymnocladus dioicus,large,False,0.054,29.7,True,False,False
-A90F8E7E-68B5-4951-A958-C7208F0E0EE3,,,removed_or_stump,open space/recreation,4.242640687119285,Syringa reticulata,small,False,0.101,0.0,False,False,False
-FDA0CC28-E8E7-409C-B5F4-80578E10762E,,,empty,multi-family elevator,0.0,Prunus virginiana 'Schubert',small,False,0.072,0.0,False,True,False
-DE280638-EF2B-437D-BAC7-70628BC6E129,,,empty,open space/recreation,0.0,Prunus cerasifera,small,False,0.062,0.0,False,False,False
-6A6946B3-183F-468D-8742-89B1C8CE33AB,,,empty,multi-family elevator,5.385164807134504,Tilia cordata,large,False,0.068,47.8,True,False,False
-EE3981D0-D0D4-430F-934B-9E98E4B0D9D4,,,removed_or_stump,multi-family elevator,0.0,Cercis canadensis,small,False,0.062,20.5,False,False,False
-651DE9B6-0CFD-4FB1-A2B4-22D5F4E0035B,,,empty,open space/recreation,0.0,Prunus virginiana 'Schubert',small,False,0.072,0.0,False,True,False
-C42C6C3E-25AE-438F-BFE0-3AD620C8A439,,,empty,open space/recreation,0.0,Prunus serrulata 'Kwanzan',small,False,0.054,0.0,False,False,False
-F9D72E89-185F-4681-B624-B5F08DB09206,,,removed_or_stump,open space/recreation,0.0,Prunus x yedoensis,small,False,0.072,0.0,False,False,False
-891CACC9-C9CB-4872-B52C-354C2DD7E10F,,,empty,multi-family elevator,5.385164807134504,Tilia americana,large,False,0.062,58.2,True,False,False
-16308238-F003-424A-A845-C9A0014EB44B,,,empty,multi-family elevator,4.47213595499958,Tilia americana,large,False,0.062,0.0,True,False,False
-4703C198-3E53-416F-BAD9-939CA9767F89,,,empty,multi-family elevator,4.47213595499958,Tilia x euchlora,large,False,0.072,32.0,True,True,False
-E2966EEC-C31F-4BA9-822B-BDFC386FBA15,,,empty,multi-family elevator,5.0,Prunus cerasifera,small,False,0.054,0.0,False,False,False
-DFFF2714-6CB1-4116-9ADA-D263AA0ABF41,EAST 137 STREET,270,empty,commercial/office,5.830951894845301,Tilia americana,large,False,0.083,84.9,True,False,False
-140C29B1-F212-4818-BD07-2D21AE225C0F,3 AVENUE,2590,removed_or_stump,commercial/office,4.47213595499958,Styphnolobium japonicum,medium,False,0.083,11.2,False,False,False
-07BF7B83-FBBE-43BD-BC6A-A19F11DDC2AB,EAST 137 STREET,270,removed_or_stump,commercial/office,10.295630140987,Tilia tomentosa,large,False,0.128,20.0,True,False,False
-5E4588AC-23A4-4151-B002-2164BB89084A,EAST 141 STREET,383,empty,multi-family elevator,5.0,Gymnocladus dioicus,large,False,0.054,5.1,True,False,False
-9BCB49CF-41E3-464D-B0EA-BCD62E54A56C,3 AVENUE,2535,removed_or_stump,mixed res/commercial,5.0,Tilia tomentosa,large,False,0.072,24.9,True,False,False
-1EA1F907-801E-4938-889A-D7A09F371CF9,EAST 143 STREET,335,dead_tree,mixed res/commercial,4.47213595499958,Tilia cordata,large,False,0.083,4.2,True,False,False
-600AE35F-3653-4FD0-ABAF-FC790BFC34BD,EAST 143 STREET,350,empty,multi-family elevator,5.0,Tilia tomentosa,large,False,0.062,3.6,True,False,False
-EF222E23-FA15-4777-9925-09D8EFBBF588,EAST 143 STREET,357,empty,mixed res/commercial,4.123105625617661,Tilia tomentosa,large,False,0.072,4.3,True,False,False
-489A2838-7EA1-4054-B9C1-28197DBBA535,EAST 143 STREET,350,removed_or_stump,multi-family elevator,5.0,Quercus rubra,large,False,0.068,0.0,True,False,False
-F3B56696-7ADE-40D0-8BCE-71B2B81794D5,EAST 143 STREET,341,empty,public facility/institution,5.0,Ostrya virginiana,medium,False,0.083,3.5,False,False,False
-C25D2152-5A4C-4165-B744-9B1BD92416CF,EAST 143 STREET,357,empty,mixed res/commercial,3.605551275463989,Tilia tomentosa,large,False,0.083,4.9,True,False,False
-39F5110B-072F-4B5F-850D-2660DB2642C6,EAST 143 STREET,350,dead_tree,multi-family elevator,5.0,Koelreuteria paniculata,intermediate,False,0.101,2.0,False,False,False
-6D632629-5C38-42F5-AC5C-937B5AC31C9B,EAST 143 STREET,370,removed_or_stump,multi-family elevator,4.47213595499958,Carpinus caroliniana,small,False,0.101,0.0,False,False,False
-78560265-C4E4-406F-9931-1FE68C20B3FA,EAST 137 STREET,270,empty,commercial/office,0.0,Prunus padus,small,False,0.083,12.5,False,True,False
-5AE5811D-EA15-4E3D-AF7F-A47EF004DF4D,EAST 137 STREET,270,empty,commercial/office,4.242640687119285,Gymnocladus dioicus,large,False,0.068,5.7,True,False,False
-F89044F1-394C-4217-958F-95ADEFE1BC7A,EAST 137 STREET,270,empty,commercial/office,1.0,Prunus x yedoensis,small,False,0.072,17.8,False,False,False
-391C467C-C671-4174-ACE7-5E40644D85E6,EAST 137 STREET,270,empty,commercial/office,0.0,Prunus virginiana 'Schubert',small,False,0.083,5.7,False,True,False
-09F15B9D-A7F0-44D3-988C-F703F6DD574E,EAST 137 STREET,270,empty,commercial/office,0.0,Carpinus caroliniana,small,False,0.128,0.3,False,False,False
-8480525D-95E3-4403-BB33-49324CD12010,EAST 137 STREET,270,empty,commercial/office,5.0,Ginkgo biloba,large,False,0.054,50.7,True,False,False
-1544F2C3-D040-44FD-AA76-8C082DC0167D,3 AVENUE,2628,removed_or_stump,mixed res/commercial,5.0990195135927845,Eucommia ulmoides,medium,False,0.083,47.7,False,False,False
-260B9109-BB27-4CDC-8DC8-CF35952D84E4,3 AVENUE,2634,removed_or_stump,commercial/office,4.242640687119285,Gleditsia triacanthos var. inermis,large,False,0.072,14.9,True,False,False
-B4E15B94-0D22-4D77-9D4F-152168B9A638,EAST 141 STREET,355,empty,multi-family elevator,4.47213595499958,Tilia tomentosa,large,False,0.068,23.5,True,False,False
-F3F8D56C-1FD4-474A-B16F-FB75EBD3AE68,EAST 141 STREET,383,empty,multi-family elevator,4.47213595499958,Syringa reticulata,small,False,0.188,0.0,False,False,False
-153FF90B-BB62-4273-AB81-93532DAC2AF9,EAST 141 STREET,322,empty,mixed res/commercial,3.605551275463989,Amelanchier sp.,small,False,0.305,0.0,False,False,False
-3B4B75A4-18AA-4FC0-BF64-0826F93A3273,3 AVENUE,2595,removed_or_stump,multi-family elevator,5.385164807134504,Gleditsia triacanthos var. inermis,large,False,0.054,26.8,True,False,False
-02E61179-1C4C-4DE7-BBCB-76EBD097430F,EAST 141 STREET,383,empty,multi-family elevator,5.0,Tilia tomentosa,large,False,0.163,6.4,True,False,False
-8022E226-7F1F-423D-AF45-EBCAC73B8C66,EAST 137 STREET,270,removed_or_stump,commercial/office,5.0,Corylus colurna,medium,False,0.083,44.2,False,True,False
-8A70D70F-9F6D-43BB-A538-CB3E3BFB3A65,EAST 137 STREET,270,removed_or_stump,commercial/office,5.0,Quercus robur,medium,False,0.054,76.0,False,False,False
-9177EC29-52B5-41C1-8245-81A19B507610,3 AVENUE,2660,empty,commercial/office,7.615773105863909,Gleditsia triacanthos var. inermis,large,False,0.054,40.6,True,False,False
-752E8DF0-A0E8-404E-98F7-3EC61232A1D6,EAST 141 STREET,383,empty,multi-family elevator,4.242640687119285,Corylus colurna,medium,False,0.163,27.6,False,True,False
-442F651F-9F51-4392-AA53-AFA1F0A308AD,EAST 139 STREET,352,removed_or_stump,multi-family walk-up,3.605551275463989,Eucommia ulmoides,medium,False,0.062,8.6,False,False,False
-50A294AD-60C9-4141-A5F5-7A814D15DBE8,EAST 141 STREET,388,empty,multi-family elevator,5.0,Gymnocladus dioicus,large,False,0.128,6.7,True,False,False
-D8292A32-36C9-4EF1-BEFD-6767D9D21C7D,3 AVENUE,2628,removed_or_stump,mixed res/commercial,5.0990195135927845,Eucommia ulmoides,medium,False,0.153,49.9,False,False,False
-B1A01FBC-2609-42F8-BCC7-005F2E1AF5A1,3 AVENUE,2595,removed_or_stump,multi-family elevator,5.0,Tilia americana,large,False,0.068,5.0,True,False,False
-BD4B7D9A-D664-4181-B68F-739205B8FD29,3 AVENUE,2535,empty,mixed res/commercial,5.0,Quercus robur,medium,False,0.054,77.5,False,False,False
-CB9D3779-C06D-4668-8223-3A7E710840E1,3 AVENUE,2595,removed_or_stump,multi-family elevator,5.0,Tilia americana,large,False,0.062,18.7,True,False,False
-805971FD-6573-4D7C-BD51-E1D48BC7191E,EAST 141 STREET,314,removed_or_stump,multi-family walk-up,3.605551275463989,Quercus acutissima,medium,False,0.083,32.3,False,False,False
-DE07D357-AC7A-4155-8763-3DC69A41689A,3 AVENUE,2616,removed_or_stump,mixed res/commercial,3.605551275463989,Ostrya virginiana,medium,False,0.083,14.7,False,False,False
-71FCFBBE-693A-4E93-B6CD-DC25C250D0AE,EAST 141 STREET,383,empty,multi-family elevator,4.47213595499958,Cercis canadensis,small,False,0.128,0.0,False,False,False
-D14EFB4A-2A15-4D28-89D0-17604C116241,3 AVENUE,2535,empty,mixed res/commercial,5.0,Ostrya virginiana,medium,False,0.083,56.1,False,False,False
-3399FF55-4F2E-4771-A61E-005354B22456,EAST 139 STREET,249,removed_or_stump,commercial/office,2.8284271247461903,Tilia x euchlora,large,False,0.07,13.5,True,True,False
-4317DAF6-1DCC-43D7-AE7C-59A23110B29C,3 AVENUE,2640,empty,public facility/institution,5.0,Gleditsia triacanthos var. inermis,large,False,0.054,15.9,True,False,False
-DC087F40-EC6C-4797-AE54-B1EC8D2FE34E,EAST 143 STREET,325,empty,multi-family elevator,5.0,Gleditsia triacanthos var. inermis,large,False,0.062,28.7,True,False,False
-2A32B415-3BC6-4F0A-AFF7-75C05F5BACE7,3 AVENUE,2559,empty,commercial/office,2.8284271247461903,Quercus acutissima,medium,False,0.054,13.8,False,False,False
-1731D160-985C-48B6-A9C0-0C6EAA9618CB,EAST 134 STREET,250,removed_or_stump,commercial/office,5.385164807134504,Tilia x euchlora,large,False,0.083,11.9,True,True,False
-4D6E75C1-C688-4B14-A0F7-8E94301D7455,EAST 143 STREET,325,empty,multi-family elevator,6.082762530298219,Gleditsia triacanthos var. inermis,large,False,0.054,29.7,True,False,False
-51A3C080-3CDE-41F0-ADA0-5DF66200144C,EAST 136 STREET,247,removed_or_stump,parking,2.8284271247461903,Tilia x euchlora,large,False,0.072,7.8,True,True,False
-AC2723ED-C846-42F3-B47C-9E5D939EC283,EAST 134 STREET,263,removed_or_stump,mixed res/commercial,3.1622776601683795,Gymnocladus dioicus,large,False,0.128,16.7,True,False,False
-7706E04A-EB9D-417C-AFAA-C17A8CF4C144,3 AVENUE,2557,empty,mixed res/commercial,4.47213595499958,Ostrya virginiana,medium,False,0.128,16.0,False,False,False
-8450C173-6431-4F8D-9527-3AAB81050503,EAST 140 STREET,305,empty,mixed res/commercial,4.242640687119285,Gymnocladus dioicus,large,False,0.072,44.7,True,False,False
-7D1E5F4E-8A98-4476-B4DB-2063B463F650,EAST 143 STREET,281,empty,multi-family elevator,5.656854249492381,Gymnocladus dioicus,large,False,0.054,21.0,True,False,False
-6F589B55-0919-4DFA-A47A-3715CFCC65E0,EAST 134 STREET,280,empty,multi-family elevator,5.0,Quercus palustris,large,False,0.072,18.5,True,False,False
-0BD1923F-BF96-4F75-8CBF-EEF450FB64A2,3 AVENUE,2625,empty,multi-family elevator,5.0,Ostrya virginiana,medium,False,0.068,22.8,False,False,False
-83C0E2C4-4AF2-467D-A926-C4F4F3B11C56,E 139 ST,359,removed_or_stump,multi-family walk-up,0.0,Prunus padus,small,False,0.083,0.0,False,True,False
-F65B858C-9127-4616-953D-8F93E44F7307,3 AVENUE,2490,empty,mixed res/commercial,5.0,Quercus acutissima,medium,False,0.054,22.5,False,False,False
-85433371-1979-481E-ABD9-4EC588E5CF22,3 AVENUE,2614,empty,mixed res/commercial,5.385164807134504,Tilia tomentosa,large,False,0.068,3.6,True,False,False
-B4FB150C-D931-42D2-A9B2-E005C71C4FE7,3 AVENUE,2692,empty,public facility/institution,4.242640687119285,Tilia cordata,large,False,0.072,39.8,True,False,False
-19CA0CD0-21DD-45F5-ABF2-91C081DFF596,3 AVENUE,2692,empty,public facility/institution,4.242640687119285,Gleditsia triacanthos var. inermis,large,False,0.054,40.6,True,False,False
-58A83908-BB9A-49D6-BA64-ECD0D76D0C19,EAST 141 STREET,342,empty,1-2 family res,4.123105625617661,Tilia tomentosa,large,False,0.072,7.1,True,False,False
-91CD9ADB-817D-455B-A108-3EF9C72AAC31,EAST 144 STREET,357,empty,,4.47213595499958,Gleditsia triacanthos var. inermis,large,False,0.062,14.4,True,False,False
-C3268F92-6336-48A1-8A2E-C4C52CDA5871,EAST 141 STREET,330,empty,public facility/institution,4.123105625617661,Cercis canadensis,small,False,0.101,0.4,False,False,False
-9DA7138D-3CD2-4444-A9A1-0F386D177B7C,EAST 141 STREET,320,removed_or_stump,mixed res/commercial,3.605551275463989,Styphnolobium japonicum,medium,False,0.128,4.0,False,False,False
-E919DA01-0ACD-4016-8D64-B2546D4437C2,EAST 144 STREET,357,empty,commercial/office,3.605551275463989,Quercus phellos,large,False,0.068,15.7,True,False,False
-0C703AE5-F1D2-4B23-B197-F6157673C48D,EAST 144 STREET,357,empty,commercial/office,4.47213595499958,Tilia tomentosa,large,False,0.072,34.1,True,False,False
-EBBE3AD9-67D5-4AF9-AC18-D52FA94DC551,EAST 141 STREET,313,empty,mixed res/commercial,4.47213595499958,Quercus robur,medium,False,0.054,70.3,False,False,False
-F87DB80C-B4F4-431F-96EB-CEC2FFDD263E,EAST 141 STREET,342,empty,1-2 family res,4.123105625617661,Gleditsia triacanthos var. inermis,large,False,0.062,7.2,True,False,False
-AD1D78DF-2750-4CFA-836A-F6A474A1D3E8,EAST 141 STREET,313,removed_or_stump,mixed res/commercial,4.242640687119285,Ginkgo biloba,large,False,0.083,38.6,True,False,False
-690A9422-D550-4816-A614-FAAF0C0311D0,EAST 144 STREET,357,empty,commercial/office,4.47213595499958,Gleditsia triacanthos var. inermis,large,False,0.054,34.0,True,False,False
-7318C841-2A27-4017-92E6-EACEF93F0049,,,empty,,0.0,Prunus 'Okame',small,False,0.083,0.0,False,False,False
-18543748-65AF-4AEB-BD49-318235154075,MORRIS AVENUE,320,empty,multi-family elevator,4.242640687119285,Tilia cordata,large,False,0.072,24.9,True,False,False
-C257A645-4CC0-4B6C-8605-D3D1A23ED318,3 AV,2559,empty,commercial/office,4.47213595499958,Tilia tomentosa,large,False,0.072,19.2,True,False,False
-345F7795-CB31-4067-A86E-9EBCC2DCF08B,,,empty,,0.0,Amelanchier sp.,small,False,0.083,0.0,False,False,False
-1AC64E7B-0D90-4B79-A61E-38AB874F565C,E 138 ST,202,empty,,5.656854249492381,Zelkova serrata,large,False,0.072,18.5,True,False,False
-B7D28C19-827B-4F79-A9EF-526EE72598A7,3 AV,2561,empty,mixed res/commercial,6.4031242374328485,Quercus acutissima,medium,False,0.054,36.2,False,False,False
-E0ADE518-8E1C-4944-A8C9-3C47EA397DEF,MORRIS AVENUE,340,empty,multi-family elevator,4.47213595499958,Gymnocladus dioicus,large,False,0.054,25.3,True,False,False
+ps_id,streetname,buildingnumber,site_class,lot_landuse_name,sidewalk_width_m,action,species,size_class,expanded_soil,condition_risk,cooling_potential_m2,flag_no_risk_prediction,flag_untrained_species,flag_verify_wires,flag_verify_wet_site,flag_trait_unknown,flag_verify_jurisdiction,flag_no_sidewalk_benefit
+A4292895-6BFC-4960-9A27-51907D0C51E7,EAST 139 STREET,330,empty,multi-family walk-up,3.605551275463989,plant,Prunus sargentii,small,False,,0.0,True,True,False,False,False,True,False
+94176418-56C9-4C33-A12E-E42D1835149D,MORRIS AVENUE,339,empty,public facility/institution,6.708203932499369,plant,Quercus imbricaria,large,False,,52.8,True,False,True,False,False,True,False
+74DD4691-04DE-4ECC-90CA-ED42AE2E0255,3 AVENUE,2417,empty,commercial/office,5.0,plant,Zelkova serrata,large,False,,14.5,True,False,True,False,False,True,False
+1BB0CBDF-9A18-436E-BB4F-248645897A3E,BRUCKNER BOULEVARD,7,empty,mixed res/commercial,3.605551275463989,plant,Tilia cordata,large,False,,22.2,True,False,True,False,False,True,False
+B93CA538-E2DB-450C-A160-B8716D3FADA9,3 AVENUE,2417,empty,commercial/office,5.0,plant,Tilia tomentosa,large,False,,13.8,True,False,True,False,False,True,False
+B798BBCC-FB6F-4A52-93B0-EEE397634CFE,MORRIS AVENUE,339,empty,public facility/institution,6.708203932499369,plant,Styphnolobium japonicum,medium,False,,61.2,True,False,False,False,True,True,False
+5E4C210B-376E-4FE5-9506-6E63910E33DD,3 AVENUE,2417,empty,commercial/office,5.0,plant,Gleditsia triacanthos var. inermis,large,False,,6.1,True,False,True,False,False,True,False
+BA2E8570-89D4-48BD-B8D3-931517BACB4A,LINCOLN AVENUE,199,empty,commercial/office,5.830951894845301,plant,Tilia tomentosa,large,False,,9.2,True,False,True,False,False,True,False
+69911871-3CB7-48AF-A2E7-A07846569A61,LINCOLN AVENUE,133,empty,mixed res/commercial,4.47213595499958,plant,Zelkova serrata,large,False,,19.1,True,False,True,False,False,True,False
+C87C8483-BD5B-4D8C-8508-78B89C5232B1,EAST 137 STREET,245,empty,industrial/manufacturing,3.1622776601683795,plant,Taxodium distichum,large,False,,16.1,True,False,True,False,False,True,False
+F3150F5B-69B7-4EA0-AA29-0E99FCE60B5B,3 AVENUE,2417,empty,commercial/office,5.0,plant,Ginkgo biloba,large,False,,12.2,True,False,True,False,False,True,False
+283B3CA0-5CC0-4F07-BCD7-58A332DD1CBF,MORRIS AVENUE,271,empty,,5.656854249492381,plant,Styphnolobium japonicum,medium,False,,30.6,True,False,False,False,True,True,False
+178510FC-F76C-4579-8A47-423BBB976E7F,BRUCKNER BOULEVARD,9,empty,industrial/manufacturing,3.605551275463989,plant,Tilia cordata,large,False,,18.4,True,False,True,False,False,True,False
+1DAD9F82-03A6-4118-91FB-7018AE0068A1,RIDER AVENUE,208,empty,industrial/manufacturing,2.8284271247461903,plant,Quercus palustris,large,False,,16.8,True,False,True,False,False,True,False
+BCEA9499-CB8C-4296-9B49-C78D06DC50A5,LINCOLN AVENUE,179,empty,industrial/manufacturing,5.0,plant,Zelkova serrata,large,False,,20.7,True,False,True,False,False,True,False
+D5A88DD6-7864-4038-9757-F75DC59C4B94,3 AVENUE,2604,empty,commercial/office,5.0,plant,Tilia cordata,large,False,,28.3,True,False,True,False,False,True,False
+FC3A2447-3441-4EFC-A6E4-23C876CED8EA,ALEXANDER AVENUE,290,empty,multi-family walk-up,4.123105625617661,plant,Ginkgo biloba,large,False,,25.3,True,False,True,False,False,True,False
+A1C30D7E-A21D-40B1-A61C-56054905FE57,EAST 140 STREET,305,empty,mixed res/commercial,4.123105625617661,plant,Styphnolobium japonicum,medium,False,,29.1,True,False,False,False,True,True,False
+77513CBC-B52B-45F1-AF67-E662C4F36D0B,LINCOLN AVENUE,112,empty,mixed res/commercial,3.605551275463989,plant,Gleditsia triacanthos var. inermis,large,False,0.026,16.1,False,False,True,False,False,True,False
+7EEB910F-549D-433A-9BBB-6AA5AAD3B0F9,LINCOLN AVENUE,199,removed_or_stump,commercial/office,5.830951894845301,plant,Tilia americana,large,False,0.066,27.6,False,False,True,False,False,True,False
+B3AEAA94-FD1E-4AC2-9480-03A327978522,CANAL PLACE,180,removed_or_stump,industrial/manufacturing,3.605551275463989,plant,Quercus robur,medium,False,0.017,23.0,False,False,False,False,False,True,False
+62FB5565-F31B-411B-A628-17E3E2B62C12,CANAL PLACE,258,removed_or_stump,industrial/manufacturing,4.47213595499958,plant,Gymnocladus dioicus,large,False,0.045,13.8,False,False,True,False,False,True,False
+739D2FD4-814D-40A0-BFA0-851085A16A23,LINCOLN AVENUE,188,removed_or_stump,multi-family elevator,5.0,plant,Quercus rubra,large,False,0.063,36.0,False,False,True,False,False,True,False
+00A0D441-F3DD-4492-9AC2-44B53B466628,BRUCKNER BOULEVARD,25,removed_or_stump,multi-family elevator,3.605551275463989,plant,Gymnocladus dioicus,large,False,0.034,19.1,False,False,True,False,False,True,False
+41D47837-8022-4CBC-96E3-702DDBD714DA,LINCOLN AVENUE,112,removed_or_stump,mixed res/commercial,4.123105625617661,plant,Gleditsia triacanthos var. inermis,large,False,0.051,30.6,False,False,True,False,False,True,False
+722F494B-2015-4911-9B41-D35FA59B5FA3,LINCOLN AVENUE,131,dead_tree,transport/utility,5.0,plant,Quercus palustris,large,False,0.062,31.4,False,False,True,False,False,True,False
+ABDACCBD-2E8F-4741-930A-F322C485D380,LINCOLN AVENUE,112,removed_or_stump,mixed res/commercial,5.0,plant,Zelkova serrata,large,False,0.094,32.2,False,False,True,False,False,True,False
+ACD769A1-5576-4C08-9E57-554E8F897E4D,ALEXANDER AVENUE,270,dead_tree,mixed res/commercial,3.605551275463989,plant,Tilia cordata,large,False,0.168,26.0,False,False,True,False,False,True,False
+AFD63A1B-5CA4-4487-BB2F-0ECF18085A34,,,removed_or_stump,open space/recreation,0.0,plant,Cercis canadensis,small,False,0.024,0.0,False,False,False,False,False,True,False
+F9AE5100-1B37-49B1-B310-87F4AA83A309,,,removed_or_stump,open space/recreation,0.0,plant,Syringa reticulata,small,False,0.114,0.0,False,False,False,False,False,False,True
+F359CFDB-DCB3-46DC-86FE-E217D03F6222,,,removed_or_stump,multi-family elevator,4.242640687119285,plant,Gleditsia triacanthos var. inermis,large,False,0.026,4.6,False,False,True,False,False,False,False
+A90F8E7E-68B5-4951-A958-C7208F0E0EE3,,,removed_or_stump,open space/recreation,4.242640687119285,plant,Quercus acutissima,medium,False,0.04,0.0,False,False,False,False,False,False,False
+FDA0CC28-E8E7-409C-B5F4-80578E10762E,,,removed_or_stump,multi-family elevator,0.0,plant,Prunus cerasifera,small,False,0.015,0.0,False,False,False,False,False,False,False
+DE280638-EF2B-437D-BAC7-70628BC6E129,,,removed_or_stump,open space/recreation,0.0,plant,Cornus mas,small,False,0.084,0.0,False,False,False,False,False,False,True
+EE3981D0-D0D4-430F-934B-9E98E4B0D9D4,,,removed_or_stump,multi-family elevator,0.0,plant,Cornus mas,small,False,0.055,0.0,False,False,False,False,False,False,False
+C42C6C3E-25AE-438F-BFE0-3AD620C8A439,,,removed_or_stump,open space/recreation,0.0,plant,Prunus x yedoensis,small,False,0.016,0.0,False,False,False,False,False,False,True
+F9D72E89-185F-4681-B624-B5F08DB09206,,,removed_or_stump,open space/recreation,0.0,plant,Prunus cerasifera,small,False,0.057,0.0,False,False,False,False,False,False,True
+DFFF2714-6CB1-4116-9ADA-D263AA0ABF41,EAST 137 STREET,270,removed_or_stump,commercial/office,5.830951894845301,plant,Quercus palustris,large,False,0.107,33.7,False,False,True,False,False,True,False
+140C29B1-F212-4818-BD07-2D21AE225C0F,3 AVENUE,2590,removed_or_stump,commercial/office,4.47213595499958,plant,Tilia tomentosa,large,False,0.069,29.9,False,False,True,False,False,True,False
+07BF7B83-FBBE-43BD-BC6A-A19F11DDC2AB,EAST 137 STREET,270,removed_or_stump,commercial/office,10.295630140987,plant,Tilia x euchlora,large,False,0.137,16.8,False,True,True,False,False,True,False
+9BCB49CF-41E3-464D-B0EA-BCD62E54A56C,3 AVENUE,2535,removed_or_stump,mixed res/commercial,5.0,plant,Ginkgo biloba,large,False,0.027,16.1,False,False,True,False,False,True,False
+1EA1F907-801E-4938-889A-D7A09F371CF9,EAST 143 STREET,335,dead_tree,mixed res/commercial,4.47213595499958,plant,Eucommia ulmoides,medium,False,0.052,6.1,False,False,False,False,True,True,False
+600AE35F-3653-4FD0-ABAF-FC790BFC34BD,EAST 143 STREET,350,removed_or_stump,multi-family elevator,5.0,plant,Quercus bicolor,large,False,0.087,1.5,False,False,True,False,False,True,False
+EF222E23-FA15-4777-9925-09D8EFBBF588,EAST 143 STREET,357,removed_or_stump,mixed res/commercial,4.123105625617661,plant,Tilia x euchlora,large,False,0.108,0.0,False,True,True,False,False,True,False
+489A2838-7EA1-4054-B9C1-28197DBBA535,EAST 143 STREET,350,removed_or_stump,multi-family elevator,5.0,plant,Zelkova serrata,large,False,0.118,0.0,False,False,True,False,False,True,False
+F3B56696-7ADE-40D0-8BCE-71B2B81794D5,EAST 143 STREET,341,removed_or_stump,public facility/institution,5.0,plant,Taxodium distichum,large,False,0.017,0.8,False,False,True,False,False,True,False
+C25D2152-5A4C-4165-B744-9B1BD92416CF,EAST 143 STREET,357,removed_or_stump,mixed res/commercial,3.605551275463989,plant,Prunus padus,small,False,0.105,0.0,False,True,False,False,False,True,False
+39F5110B-072F-4B5F-850D-2660DB2642C6,EAST 143 STREET,350,dead_tree,multi-family elevator,5.0,plant,Styphnolobium japonicum,medium,False,0.092,1.5,False,False,False,False,True,True,False
+6D632629-5C38-42F5-AC5C-937B5AC31C9B,EAST 143 STREET,370,removed_or_stump,multi-family elevator,4.47213595499958,plant,Gymnocladus dioicus,large,False,0.037,0.0,False,False,True,False,False,True,False
+78560265-C4E4-406F-9931-1FE68C20B3FA,EAST 137 STREET,270,removed_or_stump,commercial/office,0.0,plant,Prunus serrulata 'Kwanzan',small,False,0.05,0.0,False,False,False,False,False,True,True
+5AE5811D-EA15-4E3D-AF7F-A47EF004DF4D,EAST 137 STREET,270,empty,commercial/office,4.242640687119285,plant,Cornus mas,small,False,0.09,0.0,False,False,False,False,False,True,False
+09F15B9D-A7F0-44D3-988C-F703F6DD574E,EAST 137 STREET,270,removed_or_stump,commercial/office,0.0,plant,Cornus mas,small,False,0.111,0.0,False,False,False,False,False,True,False
+8480525D-95E3-4403-BB33-49324CD12010,EAST 137 STREET,270,removed_or_stump,commercial/office,5.0,plant,Ginkgo biloba,large,False,0.037,3.1,False,False,True,False,False,True,False
+1544F2C3-D040-44FD-AA76-8C082DC0167D,3 AVENUE,2628,removed_or_stump,mixed res/commercial,5.0990195135927845,plant,Styphnolobium japonicum,medium,False,0.167,33.7,False,False,False,False,True,False,False
+260B9109-BB27-4CDC-8DC8-CF35952D84E4,3 AVENUE,2634,removed_or_stump,commercial/office,4.242640687119285,plant,Gleditsia triacanthos var. inermis,large,False,0.056,35.2,False,False,True,False,False,True,False
+B4E15B94-0D22-4D77-9D4F-152168B9A638,EAST 141 STREET,355,empty,multi-family elevator,4.47213595499958,plant,Quercus palustris,large,False,0.073,33.7,False,False,True,False,False,True,False
+3B4B75A4-18AA-4FC0-BF64-0826F93A3273,3 AVENUE,2595,removed_or_stump,multi-family elevator,5.385164807134504,plant,Zelkova serrata,large,False,0.068,24.5,False,False,True,False,False,True,False
+8022E226-7F1F-423D-AF45-EBCAC73B8C66,EAST 137 STREET,270,removed_or_stump,commercial/office,5.0,plant,Styphnolobium japonicum,medium,False,0.346,23.0,False,False,False,False,True,False,False
+8A70D70F-9F6D-43BB-A538-CB3E3BFB3A65,EAST 137 STREET,270,removed_or_stump,commercial/office,5.0,plant,Quercus robur,medium,False,0.029,22.2,False,False,False,False,False,False,False
+9177EC29-52B5-41C1-8245-81A19B507610,3 AVENUE,2660,empty,commercial/office,7.615773105863909,plant,Eucommia ulmoides,medium,False,0.07,40.6,False,False,False,False,True,True,False
+442F651F-9F51-4392-AA53-AFA1F0A308AD,EAST 139 STREET,352,removed_or_stump,multi-family walk-up,3.605551275463989,plant,Gymnocladus dioicus,large,False,0.033,2.3,False,False,True,False,False,True,False
+D8292A32-36C9-4EF1-BEFD-6767D9D21C7D,3 AVENUE,2628,removed_or_stump,mixed res/commercial,5.0990195135927845,plant,Eucommia ulmoides,medium,False,0.283,16.8,False,False,False,False,True,False,False
+B1A01FBC-2609-42F8-BCC7-005F2E1AF5A1,3 AVENUE,2595,removed_or_stump,multi-family elevator,5.0,plant,Zelkova serrata,large,False,0.061,0.8,False,False,True,False,False,True,False
+BD4B7D9A-D664-4181-B68F-739205B8FD29,3 AVENUE,2535,removed_or_stump,mixed res/commercial,5.0,plant,Corylus colurna,medium,False,0.117,23.7,False,True,False,False,False,False,False
+CB9D3779-C06D-4668-8223-3A7E710840E1,3 AVENUE,2595,removed_or_stump,multi-family elevator,5.0,plant,Metasequoia glyptostroboides,large,False,0.244,7.7,False,False,True,False,True,True,False
+805971FD-6573-4D7C-BD51-E1D48BC7191E,EAST 141 STREET,314,removed_or_stump,multi-family walk-up,3.605551275463989,plant,Carpinus betulus,medium,False,0.074,19.1,False,False,False,False,False,True,False
+DE07D357-AC7A-4155-8763-3DC69A41689A,3 AVENUE,2616,removed_or_stump,mixed res/commercial,3.605551275463989,plant,Gleditsia triacanthos var. inermis,large,False,0.062,28.3,False,False,True,False,False,True,False
+D14EFB4A-2A15-4D28-89D0-17604C116241,3 AVENUE,2535,removed_or_stump,mixed res/commercial,5.0,plant,Styphnolobium japonicum,medium,False,0.325,26.0,False,False,False,False,True,False,False
+3399FF55-4F2E-4771-A61E-005354B22456,EAST 139 STREET,249,removed_or_stump,commercial/office,2.8284271247461903,plant,Quercus robur,medium,False,0.018,16.1,False,False,False,False,False,True,False
+4317DAF6-1DCC-43D7-AE7C-59A23110B29C,3 AVENUE,2640,removed_or_stump,public facility/institution,5.0,plant,Gleditsia triacanthos var. inermis,large,False,0.025,13.0,False,False,True,False,False,True,False
+DC087F40-EC6C-4797-AE54-B1EC8D2FE34E,EAST 143 STREET,325,empty,multi-family elevator,5.0,plant,Gleditsia triacanthos var. inermis,large,False,0.056,31.4,False,False,True,False,False,True,False
+2A32B415-3BC6-4F0A-AFF7-75C05F5BACE7,3 AVENUE,2559,empty,commercial/office,2.8284271247461903,plant,Corylus colurna,medium,False,0.077,17.6,False,True,False,False,False,True,False
+1731D160-985C-48B6-A9C0-0C6EAA9618CB,EAST 134 STREET,250,removed_or_stump,commercial/office,5.385164807134504,plant,Quercus imbricaria,large,False,0.089,10.0,False,False,True,False,False,True,False
+4D6E75C1-C688-4B14-A0F7-8E94301D7455,EAST 143 STREET,325,empty,multi-family elevator,6.082762530298219,plant,Gymnocladus dioicus,large,False,0.019,36.0,False,False,True,False,False,True,False
+51A3C080-3CDE-41F0-ADA0-5DF66200144C,EAST 136 STREET,247,removed_or_stump,parking,2.8284271247461903,plant,Zelkova serrata,large,False,0.064,1.5,False,False,True,False,False,True,False
+AC2723ED-C846-42F3-B47C-9E5D939EC283,EAST 134 STREET,263,removed_or_stump,mixed res/commercial,3.1622776601683795,plant,Gymnocladus dioicus,large,False,0.162,30.6,False,False,True,False,False,True,False
+8450C173-6431-4F8D-9527-3AAB81050503,EAST 140 STREET,305,empty,mixed res/commercial,4.242640687119285,plant,Ginkgo biloba,large,False,0.037,22.2,False,False,True,False,False,True,False
+7D1E5F4E-8A98-4476-B4DB-2063B463F650,EAST 143 STREET,281,empty,multi-family elevator,5.656854249492381,plant,Quercus acutissima,medium,False,0.041,28.3,False,False,False,False,False,True,False
+6F589B55-0919-4DFA-A47A-3715CFCC65E0,EAST 134 STREET,280,empty,multi-family elevator,5.0,plant,Gleditsia triacanthos var. inermis,large,False,0.028,19.9,False,False,True,False,False,True,False
+0BD1923F-BF96-4F75-8CBF-EEF450FB64A2,3 AVENUE,2625,empty,multi-family elevator,5.0,plant,Quercus palustris,large,False,0.041,23.0,False,False,True,False,False,True,False
+83C0E2C4-4AF2-467D-A926-C4F4F3B11C56,E 139 ST,359,removed_or_stump,multi-family walk-up,0.0,defer: permission (private),,,False,,0.0,False,False,False,False,False,False,False
+F65B858C-9127-4616-953D-8F93E44F7307,3 AVENUE,2490,empty,mixed res/commercial,5.0,plant,Metasequoia glyptostroboides,large,False,0.213,32.9,False,False,True,False,True,True,False
+B4FB150C-D931-42D2-A9B2-E005C71C4FE7,3 AVENUE,2692,empty,public facility/institution,4.242640687119285,plant,Ginkgo biloba,large,False,0.024,17.6,False,False,True,False,False,True,False
+19CA0CD0-21DD-45F5-ABF2-91C081DFF596,3 AVENUE,2692,empty,public facility/institution,4.242640687119285,plant,Quercus acutissima,medium,False,0.072,38.3,False,False,False,False,False,True,False
+91CD9ADB-817D-455B-A108-3EF9C72AAC31,EAST 144 STREET,357,empty,,4.47213595499958,plant,Gymnocladus dioicus,large,False,0.026,17.6,False,False,True,False,False,True,False
+C3268F92-6336-48A1-8A2E-C4C52CDA5871,EAST 141 STREET,330,empty,public facility/institution,4.123105625617661,plant,Quercus imbricaria,large,False,0.056,0.0,False,False,True,False,False,True,False
+9DA7138D-3CD2-4444-A9A1-0F386D177B7C,EAST 141 STREET,320,removed_or_stump,mixed res/commercial,3.605551275463989,plant,Cornus mas,small,False,0.068,0.0,False,False,False,False,False,True,False
+E919DA01-0ACD-4016-8D64-B2546D4437C2,EAST 144 STREET,357,empty,commercial/office,3.605551275463989,plant,Gymnocladus dioicus,large,False,0.033,0.0,False,False,True,False,False,True,False
+0C703AE5-F1D2-4B23-B197-F6157673C48D,EAST 144 STREET,357,empty,commercial/office,4.47213595499958,plant,Ginkgo biloba,large,False,0.056,20.7,False,False,True,False,False,True,False
+EBBE3AD9-67D5-4AF9-AC18-D52FA94DC551,EAST 141 STREET,313,empty,mixed res/commercial,4.47213595499958,plant,Quercus acutissima,medium,False,0.08,30.6,False,False,False,False,False,True,False
+F87DB80C-B4F4-431F-96EB-CEC2FFDD263E,EAST 141 STREET,342,empty,1-2 family res,4.123105625617661,plant,Gymnocladus dioicus,large,False,0.046,8.4,False,False,True,False,False,True,False
+AD1D78DF-2750-4CFA-836A-F6A474A1D3E8,EAST 141 STREET,313,removed_or_stump,mixed res/commercial,4.242640687119285,plant,Quercus palustris,large,False,0.176,30.6,False,False,True,False,False,True,False
+690A9422-D550-4816-A614-FAAF0C0311D0,EAST 144 STREET,357,empty,commercial/office,4.47213595499958,plant,Eucommia ulmoides,medium,False,0.041,35.2,False,False,False,False,True,True,False
+7318C841-2A27-4017-92E6-EACEF93F0049,,,empty,,0.0,plant,Cercis canadensis,small,False,0.049,0.0,False,False,False,False,False,True,True
+C257A645-4CC0-4B6C-8605-D3D1A23ED318,3 AV,2559,empty,commercial/office,4.47213595499958,plant,Ginkgo biloba,large,False,0.028,23.0,False,False,True,False,False,True,False
+345F7795-CB31-4067-A86E-9EBCC2DCF08B,,,empty,,0.0,plant,Prunus x yedoensis,small,False,0.025,0.0,False,False,False,False,False,True,True
+1AC64E7B-0D90-4B79-A61E-38AB874F565C,E 138 ST,202,empty,,5.656854249492381,plant,Gymnocladus dioicus,large,False,0.027,16.1,False,False,True,False,False,True,False
+B7D28C19-827B-4F79-A9EF-526EE72598A7,3 AV,2561,empty,mixed res/commercial,6.4031242374328485,plant,Quercus imbricaria,large,False,0.129,34.5,False,False,True,False,False,True,False
+DF24BDE7-A598-42F0-98A0-04A45E2A62C1,RIDER AVENUE,321,conflict_populated_but_no_tree_record,industrial/manufacturing,3.1622776601683795,defer: verify records,,,,,,,,,,,,
+54712281-9921-478F-886A-4EDB7FAF7221,,,conflict_empty_but_living_tree_recorded,open space/recreation,4.47213595499958,defer: verify records,,,,,,,,,,,,
+CB96EA72-1B1D-491E-9ABC-1816B00A5898,,,conflict_empty_but_living_tree_recorded,open space/recreation,4.242640687119285,defer: verify records,,,,,,,,,,,,
+6A6946B3-183F-468D-8742-89B1C8CE33AB,,,conflict_empty_but_living_tree_recorded,multi-family elevator,5.385164807134504,defer: verify records,,,,,,,,,,,,
+651DE9B6-0CFD-4FB1-A2B4-22D5F4E0035B,,,conflict_empty_but_living_tree_recorded,open space/recreation,0.0,defer: verify records,,,,,,,,,,,,
+891CACC9-C9CB-4872-B52C-354C2DD7E10F,,,conflict_empty_but_living_tree_recorded,multi-family elevator,5.385164807134504,defer: verify records,,,,,,,,,,,,
+16308238-F003-424A-A845-C9A0014EB44B,,,conflict_empty_but_living_tree_recorded,multi-family elevator,4.47213595499958,defer: verify records,,,,,,,,,,,,
+4703C198-3E53-416F-BAD9-939CA9767F89,,,conflict_empty_but_living_tree_recorded,multi-family elevator,4.47213595499958,defer: verify records,,,,,,,,,,,,
+E2966EEC-C31F-4BA9-822B-BDFC386FBA15,,,conflict_empty_but_living_tree_recorded,multi-family elevator,5.0,defer: verify records,,,,,,,,,,,,
+5E4588AC-23A4-4151-B002-2164BB89084A,EAST 141 STREET,383,conflict_empty_but_living_tree_recorded,multi-family elevator,5.0,defer: verify records,,,,,,,,,,,,
+F89044F1-394C-4217-958F-95ADEFE1BC7A,EAST 137 STREET,270,conflict_empty_but_living_tree_recorded,commercial/office,1.0,defer: verify records,,,,,,,,,,,,
+391C467C-C671-4174-ACE7-5E40644D85E6,EAST 137 STREET,270,conflict_empty_but_living_tree_recorded,commercial/office,0.0,defer: verify records,,,,,,,,,,,,
+F3F8D56C-1FD4-474A-B16F-FB75EBD3AE68,EAST 141 STREET,383,conflict_empty_but_living_tree_recorded,multi-family elevator,4.47213595499958,defer: verify records,,,,,,,,,,,,
+153FF90B-BB62-4273-AB81-93532DAC2AF9,EAST 141 STREET,322,conflict_populated_but_no_tree_record,mixed res/commercial,3.605551275463989,defer: verify records,,,,,,,,,,,,
+02E61179-1C4C-4DE7-BBCB-76EBD097430F,EAST 141 STREET,383,conflict_empty_but_living_tree_recorded,multi-family elevator,5.0,defer: verify records,,,,,,,,,,,,
+752E8DF0-A0E8-404E-98F7-3EC61232A1D6,EAST 141 STREET,383,conflict_empty_but_living_tree_recorded,multi-family elevator,4.242640687119285,defer: verify records,,,,,,,,,,,,
+50A294AD-60C9-4141-A5F5-7A814D15DBE8,EAST 141 STREET,388,conflict_empty_but_living_tree_recorded,multi-family elevator,5.0,defer: verify records,,,,,,,,,,,,
+71FCFBBE-693A-4E93-B6CD-DC25C250D0AE,EAST 141 STREET,383,conflict_empty_but_living_tree_recorded,multi-family elevator,4.47213595499958,defer: verify records,,,,,,,,,,,,
+7706E04A-EB9D-417C-AFAA-C17A8CF4C144,3 AVENUE,2557,conflict_populated_but_no_tree_record,mixed res/commercial,4.47213595499958,defer: verify records,,,,,,,,,,,,
+85433371-1979-481E-ABD9-4EC588E5CF22,3 AVENUE,2614,conflict_empty_but_living_tree_recorded,mixed res/commercial,5.385164807134504,defer: verify records,,,,,,,,,,,,
+58A83908-BB9A-49D6-BA64-ECD0D76D0C19,EAST 141 STREET,342,conflict_empty_but_living_tree_recorded,1-2 family res,4.123105625617661,defer: verify records,,,,,,,,,,,,
+18543748-65AF-4AEB-BD49-318235154075,MORRIS AVENUE,320,conflict_empty_but_living_tree_recorded,multi-family elevator,4.242640687119285,defer: verify records,,,,,,,,,,,,
+E0ADE518-8E1C-4944-A8C9-3C47EA397DEF,MORRIS AVENUE,340,conflict_empty_but_living_tree_recorded,multi-family elevator,4.47213595499958,defer: verify records,,,,,,,,,,,,

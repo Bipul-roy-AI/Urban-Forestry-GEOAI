@@ -1,0 +1,9 @@
+plan,K,n_planted,n_expanded_soil,simulated_unique_cooled_m2,additive_estimate_m2,degree_m2,warmed_gt1c_m2,core_sidewalk_tmrt_c,core_share_gt60c,new_canopy_m2,allergy_isoprene_index,ecology_index,mean_condition_risk,additive_over_simulated
+balanced,30,97,23,1739,1617.2,44723,4,58.04,0.506,2577,248.5,132.3,0.1208,0.93
+baseline_largest_feasible,30,97,30,2004,1961.7,51928,6,57.93,0.502,3117,351.0,67.3,0.1331,0.98
+baseline_nyc_common_mix,30,97,30,1989,1928.9,51509,6,57.93,0.503,3122,342.0,71.7,0.1082,0.97
+baseline_random,30,97,26,1588,1406.2,41608,3,58.08,0.508,2430,299.0,94.8,0.1184,0.89
+ecology_first,30,97,20,1684,1512.3,42994,4,58.06,0.507,2457,266.5,156.5,0.1654,0.9
+health_first,30,97,8,1478,1266.3,38403,5,58.13,0.51,2188,183.5,106.2,0.1203,0.86
+lowest_risk,30,97,26,1859,1751.8,47673,6,57.99,0.505,2802,311.0,83.7,0.0641,0.94
+max_cooling,30,97,30,2004,1961.7,51928,6,57.93,0.502,3117,348.0,76.2,0.1169,0.98

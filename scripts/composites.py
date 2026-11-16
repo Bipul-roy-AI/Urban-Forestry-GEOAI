@@ -62,17 +62,25 @@ write("ecostress_lst_afternoon_nobs.tif", np.isfinite(st).sum(0), prof, "uint16"
 print("ecostress afternoon granules", len(files))
 
 # Sentinel-2 NDVI
-sf = sorted((RAW / "sentinel2").glob("*_s2.tif"))
+# Fixes (audit Nov 2026): (1) processing baseline >= 04.00 stores reflectance with BOA_ADD_OFFSET = -1000
+# (DN = reflectance*1e4 + 1000); subtract it so old and new baselines are comparable.
+# (2) the same acquisition can appear as several products: keep one per sensing time (newest baseline).
+inv2 = pd.read_csv(RAW / "sentinel2_scenes.csv")
+inv2["sensing"] = inv2["id"].str.extract(r"_(\d{8}T\d{6})_")
+inv2 = inv2.sort_values("baseline").drop_duplicates("sensing", keep="last")
+OFFSET = {f"{r.id}_s2.tif": (1000.0 if float(r.baseline) >= 4.0 else 0.0) for r in inv2.itertuples()}
+sf = sorted(f for f in (RAW / "sentinel2").glob("*_s2.tif") if f.name in OFFSET)
 
 
 def ndvi(s):
-    b4, b8, scl = s.read(3).astype("float32"), s.read(4).astype("float32"), s.read(6)
+    off = OFFSET[Path(s.name).name]
+    b4, b8, scl = s.read(3).astype("float32") - off, s.read(4).astype("float32") - off, s.read(6)
     v = (b8 - b4) / np.maximum(b8 + b4, 1)
-    v[~np.isin(scl, [4, 5, 6, 7])] = np.nan
+    v[~np.isin(scl, [4, 5, 6, 7]) | (b4 <= 0) | (b8 <= 0)] = np.nan
     return v
 
 
 st, prof = stack(sf, ndvi)
 write("s2_ndvi_summer_median.tif", np.nanmedian(st, 0), prof)
 write("s2_ndvi_nobs.tif", np.isfinite(st).sum(0), prof, "uint16")
-print("s2 scenes", len(sf))
+print("s2 unique acquisitions", len(sf), "| offset-corrected", int(sum(v > 0 for v in OFFSET.values())))

@@ -34,9 +34,23 @@ med.rio.write_nodata(np.nan, inplace=True); med.rio.to_raster(OUT / "landsat_lst
 print("landsat scenes", len(li), "median LST range", float(np.nanmin(med)), float(np.nanmax(med)))
 
 si = items("sentinel-2-l2a", {"eo:cloud_cover": {"lte": 10}})
-ds = load(si, bands=["B04", "B08", "SCL"], bbox=BBOX, crs="EPSG:32618", resolution=10, chunks={"x": 2048, "y": 2048}, groupby="solar_day")
-ok = ds.SCL.isin([4, 5, 6, 7])
-nd = ((ds.B08.astype("float32") - ds.B04) / (ds.B08.astype("float32") + ds.B04).clip(min=1)).where(ok)
+# Fixes (audit Nov 2026): one product per sensing time; subtract BOA_ADD_OFFSET (1000) for baseline >= 04.00
+seen = {}
+for it in sorted(si, key=lambda i: float(i.properties.get("s2:processing_baseline", 0))):
+    seen[(it.datetime, it.properties.get("s2:mgrs_tile"))] = it
+si = list(seen.values())
+parts = []
+for is_new in (False, True):
+    grp = [i for i in si if (float(i.properties.get("s2:processing_baseline", 0)) >= 4.0) == is_new]
+    if not grp:
+        continue
+    ds = load(grp, bands=["B04", "B08", "SCL"], bbox=BBOX, crs="EPSG:32618", resolution=10, chunks={"x": 2048, "y": 2048}, groupby="solar_day")
+    off = 1000.0 if is_new else 0.0
+    b4 = ds.B04.astype("float32") - off; b8 = ds.B08.astype("float32") - off
+    ok = ds.SCL.isin([4, 5, 6, 7]) & (b4 > 0) & (b8 > 0)
+    parts.append(((b8 - b4) / (b8 + b4).clip(min=1)).where(ok))
+import xarray as xr
+nd = xr.concat(parts, dim="time")
 med = nd.median("time", skipna=True).compute().rio.write_crs("EPSG:32618")
 med.rio.write_nodata(np.nan, inplace=True); med.rio.to_raster(OUT / "s2_ndvi_summer_median.tif", compress="deflate")
-print("s2 scenes", len(si), "ndvi range", float(np.nanmin(med)), float(np.nanmax(med)))
+print("s2 unique acquisitions", len(si), "ndvi range", float(np.nanmin(med)), float(np.nanmax(med)))

@@ -1,19 +1,21 @@
-"""Module 3: young-tree failure model (Bronx, Area B) and species x site scoring for Area A.
+"""Module 3: recorded-condition risk model for small-diameter street trees (Bronx, Area B), and
+species x site scoring for Area A candidates.
 
-LABEL (young trees, last recorded DBH <= 4 in; NYC Forestry Tree Points):
-  failed  = condition Dead/Critical, OR structure Stump/Stump - Uprooted/Shaft,
-            OR Retired with condition Dead/Critical/Poor, OR standing in Poor condition
-  healthy = standing (Full) in Good/Excellent condition
-  dropped = Fair / Unknown, and Retired records with Good/Excellent/Fair/Unknown (likely administrative)
-This is a cross-sectional establishment-failure proxy, not measured survival (see docs/Species_KB.md).
-
-FEATURES: species & genus (categorical), species-KB traits, planting-space attributes, PLUTO land use,
-distance to building/curb, nearest building height, Landsat summer LST, Sentinel-2 NDVI (point & 100 m),
-heat vulnerability (ZIP), and exposure = years since the tree record was created (fixed at 5 for scoring).
-
-VALIDATION: 5-fold spatial GroupKFold on 1 km grid cells. Nested models (exposure only -> + species -> full)
-and WITHIN-COHORT AUC (record-year strata): failure rate falls from 64% (2015 records) to 2% (2025), so a
-raw species rate is confounded by planting cohort. Probabilities are isotonic-calibrated on out-of-fold preds.
+WHAT THIS IS (audit fix, Nov 2026): a model of the CURRENT RECORDED CONDITION of small-diameter trees in the
+NYC Forestry inventory. It is NOT a survival model and NOT a "5-year failure" prediction:
+  - `createddate` is a record-creation date, not a planting date;
+  - selecting trees by present DBH (<= 4 in) excludes trees that grew past the threshold, so older record
+    cohorts are enriched for trees that failed or stagnated (selection bias). A DBH-threshold sensitivity
+    analysis (4 / 6 / 8 in) is reported to show how much this matters.
+LABEL: poor = condition Dead/Critical, OR structure Stump/Stump - Uprooted/Shaft, OR Retired with condition
+       Dead/Critical/Poor, OR standing in Poor condition; good = standing in Good/Excellent; others dropped.
+FEATURES: species & genus, species-KB traits, planting-space attributes, PLUTO land use, distance to
+  building/curb, nearest building height, Landsat summer LST, Sentinel-2 NDVI (offset-corrected, deduplicated),
+  heat vulnerability, and record age in years (set to 5 when scoring, as a reference value only).
+VALIDATION: 5-fold spatial GroupKFold on 1 km blocks; nested models; within-record-year AUC.
+  Calibration is TESTED, not used: for each outer fold an isotonic calibrator is fitted on inner out-of-fold
+  predictions from the training blocks and applied to the untouched outer test blocks. It made the Brier score
+  worse, so outputs carry the raw score (`p_poor`), to be read as a relative ranking only.
 """
 import json
 from pathlib import Path
@@ -46,7 +48,8 @@ failed = (cond.isin(["Dead", "Critical"]) | struc.isin(["Stump", "Stump - Uproot
           | ((struc == "Retired") & cond.isin(["Dead", "Critical", "Poor"])) | ((struc == "Full") & (cond == "Poor")))
 healthy = (struc == "Full") & cond.isin(["Good", "Excellent"])
 tp["y"] = np.where(failed, 1, np.where(healthy, 0, np.nan))
-d = tp[(tp.dbh <= 4) & tp.y.notna() & tp.genusspecies.notna() & ~tp.genusspecies.str.startswith("Unknown")].copy()
+DBH_MAX = 4
+d = tp[(tp.dbh <= DBH_MAX) & tp.y.notna() & tp.genusspecies.notna() & ~tp.genusspecies.str.startswith("Unknown")].copy()
 d["sci"] = d.genusspecies.str.split(" - ").str[0].str.strip()
 d["genus"] = d.sci.str.split().str[0]
 d["exposure_yr"] = ((NOW - d.createddate).dt.days / 365.25).clip(0, 30)
@@ -143,51 +146,69 @@ cohort = d.createddate.dt.year.values
 SETS = {"exposure_only": ["exposure_yr"],
         "exposure+species": ["exposure_yr", "sp", "genus"] + TRAIT_COLS,
         "full": list(X.columns)}
-oof = {k: np.zeros(len(y)) for k in SETS}
-for tr, te in GroupKFold(5).split(X, y, groups):
-    for k, cols in SETS.items():
-        m = lgb.train(params, lgb.Dataset(X.iloc[tr][cols], y[tr], categorical_feature=[c for c in CAT if c in cols]), 400)
-        oof[k][te] = m.predict(X.iloc[te][cols])
+from sklearn.isotonic import IsotonicRegression
 
 
-def within_cohort_auc(p):
-    """Mean AUC within record-year cohorts (weighted by n): ranking at equal exposure."""
+def cv(Xa, ya, ga, sets, calibrate=None):
+    """Outer spatial CV. For set `calibrate`, isotonic is fitted on inner OOF predictions of the training blocks."""
+    oof = {k: np.zeros(len(ya)) for k in sets}; cal = np.zeros(len(ya))
+    for tr, te in GroupKFold(5).split(Xa, ya, ga):
+        for k, cols in sets.items():
+            cats = [c for c in CAT if c in cols]
+            m = lgb.train(params, lgb.Dataset(Xa.iloc[tr][cols], ya[tr], categorical_feature=cats), 400)
+            oof[k][te] = m.predict(Xa.iloc[te][cols])
+            if k == calibrate:
+                inner = np.zeros(len(tr))
+                for itr, ite in GroupKFold(3).split(Xa.iloc[tr], ya[tr], ga[tr]):
+                    mi = lgb.train(params, lgb.Dataset(Xa.iloc[tr[itr]][cols], ya[tr[itr]], categorical_feature=cats), 400)
+                    inner[ite] = mi.predict(Xa.iloc[tr[ite]][cols])
+                iso_f = IsotonicRegression(out_of_bounds="clip", y_min=0, y_max=1).fit(inner, ya[tr])
+                cal[te] = iso_f.predict(oof[k][te])
+    return oof, cal
+
+
+oof, p_cal = cv(X, y, groups, SETS, calibrate="full")
+
+
+def within_cohort_auc(p, yy=None, co=None):
+    """Mean AUC within record-year cohorts (weighted by n): ranking at equal record age."""
+    yy = y if yy is None else yy; co = cohort if co is None else co
     num = den = 0
-    for yr in np.unique(cohort):
-        mk = cohort == yr
-        if y[mk].min() != y[mk].max() and mk.sum() >= 100:
-            num += roc_auc_score(y[mk], p[mk]) * mk.sum(); den += mk.sum()
+    for yr in np.unique(co):
+        mk = co == yr
+        if yy[mk].min() != yy[mk].max() and mk.sum() >= 100:
+            num += roc_auc_score(yy[mk], p[mk]) * mk.sum(); den += mk.sum()
     return round(num / den, 4)
 
 
 def calib(p, yy, bins=10):
-    q = pd.qcut(p, bins, duplicates="drop")
+    q = pd.qcut(p + 1e-9 * np.arange(len(p)), bins, duplicates="drop")
     return pd.DataFrame({"pred": p, "obs": yy}).groupby(q, observed=True).mean().round(3).values.tolist()
 
 
-from sklearn.isotonic import IsotonicRegression
-iso = IsotonicRegression(out_of_bounds="clip", y_min=0, y_max=1).fit(oof["full"], y)
-p_cal = iso.predict(oof["full"])
-metrics = {"n": int(len(y)), "failure_rate": round(float(y.mean()), 4), "spatial_blocks": int(len(set(groups))),
+metrics = {"endpoint": "recorded poor condition (not survival)", "dbh_max_in": DBH_MAX,
+           "n": int(len(y)), "poor_rate": round(float(y.mean()), 4), "spatial_blocks": int(len(set(groups))),
            "auc": {k: round(roc_auc_score(y, v), 4) for k, v in oof.items()},
            "within_cohort_auc": {k: within_cohort_auc(v) for k, v in oof.items()},
-           "brier": {k: round(brier_score_loss(y, v), 4) for k, v in oof.items()},
-           "brier_full_isotonic": round(brier_score_loss(y, p_cal), 4),
+           "brier_raw": {k: round(brier_score_loss(y, v), 4) for k, v in oof.items()},
+           "brier_full_nested_isotonic": round(brier_score_loss(y, p_cal), 4),
+           "brier_constant_rate": round(float(np.mean((y - y.mean()) ** 2)), 4),
            "calibration_raw_deciles_[pred,obs]": calib(oof["full"], y),
-           "calibration_isotonic_deciles_[pred,obs]": calib(p_cal + 1e-9 * np.arange(len(p_cal)), y)}
+           "calibration_nested_isotonic_deciles_[pred,obs]": calib(p_cal, y)}
+# Review fix: nested calibration makes the Brier score WORSE than the raw score (see metrics), so no calibrator
+# is applied to the outputs. `p_poor` is the raw model score: a relative ranking value, not a probability.
 final = lgb.train(params, lgb.Dataset(X, y, categorical_feature=CAT), 400)
-final.save_model(str(OUTM / "survival_lgbm.txt"))
+final.save_model(str(OUTM / "condition_risk_lgbm.txt"))
 imp = pd.Series(final.feature_importance("gain"), index=X.columns).sort_values(ascending=False)
 metrics["top_features_gain_pct"] = (100 * imp / imp.sum()).round(1).head(15).to_dict()
-(OUTP / "survival_cv_metrics.json").write_text(json.dumps(metrics, indent=2))
+(OUTP / "condition_risk_cv_metrics.json").write_text(json.dumps(metrics, indent=2))
 print(json.dumps(metrics, indent=1))
-import joblib
-joblib.dump(iso, OUTM / "survival_isotonic.joblib")
 
 # ---------------- score Area A candidates x approved species ----------------
 sites = gpd.read_file(ROOT / "data/processed/sites_area_a.gpkg")
-cand = sites[(sites.in_core.astype(str) == "True") & (sites.site_class != "living_tree")]
-cand = cand[cand.ps_id.isin(SF.index)]
+cand_all = sites[(sites.in_core.astype(str) == "True") & (sites.plantable_status == "candidate")]
+cand = cand_all[cand_all.ps_id.isin(SF.index)]
+no_pred = sorted(set(cand_all.ps_id) - set(cand.ps_id))   # candidates with no Bronx planting-space match: no prediction
 approved = kb[kb.nyc_approved.astype(str) == "True"].taxon.tolist()
 rows = []
 for t in approved:
@@ -199,21 +220,20 @@ for t in approved:
     for c in CAT:
         Xs[c] = pd.Categorical(Xs[c].astype(str), categories=X[c].cat.categories)
     p = final.predict(Xs[X.columns])
-    rows.append(pd.DataFrame({"ps_id": cand.ps_id.values, "taxon": t, "species_in_training": sci_match is not None, "p_fail_5yr_raw": p.round(4),
-                             "p_fail_5yr": iso.predict(p).round(4)}))
+    rows.append(pd.DataFrame({"ps_id": cand.ps_id.values, "taxon": t, "species_in_training": sci_match is not None, "p_poor": p.round(4)}))
 sc = pd.concat(rows)
-sc.to_csv(ROOT / "data/processed/area_a_species_failure_risk.csv", index=False)
-summ = sc.groupby("taxon").agg(median_p_fail=("p_fail_5yr", "median"), in_training=("species_in_training", "first")).sort_values("median_p_fail")
+sc.to_csv(ROOT / "data/processed/area_a_species_condition_risk.csv", index=False)
+summ = sc.groupby("taxon").agg(median_p_poor=("p_poor", "median"), in_training=("species_in_training", "first")).sort_values("median_p_poor")
 print(f"\nscored {cand.ps_id.nunique()} candidate sites x {len(approved)} approved species")
 # independent check: species ranking vs 2015 census young-tree % poor (Bronx)
 kbq = kb.set_index("taxon")
 summ["census_young_pct_poor"] = pd.to_numeric(kbq.reindex(summ.index).bronx_c15y_pct_poor, errors="coerce")
 from scipy.stats import spearmanr
 ok = summ.census_young_pct_poor.notna()
-rho = spearmanr(summ.median_p_fail[ok], summ.census_young_pct_poor[ok])
+rho = spearmanr(summ.median_p_poor[ok], summ.census_young_pct_poor[ok])
 metrics["spearman_vs_census_young_poor"] = {"rho": round(float(rho.statistic), 3), "p": round(float(rho.pvalue), 4), "n_species": int(ok.sum())}
-(OUTP / "survival_cv_metrics.json").write_text(json.dumps(metrics, indent=2))
-summ.to_csv(OUTP / "area_a_species_failure_summary.csv")
+(OUTP / "condition_risk_cv_metrics.json").write_text(json.dumps(metrics, indent=2))
+summ.to_csv(OUTP / "area_a_species_condition_summary.csv")
 print(summ.round(3).to_string())
 print("Spearman vs 2015 census young-tree %poor:", metrics["spearman_vs_census_young_poor"])
 
@@ -226,11 +246,39 @@ for f in ["ndvi_pt", "ndvi_100m", "dist_curb_m", "lst_summer_c", "near_bldg_heig
     eff[f] = {"quintile_means": [round(float(v[q == i].mean()), 2) for i in range(5)],
               "mean_logodds_contrib": [round(float(contrib[q.values == i, j].mean()), 3) for i in range(5)]}
 metrics["site_effect_direction"] = eff
-(OUTP / "survival_cv_metrics.json").write_text(json.dumps(metrics, indent=2))
+(OUTP / "condition_risk_cv_metrics.json").write_text(json.dumps(metrics, indent=2))
 print(json.dumps(eff, indent=1))
 
-# ---------------- site-level risk for Area A candidates (robust output) ----------------
+# ---------------- site-level risk for Area A candidates ----------------
 trained = sc[sc.species_in_training]
-site = trained.groupby("ps_id").p_fail_5yr.agg(site_risk_median="median", site_risk_min="min", site_risk_max="max").reset_index()
-site.to_csv(ROOT / "data/processed/area_a_site_failure_risk.csv", index=False)
+site = trained.groupby("ps_id").p_poor.agg(site_risk_median="median", site_risk_min="min", site_risk_max="max").reset_index()
+site["has_prediction"] = True
+site = pd.concat([site, pd.DataFrame({"ps_id": no_pred, "has_prediction": False})], ignore_index=True)
+site.to_csv(ROOT / "data/processed/area_a_site_condition_risk.csv", index=False)
+print("candidates", len(cand_all), "| with prediction", len(cand), "| without", len(no_pred))
 print(site.describe().round(3).to_string())
+
+# ---------------- DBH-threshold sensitivity (selection-bias check) ----------------
+sens = {}
+for thr in (4, 6, 8):
+    d2 = tp[(tp.dbh <= thr) & tp.y.notna() & tp.genusspecies.notna() & ~tp.genusspecies.str.startswith("Unknown")].copy()
+    d2 = d2[d2.plantingspaceglobalid.isin(SF.index)]
+    d2["sci"] = d2.genusspecies.str.split(" - ").str[0].str.strip()
+    X2 = pd.concat([SF.loc[d2.plantingspaceglobalid].reset_index(drop=True), species_frame(d2.sci.values)], axis=1)
+    X2["sp"] = np.where(d2.sci.isin(keep_sp), d2.sci, "other"); X2["genus"] = d2.sci.str.split().str[0].values
+    X2["exposure_yr"] = ((NOW - d2.createddate).dt.days / 365.25).clip(0, 30).values
+    for c in CAT:
+        X2[c] = pd.Categorical(X2[c].astype(str), categories=X[c].cat.categories)
+    X2 = X2[X.columns]; y2 = d2.y.astype(int).values; co2 = d2.createddate.dt.year.values
+    g2 = np.floor(d2.geometry.x.values / 1000).astype(np.int64) * 100000 + np.floor(d2.geometry.y.values / 1000).astype(np.int64)
+    o2, _ = cv(X2, y2, g2, {"exposure_only": ["exposure_yr"], "full": list(X.columns)})
+    by_year = pd.Series(y2).groupby(co2).mean()
+    sens[f"dbh<={thr}in"] = {"n": int(len(y2)), "poor_rate": round(float(y2.mean()), 3),
+                             "poor_rate_2015_records": round(float(by_year.get(2015, np.nan)), 3),
+                             "poor_rate_2025_records": round(float(by_year.get(2025, np.nan)), 3),
+                             "auc_full": round(roc_auc_score(y2, o2["full"]), 4),
+                             "within_cohort_auc_full": within_cohort_auc(o2["full"], y2, co2),
+                             "within_cohort_auc_exposure_only": within_cohort_auc(o2["exposure_only"], y2, co2)}
+metrics["dbh_threshold_sensitivity"] = sens
+(OUTP / "condition_risk_cv_metrics.json").write_text(json.dumps(metrics, indent=2))
+print(json.dumps(sens, indent=1))

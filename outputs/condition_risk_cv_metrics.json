@@ -1,0 +1,289 @@
+{
+  "endpoint": "recorded poor condition (not survival)",
+  "dbh_max_in": 4,
+  "n": 20309,
+  "poor_rate": 0.1662,
+  "spatial_blocks": 132,
+  "auc": {
+    "exposure_only": 0.7151,
+    "exposure+species": 0.7355,
+    "full": 0.7786
+  },
+  "within_cohort_auc": {
+    "exposure_only": 0.5356,
+    "exposure+species": 0.5529,
+    "full": 0.6484
+  },
+  "brier_raw": {
+    "exposure_only": 0.1083,
+    "exposure+species": 0.1157,
+    "full": 0.1171
+  },
+  "brier_full_nested_isotonic": 0.1288,
+  "brier_constant_rate": 0.1386,
+  "calibration_raw_deciles_[pred,obs]": [
+    [
+      0.01,
+      0.064
+    ],
+    [
+      0.025,
+      0.046
+    ],
+    [
+      0.046,
+      0.053
+    ],
+    [
+      0.073,
+      0.076
+    ],
+    [
+      0.109,
+      0.099
+    ],
+    [
+      0.159,
+      0.113
+    ],
+    [
+      0.229,
+      0.123
+    ],
+    [
+      0.332,
+      0.162
+    ],
+    [
+      0.493,
+      0.287
+    ],
+    [
+      0.771,
+      0.639
+    ]
+  ],
+  "calibration_nested_isotonic_deciles_[pred,obs]": [
+    [
+      0.056,
+      0.074
+    ],
+    [
+      0.092,
+      0.057
+    ],
+    [
+      0.101,
+      0.082
+    ],
+    [
+      0.115,
+      0.085
+    ],
+    [
+      0.166,
+      0.181
+    ],
+    [
+      0.231,
+      0.09
+    ],
+    [
+      0.276,
+      0.15
+    ],
+    [
+      0.327,
+      0.221
+    ],
+    [
+      0.443,
+      0.213
+    ],
+    [
+      0.647,
+      0.51
+    ]
+  ],
+  "top_features_gain_pct": {
+    "exposure_yr": 32.5,
+    "sp": 14.3,
+    "ndvi_pt": 5.9,
+    "ndvi_100m": 5.2,
+    "dist_curb_m": 5.2,
+    "lst_summer_c": 5.1,
+    "ps_plantingspaceonstreet": 4.7,
+    "near_bldg_height_m": 4.7,
+    "dist_building_m": 4.4,
+    "lu_lotarea": 3.2,
+    "genus": 3.1,
+    "lu_yearbuilt": 2.9,
+    "lu_unitsres": 1.9,
+    "hvi": 1.8,
+    "lu_landuse": 1.2
+  },
+  "spearman_vs_census_young_poor": {
+    "rho": 0.177,
+    "p": 0.3093,
+    "n_species": 35
+  },
+  "site_effect_direction": {
+    "ndvi_pt": {
+      "quintile_means": [
+        0.07,
+        0.18,
+        0.39,
+        0.64,
+        0.8
+      ],
+      "mean_logodds_contrib": [
+        0.484,
+        0.186,
+        -0.03,
+        -0.219,
+        -0.422
+      ]
+    },
+    "ndvi_100m": {
+      "quintile_means": [
+        0.13,
+        0.21,
+        0.31,
+        0.46,
+        0.66
+      ],
+      "mean_logodds_contrib": [
+        0.128,
+        0.102,
+        0.013,
+        -0.02,
+        -0.218
+      ]
+    },
+    "dist_curb_m": {
+      "quintile_means": [
+        0.33,
+        1.02,
+        2.07,
+        11.96,
+        46.17
+      ],
+      "mean_logodds_contrib": [
+        0.1,
+        0.157,
+        0.04,
+        -0.107,
+        -0.101
+      ]
+    },
+    "lst_summer_c": {
+      "quintile_means": [
+        33.67,
+        36.96,
+        38.82,
+        40.07,
+        41.71
+      ],
+      "mean_logodds_contrib": [
+        0.041,
+        0.009,
+        0.099,
+        0.061,
+        -0.065
+      ]
+    },
+    "near_bldg_height_m": {
+      "quintile_means": [
+        3.86,
+        7.37,
+        10.46,
+        17.65,
+        28.52
+      ],
+      "mean_logodds_contrib": [
+        -0.071,
+        0.01,
+        0.046,
+        0.041,
+        0.008
+      ]
+    },
+    "dist_building_m": {
+      "quintile_means": [
+        2.82,
+        5.88,
+        14.86,
+        37.2,
+        110.28
+      ],
+      "mean_logodds_contrib": [
+        -0.032,
+        -0.066,
+        -0.005,
+        0.077,
+        -0.007
+      ]
+    },
+    "lu_lotarea": {
+      "quintile_means": [
+        2153.6,
+        3803.39,
+        7426.07,
+        16297.33,
+        233213.53
+      ],
+      "mean_logodds_contrib": [
+        0.084,
+        0.059,
+        0.067,
+        0.018,
+        -0.127
+      ]
+    },
+    "hvi": {
+      "quintile_means": [
+        2.22,
+        4.07,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "mean_logodds_contrib": [
+        -0.171,
+        -0.19,
+        0.106,
+        0.078,
+        0.069
+      ]
+    }
+  },
+  "dbh_threshold_sensitivity": {
+    "dbh<=4in": {
+      "n": 20309,
+      "poor_rate": 0.166,
+      "poor_rate_2015_records": 0.559,
+      "poor_rate_2025_records": 0.022,
+      "auc_full": 0.7786,
+      "within_cohort_auc_full": 0.6484,
+      "within_cohort_auc_exposure_only": 0.5356
+    },
+    "dbh<=6in": {
+      "n": 28267,
+      "poor_rate": 0.168,
+      "poor_rate_2015_records": 0.419,
+      "poor_rate_2025_records": 0.022,
+      "auc_full": 0.7554,
+      "within_cohort_auc_full": 0.6536,
+      "within_cohort_auc_exposure_only": 0.5409
+    },
+    "dbh<=8in": {
+      "n": 34849,
+      "poor_rate": 0.167,
+      "poor_rate_2015_records": 0.36,
+      "poor_rate_2025_records": 0.022,
+      "auc_full": 0.7269,
+      "within_cohort_auc_full": 0.6578,
+      "within_cohort_auc_exposure_only": 0.532
+    }
+  }
+}

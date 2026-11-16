@@ -1,159 +1,281 @@
 {
-  "K_expanded_soil": 0,
+  "K_expanded_soil_cap": 0,
   "generations": 400,
   "pareto_size": 200,
   "feasible_pareto": 200,
-  "sites": 121,
-  "known_wired_sites": 11,
-  "narrow_sites": 15,
+  "candidate_sites": 98,
+  "plantable_sites": 97,
+  "deferred_review_sites": 23,
+  "deferred_private_sites": 1,
+  "sites_without_risk_prediction": 18,
+  "known_wired_sites": 9,
+  "narrow_sites": 12,
+  "existing_core_trees": 473,
   "plans": {
     "max_cooling": {
-      "exp_cooled_m2": 2630.5,
-      "allergy_isoprene_score": 339.0,
-      "ecology_score": 138.8,
+      "cooling_potential_m2_additive_estimate": 1659.1,
+      "allergy_isoprene_index": 327.5,
+      "ecology_index": 68.0,
+      "mean_condition_risk": 0.0774,
       "violation": 0.0,
-      "n_species": 29,
+      "n_planted": 97,
+      "n_species": 28,
       "n_expanded_soil": 0,
-      "top_genus_share_after": {
-        "Quercus": 0.173,
-        "Platanus": 0.165,
-        "Tilia": 0.089
+      "max_share_after": {
+        "species": [
+          "Platanus x acerifolia",
+          0.156
+        ],
+        "genus": [
+          "Quercus",
+          0.193
+        ],
+        "family": [
+          "Fagaceae",
+          0.193
+        ]
       },
-      "verify_wires_sites": 74,
-      "species_mix_top5": {
-        "Tilia tomentosa": 16,
-        "Gymnocladus dioicus": 14,
-        "Gleditsia triacanthos var. inermis": 12,
-        "Tilia americana": 8,
-        "Tilia x euchlora": 6
+      "flags": {
+        "flag_no_risk_prediction": 18,
+        "flag_untrained_species": 6,
+        "flag_verify_wires": 61,
+        "flag_verify_wet_site": 0,
+        "flag_trait_unknown": 13,
+        "flag_verify_jurisdiction": 83,
+        "flag_no_sidewalk_benefit": 7
       }
     },
     "health_first": {
-      "exp_cooled_m2": 2335.3,
-      "allergy_isoprene_score": 232.0,
-      "ecology_score": 147.5,
+      "cooling_potential_m2_additive_estimate": 1115.8,
+      "allergy_isoprene_index": 179.0,
+      "ecology_index": 119.7,
+      "mean_condition_risk": 0.11,
       "violation": 0.0,
-      "n_species": 21,
+      "n_planted": 97,
+      "n_species": 20,
       "n_expanded_soil": 0,
-      "top_genus_share_after": {
-        "Platanus": 0.165,
-        "Quercus": 0.153,
-        "Tilia": 0.081
+      "max_share_after": {
+        "species": [
+          "Platanus x acerifolia",
+          0.156
+        ],
+        "genus": [
+          "Platanus",
+          0.172
+        ],
+        "family": [
+          "Platanaceae",
+          0.172
+        ]
       },
-      "verify_wires_sites": 47,
-      "species_mix_top5": {
-        "Koelreuteria paniculata": 21,
-        "Tilia tomentosa": 20,
-        "Gymnocladus dioicus": 13,
-        "Tilia x euchlora": 8,
-        "Crataegus sp.": 8
+      "flags": {
+        "flag_no_risk_prediction": 18,
+        "flag_untrained_species": 25,
+        "flag_verify_wires": 16,
+        "flag_verify_wet_site": 4,
+        "flag_trait_unknown": 0,
+        "flag_verify_jurisdiction": 83,
+        "flag_no_sidewalk_benefit": 7
       }
     },
     "ecology_first": {
-      "exp_cooled_m2": 2373.0,
-      "allergy_isoprene_score": 346.5,
-      "ecology_score": 193.3,
+      "cooling_potential_m2_additive_estimate": 1379.0,
+      "allergy_isoprene_index": 258.5,
+      "ecology_index": 154.0,
+      "mean_condition_risk": 0.1555,
       "violation": 0.0,
+      "n_planted": 97,
       "n_species": 22,
       "n_expanded_soil": 0,
-      "top_genus_share_after": {
-        "Quercus": 0.172,
-        "Platanus": 0.165,
-        "Tilia": 0.082
+      "max_share_after": {
+        "species": [
+          "Platanus x acerifolia",
+          0.156
+        ],
+        "genus": [
+          "Platanus",
+          0.172
+        ],
+        "family": [
+          "Platanaceae",
+          0.172
+        ]
       },
-      "verify_wires_sites": 56,
-      "species_mix_top5": {
-        "Tilia tomentosa": 19,
-        "Amelanchier sp.": 16,
-        "Ostrya virginiana": 13,
-        "Carpinus caroliniana": 11,
-        "Gymnocladus dioicus": 9
+      "flags": {
+        "flag_no_risk_prediction": 18,
+        "flag_untrained_species": 8,
+        "flag_verify_wires": 31,
+        "flag_verify_wet_site": 4,
+        "flag_trait_unknown": 0,
+        "flag_verify_jurisdiction": 83,
+        "flag_no_sidewalk_benefit": 7
+      }
+    },
+    "lowest_risk": {
+      "cooling_potential_m2_additive_estimate": 1597.3,
+      "allergy_isoprene_index": 327.5,
+      "ecology_index": 85.8,
+      "mean_condition_risk": 0.0647,
+      "violation": 0.0,
+      "n_planted": 97,
+      "n_species": 33,
+      "n_expanded_soil": 0,
+      "max_share_after": {
+        "species": [
+          "Platanus x acerifolia",
+          0.156
+        ],
+        "genus": [
+          "Quercus",
+          0.196
+        ],
+        "family": [
+          "Fagaceae",
+          0.196
+        ]
+      },
+      "flags": {
+        "flag_no_risk_prediction": 18,
+        "flag_untrained_species": 7,
+        "flag_verify_wires": 59,
+        "flag_verify_wet_site": 1,
+        "flag_trait_unknown": 7,
+        "flag_verify_jurisdiction": 83,
+        "flag_no_sidewalk_benefit": 7
       }
     },
     "balanced": {
-      "exp_cooled_m2": 2530.7,
-      "allergy_isoprene_score": 277.5,
-      "ecology_score": 161.8,
+      "cooling_potential_m2_additive_estimate": 1488.1,
+      "allergy_isoprene_index": 264.5,
+      "ecology_index": 102.3,
+      "mean_condition_risk": 0.0844,
       "violation": 0.0,
-      "n_species": 25,
+      "n_planted": 97,
+      "n_species": 32,
       "n_expanded_soil": 0,
-      "top_genus_share_after": {
-        "Platanus": 0.165,
-        "Quercus": 0.153,
-        "Tilia": 0.094
+      "max_share_after": {
+        "species": [
+          "Platanus x acerifolia",
+          0.156
+        ],
+        "genus": [
+          "Platanus",
+          0.172
+        ],
+        "family": [
+          "Platanaceae",
+          0.172
+        ]
       },
-      "verify_wires_sites": 60,
-      "species_mix_top5": {
-        "Tilia tomentosa": 23,
-        "Gymnocladus dioicus": 14,
-        "Amelanchier sp.": 10,
-        "Tilia x euchlora": 9,
-        "Koelreuteria paniculata": 9
+      "flags": {
+        "flag_no_risk_prediction": 18,
+        "flag_untrained_species": 14,
+        "flag_verify_wires": 41,
+        "flag_verify_wet_site": 4,
+        "flag_trait_unknown": 11,
+        "flag_verify_jurisdiction": 83,
+        "flag_no_sidewalk_benefit": 7
       }
     }
   },
   "baselines": {
     "random": {
-      "exp_cooled_m2": 2010.0,
-      "allergy_isoprene_score": 378.0,
-      "ecology_score": 110.8,
+      "cooling_potential_m2_additive_estimate": 1266.5,
+      "allergy_isoprene_index": 299.0,
+      "ecology_index": 94.8,
+      "mean_condition_risk": 0.1184,
       "violation": 0.0,
-      "n_species": 39,
+      "n_planted": 97,
+      "n_species": 38,
       "n_expanded_soil": 0,
-      "top_genus_share_after": {
-        "Quercus": 0.19,
-        "Platanus": 0.165,
-        "Zelkova": 0.076
+      "max_share_after": {
+        "species": [
+          "Platanus x acerifolia",
+          0.156
+        ],
+        "genus": [
+          "Quercus",
+          0.189
+        ],
+        "family": [
+          "Fagaceae",
+          0.189
+        ]
       },
-      "verify_wires_sites": 31,
-      "species_mix_top5": {
-        "Cornus mas": 8,
-        "Quercus robur": 8,
-        "Syringa reticulata": 8,
-        "Cercis canadensis": 8,
-        "Prunus virginiana 'Schubert'": 6
+      "flags": {
+        "flag_no_risk_prediction": 18,
+        "flag_untrained_species": 13,
+        "flag_verify_wires": 26,
+        "flag_verify_wet_site": 0,
+        "flag_trait_unknown": 7,
+        "flag_verify_jurisdiction": 83,
+        "flag_no_sidewalk_benefit": 7
       }
     },
     "largest_feasible": {
-      "exp_cooled_m2": 2553.6,
-      "allergy_isoprene_score": 429.0,
-      "ecology_score": 89.7,
+      "cooling_potential_m2_additive_estimate": 1659.1,
+      "allergy_isoprene_index": 351.0,
+      "ecology_index": 67.3,
+      "mean_condition_risk": 0.1331,
       "violation": 0.0,
-      "n_species": 19,
+      "n_planted": 97,
+      "n_species": 16,
       "n_expanded_soil": 0,
-      "top_genus_share_after": {
-        "Quercus": 0.187,
-        "Platanus": 0.165,
-        "Zelkova": 0.072
+      "max_share_after": {
+        "species": [
+          "Platanus x acerifolia",
+          0.156
+        ],
+        "genus": [
+          "Quercus",
+          0.189
+        ],
+        "family": [
+          "Fagaceae",
+          0.189
+        ]
       },
-      "verify_wires_sites": 97,
-      "species_mix_top5": {
-        "Metasequoia glyptostroboides": 17,
-        "Tilia cordata": 17,
-        "Ginkgo biloba": 16,
-        "Quercus spp. 'Fastigiata'": 16,
-        "Gymnocladus dioicus": 15
+      "flags": {
+        "flag_no_risk_prediction": 18,
+        "flag_untrained_species": 0,
+        "flag_verify_wires": 79,
+        "flag_verify_wet_site": 0,
+        "flag_trait_unknown": 16,
+        "flag_verify_jurisdiction": 83,
+        "flag_no_sidewalk_benefit": 7
       }
     },
     "nyc_common_mix": {
-      "exp_cooled_m2": 2575.6,
-      "allergy_isoprene_score": 426.0,
-      "ecology_score": 87.2,
+      "cooling_potential_m2_additive_estimate": 1659.1,
+      "allergy_isoprene_index": 342.0,
+      "ecology_index": 71.7,
+      "mean_condition_risk": 0.1082,
       "violation": 0.0,
-      "n_species": 17,
+      "n_planted": 97,
+      "n_species": 15,
       "n_expanded_soil": 0,
-      "top_genus_share_after": {
-        "Quercus": 0.18,
-        "Platanus": 0.165,
-        "Zelkova": 0.101
+      "max_share_after": {
+        "species": [
+          "Platanus x acerifolia",
+          0.156
+        ],
+        "genus": [
+          "Quercus",
+          0.184
+        ],
+        "family": [
+          "Fagaceae",
+          0.184
+        ]
       },
-      "verify_wires_sites": 81,
-      "species_mix_top5": {
-        "Styphnolobium japonicum": 25,
-        "Zelkova serrata": 17,
-        "Ginkgo biloba": 17,
-        "Gleditsia triacanthos var. inermis": 16,
-        "Quercus palustris": 16
+      "flags": {
+        "flag_no_risk_prediction": 18,
+        "flag_untrained_species": 2,
+        "flag_verify_wires": 68,
+        "flag_verify_wet_site": 0,
+        "flag_trait_unknown": 18,
+        "flag_verify_jurisdiction": 83,
+        "flag_no_sidewalk_benefit": 7
       }
     }
   }

@@ -4,7 +4,7 @@ Auth: reads a NASA Earthdata *user token* from the file %USERPROFILE%\\.earthdat
 (created by the user at https://urs.earthdata.nasa.gov -> Generate Token). The token is
 never printed or stored elsewhere.
 
-For each granule: downloads LST, QC and cloud layers, clips to the context bbox,
+For each granule: downloads the LST and cloud layers (the QC and LST-error layers are NOT yet used: known gap), clips to the context bbox,
 converts LST to deg C, masks cloud, writes data/raw/ecostress/<granule>_lst_c.tif and
 an inventory CSV with the local (EDT) acquisition hour.
 """
